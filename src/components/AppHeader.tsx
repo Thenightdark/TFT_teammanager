@@ -1,4 +1,4 @@
-import { Hexagon, Settings, Sparkles } from "lucide-react";
+import { Orbit, Settings, Sparkles } from "lucide-react";
 import type { SetInfo } from "../types/Set";
 
 interface AppHeaderProps {
@@ -12,7 +12,7 @@ export default function AppHeader({ sets, activeSetId, onSetChange, onOpenSettin
   return (
     <header className="app-header">
       <div className="brand">
-        <span className="brand-mark"><Hexagon size={28} /><Sparkles size={13} /></span>
+        <span className="brand-mark"><Orbit size={29} /><Sparkles size={12} /></span>
         <div><strong>TACTICIAN</strong><span>TEAM HELPER</span></div>
       </div>
       <label className="set-pill">

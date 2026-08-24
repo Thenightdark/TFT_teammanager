@@ -31,7 +31,7 @@ export default function TeamTierList({ comps, champions, onViewComp, setInfo, fa
             <article className="tier-comp-card" key={comp.id}>
               <span className={`tier-badge tier-${(comp.tier ?? "C").toLowerCase()}`}>{comp.tier ?? "C"}</span>
               <div className="tier-comp-main">
-                <div className="tier-comp-heading"><div><h3>{favoriteIds.has(comp.id) && <Star className="favorite-star" size={14} fill="currentColor" />}{comp.name}</h3><p>{comp.playstyle ?? "Flexible"}{comp.sourcePatch ? ` · ${comp.sourcePatch}` : ""}{comp.source ? ` · ${comp.source}` : ""}</p></div><button type="button" onClick={() => onViewComp(comp)}>View comp <ArrowRight size={14} /></button></div>
+                <div className="tier-comp-heading"><div><h3>{favoriteIds.has(comp.id) && <Star className="favorite-star" size={14} fill="currentColor" />}{comp.name}</h3><p>{comp.playstyle ?? "Flexible"}{comp.sourcePatch ? ` · ${comp.sourcePatch}` : ""}</p></div><button type="button" onClick={() => onViewComp(comp)}>View comp <ArrowRight size={14} /></button></div>
                 <div className="tier-unit-row">{comp.units.map((id) => { const champion = championById.get(id); return <span key={id}><img src={champion?.image} alt="" loading="lazy" onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = "/champions/placeholder.svg"; }} /><small>{champion?.name ?? id}</small></span>; })}</div>
                 <div className="tier-role-row">
                   <span><Crown size={13} /><small>Main carry</small><strong>{mainCarry?.name ?? "Flexible"}</strong></span>
