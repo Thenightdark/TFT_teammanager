@@ -86,7 +86,7 @@ const componentApiNames = [
 ];
 const itemEntries = raw.items
   .filter((entry) => setData.items.includes(entry.apiName))
-  .filter((entry) => componentApiNames.includes(entry.apiName) || (
+  .filter((entry) => entry.apiName === "TFT17_Item_SummonTraitEmblemItem" || componentApiNames.includes(entry.apiName) || (
     entry.composition.length === 2 && entry.composition.every((component) => componentApiNames.includes(component))
   ))
   .filter((entry, index, all) => all.findIndex((candidate) => candidate.apiName === entry.apiName) === index)
@@ -269,15 +269,32 @@ if (metaDefinitions.length) {
     const carries = definition.carryNames.map((name) => byName.get(name.toLowerCase())).filter(Boolean);
     const mainTank = byName.get(definition.tankName.toLowerCase());
     if (units.length < 6 || !carries.length || !mainTank) return [];
-    const recommendedItems = [
+    const recommendedItems = definition.recommendedItems?.flatMap((group) => {
+      const holder = byName.get(group.championName.toLowerCase());
+      return holder ? [{ champion: holder.id, role: group.role, items: idsFor(group.itemNames) }] : [];
+    }) ?? [
       ...carries.slice(0, 2).map((carry, index) => ({ champion: carry.id, role: index ? "secondary-carry" : "main-carry", items: carryItems(carry, index) })),
       { champion: mainTank.id, role: "main-tank", items: tankItems.slice(0, 3) },
     ];
+    const boardPositions = definition.boardPositions
+      ? Object.fromEntries(Object.entries(definition.boardPositions).flatMap(([name, position]) => {
+        const unit = byName.get(name.toLowerCase());
+        return unit ? [[unit.id, position]] : [];
+      }))
+      : undefined;
+    const requiredEmblems = definition.requiredEmblems?.flatMap((emblem) => {
+      const holder = byName.get(emblem.holderName.toLowerCase());
+      const item = itemByName.get(emblem.itemName.toLowerCase());
+      return holder && item ? [{ trait: emblem.trait, holder: holder.id, item, note: emblem.note }] : [];
+    });
     return [{
       id: definition.id, name: definition.name, tier: definition.tier, playstyle: definition.playstyle,
       source: definition.source, sourcePatch: definition.sourcePatch,
       units: units.map((unit) => unit.id), coreUnits: [...carries.map((unit) => unit.id), mainTank.id],
       carries: carries.map((unit) => unit.id), mainTank: mainTank.id, recommendedItems,
+      ...(boardPositions ? { boardPositions } : {}),
+      ...(definition.positioningNote ? { positioningNote: definition.positioningNote } : {}),
+      ...(requiredEmblems?.length ? { requiredEmblems } : {}),
       traits: definition.traits || [], description: definition.description,
     }];
   });

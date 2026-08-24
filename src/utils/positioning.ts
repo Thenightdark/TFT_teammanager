@@ -27,12 +27,13 @@ const positionsByRole: Record<NonNullable<Champion["role"]>, BoardPosition[]> = 
 const fallbackPositions: BoardPosition[] = Array.from({ length: 4 }, (_, row) => Array.from({ length: 7 }, (_, column): BoardPosition => [row, column])).flat();
 
 function roleOf(champion: Champion): NonNullable<Champion["role"]> {
+  if (champion.role === "support" && (champion.range ?? 1) <= 1) return "frontline";
   if (champion.role) return champion.role;
   return (champion.range ?? 1) >= 3 ? "backline-carry" : "frontline";
 }
 
-export function findOpenBoardPosition(champion: Champion, occupied: Set<string>): BoardPosition {
-  const candidates = [...positionsByRole[roleOf(champion)], ...fallbackPositions];
+export function findOpenBoardPosition(champion: Champion, occupied: Set<string>, role = roleOf(champion)): BoardPosition {
+  const candidates = [...positionsByRole[role], ...fallbackPositions];
   return candidates.find(([row, column]) => !occupied.has(`${row}-${column}`)) ?? [3, 3];
 }
 
@@ -47,16 +48,34 @@ function stageRoster(comp: Comp, champions: Champion[], size: number): Champion[
   return comp.units
     .map((id) => byId.get(id))
     .filter((champion): champion is Champion => Boolean(champion))
-    .sort((a, b) => a.cost - b.cost || Number(comp.coreUnits.includes(b.id)) - Number(comp.coreUnits.includes(a.id)) || a.name.localeCompare(b.name))
+    .sort((a, b) => Number(comp.coreUnits.includes(b.id)) - Number(comp.coreUnits.includes(a.id)) || a.cost - b.cost || a.name.localeCompare(b.name))
     .slice(0, size);
 }
 
 function positionRoster(roster: Champion[], comp: Comp): BoardUnit[] {
   const used = new Set<string>();
+  const itemRole = new Map(comp.recommendedItems.map((group) => [group.champion, group.role]));
+  const boardRole = (champion: Champion): NonNullable<Champion["role"]> => {
+    const role = itemRole.get(champion.id);
+    if (champion.id === comp.mainTank || role === "main-tank" || role === "secondary-tank") return "frontline";
+    return roleOf(champion);
+  };
+  const priority = (champion: Champion) => champion.id === comp.mainTank
+    ? 4
+    : itemRole.get(champion.id) === "secondary-tank"
+      ? 3
+      : comp.carries.includes(champion.id)
+        ? 2
+        : boardRole(champion) === "frontline"
+          ? 1
+          : 0;
   return [...roster]
-    .sort((a, b) => Number(comp.carries.includes(b.id)) - Number(comp.carries.includes(a.id)) || b.cost - a.cost || a.name.localeCompare(b.name))
+    .sort((a, b) => priority(b) - priority(a) || b.cost - a.cost || a.name.localeCompare(b.name))
     .map((champion) => {
-      const [row, column] = findOpenBoardPosition(champion, used);
+      const requested = comp.boardPositions?.[champion.id];
+      const [row, column] = requested && !used.has(`${requested[0]}-${requested[1]}`)
+        ? requested
+        : findOpenBoardPosition(champion, used, boardRole(champion));
       used.add(`${row}-${column}`);
       return { champion, row, column };
     });
@@ -66,7 +85,7 @@ export function createPositioningPlans(comp: Comp, champions: Champion[]): Posit
   const definitions = [
     { id: "early" as const, label: "Plan 1", stage: "Stage 2 · Early", size: 4, note: "Use the lowest-cost core pieces and keep damage dealers protected." },
     { id: "mid" as const, label: "Plan 2", stage: "Stage 3 · Mid", size: 6, note: "Add secondary frontline and spread carries away from the main danger." },
-    { id: "late" as const, label: "Plan 3", stage: "Stage 4+ · Late", size: comp.units.length, note: "Full-board default. Scout opponents and mirror the carry corner when needed." },
+    { id: "late" as const, label: "Plan 3", stage: "Stage 4+ · Late", size: comp.units.length, note: comp.positioningNote ?? "Full-board default. Scout opponents and mirror the carry corner when needed." },
   ];
   return definitions.map((definition) => ({ ...definition, units: positionRoster(stageRoster(comp, champions, definition.size), comp) }));
 }

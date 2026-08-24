@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "data:update": "node scripts/update-tft-set.mjs",
+    "data:update": "node scripts/update-tft-set.mjs && node scripts/apply-verified-guides.mjs",
+    "data:verify-guides": "node scripts/apply-verified-guides.mjs",
     "test": "vitest run"
   },
   "dependencies": {

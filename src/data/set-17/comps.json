@@ -31,9 +31,27 @@
         "champion": "tft-17-lulu",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-leviathan",
+          "tft-item-leviathan",
+          "tft-item-jeweled-gauntlet"
+        ]
+      },
+      {
+        "champion": "tft-17-jax",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-frozen-heart",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-crownguard"
+        ]
+      },
+      {
+        "champion": "tft-17-maokai",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-redemption",
+          "tft-item-red-buff"
         ]
       },
       {
@@ -42,16 +60,7 @@
         "items": [
           "tft-item-jeweled-gauntlet",
           "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
-        ]
-      },
-      {
-        "champion": "tft-17-maokai",
-        "role": "main-tank",
-        "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-spear-of-shojin"
         ]
       }
     ],
@@ -83,7 +92,8 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/timebreak-3BavowcjPdLpyqtSn64sR1jImyL"
   },
   {
     "id": "timebreak-trouble",
@@ -114,30 +124,39 @@
     "mainTank": "tft-17-tahm-kench",
     "recommendedItems": [
       {
+        "champion": "tft-17-tahm-kench",
+        "role": "main-tank",
+        "items": [
+          "tft-item-spectral-gauntlet",
+          "tft-item-red-buff",
+          "tft-item-ionic-spark"
+        ]
+      },
+      {
+        "champion": "tft-17-pantheon",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-night-harvester",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
         "champion": "tft-17-ezreal",
         "role": "main-carry",
         "items": [
+          "tft-item-spear-of-shojin",
           "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-deathblade"
         ]
       },
       {
         "champion": "tft-17-milio",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
           "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
-        ]
-      },
-      {
-        "champion": "tft-17-tahm-kench",
-        "role": "main-tank",
-        "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-jeweled-gauntlet",
+          "tft-item-spear-of-shojin"
         ]
       }
     ],
@@ -169,7 +188,8 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/timebreak-trouble-3HtdOLDh3YOG1zTWjScu1dpDNPr"
   },
   {
     "id": "paddle-spam",
@@ -203,27 +223,35 @@
         "champion": "tft-17-zoe",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-rabadons-deathcap",
+          "tft-item-rabadons-deathcap",
+          "tft-item-jeweled-gauntlet"
         ]
       },
       {
         "champion": "tft-17-viktor",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-statikk-shiv",
+          "tft-item-morellonomicon"
+        ]
+      },
+      {
+        "champion": "tft-17-leona",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-crownguard",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-gargoyle-stoneplate"
         ]
       },
       {
         "champion": "tft-17-mordekaiser",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
+          "tft-item-redemption",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -254,7 +282,8 @@
         "augmentId": "tft-augment-arcane-viktory",
         "reason": "Directly strengthens Viktor in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/paddle-spam-3Gxhc4c26PSQDfIdOXlPr2NaUTI"
   },
   {
     "id": "mountain-stargazer",
@@ -276,11 +305,13 @@
     ],
     "coreUnits": [
       "tft-17-riven",
+      "tft-17-jhin",
       "tft-17-xayah",
       "tft-17-nunu"
     ],
     "carries": [
       "tft-17-riven",
+      "tft-17-jhin",
       "tft-17-xayah"
     ],
     "mainTank": "tft-17-nunu",
@@ -290,26 +321,42 @@
         "role": "main-carry",
         "items": [
           "tft-item-bloodthirster",
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction"
+          "tft-17-item-stargazer-emblem-item",
+          "tft-item-steraks-gage"
+        ]
+      },
+      {
+        "champion": "tft-17-shen",
+        "role": "emblem-holder",
+        "items": [
+          "tft-17-item-stargazer-emblem-item"
+        ]
+      },
+      {
+        "champion": "tft-17-jhin",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-17-item-stargazer-emblem-item"
         ]
       },
       {
         "champion": "tft-17-xayah",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-runaans-hurricane",
+          "tft-item-runaans-hurricane",
+          "tft-item-rapid-fire-cannon"
         ]
       },
       {
         "champion": "tft-17-nunu",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-crownguard",
+          "tft-item-frozen-heart",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -341,6 +388,27 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/stargazer-3Bldxoh2Ag1u8GewIIJ0eHHlQOX",
+    "requiredEmblems": [
+      {
+        "trait": "Stargazer",
+        "holder": "tft-17-riven",
+        "item": "tft-17-item-stargazer-emblem-item",
+        "note": "The published Mobalytics board equips this emblem on Riven."
+      },
+      {
+        "trait": "Stargazer",
+        "holder": "tft-17-shen",
+        "item": "tft-17-item-stargazer-emblem-item",
+        "note": "The published Mobalytics board equips this emblem on Shen."
+      },
+      {
+        "trait": "Stargazer",
+        "holder": "tft-17-jhin",
+        "item": "tft-17-item-stargazer-emblem-item",
+        "note": "The published Mobalytics board equips this emblem on Jhin."
+      }
     ]
   },
   {
@@ -362,41 +430,52 @@
       "tft-17-aatrox"
     ],
     "coreUnits": [
-      "tft-17-twisted-fate",
       "tft-17-caitlyn",
-      "tft-17-aatrox"
+      "tft-17-twisted-fate",
+      "tft-17-talon",
+      "tft-17-jax"
     ],
     "carries": [
+      "tft-17-caitlyn",
       "tft-17-twisted-fate",
-      "tft-17-caitlyn"
+      "tft-17-talon"
     ],
-    "mainTank": "tft-17-aatrox",
+    "mainTank": "tft-17-jax",
     "recommendedItems": [
       {
-        "champion": "tft-17-twisted-fate",
+        "champion": "tft-17-caitlyn",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-deathblade"
+        ]
+      },
+      {
+        "champion": "tft-17-twisted-fate",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-leviathan",
+          "tft-item-leviathan",
           "tft-item-rabadons-deathcap"
         ]
       },
       {
-        "champion": "tft-17-caitlyn",
+        "champion": "tft-17-talon",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-guardian-angel",
+          "tft-item-hextech-gunblade",
+          "tft-item-spear-of-shojin"
         ]
       },
       {
-        "champion": "tft-17-aatrox",
+        "champion": "tft-17-jax",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
+          "tft-item-crownguard",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-gargoyle-stoneplate"
         ]
       }
     ],
@@ -428,7 +507,8 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/cards-and-cartridges-3BqSOb3IS301Xdtm39mScqcvUX4"
   },
   {
     "id": "bastion-of-fate",
@@ -448,19 +528,37 @@
       "tft-17-twisted-fate"
     ],
     "coreUnits": [
-      "tft-17-milio",
       "tft-17-corki",
+      "tft-17-milio",
       "tft-17-rammus"
     ],
     "carries": [
-      "tft-17-milio",
-      "tft-17-corki"
+      "tft-17-corki",
+      "tft-17-milio"
     ],
     "mainTank": "tft-17-rammus",
     "recommendedItems": [
       {
-        "champion": "tft-17-milio",
+        "champion": "tft-17-shen",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-adaptive-helm",
+          "tft-item-frozen-heart",
+          "tft-item-morellonomicon"
+        ]
+      },
+      {
+        "champion": "tft-17-corki",
         "role": "main-carry",
+        "items": [
+          "tft-item-deathblade",
+          "tft-item-power-gauntlet",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-milio",
+        "role": "secondary-carry",
         "items": [
           "tft-item-spear-of-shojin",
           "tft-item-jeweled-gauntlet",
@@ -468,21 +566,12 @@
         ]
       },
       {
-        "champion": "tft-17-corki",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
-        ]
-      },
-      {
         "champion": "tft-17-rammus",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-warmogs-armor",
+          "tft-item-crownguard"
         ]
       }
     ],
@@ -514,7 +603,8 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/bastion-of-fate-3I2ddud0G48GiDEgCBRbNe3TvOH"
   },
   {
     "id": "stay-groovy",
@@ -535,41 +625,52 @@
       "tft-17-pantheon"
     ],
     "coreUnits": [
-      "tft-17-nami",
       "tft-17-riven",
-      "tft-17-blitzcrank"
+      "tft-17-nami",
+      "tft-17-blitzcrank",
+      "tft-17-ornn"
     ],
     "carries": [
+      "tft-17-riven",
       "tft-17-nami",
-      "tft-17-riven"
+      "tft-17-blitzcrank"
     ],
-    "mainTank": "tft-17-blitzcrank",
+    "mainTank": "tft-17-ornn",
     "recommendedItems": [
       {
-        "champion": "tft-17-nami",
+        "champion": "tft-17-riven",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-steraks-gage",
+          "tft-item-bloodthirster",
+          "tft-17-item-space-groove-emblem-item"
         ]
       },
       {
-        "champion": "tft-17-riven",
+        "champion": "tft-17-nami",
         "role": "secondary-carry",
         "items": [
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction",
-          "tft-item-steraks-gage"
+          "tft-item-jeweled-gauntlet",
+          "tft-item-leviathan",
+          "tft-item-leviathan"
+        ]
+      },
+      {
+        "champion": "tft-17-ornn",
+        "role": "main-tank",
+        "items": [
+          "tft-item-redemption",
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate"
         ]
       },
       {
         "champion": "tft-17-blitzcrank",
-        "role": "main-tank",
+        "role": "secondary-carry",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-jeweled-gauntlet",
+          "tft-item-ionic-spark",
+          "tft-item-morellonomicon"
         ]
       }
     ],
@@ -601,6 +702,15 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/space-groove-3BZqUzc73ETCeoSrr3oysqOH1IZ",
+    "requiredEmblems": [
+      {
+        "trait": "Space Groove",
+        "holder": "tft-17-riven",
+        "item": "tft-17-item-space-groove-emblem-item",
+        "note": "The published Mobalytics board equips this emblem on Riven."
+      }
     ]
   },
   {
@@ -624,39 +734,50 @@
     "coreUnits": [
       "tft-17-jhin",
       "tft-17-karma",
+      "tft-17-aurelion-sol",
       "tft-17-nunu"
     ],
     "carries": [
       "tft-17-jhin",
-      "tft-17-karma"
+      "tft-17-karma",
+      "tft-17-aurelion-sol"
     ],
     "mainTank": "tft-17-nunu",
     "recommendedItems": [
       {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-crownguard",
+          "tft-item-frozen-heart",
+          "tft-item-adaptive-helm"
+        ]
+      },
+      {
         "champion": "tft-17-jhin",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
           "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-power-gauntlet",
+          "tft-item-infinity-edge"
         ]
       },
       {
         "champion": "tft-17-karma",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-blue-buff",
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv"
         ]
       },
       {
-        "champion": "tft-17-nunu",
-        "role": "main-tank",
+        "champion": "tft-17-aurelion-sol",
+        "role": "secondary-carry",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-17-item-dark-star-emblem-item",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
         ]
       }
     ],
@@ -688,6 +809,15 @@
         "augmentId": "tft-17-augment-aurelion-sol-god-augment",
         "reason": "Directly strengthens Aurelion Sol in this board."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/feed-the-stars-3CdfYeTZDv3kTfunOe4PqUjYsXv",
+    "requiredEmblems": [
+      {
+        "trait": "Dark Star",
+        "holder": "tft-17-aurelion-sol",
+        "item": "tft-17-item-dark-star-emblem-item",
+        "note": "The published Mobalytics board equips this emblem on Aurelion Sol."
+      }
     ]
   },
   {
@@ -709,41 +839,48 @@
       "tft-17-aatrox"
     ],
     "coreUnits": [
-      "tft-17-xayah",
       "tft-17-jhin",
+      "tft-17-xayah",
       "tft-17-nunu"
     ],
     "carries": [
-      "tft-17-xayah",
-      "tft-17-jhin"
+      "tft-17-jhin",
+      "tft-17-xayah"
     ],
     "mainTank": "tft-17-nunu",
     "recommendedItems": [
       {
-        "champion": "tft-17-xayah",
+        "champion": "tft-17-jhin",
         "role": "main-carry",
         "items": [
           "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
-        ]
-      },
-      {
-        "champion": "tft-17-jhin",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
           "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-deathblade"
         ]
       },
       {
         "champion": "tft-17-nunu",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-frozen-heart",
+          "tft-item-frozen-heart",
+          "tft-item-adaptive-helm"
+        ]
+      },
+      {
+        "champion": "tft-17-xayah",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-runaans-hurricane",
+          "tft-item-runaans-hurricane",
+          "tft-item-rapid-fire-cannon"
+        ]
+      },
+      {
+        "champion": "tft-17-blitzcrank",
+        "role": "utility",
+        "items": [
+          "tft-item-thiefs-gloves"
         ]
       }
     ],
@@ -775,7 +912,8 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/snipin-and-vibin-3CZGKFRr1ng3x8xIXMV0DiWmXnD"
   },
   {
     "id": "nova",
@@ -798,39 +936,39 @@
     "coreUnits": [
       "tft-17-kindred",
       "tft-17-akali",
-      "tft-17-maokai"
+      "tft-17-morgana"
     ],
     "carries": [
       "tft-17-kindred",
       "tft-17-akali"
     ],
-    "mainTank": "tft-17-maokai",
+    "mainTank": "tft-17-morgana",
     "recommendedItems": [
+      {
+        "champion": "tft-17-morgana",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-crownguard"
+        ]
+      },
       {
         "champion": "tft-17-kindred",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-madreds-bloodrazor",
+          "tft-item-runaans-hurricane",
+          "tft-item-guinsoos-rageblade"
         ]
       },
       {
         "champion": "tft-17-akali",
         "role": "secondary-carry",
         "items": [
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction",
-          "tft-item-steraks-gage"
-        ]
-      },
-      {
-        "champion": "tft-17-maokai",
-        "role": "main-tank",
-        "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-deathblade",
+          "tft-item-hextech-gunblade",
+          "tft-item-power-gauntlet"
         ]
       }
     ],
@@ -862,7 +1000,8 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/n-o-v-a-3BlXmB8kpkv4fFt1UN5QFuyRMHN"
   },
   {
     "id": "capped-and-loaded",
@@ -883,41 +1022,52 @@
       "tft-17-aatrox"
     ],
     "coreUnits": [
-      "tft-17-fiora",
       "tft-17-graves",
+      "tft-17-vex",
+      "tft-17-fiora",
       "tft-17-nunu"
     ],
     "carries": [
-      "tft-17-fiora",
-      "tft-17-graves"
+      "tft-17-graves",
+      "tft-17-vex",
+      "tft-17-fiora"
     ],
     "mainTank": "tft-17-nunu",
     "recommendedItems": [
       {
-        "champion": "tft-17-fiora",
+        "champion": "tft-17-graves",
         "role": "main-carry",
         "items": [
-          "tft-item-bloodthirster",
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction"
+          "tft-item-madreds-bloodrazor",
+          "tft-item-deathblade",
+          "tft-item-quicksilver"
         ]
       },
       {
-        "champion": "tft-17-graves",
+        "champion": "tft-17-vex",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
           "tft-item-madreds-bloodrazor",
+          "tft-item-rabadons-deathcap",
           "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-fiora",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-quicksilver",
+          "tft-item-unstable-concoction",
+          "tft-item-guardian-angel"
         ]
       },
       {
         "champion": "tft-17-nunu",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-red-buff",
+          "tft-item-frozen-heart",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -949,7 +1099,8 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/capped-and-loaded-3CJrvdLtcjAkRzPtE9DjAlPg7Bo"
   },
   {
     "id": "reach-for-the-stars",
@@ -970,40 +1121,41 @@
     ],
     "coreUnits": [
       "tft-17-lulu",
+      "tft-17-jax",
       "tft-17-pantheon",
-      "tft-17-jax"
+      "tft-17-milio"
     ],
     "carries": [
       "tft-17-lulu",
-      "tft-17-pantheon"
+      "tft-17-jax"
     ],
-    "mainTank": "tft-17-jax",
+    "mainTank": "tft-17-pantheon",
     "recommendedItems": [
       {
         "champion": "tft-17-lulu",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
+          "tft-item-leviathan",
           "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-leviathan"
         ]
       },
       {
         "champion": "tft-17-pantheon",
-        "role": "secondary-carry",
+        "role": "main-tank",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-night-harvester",
+          "tft-item-redemption",
+          "tft-item-red-buff"
         ]
       },
       {
         "champion": "tft-17-jax",
-        "role": "main-tank",
+        "role": "secondary-carry",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-bloodthirster",
+          "tft-item-guardian-angel",
+          "tft-item-titans-resolve"
         ]
       }
     ],
@@ -1033,6 +1185,13 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/jax-hero-augment-3BqWbZgWMbXHzhKcuBniNMEsAM9",
+    "threeStarTargets": [
+      "tft-17-lulu",
+      "tft-17-jax",
+      "tft-17-pantheon",
+      "tft-17-milio"
     ]
   },
   {
@@ -1068,18 +1227,9 @@
         "champion": "tft-17-zed",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
-        ]
-      },
-      {
-        "champion": "tft-17-vex",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-adaptive-helm",
+          "tft-item-guardian-angel",
+          "tft-item-spear-of-shojin"
         ]
       },
       {
@@ -1087,8 +1237,24 @@
         "role": "main-tank",
         "items": [
           "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-redemption",
+          "tft-item-red-buff"
+        ]
+      },
+      {
+        "champion": "tft-17-vex",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-hextech-gunblade",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-fiora",
+        "role": "utility",
+        "items": [
+          "tft-item-thiefs-gloves"
         ]
       }
     ],
@@ -1118,7 +1284,8 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/zed-3CH0I02RzPi4tUMfl71O778U8Ts"
   },
   {
     "id": "strike-and-stance",
@@ -1139,41 +1306,48 @@
       "tft-17-aatrox"
     ],
     "coreUnits": [
-      "tft-17-akali",
       "tft-17-kindred",
+      "tft-17-akali",
       "tft-17-jax"
     ],
     "carries": [
-      "tft-17-akali",
-      "tft-17-kindred"
+      "tft-17-kindred",
+      "tft-17-akali"
     ],
     "mainTank": "tft-17-jax",
     "recommendedItems": [
       {
-        "champion": "tft-17-akali",
+        "champion": "tft-17-kindred",
         "role": "main-carry",
         "items": [
-          "tft-item-bloodthirster",
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction"
+          "tft-item-runaans-hurricane",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
         ]
       },
       {
-        "champion": "tft-17-kindred",
+        "champion": "tft-17-akali",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-hextech-gunblade",
+          "tft-item-deathblade",
+          "tft-item-power-gauntlet"
+        ]
+      },
+      {
+        "champion": "tft-17-urgot",
+        "role": "emblem-holder",
+        "items": [
+          "tft-17-item-drxemblem-item"
         ]
       },
       {
         "champion": "tft-17-jax",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-crownguard"
         ]
       }
     ],
@@ -1203,6 +1377,15 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/strike-and-stance-3GXdo8Gk11woR36ALnw1K94oLnc",
+    "requiredEmblems": [
+      {
+        "trait": "N.O.V.A.",
+        "holder": "tft-17-urgot",
+        "item": "tft-17-item-drxemblem-item",
+        "note": "The published Mobalytics board equips this emblem on Urgot."
+      }
     ]
   },
   {
@@ -1224,41 +1407,51 @@
       "tft-17-mordekaiser"
     ],
     "coreUnits": [
+      "tft-17-sona",
       "tft-17-vex",
       "tft-17-bard",
       "tft-17-nunu"
     ],
     "carries": [
+      "tft-17-sona",
       "tft-17-vex",
       "tft-17-bard"
     ],
     "mainTank": "tft-17-nunu",
     "recommendedItems": [
       {
-        "champion": "tft-17-vex",
+        "champion": "tft-17-sona",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv"
         ]
       },
       {
-        "champion": "tft-17-bard",
+        "champion": "tft-17-vex",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-hextech-gunblade"
         ]
       },
       {
         "champion": "tft-17-nunu",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-frozen-heart",
+          "tft-item-adaptive-helm",
+          "tft-item-frozen-heart"
+        ]
+      },
+      {
+        "champion": "tft-17-bard",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-rabadons-deathcap",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-jeweled-gauntlet"
         ]
       }
     ],
@@ -1288,7 +1481,8 @@
         "augmentId": "tft-17-augment-ivern-minion-carry",
         "reason": "Directly strengthens Meepsie in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/turbo-doomer-3C7BsUrnhw9z9Up1gvxPUZzZFMB"
   },
   {
     "id": "conduit-reroll",
@@ -1324,26 +1518,33 @@
         "role": "main-carry",
         "items": [
           "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-power-gauntlet",
+          "tft-item-deathblade"
         ]
       },
       {
-        "champion": "tft-17-viktor",
-        "role": "secondary-carry",
+        "champion": "tft-17-rhaast",
+        "role": "utility",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-thiefs-gloves"
         ]
       },
       {
         "champion": "tft-17-ornn",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-redemption",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-17-viktor",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-archangels-staff",
+          "tft-17-item-psy-ops-drone-mod-radiant",
+          "tft-item-jeweled-gauntlet"
         ]
       }
     ],
@@ -1373,7 +1574,8 @@
         "augmentId": "tft-17-augment-gragas-carry",
         "reason": "Directly strengthens Gragas in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/conduit-reroll-3BptVFxNi3wVP1whU01utMyYxHS"
   },
   {
     "id": "twin-blades",
@@ -1394,41 +1596,52 @@
       "tft-17-gragas"
     ],
     "coreUnits": [
-      "tft-17-fiora",
       "tft-17-kindred",
+      "tft-17-master-yi",
+      "tft-17-fiora",
       "tft-17-tahm-kench"
     ],
     "carries": [
-      "tft-17-fiora",
-      "tft-17-kindred"
+      "tft-17-kindred",
+      "tft-17-master-yi",
+      "tft-17-fiora"
     ],
     "mainTank": "tft-17-tahm-kench",
     "recommendedItems": [
       {
-        "champion": "tft-17-fiora",
+        "champion": "tft-17-kindred",
         "role": "main-carry",
         "items": [
-          "tft-item-bloodthirster",
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction"
-        ]
-      },
-      {
-        "champion": "tft-17-kindred",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
+          "tft-item-guinsoos-rageblade",
           "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-runaans-hurricane"
         ]
       },
       {
         "champion": "tft-17-tahm-kench",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-spectral-gauntlet",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-17-master-yi",
+        "role": "secondary-carry",
+        "items": [
+          "tft-17-item-psy-ops-chemical-capacitor-mod-radiant",
+          "tft-item-guardian-angel",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-fiora",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-titans-resolve",
+          "tft-item-bloodthirster",
+          "tft-item-guardian-angel"
         ]
       }
     ],
@@ -1458,7 +1671,8 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/psionic-3BaGJK5uRhMzePQv8TXSir41KZR"
   },
   {
     "id": "get-jinxed",
@@ -1478,41 +1692,52 @@
       "tft-17-briar"
     ],
     "coreUnits": [
+      "tft-17-akali",
       "tft-17-jinx",
       "tft-17-belveth",
-      "tft-17-rhaast"
+      "tft-17-rek-sai"
     ],
     "carries": [
+      "tft-17-akali",
       "tft-17-jinx",
       "tft-17-belveth"
     ],
-    "mainTank": "tft-17-rhaast",
+    "mainTank": "tft-17-rek-sai",
     "recommendedItems": [
       {
-        "champion": "tft-17-jinx",
+        "champion": "tft-17-akali",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
+          "tft-item-guardian-angel",
+          "tft-item-power-gauntlet",
+          "tft-item-unstable-concoction"
+        ]
+      },
+      {
+        "champion": "tft-17-rek-sai",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-frozen-heart"
+        ]
+      },
+      {
+        "champion": "tft-17-jinx",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-rapid-fire-cannon",
           "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-deathblade"
         ]
       },
       {
         "champion": "tft-17-belveth",
         "role": "secondary-carry",
         "items": [
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction",
-          "tft-item-steraks-gage"
-        ]
-      },
-      {
-        "champion": "tft-17-rhaast",
-        "role": "main-tank",
-        "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-runaans-hurricane",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-quicksilver"
         ]
       }
     ],
@@ -1542,7 +1767,8 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/get-jinxed-3ELOUoyGaZTSw221bPVv5tGUA74"
   },
   {
     "id": "astral-meep",
@@ -1563,41 +1789,52 @@
       "tft-17-milio"
     ],
     "coreUnits": [
+      "tft-17-riven",
       "tft-17-bard",
       "tft-17-corki",
       "tft-17-rammus"
     ],
     "carries": [
+      "tft-17-riven",
       "tft-17-bard",
       "tft-17-corki"
     ],
     "mainTank": "tft-17-rammus",
     "recommendedItems": [
       {
-        "champion": "tft-17-bard",
+        "champion": "tft-17-riven",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-bloodthirster",
+          "tft-item-steraks-gage",
+          "tft-item-guardian-angel"
         ]
       },
       {
-        "champion": "tft-17-corki",
+        "champion": "tft-17-bard",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv",
+          "tft-item-spear-of-shojin"
         ]
       },
       {
         "champion": "tft-17-rammus",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
+          "tft-item-night-harvester",
+          "tft-item-frozen-heart",
           "tft-item-bramble-vest"
+        ]
+      },
+      {
+        "champion": "tft-17-corki",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-power-gauntlet",
+          "tft-item-deathblade"
         ]
       }
     ],
@@ -1627,7 +1864,8 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/meeple-3Ba4rc3aQJ3vQ5ANIvk5L1aHlDJ"
   },
   {
     "id": "void-arcane",
@@ -1648,12 +1886,10 @@
     ],
     "coreUnits": [
       "tft-17-ezreal",
-      "tft-17-jhin",
       "tft-17-chogath"
     ],
     "carries": [
-      "tft-17-ezreal",
-      "tft-17-jhin"
+      "tft-17-ezreal"
     ],
     "mainTank": "tft-17-chogath",
     "recommendedItems": [
@@ -1662,26 +1898,32 @@
         "role": "main-carry",
         "items": [
           "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-deathblade",
+          "tft-item-spear-of-shojin"
         ]
       },
       {
-        "champion": "tft-17-jhin",
-        "role": "secondary-carry",
+        "champion": "tft-17-tahm-kench",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-spectral-gauntlet",
+          "tft-item-red-buff"
         ]
       },
       {
         "champion": "tft-17-chogath",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-crownguard",
+          "tft-item-redemption"
+        ]
+      },
+      {
+        "champion": "tft-17-riven",
+        "role": "utility",
+        "items": [
+          "tft-item-thiefs-gloves"
         ]
       }
     ],
@@ -1711,7 +1953,8 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/void-arcane-3C2pqQsj9QP3wWgjABfL4HrsiZo"
   },
   {
     "id": "challenger-takeover",
@@ -1731,41 +1974,41 @@
       "tft-17-aatrox"
     ],
     "coreUnits": [
+      "tft-17-urgot",
       "tft-17-miss-fortune",
-      "tft-17-kindred",
       "tft-17-ornn"
     ],
     "carries": [
-      "tft-17-miss-fortune",
-      "tft-17-kindred"
+      "tft-17-urgot",
+      "tft-17-miss-fortune"
     ],
     "mainTank": "tft-17-ornn",
     "recommendedItems": [
       {
-        "champion": "tft-17-miss-fortune",
+        "champion": "tft-17-urgot",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
-        ]
-      },
-      {
-        "champion": "tft-17-kindred",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
           "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-quicksilver",
+          "tft-item-steraks-gage"
         ]
       },
       {
         "champion": "tft-17-ornn",
         "role": "main-tank",
         "items": [
+          "tft-item-red-buff",
           "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-night-harvester"
+        ]
+      },
+      {
+        "champion": "tft-17-miss-fortune",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-deathblade"
         ]
       }
     ],
@@ -1795,7 +2038,8 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/challenger-takeover-3DfqBdVGfUIBU4TF13wVOr6ajs4"
   },
   {
     "id": "gnaruto",
@@ -1816,39 +2060,50 @@
       "tft-17-poppy"
     ],
     "coreUnits": [
+      "tft-17-corki",
+      "tft-17-bard",
       "tft-17-gnar",
-      "tft-17-jhin",
       "tft-17-rammus"
     ],
     "carries": [
-      "tft-17-gnar",
-      "tft-17-jhin"
+      "tft-17-corki",
+      "tft-17-bard",
+      "tft-17-gnar"
     ],
     "mainTank": "tft-17-rammus",
     "recommendedItems": [
       {
-        "champion": "tft-17-gnar",
+        "champion": "tft-17-corki",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
+          "tft-item-deathblade",
           "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-rapid-fire-cannon"
         ]
       },
       {
-        "champion": "tft-17-jhin",
+        "champion": "tft-17-bard",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-power-gauntlet",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-gnar",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-deathblade",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge"
         ]
       },
       {
         "champion": "tft-17-rammus",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
+          "tft-item-crownguard",
           "tft-item-gargoyle-stoneplate",
           "tft-item-bramble-vest"
         ]
@@ -1880,7 +2135,8 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/gnaruto-3EdXU8POvsnIlDNsApmJVG3M3Zg"
   },
   {
     "id": "transformers",
@@ -1899,41 +2155,51 @@
       "tft-17-mordekaiser"
     ],
     "coreUnits": [
-      "tft-17-aurelion-sol",
       "tft-17-urgot",
+      "tft-17-karma",
+      "tft-17-aurelion-sol",
       "tft-17-galio"
     ],
     "carries": [
-      "tft-17-aurelion-sol",
-      "tft-17-urgot"
+      "tft-17-urgot",
+      "tft-17-karma",
+      "tft-17-aurelion-sol"
     ],
     "mainTank": "tft-17-galio",
     "recommendedItems": [
       {
-        "champion": "tft-17-aurelion-sol",
+        "champion": "tft-17-urgot",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-last-whisper",
+          "tft-item-infinity-edge",
+          "tft-item-unstable-concoction"
         ]
       },
       {
-        "champion": "tft-17-urgot",
+        "champion": "tft-17-karma",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv"
+        ]
+      },
+      {
+        "champion": "tft-17-aurelion-sol",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-power-gauntlet",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
         ]
       },
       {
         "champion": "tft-17-galio",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-night-harvester",
+          "tft-item-gargoyle-stoneplate"
         ]
       }
     ],
@@ -1963,7 +2229,8 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/mighty-mech-3BZsitmBWTUB1ji6HH7HKsrTa6f"
   },
   {
     "id": "shepherd",
@@ -1986,69 +2253,121 @@
     "coreUnits": [
       "tft-17-leblanc",
       "tft-17-karma",
-      "tft-17-illaoi"
+      "tft-17-leona"
     ],
     "carries": [
       "tft-17-leblanc",
       "tft-17-karma"
     ],
-    "mainTank": "tft-17-illaoi",
+    "mainTank": "tft-17-leona",
+    "boardPositions": {
+      "tft-17-leona": [
+        0,
+        1
+      ],
+      "tft-17-ivern-minion": [
+        0,
+        3
+      ],
+      "tft-17-illaoi": [
+        0,
+        5
+      ],
+      "tft-17-galio": [
+        1,
+        3
+      ],
+      "tft-17-lissandra": [
+        2,
+        1
+      ],
+      "tft-17-teemo": [
+        3,
+        0
+      ],
+      "tft-17-karma": [
+        3,
+        2
+      ],
+      "tft-17-sona": [
+        3,
+        4
+      ],
+      "tft-17-leblanc": [
+        3,
+        6
+      ]
+    },
+    "positioningNote": "Meepsie and the Bond of the Stars belong in the frontline. Keep LeBlanc and Karma split in the back corners, with Sona protected between them.",
+    "requiredEmblems": [
+      {
+        "trait": "Shepherd",
+        "holder": "tft-17-karma",
+        "item": "tft-17-item-summon-trait-emblem-item",
+        "note": "The published Mobalytics board equips this emblem on Karma."
+      }
+    ],
     "recommendedItems": [
       {
         "champion": "tft-17-leblanc",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-hextech-gunblade",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-leona",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-frozen-heart"
         ]
       },
       {
         "champion": "tft-17-karma",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
-        ]
-      },
-      {
-        "champion": "tft-17-illaoi",
-        "role": "main-tank",
-        "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-17-item-summon-trait-emblem-item",
+          "tft-item-statikk-shiv",
+          "tft-item-morellonomicon"
         ]
       }
     ],
     "traits": [
       "Shepherd",
-      "Voyager"
+      "Voyager",
+      "Vanguard",
+      "Arbiter",
+      "Dark Star",
+      "Commander"
     ],
-    "description": "Fast 8 Shepherd board with LeBlanc and Karma as its AP carries.",
+    "description": "Fast 8 AP board built around LeBlanc. Karma holds the required Shepherd Emblem to reach 7 Shepherd, while Leona is the preferred main tank (use Illaoi if Leona is not upgraded).",
     "recommendedAugments": [
       {
-        "augmentId": "tft-17-augment-tour-of-the-galaxy",
-        "reason": "Directly supports Voyager."
+        "augmentId": "tft-augment-branching-out",
+        "reason": "Helps reach the required Shepherd breakpoint."
       },
       {
-        "augmentId": "tft-17-augment-arbiter-divine-amendment",
-        "reason": "Directly supports Arbiter."
+        "augmentId": "tft-6-augment-pandoras-items",
+        "reason": "Improves the odds of completing the emblem and AP item setup."
       },
       {
-        "augmentId": "tft-17-augment-dark-star-white-hole",
-        "reason": "Directly supports Dark Star."
+        "augmentId": "tft-augment-spreading-roots",
+        "reason": "Directly supports the vertical Shepherd line."
       },
       {
-        "augmentId": "tft-17-augment-anima-squad-commander",
-        "reason": "Directly strengthens Illaoi in this board."
+        "augmentId": "tft-augment-urfs-gambit",
+        "reason": "Provides additional access to trait emblems."
       },
       {
-        "augmentId": "tft-17-augment-leona-carry",
-        "reason": "Directly strengthens Leona in this board."
+        "augmentId": "tft-augment-trait-tree",
+        "reason": "A high-value trait option for reaching 7 Shepherd."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/shephard-3Ba8rYrW8BFzhQKzOumQAKONMWY"
   },
   {
     "id": "meepteors",
@@ -2082,27 +2401,27 @@
         "champion": "tft-17-veigar",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
           "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-leviathan",
+          "tft-item-leviathan"
         ]
       },
       {
         "champion": "tft-17-lissandra",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
+          "tft-item-statikk-shiv",
           "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-spear-of-shojin"
         ]
       },
       {
         "champion": "tft-17-poppy",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-red-buff",
+          "tft-item-crownguard",
+          "tft-item-frozen-heart"
         ]
       }
     ],
@@ -2132,7 +2451,8 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/meeple-veigar-3BwYXITBcXf0vIETwH0KzSlXzQ2"
   },
   {
     "id": "debris-delivery",
@@ -2153,41 +2473,48 @@
       "tft-17-mordekaiser"
     ],
     "coreUnits": [
-      "tft-17-sona",
       "tft-17-bard",
+      "tft-17-sona",
       "tft-17-nunu"
     ],
     "carries": [
-      "tft-17-sona",
-      "tft-17-bard"
+      "tft-17-bard",
+      "tft-17-sona"
     ],
     "mainTank": "tft-17-nunu",
     "recommendedItems": [
       {
-        "champion": "tft-17-sona",
+        "champion": "tft-17-bard",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
+          "tft-item-rabadons-deathcap",
           "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-madreds-bloodrazor"
         ]
       },
       {
-        "champion": "tft-17-bard",
+        "champion": "tft-17-sona",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-statikk-shiv",
+          "tft-item-morellonomicon",
+          "tft-item-blue-buff"
+        ]
+      },
+      {
+        "champion": "tft-17-blitzcrank",
+        "role": "utility",
+        "items": [
+          "tft-item-thiefs-gloves"
         ]
       },
       {
         "champion": "tft-17-nunu",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-adaptive-helm",
+          "tft-item-frozen-heart",
+          "tft-item-frozen-heart"
         ]
       }
     ],
@@ -2217,7 +2544,8 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/debris-delivery-3DwnN0YD0FQQ1d2o3ZOwNRQx7bB"
   },
   {
     "id": "cho-me-the-lp",
@@ -2237,41 +2565,41 @@
       "tft-17-pantheon"
     ],
     "coreUnits": [
-      "tft-17-lissandra",
       "tft-17-karma",
+      "tft-17-lissandra",
       "tft-17-chogath"
     ],
     "carries": [
-      "tft-17-lissandra",
-      "tft-17-karma"
+      "tft-17-karma",
+      "tft-17-lissandra"
     ],
     "mainTank": "tft-17-chogath",
     "recommendedItems": [
       {
-        "champion": "tft-17-lissandra",
-        "role": "main-carry",
+        "champion": "tft-17-chogath",
+        "role": "main-tank",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-dragons-claw",
+          "tft-item-warmogs-armor"
         ]
       },
       {
         "champion": "tft-17-karma",
-        "role": "secondary-carry",
+        "role": "main-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-statikk-shiv",
+          "tft-item-blue-buff",
+          "tft-item-morellonomicon"
         ]
       },
       {
-        "champion": "tft-17-chogath",
-        "role": "main-tank",
+        "champion": "tft-17-lissandra",
+        "role": "secondary-carry",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-leviathan",
+          "tft-item-leviathan",
+          "tft-item-jeweled-gauntlet"
         ]
       }
     ],
@@ -2301,7 +2629,8 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/cho-me-the-lp-3DgqyPhUdsNIMxoGwx9umVP4QpI"
   },
   {
     "id": "groovians",
@@ -2321,41 +2650,41 @@
       "tft-17-teemo"
     ],
     "coreUnits": [
-      "tft-17-samira",
       "tft-17-nami",
+      "tft-17-samira",
       "tft-17-ornn"
     ],
     "carries": [
-      "tft-17-samira",
-      "tft-17-nami"
+      "tft-17-nami",
+      "tft-17-samira"
     ],
     "mainTank": "tft-17-ornn",
     "recommendedItems": [
       {
-        "champion": "tft-17-samira",
+        "champion": "tft-17-nami",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
-        ]
-      },
-      {
-        "champion": "tft-17-nami",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-jeweled-gauntlet",
           "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-morellonomicon",
+          "tft-item-spear-of-shojin"
         ]
       },
       {
         "champion": "tft-17-ornn",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
+          "tft-item-redemption",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-17-samira",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-spear-of-shojin",
+          "tft-item-deathblade"
         ]
       }
     ],
@@ -2385,7 +2714,8 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/airborne-samira-3BpsK7jMDKTd1AC30ekYxNBz5bj"
   },
   {
     "id": "stellar-combo",
@@ -2406,41 +2736,52 @@
       "tft-17-talon"
     ],
     "coreUnits": [
-      "tft-17-kindred",
-      "tft-17-akali",
+      "tft-17-twisted-fate",
+      "tft-17-caitlyn",
+      "tft-17-aatrox",
       "tft-17-jax"
     ],
     "carries": [
-      "tft-17-kindred",
-      "tft-17-akali"
+      "tft-17-twisted-fate",
+      "tft-17-caitlyn",
+      "tft-17-aatrox"
     ],
     "mainTank": "tft-17-jax",
     "recommendedItems": [
       {
-        "champion": "tft-17-kindred",
+        "champion": "tft-17-twisted-fate",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-leviathan",
+          "tft-item-leviathan",
+          "tft-item-rabadons-deathcap"
         ]
       },
       {
-        "champion": "tft-17-akali",
+        "champion": "tft-17-caitlyn",
         "role": "secondary-carry",
         "items": [
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction",
-          "tft-item-steraks-gage"
+          "tft-item-runaans-hurricane",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-madreds-bloodrazor"
         ]
       },
       {
         "champion": "tft-17-jax",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-red-buff",
+          "tft-item-bramble-vest",
+          "tft-item-frozen-heart"
+        ]
+      },
+      {
+        "champion": "tft-17-aatrox",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-steraks-gage",
+          "tft-item-titans-resolve",
+          "tft-item-bloodthirster"
         ]
       }
     ],
@@ -2470,7 +2811,8 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/stellar-combo-3Bpm9FMx1hinJCuIW3eBcEjCHEs"
   },
   {
     "id": "double-tap",
@@ -2490,41 +2832,41 @@
       "tft-17-aatrox"
     ],
     "coreUnits": [
-      "tft-17-miss-fortune",
       "tft-17-lulu",
+      "tft-17-miss-fortune",
       "tft-17-ornn"
     ],
     "carries": [
-      "tft-17-miss-fortune",
-      "tft-17-lulu"
+      "tft-17-lulu",
+      "tft-17-miss-fortune"
     ],
     "mainTank": "tft-17-ornn",
     "recommendedItems": [
-      {
-        "champion": "tft-17-miss-fortune",
-        "role": "main-carry",
-        "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
-        ]
-      },
-      {
-        "champion": "tft-17-lulu",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
-        ]
-      },
       {
         "champion": "tft-17-ornn",
         "role": "main-tank",
         "items": [
           "tft-item-warmogs-armor",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-red-buff"
+        ]
+      },
+      {
+        "champion": "tft-17-lulu",
+        "role": "main-carry",
+        "items": [
+          "tft-item-leviathan",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-leviathan"
+        ]
+      },
+      {
+        "champion": "tft-17-miss-fortune",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-infinity-edge",
+          "tft-item-deathblade"
         ]
       }
     ],
@@ -2554,7 +2896,8 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/double-tap-3GDi3x5pSRuWbcvvewdrmHvnRob"
   },
   {
     "id": "the-big-bang",
@@ -2576,12 +2919,12 @@
     ],
     "coreUnits": [
       "tft-17-ivern-minion",
-      "tft-17-viktor",
+      "tft-17-pyke",
       "tft-17-mordekaiser"
     ],
     "carries": [
       "tft-17-ivern-minion",
-      "tft-17-viktor"
+      "tft-17-pyke"
     ],
     "mainTank": "tft-17-mordekaiser",
     "recommendedItems": [
@@ -2589,27 +2932,27 @@
         "champion": "tft-17-ivern-minion",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-jeweled-gauntlet",
+          "tft-item-unstable-concoction",
+          "tft-item-guardian-angel"
         ]
       },
       {
-        "champion": "tft-17-viktor",
+        "champion": "tft-17-pyke",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-unstable-concoction",
+          "tft-17-item-psy-ops-targetlock-mod",
+          "tft-item-infinity-edge"
         ]
       },
       {
         "champion": "tft-17-mordekaiser",
         "role": "main-tank",
         "items": [
+          "tft-item-red-buff",
           "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-ionic-spark"
         ]
       }
     ],
@@ -2639,7 +2982,8 @@
         "augmentId": "tft-augment-misfits",
         "reason": "Directly strengthens Rhaast in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/meepsie-hero-augment-3Bpoz3OnB9togklCkfEvKeZy43X"
   },
   {
     "id": "heat-death",
@@ -2660,40 +3004,51 @@
     ],
     "coreUnits": [
       "tft-17-jhin",
+      "tft-17-mordekaiser",
       "tft-17-karma",
-      "tft-17-mordekaiser"
+      "tft-17-illaoi"
     ],
     "carries": [
       "tft-17-jhin",
+      "tft-17-mordekaiser",
       "tft-17-karma"
     ],
-    "mainTank": "tft-17-mordekaiser",
+    "mainTank": "tft-17-illaoi",
     "recommendedItems": [
       {
         "champion": "tft-17-jhin",
         "role": "main-carry",
         "items": [
+          "tft-item-deathblade",
           "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-power-gauntlet"
+        ]
+      },
+      {
+        "champion": "tft-17-illaoi",
+        "role": "main-tank",
+        "items": [
+          "tft-item-bramble-vest",
+          "tft-item-night-harvester",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-17-mordekaiser",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-guardian-angel",
+          "tft-item-bloodthirster",
+          "tft-item-jeweled-gauntlet"
         ]
       },
       {
         "champion": "tft-17-karma",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
-        ]
-      },
-      {
-        "champion": "tft-17-mordekaiser",
-        "role": "main-tank",
-        "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-blue-buff",
+          "tft-item-statikk-shiv",
+          "tft-item-morellonomicon"
         ]
       }
     ],
@@ -2723,7 +3078,8 @@
         "augmentId": "tft-17-augment-anima-squad-commander",
         "reason": "Directly strengthens Illaoi in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/morde-hero-augment-3BqY4xZMudL4rja17DY7edq5JFw"
   },
   {
     "id": "termeepnal-velocity",
@@ -2743,41 +3099,41 @@
       "tft-17-aatrox"
     ],
     "coreUnits": [
-      "tft-17-corki",
+      "tft-17-caitlyn",
+      "tft-17-poppy",
+      "tft-17-rammus"
+    ],
+    "carries": [
       "tft-17-caitlyn",
       "tft-17-poppy"
     ],
-    "carries": [
-      "tft-17-corki",
-      "tft-17-caitlyn"
-    ],
-    "mainTank": "tft-17-poppy",
+    "mainTank": "tft-17-rammus",
     "recommendedItems": [
       {
-        "champion": "tft-17-corki",
-        "role": "main-carry",
+        "champion": "tft-17-rammus",
+        "role": "main-tank",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-red-buff",
+          "tft-item-redemption",
+          "tft-item-bramble-vest"
         ]
       },
       {
         "champion": "tft-17-caitlyn",
-        "role": "secondary-carry",
+        "role": "main-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-guinsoos-rageblade",
+          "tft-item-runaans-hurricane",
+          "tft-item-madreds-bloodrazor"
         ]
       },
       {
         "champion": "tft-17-poppy",
-        "role": "main-tank",
+        "role": "secondary-carry",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge",
+          "tft-item-power-gauntlet"
         ]
       }
     ],
@@ -2807,7 +3163,8 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/poppy-hero-augment-3BqlYUAOgNtwmJyCd3rDx4re8r8"
   },
   {
     "id": "nova-nation",
@@ -2827,41 +3184,41 @@
       "tft-17-poppy"
     ],
     "coreUnits": [
+      "tft-17-caitlyn",
       "tft-17-corki",
-      "tft-17-kindred",
-      "tft-17-poppy"
+      "tft-17-aatrox"
     ],
     "carries": [
-      "tft-17-corki",
-      "tft-17-kindred"
+      "tft-17-caitlyn",
+      "tft-17-corki"
     ],
-    "mainTank": "tft-17-poppy",
+    "mainTank": "tft-17-aatrox",
     "recommendedItems": [
       {
-        "champion": "tft-17-corki",
+        "champion": "tft-17-caitlyn",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
-        ]
-      },
-      {
-        "champion": "tft-17-kindred",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
+          "tft-item-deathblade",
           "tft-item-madreds-bloodrazor",
           "tft-item-guinsoos-rageblade"
         ]
       },
       {
-        "champion": "tft-17-poppy",
+        "champion": "tft-17-corki",
+        "role": "secondary-carry",
+        "items": [
+          "tft-17-item-drxemblem-item",
+          "tft-item-rapid-fire-cannon",
+          "tft-item-deathblade"
+        ]
+      },
+      {
+        "champion": "tft-17-aatrox",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
+          "tft-item-bramble-vest",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-gargoyle-stoneplate"
         ]
       }
     ],
@@ -2891,6 +3248,15 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/nova-nation-3FOGNpoAsqhzwGQ1c29ZzyHF3bG",
+    "requiredEmblems": [
+      {
+        "trait": "N.O.V.A.",
+        "holder": "tft-17-corki",
+        "item": "tft-17-item-drxemblem-item",
+        "note": "The published Mobalytics board equips this emblem on Corki."
+      }
     ]
   },
   {
@@ -2912,41 +3278,41 @@
       "tft-17-chogath"
     ],
     "coreUnits": [
-      "tft-17-jhin",
       "tft-17-xayah",
+      "tft-17-jhin",
       "tft-17-nunu"
     ],
     "carries": [
-      "tft-17-jhin",
-      "tft-17-xayah"
+      "tft-17-xayah",
+      "tft-17-jhin"
     ],
     "mainTank": "tft-17-nunu",
     "recommendedItems": [
       {
-        "champion": "tft-17-jhin",
+        "champion": "tft-17-xayah",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
-        ]
-      },
-      {
-        "champion": "tft-17-xayah",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-17-item-dark-star-emblem-item",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-rapid-fire-cannon"
         ]
       },
       {
         "champion": "tft-17-nunu",
         "role": "main-tank",
         "items": [
+          "tft-item-crownguard",
           "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-spectral-gauntlet"
+        ]
+      },
+      {
+        "champion": "tft-17-jhin",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-deathblade",
+          "tft-item-power-gauntlet",
+          "tft-item-infinity-edge"
         ]
       }
     ],
@@ -2976,6 +3342,15 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/dark-star-3BZrcCB1FNbnue9USf5mMymy2h2",
+    "requiredEmblems": [
+      {
+        "trait": "Dark Star",
+        "holder": "tft-17-xayah",
+        "item": "tft-17-item-dark-star-emblem-item",
+        "note": "The published Mobalytics board equips this emblem on Xayah."
+      }
     ]
   },
   {
@@ -2999,39 +3374,57 @@
     "coreUnits": [
       "tft-17-master-yi",
       "tft-17-kindred",
+      "tft-17-fiora",
       "tft-17-tahm-kench"
     ],
     "carries": [
       "tft-17-master-yi",
-      "tft-17-kindred"
+      "tft-17-kindred",
+      "tft-17-fiora"
     ],
     "mainTank": "tft-17-tahm-kench",
     "recommendedItems": [
       {
+        "champion": "tft-17-shen",
+        "role": "utility",
+        "items": [
+          "tft-item-thiefs-gloves"
+        ]
+      },
+      {
         "champion": "tft-17-master-yi",
         "role": "main-carry",
         "items": [
-          "tft-item-bloodthirster",
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction"
+          "tft-item-guardian-angel",
+          "tft-17-item-drxemblem-item",
+          "tft-item-madreds-bloodrazor"
         ]
       },
       {
         "champion": "tft-17-kindred",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
+          "tft-item-guinsoos-rageblade",
           "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-runaans-hurricane"
+        ]
+      },
+      {
+        "champion": "tft-17-fiora",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-unstable-concoction",
+          "tft-item-guardian-angel",
+          "tft-item-steraks-gage"
         ]
       },
       {
         "champion": "tft-17-tahm-kench",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-red-buff",
+          "tft-item-night-harvester",
+          "tft-item-redemption"
         ]
       }
     ],
@@ -3061,6 +3454,15 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/nova-yi-3C4Y4P5piaxDCvaOqgvZRr2jv2I",
+    "requiredEmblems": [
+      {
+        "trait": "N.O.V.A.",
+        "holder": "tft-17-master-yi",
+        "item": "tft-17-item-drxemblem-item",
+        "note": "The published Mobalytics board equips this emblem on Master Yi."
+      }
     ]
   },
   {
@@ -3082,40 +3484,40 @@
     ],
     "coreUnits": [
       "tft-17-leblanc",
-      "tft-17-karma",
-      "tft-17-leona"
+      "tft-17-leona",
+      "tft-17-nasus"
     ],
     "carries": [
       "tft-17-leblanc",
-      "tft-17-karma"
+      "tft-17-leona"
     ],
-    "mainTank": "tft-17-leona",
+    "mainTank": "tft-17-nasus",
     "recommendedItems": [
+      {
+        "champion": "tft-17-nasus",
+        "role": "main-tank",
+        "items": [
+          "tft-item-red-buff",
+          "tft-item-spectral-gauntlet",
+          "tft-item-frozen-heart"
+        ]
+      },
       {
         "champion": "tft-17-leblanc",
         "role": "main-carry",
         "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
-        ]
-      },
-      {
-        "champion": "tft-17-karma",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
           "tft-item-madreds-bloodrazor",
+          "tft-item-hextech-gunblade",
           "tft-item-guinsoos-rageblade"
         ]
       },
       {
         "champion": "tft-17-leona",
-        "role": "main-tank",
+        "role": "secondary-carry",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-bloodthirster",
+          "tft-item-titans-resolve",
+          "tft-item-steraks-gage"
         ]
       }
     ],
@@ -3145,7 +3547,8 @@
         "augmentId": "tft-17-augment-leona-carry",
         "reason": "Directly strengthens Leona in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/leona-hero-augment-3D5b0xJkVIwSsvaRdRfeH8ZAuOj"
   },
   {
     "id": "slap-and-zap",
@@ -3165,41 +3568,41 @@
       "tft-17-lissandra"
     ],
     "coreUnits": [
-      "tft-17-nami",
       "tft-17-viktor",
+      "tft-17-nami",
       "tft-17-illaoi"
     ],
     "carries": [
-      "tft-17-nami",
-      "tft-17-viktor"
+      "tft-17-viktor",
+      "tft-17-nami"
     ],
     "mainTank": "tft-17-illaoi",
     "recommendedItems": [
       {
-        "champion": "tft-17-nami",
+        "champion": "tft-17-viktor",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-archangels-staff",
+          "tft-17-item-psy-ops-drone-mod-radiant",
+          "tft-item-jeweled-gauntlet"
         ]
       },
       {
-        "champion": "tft-17-viktor",
+        "champion": "tft-17-nami",
         "role": "secondary-carry",
         "items": [
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap",
-          "tft-item-archangels-staff"
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv",
+          "tft-item-spear-of-shojin"
         ]
       },
       {
         "champion": "tft-17-illaoi",
         "role": "main-tank",
         "items": [
+          "tft-item-crownguard",
           "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-frozen-heart"
         ]
       }
     ],
@@ -3229,7 +3632,8 @@
         "augmentId": "tft-augment-misfits",
         "reason": "Directly strengthens Rhaast in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/slap-and-zap-3CNtMCNAmI3CDCLf0L8LQhIBe28"
   },
   {
     "id": "dragons-breath",
@@ -3250,41 +3654,41 @@
       "tft-17-mordekaiser"
     ],
     "coreUnits": [
-      "tft-17-aurelion-sol",
       "tft-17-karma",
+      "tft-17-aurelion-sol",
       "tft-17-nunu"
     ],
     "carries": [
-      "tft-17-aurelion-sol",
-      "tft-17-karma"
+      "tft-17-karma",
+      "tft-17-aurelion-sol"
     ],
     "mainTank": "tft-17-nunu",
     "recommendedItems": [
       {
-        "champion": "tft-17-aurelion-sol",
+        "champion": "tft-17-karma",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-rabadons-deathcap"
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv",
+          "tft-item-blue-buff"
         ]
       },
       {
-        "champion": "tft-17-karma",
+        "champion": "tft-17-aurelion-sol",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-jeweled-gauntlet",
+          "tft-item-power-gauntlet",
+          "tft-item-rabadons-deathcap"
         ]
       },
       {
         "champion": "tft-17-nunu",
         "role": "main-tank",
         "items": [
+          "tft-item-frozen-heart",
           "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-frozen-heart"
         ]
       }
     ],
@@ -3314,7 +3718,8 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/dragons-breath-3DfDQePp2tCQXb399GnifbGaks1"
   },
   {
     "id": "tentacles-and-missiles",
@@ -3336,12 +3741,12 @@
     ],
     "coreUnits": [
       "tft-17-kaisa",
-      "tft-17-jhin",
+      "tft-17-karma",
       "tft-17-illaoi"
     ],
     "carries": [
       "tft-17-kaisa",
-      "tft-17-jhin"
+      "tft-17-karma"
     ],
     "mainTank": "tft-17-illaoi",
     "recommendedItems": [
@@ -3350,26 +3755,26 @@
         "role": "main-carry",
         "items": [
           "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor"
+          "tft-item-madreds-bloodrazor",
+          "tft-item-power-gauntlet"
         ]
       },
       {
-        "champion": "tft-17-jhin",
+        "champion": "tft-17-karma",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv",
+          "tft-item-archangels-staff"
         ]
       },
       {
         "champion": "tft-17-illaoi",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-spectral-gauntlet",
+          "tft-item-frozen-heart",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -3399,7 +3804,8 @@
         "augmentId": "tft-17-augment-concentration",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/kaisa-illaoi-reroll-3D2N5IXV722I2kdg1kk8lfYLDiA"
   },
   {
     "id": "rogue-diff",
@@ -3419,41 +3825,48 @@
       "tft-17-ivern-minion"
     ],
     "coreUnits": [
-      "tft-17-fizz",
       "tft-17-kaisa",
+      "tft-17-fizz",
       "tft-17-ornn"
     ],
     "carries": [
-      "tft-17-fizz",
-      "tft-17-kaisa"
+      "tft-17-kaisa",
+      "tft-17-fizz"
     ],
     "mainTank": "tft-17-ornn",
     "recommendedItems": [
       {
-        "champion": "tft-17-fizz",
+        "champion": "tft-17-kaisa",
         "role": "main-carry",
         "items": [
-          "tft-item-bloodthirster",
-          "tft-item-titans-resolve",
-          "tft-item-unstable-concoction"
+          "tft-item-power-gauntlet",
+          "tft-item-infinity-edge",
+          "tft-item-blue-buff"
         ]
       },
       {
-        "champion": "tft-17-kaisa",
+        "champion": "tft-17-rhaast",
+        "role": "utility",
+        "items": [
+          "tft-item-thiefs-gloves"
+        ]
+      },
+      {
+        "champion": "tft-17-fizz",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-leviathan",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-unstable-concoction"
         ]
       },
       {
         "champion": "tft-17-ornn",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-bramble-vest"
+          "tft-item-spectral-gauntlet",
+          "tft-item-redemption",
+          "tft-item-red-buff"
         ]
       }
     ],
@@ -3483,6 +3896,7 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ]
+    ],
+    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/rogue-reroll-3BoHQhYBJlvGROmc6esg6fDXASw"
   }
 ]

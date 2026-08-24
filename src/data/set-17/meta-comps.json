@@ -58,7 +58,12 @@
     "playstyle": "Slow Roll · Level 5",
     "unitNames": ["Jax", "Caitlyn", "Talon", "Twisted Fate", "Corki", "Riven", "Rhaast", "Milio", "Aatrox"],
     "carryNames": ["Twisted Fate", "Caitlyn"],
-    "tankName": "Aatrox",
+    "tankName": "Jax",
+    "recommendedItems": [
+      {"championName":"Twisted Fate","role":"main-carry","itemNames":["Nashor's Tooth","Nashor's Tooth","Rabadon's Deathcap"]},
+      {"championName":"Caitlyn","role":"secondary-carry","itemNames":["Guinsoo's Rageblade","Giant Slayer","Deathblade"]},
+      {"championName":"Jax","role":"main-tank","itemNames":["Crownguard","Gargoyle Stoneplate","Gargoyle Stoneplate"]}
+    ],
     "traits": ["Fateweaver", "Stargazer", "Rogue", "Timebreaker"],
     "source": "Mobalytics",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",

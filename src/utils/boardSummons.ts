@@ -2,7 +2,7 @@ import type { BoardPosition, BoardUnit } from "./positioning";
 import { describeBoardPosition } from "./positioning";
 
 export interface BoardSummon {
-  name: "Bulwark Relic" | "Bia" | "Bayin";
+  name: "Bulwark Relic" | "Bia" | "Bia & Bayin";
   kind: "relic" | "shepherd";
   position: BoardPosition;
   positionLabel: string;
@@ -55,23 +55,16 @@ export function createBoardSummons(boardUnits: BoardUnit[]): BoardSummon[] {
 
   const shepherdCount = boardUnits.filter((unit) => unit.champion.traits.includes("Shepherd")).length;
   if (shepherdCount >= 3) {
+    const hasBayin = shepherdCount >= 5;
     reserveSummon(
       summons,
       occupied,
-      "Bia",
+      hasBayin ? "Bia & Bayin" : "Bia",
       "shepherd",
-      [[1, 3], [1, 2], [1, 4], [2, 3], [2, 2], [2, 4]],
-      `Unlocked by ${shepherdCount} Shepherds. Bia is an additional summoned unit and does not replace a champion in the lineup.`,
-    );
-  }
-  if (shepherdCount >= 5) {
-    reserveSummon(
-      summons,
-      occupied,
-      "Bayin",
-      "shepherd",
-      [[2, 3], [2, 4], [2, 2], [3, 3], [3, 4], [3, 2]],
-      `Unlocked by ${shepherdCount} Shepherds. Bayin joins Bia as an additional summoned unit; at 7 Shepherds their bond becomes stronger.`,
+      [[0, 3], [0, 2], [0, 4], [1, 3], [1, 2], [1, 4]],
+      hasBayin
+        ? `At ${shepherdCount} Shepherds, Bia and Bayin fight as the Bond of the Stars. This single companion marker does not consume a team-size slot.${shepherdCount >= 7 ? " Their 7-Shepherd bond is active." : ""}`
+        : `Unlocked by ${shepherdCount} Shepherds. Bia is a frontline companion and does not consume a team-size slot.`,
     );
   }
 

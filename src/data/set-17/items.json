@@ -441,6 +441,13 @@
     ]
   },
   {
+    "id": "tft-17-item-summon-trait-emblem-item",
+    "apiName": "TFT17_Item_SummonTraitEmblemItem",
+    "name": "Shepherd Emblem",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-summon-trait-emblem-item.png"
+  },
+  {
     "id": "tft-item-warmogs-armor",
     "apiName": "TFT_Item_WarmogsArmor",
     "name": "Warmog's Armor",
@@ -450,5 +457,54 @@
       "tft-item-giants-belt",
       "tft-item-giants-belt"
     ]
+  },
+  {
+    "id": "tft-17-item-stargazer-emblem-item",
+    "apiName": "TFT17_Item_StargazerEmblemItem",
+    "name": "Stargazer Emblem",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-stargazer-emblem-item.png"
+  },
+  {
+    "id": "tft-17-item-space-groove-emblem-item",
+    "apiName": "TFT17_Item_SpaceGrooveEmblemItem",
+    "name": "Space Groove Emblem",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-space-groove-emblem-item.png"
+  },
+  {
+    "id": "tft-17-item-dark-star-emblem-item",
+    "apiName": "TFT17_Item_DarkStarEmblemItem",
+    "name": "Dark Star Emblem",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-dark-star-emblem-item.png"
+  },
+  {
+    "id": "tft-17-item-drxemblem-item",
+    "apiName": "TFT17_Item_DRXEmblemItem",
+    "name": "N.O.V.A. Emblem",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-drxemblem-item.png"
+  },
+  {
+    "id": "tft-17-item-psy-ops-drone-mod-radiant",
+    "apiName": "TFT17_Item_PsyOps_DroneMod_Radiant",
+    "name": "Drone Uplink",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-psy-ops-drone-mod-radiant.png"
+  },
+  {
+    "id": "tft-17-item-psy-ops-chemical-capacitor-mod-radiant",
+    "apiName": "TFT17_Item_PsyOps_ChemicalCapacitorMod_Radiant",
+    "name": "Malware Matrix",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-psy-ops-chemical-capacitor-mod-radiant.png"
+  },
+  {
+    "id": "tft-17-item-psy-ops-targetlock-mod",
+    "apiName": "TFT17_Item_PsyOps_TargetlockMod",
+    "name": "Target-Lock Optics",
+    "type": "completed",
+    "image": "/sets/set-17/items/tft-17-item-psy-ops-targetlock-mod.png"
   }
 ]

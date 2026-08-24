@@ -66,6 +66,7 @@ describe("strategy planner", () => {
     }));
     const board = shepherds.map((champion, index) => ({ champion, row: index < 2 ? 0 : 3, column: index }));
     expect(createBoardSummons(board.slice(0, 3)).map((summon) => summon.name)).toEqual(["Bia"]);
-    expect(createBoardSummons(board).map((summon) => summon.name)).toEqual(["Bia", "Bayin"]);
+    expect(createBoardSummons(board).map((summon) => summon.name)).toEqual(["Bia & Bayin"]);
+    expect(createBoardSummons(board)).toHaveLength(1);
   });
 });

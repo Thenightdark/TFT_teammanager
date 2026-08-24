@@ -40,6 +40,7 @@ export interface LevelUpSuggestion {
 }
 
 export function getThreeStarTargetIds(comp: Comp, champions: Champion[]): Set<string> {
+  if (comp.threeStarTargets?.length) return new Set(comp.threeStarTargets);
   if (!/slow roll|reroll/i.test(`${comp.playstyle ?? ""} ${comp.description}`)) return new Set();
   const byId = new Map(champions.map((champion) => [champion.id, champion]));
   return new Set(comp.coreUnits.filter((id) => (byId.get(id)?.cost ?? 6) <= 3));

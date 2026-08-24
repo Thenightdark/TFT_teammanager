@@ -1,0 +1,1910 @@
+[
+  {
+    "groups": [
+      {
+        "champion": "Lulu",
+        "items": [
+          "Nashor's Tooth",
+          "Nashor's Tooth",
+          "Jeweled Gauntlet"
+        ]
+      },
+      {
+        "champion": "Jax",
+        "items": [
+          "Protector's Vow",
+          "Gargoyle Stoneplate",
+          "Crownguard"
+        ]
+      },
+      {
+        "champion": "Maokai",
+        "items": [
+          "Warmog's Armor",
+          "Spirit Visage",
+          "Sunfire Cape"
+        ]
+      },
+      {
+        "champion": "Milio",
+        "items": [
+          "Jeweled Gauntlet",
+          "Rabadon's Deathcap",
+          "Spear of Shojin"
+        ]
+      }
+    ],
+    "roster": [
+      "Lulu",
+      "Maokai",
+      "Jax",
+      "Milio",
+      "Rhaast",
+      "Pantheon",
+      "Aatrox",
+      "Twisted Fate",
+      "Ezreal",
+      "RekSai"
+    ],
+    "title": "It's Raining LP",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/timebreak-3BavowcjPdLpyqtSn64sR1jImyL"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Tahm Kench",
+        "items": [
+          "Evenshroud",
+          "Sunfire Cape",
+          "Ionic Spark"
+        ]
+      },
+      {
+        "champion": "Pantheon",
+        "items": [
+          "Gargoyle Stoneplate",
+          "Steadfast Heart",
+          "Warmog's Armor"
+        ]
+      },
+      {
+        "champion": "Ezreal",
+        "items": [
+          "Spear of Shojin",
+          "Infinity Edge",
+          "Deathblade"
+        ]
+      },
+      {
+        "champion": "Milio",
+        "items": [
+          "Rabadon's Deathcap",
+          "Jeweled Gauntlet",
+          "Spear of Shojin"
+        ]
+      }
+    ],
+    "roster": [
+      "Tahm Kench",
+      "Milio",
+      "Pantheon",
+      "Ezreal",
+      "Riven",
+      "Maokai",
+      "Gnar",
+      "Caitlyn"
+    ],
+    "title": "Timebreak Trouble",
+    "url": "https://mobalytics.gg/tft/comps-guide/timebreak-trouble-3HtdOLDh3YOG1zTWjScu1dpDNPr"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Zoe",
+        "items": [
+          "Rabadon's Deathcap",
+          "Rabadon's Deathcap",
+          "Jeweled Gauntlet"
+        ]
+      },
+      {
+        "champion": "Viktor",
+        "items": [
+          "Void Staff",
+          "Morellonomicon"
+        ]
+      },
+      {
+        "champion": "Leona",
+        "items": [
+          "Crownguard",
+          "Gargoyle Stoneplate",
+          "Gargoyle Stoneplate"
+        ]
+      },
+      {
+        "champion": "Mordekaiser",
+        "items": [
+          "Spirit Visage",
+          "Gargoyle Stoneplate",
+          "Warmog's Armor"
+        ]
+      }
+    ],
+    "roster": [
+      "Mordekaiser",
+      "Zoe",
+      "Leona",
+      "Viktor",
+      "Bard",
+      "Aurelion Sol",
+      "Nunu",
+      "Illaoi",
+      "Blitzcrank",
+      "Lissandra"
+    ],
+    "title": "Paddle Spam",
+    "url": "https://mobalytics.gg/tft/comps-guide/paddle-spam-3Gxhc4c26PSQDfIdOXlPr2NaUTI"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Riven",
+        "items": [
+          "Bloodthirster",
+          "Stargazer Emblem",
+          "Sterak's Gage"
+        ]
+      },
+      {
+        "champion": "Shen",
+        "items": [
+          "Stargazer Emblem"
+        ]
+      },
+      {
+        "champion": "Jhin",
+        "items": [
+          "Infinity Edge",
+          "Last Whisper",
+          "Stargazer Emblem"
+        ]
+      },
+      {
+        "champion": "Xayah",
+        "items": [
+          "Kraken's Fury",
+          "Kraken's Fury",
+          "Red Buff"
+        ]
+      },
+      {
+        "champion": "Nunu",
+        "items": [
+          "Crownguard",
+          "Protector's Vow",
+          "Warmog's Armor"
+        ]
+      }
+    ],
+    "roster": [
+      "Jhin",
+      "Nunu",
+      "Riven",
+      "Xayah",
+      "Shen",
+      "Rhaast",
+      "Jax",
+      "Mordekaiser",
+      "Talon",
+      "Aatrox"
+    ],
+    "title": "Mountain Stargazer",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/stargazer-3Bldxoh2Ag1u8GewIIJ0eHHlQOX"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Caitlyn",
+        "items": [
+          "Guinsoo's Rageblade",
+          "Giant Slayer",
+          "Deathblade"
+        ]
+      },
+      {
+        "champion": "Twisted Fate",
+        "items": [
+          "Nashor's Tooth",
+          "Nashor's Tooth",
+          "Rabadon's Deathcap"
+        ]
+      },
+      {
+        "champion": "Talon",
+        "items": [
+          "Edge of Night",
+          "Hextech Gunblade",
+          "Spear of Shojin"
+        ]
+      },
+      {
+        "champion": "Jax",
+        "items": [
+          "Crownguard",
+          "Gargoyle Stoneplate",
+          "Gargoyle Stoneplate"
+        ]
+      }
+    ],
+    "roster": [
+      "Jax",
+      "Caitlyn",
+      "Talon",
+      "Twisted Fate",
+      "Corki",
+      "Riven",
+      "Rhaast",
+      "Milio",
+      "Aatrox",
+      "Poppy"
+    ],
+    "title": "Cards & Cartridges",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/cards-and-cartridges-3BqSOb3IS301Xdtm39mScqcvUX4"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Shen",
+        "items": [
+          "Adaptive Helm",
+          "Protector's Vow",
+          "Morellonomicon"
+        ]
+      },
+      {
+        "champion": "Corki",
+        "items": [
+          "Deathblade",
+          "Striker's Flail",
+          "Giant Slayer"
+        ]
+      },
+      {
+        "champion": "Milio",
+        "items": [
+          "Spear of Shojin",
+          "Jeweled Gauntlet",
+          "Rabadon's Deathcap"
+        ]
+      },
+      {
+        "champion": "Rammus",
+        "items": [
+          "Gargoyle Stoneplate",
+          "Warmog's Armor",
+          "Crownguard"
+        ]
+      }
+    ],
+    "roster": [
+      "Shen",
+      "Corki",
+      "Rammus",
+      "Milio",
+      "Aatrox",
+      "Caitlyn",
+      "Poppy",
+      "Twisted Fate",
+      "Ornn",
+      "Jax"
+    ],
+    "title": "Bastion of Fate",
+    "url": "https://mobalytics.gg/tft/comps-guide/bastion-of-fate-3I2ddud0G48GiDEgCBRbNe3TvOH"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Riven",
+        "items": [
+          "Sterak's Gage",
+          "Bloodthirster",
+          "Space Groove Emblem"
+        ]
+      },
+      {
+        "champion": "Nami",
+        "items": [
+          "Jeweled Gauntlet",
+          "Nashor's Tooth",
+          "Nashor's Tooth"
+        ]
+      },
+      {
+        "champion": "Ornn",
+        "items": [
+          "Spirit Visage",
+          "Warmog's Armor",
+          "Gargoyle Stoneplate"
+        ]
+      },
+      {
+        "champion": "Blitzcrank",
+        "items": [
+          "Jeweled Gauntlet",
+          "Ionic Spark",
+          "Morellonomicon"
+        ]
+      }
+    ],
+    "roster": [
+      "Blitzcrank",
+      "Nami",
+      "Riven",
+      "Ornn",
+      "Shen",
+      "Nunu",
+      "Tahm Kench",
+      "Gwen",
+      "Pantheon",
+      "Teemo"
+    ],
+    "title": "Stay Groovy",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/space-groove-3BZqUzc73ETCeoSrr3oysqOH1IZ"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Nunu",
+        "items": [
+          "Crownguard",
+          "Protector's Vow",
+          "Adaptive Helm"
+        ]
+      },
+      {
+        "champion": "Jhin",
+        "items": [
+          "Last Whisper",
+          "Striker's Flail",
+          "Infinity Edge"
+        ]
+      },
+      {
+        "champion": "Karma",
+        "items": [
+          "Blue Buff",
+          "Morellonomicon",
+          "Void Staff"
+        ]
+      },
+      {
+        "champion": "Aurelion Sol",
+        "items": [
+          "Dark Star Emblem",
+          "Jeweled Gauntlet",
+          "Rabadon's Deathcap"
+        ]
+      }
+    ],
+    "roster": [
+      "Jhin",
+      "Aurelion Sol",
+      "Karma",
+      "Nunu",
+      "Tahm Kench",
+      "The Mighty Mech",
+      "Kai'Sa",
+      "Mordekaiser",
+      "Cho'Gath",
+      "Riven"
+    ],
+    "title": "Feed the Stars",
+    "url": "https://mobalytics.gg/tft/comps-guide/feed-the-stars-3CdfYeTZDv3kTfunOe4PqUjYsXv"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Jhin",
+        "items": [
+          "Infinity Edge",
+          "Giant Slayer",
+          "Deathblade"
+        ]
+      },
+      {
+        "champion": "Nunu",
+        "items": [
+          "Protector's Vow",
+          "Protector's Vow",
+          "Adaptive Helm"
+        ]
+      },
+      {
+        "champion": "Xayah",
+        "items": [
+          "Kraken's Fury",
+          "Kraken's Fury",
+          "Red Buff"
+        ]
+      },
+      {
+        "champion": "Blitzcrank",
+        "items": [
+          "Thief's Gloves"
+        ]
+      }
+    ],
+    "roster": [
+      "Jhin",
+      "Nunu",
+      "Xayah",
+      "Blitzcrank",
+      "Tahm Kench",
+      "Maokai",
+      "Rhaast",
+      "Jax",
+      "Aatrox",
+      "Talon"
+    ],
+    "title": "Snipin & Vibin",
+    "url": "https://mobalytics.gg/tft/comps-guide/snipin-and-vibin-3CZGKFRr1ng3x8xIXMV0DiWmXnD"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Morgana",
+        "items": [
+          "Warmog's Armor",
+          "Gargoyle Stoneplate",
+          "Crownguard"
+        ]
+      },
+      {
+        "champion": "Kindred",
+        "items": [
+          "Giant Slayer",
+          "Kraken's Fury",
+          "Guinsoo's Rageblade"
+        ]
+      },
+      {
+        "champion": "Akali",
+        "items": [
+          "Deathblade",
+          "Hextech Gunblade",
+          "Striker's Flail"
+        ]
+      }
+    ],
+    "roster": [
+      "Kindred",
+      "Morgana",
+      "Akali",
+      "Shen",
+      "Tahm Kench",
+      "Maokai",
+      "Bel'Veth",
+      "Aatrox",
+      "Caitlyn",
+      "Milio"
+    ],
+    "title": "N.O.V.A.",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/n-o-v-a-3BlXmB8kpkv4fFt1UN5QFuyRMHN"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Graves",
+        "items": [
+          "Giant Slayer",
+          "Deathblade",
+          "Quicksilver"
+        ]
+      },
+      {
+        "champion": "Vex",
+        "items": [
+          "Giant Slayer",
+          "Rabadon's Deathcap",
+          "Guinsoo's Rageblade"
+        ]
+      },
+      {
+        "champion": "Fiora",
+        "items": [
+          "Quicksilver",
+          "Hand of Justice",
+          "Edge of Night"
+        ]
+      },
+      {
+        "champion": "Nunu",
+        "items": [
+          "Sunfire Cape",
+          "Protector's Vow",
+          "Warmog's Armor"
+        ]
+      }
+    ],
+    "roster": [
+      "Fiora",
+      "Graves",
+      "Vex",
+      "Nunu",
+      "Blitzcrank",
+      "Rhaast",
+      "Akali",
+      "Jax",
+      "Aatrox",
+      "Shen"
+    ],
+    "title": "Capped & Loaded",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/capped-and-loaded-3CJrvdLtcjAkRzPtE9DjAlPg7Bo"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Lulu",
+        "items": [
+          "Nashor's Tooth",
+          "Jeweled Gauntlet",
+          "Nashor's Tooth"
+        ]
+      },
+      {
+        "champion": "Pantheon",
+        "items": [
+          "Steadfast Heart",
+          "Spirit Visage",
+          "Sunfire Cape"
+        ]
+      },
+      {
+        "champion": "Jax",
+        "items": [
+          "Bloodthirster",
+          "Edge of Night",
+          "Titan's Resolve"
+        ]
+      }
+    ],
+    "roster": [
+      "Lulu",
+      "Jax",
+      "Pantheon",
+      "Maokai",
+      "Rhaast",
+      "Milio",
+      "Aatrox",
+      "Twisted Fate",
+      "Caitlyn"
+    ],
+    "title": "Reach For The Stars",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/jax-hero-augment-3BqWbZgWMbXHzhKcuBniNMEsAM9"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Zed",
+        "items": [
+          "Adaptive Helm",
+          "Edge of Night",
+          "Spear of Shojin"
+        ]
+      },
+      {
+        "champion": "Tahm Kench",
+        "items": [
+          "Warmog's Armor",
+          "Spirit Visage",
+          "Sunfire Cape"
+        ]
+      },
+      {
+        "champion": "Vex",
+        "items": [
+          "Hextech Gunblade",
+          "Guinsoo's Rageblade",
+          "Giant Slayer"
+        ]
+      },
+      {
+        "champion": "Fiora",
+        "items": [
+          "Thief's Gloves"
+        ]
+      }
+    ],
+    "roster": [
+      "Vex",
+      "Zed",
+      "Tahm Kench",
+      "Fiora",
+      "Shen",
+      "Morgana",
+      "Maokai",
+      "Akali",
+      "Aatrox",
+      "Graves"
+    ],
+    "title": "Fast 9 Zed",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/zed-3CH0I02RzPi4tUMfl71O778U8Ts"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Kindred",
+        "items": [
+          "Kraken's Fury",
+          "Giant Slayer",
+          "Guinsoo's Rageblade"
+        ]
+      },
+      {
+        "champion": "Akali",
+        "items": [
+          "Hextech Gunblade",
+          "Deathblade",
+          "Striker's Flail"
+        ]
+      },
+      {
+        "champion": "Urgot",
+        "items": [
+          "N.O.V.A. Emblem"
+        ]
+      },
+      {
+        "champion": "Jax",
+        "items": [
+          "Gargoyle Stoneplate",
+          "Gargoyle Stoneplate",
+          "Crownguard"
+        ]
+      }
+    ],
+    "roster": [
+      "Kindred",
+      "Akali",
+      "Jax",
+      "Urgot",
+      "Fiora",
+      "Morgana",
+      "Maokai",
+      "Bel'Veth",
+      "Aatrox",
+      "Tahm Kench"
+    ],
+    "title": "Strike & Stance",
+    "url": "https://mobalytics.gg/tft/comps-guide/strike-and-stance-3GXdo8Gk11woR36ALnw1K94oLnc"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Sona",
+        "items": [
+          "Morellonomicon",
+          "Void Staff"
+        ]
+      },
+      {
+        "champion": "Vex",
+        "items": [
+          "Giant Slayer",
+          "Guinsoo's Rageblade",
+          "Hextech Gunblade"
+        ]
+      },
+      {
+        "champion": "Nunu",
+        "items": [
+          "Protector's Vow",
+          "Adaptive Helm",
+          "Protector's Vow"
+        ]
+      },
+      {
+        "champion": "Bard",
+        "items": [
+          "Rabadon's Deathcap",
+          "Giant Slayer",
+          "Jeweled Gauntlet"
+        ]
+      }
+    ],
+    "roster": [
+      "Bard",
+      "Vex",
+      "Nunu",
+      "Sona",
+      "Blitzcrank",
+      "Karma",
+      "Illaoi",
+      "Meepsie",
+      "Mordekaiser",
+      "Zoe"
+    ],
+    "title": "Turbo Doomer",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/turbo-doomer-3C7BsUrnhw9z9Up1gvxPUZzZFMB"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Miss Fortune",
+        "items": [
+          "Infinity Edge",
+          "Striker's Flail",
+          "Deathblade"
+        ]
+      },
+      {
+        "champion": "Rhaast",
+        "items": [
+          "Thief's Gloves"
+        ]
+      },
+      {
+        "champion": "Ornn",
+        "items": [
+          "Spirit Visage",
+          "Sunfire Cape",
+          "Warmog's Armor"
+        ]
+      },
+      {
+        "champion": "Viktor",
+        "items": [
+          "Archangel's Staff",
+          "Drone Uplink",
+          "Jeweled Gauntlet"
+        ]
+      }
+    ],
+    "roster": [
+      "Miss Fortune",
+      "Ornn",
+      "Viktor",
+      "Rhaast",
+      "Bard",
+      "Maokai",
+      "Gragas",
+      "Zoe",
+      "Aatrox",
+      "Twisted Fate"
+    ],
+    "title": "Conduit Reroll",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/conduit-reroll-3BptVFxNi3wVP1whU01utMyYxHS"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Kindred",
+        "items": [
+          "Guinsoo's Rageblade",
+          "Giant Slayer",
+          "Kraken's Fury"
+        ]
+      },
+      {
+        "champion": "Tahm Kench",
+        "items": [
+          "Evenshroud",
+          "Sunfire Cape",
+          "Warmog's Armor"
+        ]
+      },
+      {
+        "champion": "Master Yi",
+        "items": [
+          "Malware Matrix",
+          "Edge of Night",
+          "Giant Slayer"
+        ]
+      },
+      {
+        "champion": "Fiora",
+        "items": [
+          "Titan's Resolve",
+          "Bloodthirster",
+          "Edge of Night"
+        ]
+      }
+    ],
+    "roster": [
+      "Fiora",
+      "Kindred",
+      "Master Yi",
+      "Tahm Kench",
+      "Shen",
+      "Maokai",
+      "Urgot",
+      "Bel'Veth",
+      "Gragas",
+      "Akali"
+    ],
+    "title": "Twin Blades",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/psionic-3BaGJK5uRhMzePQv8TXSir41KZR"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Akali",
+        "items": [
+          "Edge of Night",
+          "Striker's Flail",
+          "Hand of Justice"
+        ]
+      },
+      {
+        "champion": "RekSai",
+        "items": [
+          "Warmog's Armor",
+          "Gargoyle Stoneplate",
+          "Protector's Vow"
+        ]
+      },
+      {
+        "champion": "Jinx",
+        "items": [
+          "Red Buff",
+          "Last Whisper",
+          "Deathblade"
+        ]
+      },
+      {
+        "champion": "Bel'Veth",
+        "items": [
+          "Kraken's Fury",
+          "Giant Slayer",
+          "Quicksilver"
+        ]
+      }
+    ],
+    "roster": [
+      "Akali",
+      "Bel'Veth",
+      "Jinx",
+      "RekSai",
+      "Kindred",
+      "Maokai",
+      "Rhaast",
+      "Briar"
+    ],
+    "title": "Get Jinxed",
+    "url": "https://mobalytics.gg/tft/comps-guide/get-jinxed-3ELOUoyGaZTSw221bPVv5tGUA74"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Riven",
+        "items": [
+          "Bloodthirster",
+          "Sterak's Gage",
+          "Edge of Night"
+        ]
+      },
+      {
+        "champion": "Bard",
+        "items": [
+          "Morellonomicon",
+          "Void Staff",
+          "Spear of Shojin"
+        ]
+      },
+      {
+        "champion": "Rammus",
+        "items": [
+          "Steadfast Heart",
+          "Protector's Vow",
+          "Bramble Vest"
+        ]
+      },
+      {
+        "champion": "Corki",
+        "items": [
+          "Last Whisper",
+          "Striker's Flail",
+          "Deathblade"
+        ]
+      }
+    ],
+    "roster": [
+      "Bard",
+      "Corki",
+      "Rammus",
+      "Riven",
+      "Shen",
+      "The Mighty Mech",
+      "Fizz",
+      "Meepsie",
+      "Milio",
+      "Aatrox"
+    ],
+    "title": "Astral Meep",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/meeple-3Ba4rc3aQJ3vQ5ANIvk5L1aHlDJ"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Ezreal",
+        "items": [
+          "Infinity Edge",
+          "Deathblade",
+          "Spear of Shojin"
+        ]
+      },
+      {
+        "champion": "Tahm Kench",
+        "items": [
+          "Evenshroud",
+          "Sunfire Cape"
+        ]
+      },
+      {
+        "champion": "Cho'Gath",
+        "items": [
+          "Gargoyle Stoneplate",
+          "Crownguard",
+          "Spirit Visage"
+        ]
+      },
+      {
+        "champion": "Riven",
+        "items": [
+          "Thief's Gloves"
+        ]
+      }
+    ],
+    "roster": [
+      "Cho'Gath",
+      "Ezreal",
+      "Tahm Kench",
+      "Riven",
+      "Jhin",
+      "Maokai",
+      "Milio",
+      "Pantheon",
+      "Lissandra",
+      "Gragas"
+    ],
+    "title": "Void Arcane",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/void-arcane-3C2pqQsj9QP3wWgjABfL4HrsiZo"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Urgot",
+        "items": [
+          "Giant Slayer",
+          "Quicksilver",
+          "Sterak's Gage"
+        ]
+      },
+      {
+        "champion": "Ornn",
+        "items": [
+          "Sunfire Cape",
+          "Warmog's Armor",
+          "Steadfast Heart"
+        ]
+      },
+      {
+        "champion": "Miss Fortune",
+        "items": [
+          "Giant Slayer",
+          "Guinsoo's Rageblade",
+          "Deathblade"
+        ]
+      }
+    ],
+    "roster": [
+      "Miss Fortune",
+      "Ornn",
+      "Urgot",
+      "Kindred",
+      "Maokai",
+      "Rhaast",
+      "Bel'Veth",
+      "Aatrox",
+      "Briar",
+      "RekSai"
+    ],
+    "title": "Challenger Takeover",
+    "url": "https://mobalytics.gg/tft/comps-guide/challenger-takeover-3DfqBdVGfUIBU4TF13wVOr6ajs4"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Corki",
+        "items": [
+          "Deathblade",
+          "Last Whisper",
+          "Red Buff"
+        ]
+      },
+      {
+        "champion": "Bard",
+        "items": [
+          "Striker's Flail",
+          "Jeweled Gauntlet",
+          "Rabadon's Deathcap"
+        ]
+      },
+      {
+        "champion": "Gnar",
+        "items": [
+          "Deathblade",
+          "Guinsoo's Rageblade",
+          "Infinity Edge"
+        ]
+      },
+      {
+        "champion": "Rammus",
+        "items": [
+          "Crownguard",
+          "Gargoyle Stoneplate",
+          "Bramble Vest"
+        ]
+      }
+    ],
+    "roster": [
+      "Bard",
+      "Corki",
+      "Rammus",
+      "Gnar",
+      "Jhin",
+      "The Mighty Mech",
+      "Fizz",
+      "Meepsie",
+      "Poppy",
+      "Karma"
+    ],
+    "title": "Gnaruto",
+    "url": "https://mobalytics.gg/tft/comps-guide/gnaruto-3EdXU8POvsnIlDNsApmJVG3M3Zg"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Urgot",
+        "items": [
+          "Last Whisper",
+          "Infinity Edge",
+          "Hand of Justice"
+        ]
+      },
+      {
+        "champion": "Karma",
+        "items": [
+          "Morellonomicon",
+          "Void Staff"
+        ]
+      },
+      {
+        "champion": "Aurelion Sol",
+        "items": [
+          "Striker's Flail",
+          "Jeweled Gauntlet",
+          "Rabadon's Deathcap"
+        ]
+      },
+      {
+        "champion": "The Mighty Mech",
+        "items": [
+          "Gargoyle Stoneplate",
+          "Steadfast Heart",
+          "Gargoyle Stoneplate"
+        ]
+      }
+    ],
+    "roster": [
+      "Aurelion Sol",
+      "The Mighty Mech",
+      "Urgot",
+      "Karma",
+      "Fiora",
+      "Tahm Kench",
+      "Mordekaiser",
+      "Akali",
+      "Maokai",
+      "Lissandra"
+    ],
+    "title": "Transformers",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/mighty-mech-3BZsitmBWTUB1ji6HH7HKsrTa6f"
+  },
+  {
+    "groups": [
+      {
+        "champion": "LeBlanc",
+        "items": [
+          "Hextech Gunblade",
+          "Giant Slayer",
+          "Guinsoo's Rageblade"
+        ]
+      },
+      {
+        "champion": "Leona",
+        "items": [
+          "Warmog's Armor",
+          "Gargoyle Stoneplate",
+          "Protector's Vow"
+        ]
+      },
+      {
+        "champion": "Karma",
+        "items": [
+          "Shepherd Emblem",
+          "Void Staff",
+          "Morellonomicon"
+        ]
+      }
+    ],
+    "roster": [
+      "Karma",
+      "LeBlanc",
+      "Leona",
+      "Sona",
+      "The Mighty Mech",
+      "Illaoi",
+      "Meepsie",
+      "Lissandra",
+      "Teemo",
+      "Mordekaiser"
+    ],
+    "title": "Shepherd",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/shephard-3Ba8rYrW8BFzhQKzOumQAKONMWY"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Veigar",
+        "items": [
+          "Jeweled Gauntlet",
+          "Nashor's Tooth",
+          "Nashor's Tooth"
+        ]
+      },
+      {
+        "champion": "Lissandra",
+        "items": [
+          "Void Staff",
+          "Rabadon's Deathcap",
+          "Spear of Shojin"
+        ]
+      },
+      {
+        "champion": "Poppy",
+        "items": [
+          "Sunfire Cape",
+          "Crownguard",
+          "Protector's Vow"
+        ]
+      }
+    ],
+    "roster": [
+      "Lissandra",
+      "Poppy",
+      "Veigar",
+      "Bard",
+      "Rammus",
+      "Illaoi",
+      "Meepsie",
+      "Mordekaiser"
+    ],
+    "title": "Meepteors",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/meeple-veigar-3BwYXITBcXf0vIETwH0KzSlXzQ2"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Bard",
+        "items": [
+          "Rabadon's Deathcap",
+          "Jeweled Gauntlet",
+          "Giant Slayer"
+        ]
+      },
+      {
+        "champion": "Sona",
+        "items": [
+          "Void Staff",
+          "Morellonomicon",
+          "Blue Buff"
+        ]
+      },
+      {
+        "champion": "Blitzcrank",
+        "items": [
+          "Thief's Gloves"
+        ]
+      },
+      {
+        "champion": "Nunu",
+        "items": [
+          "Adaptive Helm",
+          "Protector's Vow",
+          "Protector's Vow"
+        ]
+      }
+    ],
+    "roster": [
+      "Bard",
+      "Sona",
+      "Nunu",
+      "Blitzcrank",
+      "Karma",
+      "Illaoi",
+      "Rhaast",
+      "Meepsie",
+      "Mordekaiser",
+      "Leona"
+    ],
+    "title": "Debris Delivery",
+    "url": "https://mobalytics.gg/tft/comps-guide/debris-delivery-3DwnN0YD0FQQ1d2o3ZOwNRQx7bB"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Cho'Gath",
+        "items": [
+          "Gargoyle Stoneplate",
+          "Dragon's Claw",
+          "Warmog's Armor"
+        ]
+      },
+      {
+        "champion": "Karma",
+        "items": [
+          "Void Staff",
+          "Blue Buff",
+          "Morellonomicon"
+        ]
+      },
+      {
+        "champion": "Lissandra",
+        "items": [
+          "Nashor's Tooth",
+          "Nashor's Tooth",
+          "Jeweled Gauntlet"
+        ]
+      }
+    ],
+    "roster": [
+      "Karma",
+      "Cho'Gath",
+      "Lissandra",
+      "Jhin",
+      "The Mighty Mech",
+      "Kai'Sa",
+      "Mordekaiser",
+      "Pantheon",
+      "Ezreal",
+      "Illaoi"
+    ],
+    "title": "Cho Me the LP",
+    "url": "https://mobalytics.gg/tft/comps-guide/cho-me-the-lp-3DgqyPhUdsNIMxoGwx9umVP4QpI"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Nami",
+        "items": [
+          "Rabadon's Deathcap",
+          "Morellonomicon",
+          "Spear of Shojin"
+        ]
+      },
+      {
+        "champion": "Ornn",
+        "items": [
+          "Spirit Visage",
+          "Gargoyle Stoneplate",
+          "Warmog's Armor"
+        ]
+      },
+      {
+        "champion": "Samira",
+        "items": [
+          "Last Whisper",
+          "Spear of Shojin",
+          "Deathblade"
+        ]
+      }
+    ],
+    "roster": [
+      "Nami",
+      "Ornn",
+      "Samira",
+      "Blitzcrank",
+      "Shen",
+      "Gwen",
+      "Nasus",
+      "Teemo",
+      "Leona",
+      "Jax"
+    ],
+    "title": "Groovians",
+    "url": "https://mobalytics.gg/tft/comps-guide/airborne-samira-3BpsK7jMDKTd1AC30ekYxNBz5bj"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Twisted Fate",
+        "items": [
+          "Nashor's Tooth",
+          "Nashor's Tooth",
+          "Rabadon's Deathcap"
+        ]
+      },
+      {
+        "champion": "Caitlyn",
+        "items": [
+          "Kraken's Fury",
+          "Guinsoo's Rageblade",
+          "Giant Slayer"
+        ]
+      },
+      {
+        "champion": "Jax",
+        "items": [
+          "Sunfire Cape",
+          "Bramble Vest",
+          "Protector's Vow"
+        ]
+      },
+      {
+        "champion": "Aatrox",
+        "items": [
+          "Sterak's Gage",
+          "Titan's Resolve",
+          "Bloodthirster"
+        ]
+      }
+    ],
+    "roster": [
+      "Jax",
+      "Aatrox",
+      "Caitlyn",
+      "Twisted Fate",
+      "Kindred",
+      "Maokai",
+      "Akali",
+      "Bel'Veth",
+      "Talon",
+      "Poppy"
+    ],
+    "title": "Stellar Combo",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/stellar-combo-3Bpm9FMx1hinJCuIW3eBcEjCHEs"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Ornn",
+        "items": [
+          "Warmog's Armor",
+          "Gargoyle Stoneplate",
+          "Sunfire Cape"
+        ]
+      },
+      {
+        "champion": "Lulu",
+        "items": [
+          "Nashor's Tooth",
+          "Jeweled Gauntlet",
+          "Nashor's Tooth"
+        ]
+      },
+      {
+        "champion": "Miss Fortune",
+        "items": [
+          "Spear of Shojin",
+          "Infinity Edge",
+          "Deathblade"
+        ]
+      }
+    ],
+    "roster": [
+      "Lulu",
+      "Miss Fortune",
+      "Ornn",
+      "Nami",
+      "Maokai",
+      "Rhaast",
+      "Pantheon",
+      "Aatrox",
+      "Cho'Gath",
+      "Lissandra"
+    ],
+    "title": "Double Tap",
+    "url": "https://mobalytics.gg/tft/comps-guide/double-tap-3GDi3x5pSRuWbcvvewdrmHvnRob"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Meepsie",
+        "items": [
+          "Jeweled Gauntlet",
+          "Hand of Justice",
+          "Edge of Night"
+        ]
+      },
+      {
+        "champion": "Pyke",
+        "items": [
+          "Hand of Justice",
+          "Target-Lock Optics",
+          "Infinity Edge"
+        ]
+      },
+      {
+        "champion": "Mordekaiser",
+        "items": [
+          "Sunfire Cape",
+          "Warmog's Armor",
+          "Ionic Spark"
+        ]
+      }
+    ],
+    "roster": [
+      "Meepsie",
+      "Mordekaiser",
+      "Pyke",
+      "Nami",
+      "The Mighty Mech",
+      "Illaoi",
+      "Rhaast",
+      "Viktor",
+      "Lissandra",
+      "Gragas"
+    ],
+    "title": "The Big Bang",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/meepsie-hero-augment-3Bpoz3OnB9togklCkfEvKeZy43X"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Jhin",
+        "items": [
+          "Deathblade",
+          "Infinity Edge",
+          "Striker's Flail"
+        ]
+      },
+      {
+        "champion": "Illaoi",
+        "items": [
+          "Bramble Vest",
+          "Steadfast Heart",
+          "Warmog's Armor"
+        ]
+      },
+      {
+        "champion": "Mordekaiser",
+        "items": [
+          "Edge of Night",
+          "Bloodthirster",
+          "Jeweled Gauntlet"
+        ]
+      },
+      {
+        "champion": "Karma",
+        "items": [
+          "Blue Buff",
+          "Void Staff",
+          "Morellonomicon"
+        ]
+      }
+    ],
+    "roster": [
+      "Jhin",
+      "Karma",
+      "Illaoi",
+      "Mordekaiser",
+      "Kai'Sa",
+      "Meepsie",
+      "Cho'Gath",
+      "Lissandra",
+      "Zoe",
+      "Leona"
+    ],
+    "title": "Heat Death",
+    "url": "https://mobalytics.gg/tft/comps-guide/morde-hero-augment-3BqY4xZMudL4rja17DY7edq5JFw"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Rammus",
+        "items": [
+          "Sunfire Cape",
+          "Spirit Visage",
+          "Bramble Vest"
+        ]
+      },
+      {
+        "champion": "Caitlyn",
+        "items": [
+          "Guinsoo's Rageblade",
+          "Kraken's Fury",
+          "Giant Slayer"
+        ]
+      },
+      {
+        "champion": "Poppy",
+        "items": [
+          "Guinsoo's Rageblade",
+          "Infinity Edge",
+          "Striker's Flail"
+        ]
+      }
+    ],
+    "roster": [
+      "Rammus",
+      "Caitlyn",
+      "Poppy",
+      "Shen",
+      "Corki",
+      "Ornn",
+      "Jax",
+      "Aatrox",
+      "Twisted Fate"
+    ],
+    "title": "Termeepnal Velocity",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/poppy-hero-augment-3BqlYUAOgNtwmJyCd3rDx4re8r8"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Caitlyn",
+        "items": [
+          "Deathblade",
+          "Giant Slayer",
+          "Guinsoo's Rageblade"
+        ]
+      },
+      {
+        "champion": "Corki",
+        "items": [
+          "N.O.V.A. Emblem",
+          "Red Buff",
+          "Deathblade"
+        ]
+      },
+      {
+        "champion": "Aatrox",
+        "items": [
+          "Bramble Vest",
+          "Gargoyle Stoneplate",
+          "Gargoyle Stoneplate"
+        ]
+      }
+    ],
+    "roster": [
+      "Corki",
+      "Aatrox",
+      "Caitlyn",
+      "Shen",
+      "Kindred",
+      "Rammus",
+      "Maokai",
+      "Poppy",
+      "Twisted Fate",
+      "Akali"
+    ],
+    "title": "NOVA Nation",
+    "url": "https://mobalytics.gg/tft/comps-guide/nova-nation-3FOGNpoAsqhzwGQ1c29ZzyHF3bG"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Xayah",
+        "items": [
+          "Dark Star Emblem",
+          "Guinsoo's Rageblade",
+          "Red Buff"
+        ]
+      },
+      {
+        "champion": "Nunu",
+        "items": [
+          "Crownguard",
+          "Warmog's Armor",
+          "Evenshroud"
+        ]
+      },
+      {
+        "champion": "Jhin",
+        "items": [
+          "Deathblade",
+          "Striker's Flail",
+          "Infinity Edge"
+        ]
+      }
+    ],
+    "roster": [
+      "Jhin",
+      "Nunu",
+      "Xayah",
+      "Shen",
+      "Karma",
+      "Kai'Sa",
+      "Jax",
+      "Mordekaiser",
+      "Cho'Gath",
+      "Ezreal"
+    ],
+    "title": "Space Opera",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/dark-star-3BZrcCB1FNbnue9USf5mMymy2h2"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Shen",
+        "items": [
+          "Thief's Gloves"
+        ]
+      },
+      {
+        "champion": "Master Yi",
+        "items": [
+          "Edge of Night",
+          "N.O.V.A. Emblem",
+          "Giant Slayer"
+        ]
+      },
+      {
+        "champion": "Kindred",
+        "items": [
+          "Guinsoo's Rageblade",
+          "Giant Slayer",
+          "Kraken's Fury"
+        ]
+      },
+      {
+        "champion": "Fiora",
+        "items": [
+          "Hand of Justice",
+          "Edge of Night",
+          "Sterak's Gage"
+        ]
+      },
+      {
+        "champion": "Tahm Kench",
+        "items": [
+          "Sunfire Cape",
+          "Steadfast Heart",
+          "Spirit Visage"
+        ]
+      }
+    ],
+    "roster": [
+      "Fiora",
+      "Kindred",
+      "Master Yi",
+      "Tahm Kench",
+      "Shen",
+      "Maokai",
+      "Akali",
+      "Bel'Veth",
+      "Aatrox",
+      "Graves"
+    ],
+    "title": "NOVA YI",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/nova-yi-3C4Y4P5piaxDCvaOqgvZRr2jv2I"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Nasus",
+        "items": [
+          "Sunfire Cape",
+          "Evenshroud",
+          "Protector's Vow"
+        ]
+      },
+      {
+        "champion": "LeBlanc",
+        "items": [
+          "Giant Slayer",
+          "Hextech Gunblade",
+          "Guinsoo's Rageblade"
+        ]
+      },
+      {
+        "champion": "Leona",
+        "items": [
+          "Bloodthirster",
+          "Titan's Resolve",
+          "Sterak's Gage"
+        ]
+      }
+    ],
+    "roster": [
+      "LeBlanc",
+      "Leona",
+      "Nasus",
+      "Karma",
+      "Illaoi",
+      "Meepsie",
+      "Mordekaiser",
+      "Zoe",
+      "Teemo",
+      "Nunu"
+    ],
+    "title": "Shieldmaiden",
+    "url": "https://mobalytics.gg/tft/comps-guide/leona-hero-augment-3D5b0xJkVIwSsvaRdRfeH8ZAuOj"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Viktor",
+        "items": [
+          "Archangel's Staff",
+          "Drone Uplink",
+          "Jeweled Gauntlet"
+        ]
+      },
+      {
+        "champion": "Nami",
+        "items": [
+          "Morellonomicon",
+          "Void Staff",
+          "Spear of Shojin"
+        ]
+      },
+      {
+        "champion": "Illaoi",
+        "items": [
+          "Crownguard",
+          "Warmog's Armor",
+          "Protector's Vow"
+        ]
+      }
+    ],
+    "roster": [
+      "Nami",
+      "Illaoi",
+      "Viktor",
+      "Rhaast",
+      "Meepsie",
+      "Mordekaiser",
+      "Pyke",
+      "Lissandra",
+      "Pantheon",
+      "Cho'Gath"
+    ],
+    "title": "Slap & Zap",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/slap-and-zap-3CNtMCNAmI3CDCLf0L8LQhIBe28"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Karma",
+        "items": [
+          "Morellonomicon",
+          "Void Staff",
+          "Blue Buff"
+        ]
+      },
+      {
+        "champion": "Aurelion Sol",
+        "items": [
+          "Jeweled Gauntlet",
+          "Striker's Flail",
+          "Rabadon's Deathcap"
+        ]
+      },
+      {
+        "champion": "Nunu",
+        "items": [
+          "Protector's Vow",
+          "Warmog's Armor",
+          "Protector's Vow"
+        ]
+      }
+    ],
+    "roster": [
+      "Aurelion Sol",
+      "Karma",
+      "Nunu",
+      "Bard",
+      "Blitzcrank",
+      "Sona",
+      "Illaoi",
+      "Meepsie",
+      "Mordekaiser",
+      "Morgana"
+    ],
+    "title": "Dragon’s Breath",
+    "url": "https://mobalytics.gg/tft/comps-guide/dragons-breath-3DfDQePp2tCQXb399GnifbGaks1"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Kai'Sa",
+        "items": [
+          "Infinity Edge",
+          "Giant Slayer",
+          "Striker's Flail"
+        ]
+      },
+      {
+        "champion": "Karma",
+        "items": [
+          "Morellonomicon",
+          "Void Staff",
+          "Archangel's Staff"
+        ]
+      },
+      {
+        "champion": "Illaoi",
+        "items": [
+          "Evenshroud",
+          "Protector's Vow",
+          "Warmog's Armor"
+        ]
+      }
+    ],
+    "roster": [
+      "Karma",
+      "Illaoi",
+      "Kai'Sa",
+      "Jhin",
+      "Riven",
+      "Meepsie",
+      "Mordekaiser",
+      "Cho'Gath",
+      "Lissandra",
+      "Ezreal"
+    ],
+    "title": "Tentacles and Missiles",
+    "url": "https://mobalytics.gg/tft/comps-guide/kaisa-illaoi-reroll-3D2N5IXV722I2kdg1kk8lfYLDiA"
+  },
+  {
+    "groups": [
+      {
+        "champion": "Kai'Sa",
+        "items": [
+          "Striker's Flail",
+          "Infinity Edge",
+          "Blue Buff"
+        ]
+      },
+      {
+        "champion": "Rhaast",
+        "items": [
+          "Thief's Gloves"
+        ]
+      },
+      {
+        "champion": "Fizz",
+        "items": [
+          "Nashor's Tooth",
+          "Jeweled Gauntlet",
+          "Hand of Justice"
+        ]
+      },
+      {
+        "champion": "Ornn",
+        "items": [
+          "Evenshroud",
+          "Spirit Visage",
+          "Sunfire Cape"
+        ]
+      }
+    ],
+    "roster": [
+      "Fizz",
+      "Kai'Sa",
+      "Ornn",
+      "Rhaast",
+      "Karma",
+      "Rammus",
+      "Gwen",
+      "Meepsie",
+      "Briar",
+      "Talon"
+    ],
+    "title": "Rogue Diff",
+    "url": "https://mobalytics.gg/tft/set17/comps-guide/rogue-reroll-3BoHQhYBJlvGROmc6esg6fDXASw"
+  }
+]

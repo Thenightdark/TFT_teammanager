@@ -86,6 +86,12 @@ export default function CompositionDetail({ recommendation, champions, items, au
         <section className="detail-panel">
           <div className="detail-section-title"><Layers3 size={17} /><h2>Traits</h2></div>
           <div className="detail-tag-list">{recommendation.comp.traits.map((trait) => <span key={trait}>{trait}</span>)}</div>
+          {recommendation.comp.requiredEmblems?.map((emblem) => (
+            <div className="required-emblem-callout" key={`${emblem.trait}-${emblem.holder}`}>
+              <Crown size={18} />
+              <span><strong>{emblem.trait} emblem required</strong><small>Equip {itemName(emblem.item)} on {champion(emblem.holder)?.name ?? emblem.holder}. {emblem.note}</small></span>
+            </div>
+          ))}
         </section>
 
         <section className="detail-panel">
@@ -98,7 +104,7 @@ export default function CompositionDetail({ recommendation, champions, items, au
           <div className="detail-item-groups">
             {recommendation.comp.recommendedItems.map((group) => (
               <div key={group.champion}>
-                <strong>{group.role === "main-tank" ? "MAIN TANK" : group.role === "secondary-carry" ? "SECONDARY CARRY" : "MAIN CARRY"} · {champion(group.champion)?.name ?? group.champion}</strong>
+                <strong>{group.role === "main-tank" ? "MAIN TANK" : group.role === "secondary-tank" ? "SECONDARY TANK" : group.role === "secondary-carry" ? "SECONDARY CARRY" : group.role === "emblem-holder" ? "EMBLEM HOLDER" : group.role === "utility" ? "UTILITY" : "MAIN CARRY"} · {champion(group.champion)?.name ?? group.champion}</strong>
                 <div>{group.items.map((id) => <span key={id}><img src={items.find((item) => item.id === id)?.image} alt="" loading="lazy" onError={(event) => { event.currentTarget.onerror = null; event.currentTarget.src = "/items/placeholder.svg"; }} />{itemName(id)}</span>)}</div>
               </div>
             ))}
