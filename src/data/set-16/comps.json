@@ -1,0 +1,317 @@
+[
+  {
+    "id": "ionia-starter",
+    "name": "Ionia Starter",
+    "units": [
+      "tft-16-sett",
+      "tft-16-wukong",
+      "tft-16-yone",
+      "tft-16-yunara",
+      "tft-16-ahri",
+      "tft-16-kennen",
+      "tft-16-xin-zhao",
+      "tft-16-yasuo"
+    ],
+    "coreUnits": [
+      "tft-16-sett",
+      "tft-16-wukong",
+      "tft-16-yone"
+    ],
+    "carries": [
+      "tft-16-sett",
+      "tft-16-wukong"
+    ],
+    "mainTank": "tft-16-sett",
+    "tier": "S",
+    "playstyle": "Generated starter",
+    "recommendedItems": [
+      {
+        "champion": "tft-16-sett",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-spear-of-shojin",
+          "tft-item-guinsoos-rageblade"
+        ]
+      }
+    ],
+    "traits": [
+      "Ionia"
+    ],
+    "description": "A starter template generated from real Set 16 Ionia units. It is not a live-meta or win-rate recommendation.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-16-augment-walk-the-true-path",
+        "reason": "Directly supports Ionia."
+      },
+      {
+        "augmentId": "tft-16-augment-walk-the-true-path-plus",
+        "reason": "Directly supports Ionia."
+      },
+      {
+        "augmentId": "tft-16-augment-defense-of-ionia",
+        "reason": "Directly supports Ionia."
+      },
+      {
+        "augmentId": "tft-augment-just-slayer",
+        "reason": "Directly supports Slayer."
+      },
+      {
+        "augmentId": "tft-16-augment-demacia-forever",
+        "reason": "Directly strengthens Xin Zhao in this board."
+      }
+    ]
+  },
+  {
+    "id": "yordle-starter",
+    "name": "Yordle Starter",
+    "units": [
+      "tft-16-ziggs",
+      "tft-16-fizz",
+      "tft-16-veigar",
+      "tft-16-kennen",
+      "tft-16-kobuko",
+      "tft-16-poppy",
+      "tft-16-teemo",
+      "tft-16-tristana"
+    ],
+    "coreUnits": [
+      "tft-16-ziggs",
+      "tft-16-fizz",
+      "tft-16-veigar"
+    ],
+    "carries": [
+      "tft-16-ziggs",
+      "tft-16-fizz"
+    ],
+    "mainTank": "tft-16-fizz",
+    "tier": "A",
+    "playstyle": "Generated starter",
+    "recommendedItems": [
+      {
+        "champion": "tft-16-ziggs",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-madreds-bloodrazor"
+        ]
+      }
+    ],
+    "traits": [
+      "Yordle"
+    ],
+    "description": "A starter template generated from real Set 16 Yordle units. It is not a live-meta or win-rate recommendation.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-16-augment-bandle-bounty-plus",
+        "reason": "Directly supports Yordle."
+      },
+      {
+        "augmentId": "tft-16-augment-yordle-wild-growth",
+        "reason": "Directly supports Yordle."
+      },
+      {
+        "augmentId": "tft-16-teamup-augment-singed-teemo",
+        "reason": "Directly strengthens Teemo in this board."
+      },
+      {
+        "augmentId": "tft-16-augment-bandle-bounty",
+        "reason": "Directly supports Yordle."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "arcanist-starter",
+    "name": "Arcanist Starter",
+    "units": [
+      "tft-16-annie",
+      "tft-16-sylas",
+      "tft-16-lux",
+      "tft-16-swain",
+      "tft-16-veigar",
+      "tft-16-ahri",
+      "tft-16-neeko",
+      "tft-16-kog-maw"
+    ],
+    "coreUnits": [
+      "tft-16-annie",
+      "tft-16-sylas",
+      "tft-16-lux"
+    ],
+    "carries": [
+      "tft-16-annie",
+      "tft-16-sylas"
+    ],
+    "mainTank": "tft-16-sylas",
+    "tier": "A",
+    "playstyle": "Generated starter",
+    "recommendedItems": [
+      {
+        "champion": "tft-16-annie",
+        "role": "main-carry",
+        "items": [
+          "tft-item-guinsoos-rageblade",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-warmogs-armor"
+        ]
+      }
+    ],
+    "traits": [
+      "Arcanist"
+    ],
+    "description": "A starter template generated from real Set 16 Arcanist units. It is not a live-meta or win-rate recommendation.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-16-augment-ixtal-expeditionist",
+        "reason": "Directly strengthens Neeko in this board."
+      },
+      {
+        "augmentId": "tft-augment-luxury-subscription",
+        "reason": "Directly strengthens Lux in this board."
+      },
+      {
+        "augmentId": "tft-16-augment-void-evolve-and-overcome",
+        "reason": "Directly strengthens Kog'Maw in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-chaos-evolution",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "bruiser-starter",
+    "name": "Bruiser Starter",
+    "units": [
+      "tft-16-tahm-kench",
+      "tft-16-volibear",
+      "tft-16-rift-herald",
+      "tft-16-wukong",
+      "tft-16-dr-mundo",
+      "tft-16-kobuko",
+      "tft-16-sion",
+      "tft-16-illaoi"
+    ],
+    "coreUnits": [
+      "tft-16-tahm-kench",
+      "tft-16-volibear",
+      "tft-16-rift-herald"
+    ],
+    "carries": [
+      "tft-16-tahm-kench",
+      "tft-16-volibear"
+    ],
+    "mainTank": "tft-16-tahm-kench",
+    "tier": "B",
+    "playstyle": "Generated starter",
+    "recommendedItems": [
+      {
+        "champion": "tft-16-tahm-kench",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-spear-of-shojin",
+          "tft-item-guinsoos-rageblade"
+        ]
+      }
+    ],
+    "traits": [
+      "Bruiser"
+    ],
+    "description": "A starter template generated from real Set 16 Bruiser units. It is not a live-meta or win-rate recommendation.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-16-augment-weightlifting",
+        "reason": "Directly supports Bruiser."
+      },
+      {
+        "augmentId": "tft-16-augment-noxus-bringer-of-ruin",
+        "reason": "Directly strengthens Sion in this board."
+      },
+      {
+        "augmentId": "tft-augment-corrosion",
+        "reason": "Directly strengthens Sion in this board."
+      },
+      {
+        "augmentId": "tft-6-augment-radiant-relics",
+        "reason": "Directly strengthens Sion in this board."
+      },
+      {
+        "augmentId": "tft-augment-indecision1",
+        "reason": "Directly strengthens Sion in this board."
+      }
+    ]
+  },
+  {
+    "id": "defender-starter",
+    "name": "Defender Starter",
+    "units": [
+      "tft-16-sylas",
+      "tft-16-garen",
+      "tft-16-darius",
+      "tft-16-kennen",
+      "tft-16-sejuani",
+      "tft-16-neeko",
+      "tft-16-vi",
+      "tft-16-jarvan-iv"
+    ],
+    "coreUnits": [
+      "tft-16-sylas",
+      "tft-16-garen",
+      "tft-16-darius"
+    ],
+    "carries": [
+      "tft-16-sylas",
+      "tft-16-garen"
+    ],
+    "mainTank": "tft-16-sylas",
+    "tier": "B",
+    "playstyle": "Generated starter",
+    "recommendedItems": [
+      {
+        "champion": "tft-16-sylas",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-madreds-bloodrazor"
+        ]
+      }
+    ],
+    "traits": [
+      "Defender"
+    ],
+    "description": "A starter template generated from real Set 16 Defender units. It is not a live-meta or win-rate recommendation.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-16-augment-demacia-forever",
+        "reason": "Directly supports Demacia."
+      },
+      {
+        "augmentId": "tft-augment-heavy-is-the-crown",
+        "reason": "Directly supports Demacia."
+      },
+      {
+        "augmentId": "tft-16-teamup-augment-jarvan-shyvana",
+        "reason": "Directly strengthens Jarvan IV in this board."
+      },
+      {
+        "augmentId": "tft-16-augment-ixtal-expeditionist",
+        "reason": "Directly strengthens Neeko in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  }
+]

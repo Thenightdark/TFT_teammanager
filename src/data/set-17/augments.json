@@ -1,0 +1,1646 @@
+[
+  {
+    "id": "tft-augment-magic-roll",
+    "apiName": "TFT_Augment_MagicRoll",
+    "name": "A Magic Roll",
+    "description": "Roll 3 dice. Gain rewards based on their total. Reward: scaling"
+  },
+  {
+    "id": "tft-augment-advanced-loan",
+    "apiName": "TFT_Augment_AdvancedLoan",
+    "name": "Advanced Loan",
+    "description": "Gain scaling Gold. Your next augment is one tier lower."
+  },
+  {
+    "id": "tft-augment-advanced-loan-plus",
+    "apiName": "TFT_Augment_AdvancedLoanPlus",
+    "name": "Advanced Loan+",
+    "description": "Gain scaling Gold. Your next augment is one tier lower."
+  },
+  {
+    "id": "tft-7-augment-afk",
+    "apiName": "TFT7_Augment_AFK",
+    "name": "AFK",
+    "description": "You cannot perform actions for the next scaling rounds. Afterwards, gain scaling gold."
+  },
+  {
+    "id": "tft-17-augment-ahri-god-augment",
+    "apiName": "TFT17_Augment_AhriGodAugment",
+    "name": "Ahri's Boon",
+    "description": "Your team gains scaling Attack Damage and Ability Power per level. Gain scaling XP each round for the rest of the game."
+  },
+  {
+    "id": "tft-augment-an-exalted-adventure",
+    "apiName": "TFT_Augment_AnExaltedAdventure",
+    "name": "An Exalted Adventure",
+    "description": "Gain three 2-cost champions. If you 3-star two of them, gain an orb filled with loot. Gain a Lesser Champion Duplicator at the start of next scaling stages. Champions: scaling, scaling, scaling"
+  },
+  {
+    "id": "tft-17-augment-anima-squad-commander",
+    "apiName": "TFT17_Augment_AnimaSquad_Commander",
+    "name": "Anima Commander",
+    "description": "Gain a Briar, a Jinx, and an Illaoi. Increase your current and max player Health by scaling."
+  },
+  {
+    "id": "tft-17-augment-apotheotic-forge",
+    "apiName": "TFT17_Augment_ApotheoticForge",
+    "name": "Apotheotic Forge",
+    "description": "Choose 1 of 4 Divine Artifacts. Artifacts are more powerful items with a unique effect."
+  },
+  {
+    "id": "tft-augment-arcane-viktory",
+    "apiName": "TFT_Augment_ArcaneViktory",
+    "name": "Arcane Viktor-y",
+    "description": "After scaling seconds of combat, stun the enemy team for scaling seconds. Repeat this after scaling seconds of combat. TFT Macao Open, 2024"
+  },
+  {
+    "id": "tft-9-augment-commander-ascension",
+    "apiName": "TFT9_Augment_Commander_Ascension",
+    "name": "Ascension",
+    "description": "After scaling seconds of combat, your team gains scaling Damage Amp."
+  },
+  {
+    "id": "tft-11-augment-at-what-cost",
+    "apiName": "TFT11_Augment_AtWhatCost",
+    "name": "At What Cost",
+    "description": "Immediately go to level scaling and gain scaling XP. You don't get to choose your future augments."
+  },
+  {
+    "id": "tft-augment-power-up",
+    "apiName": "TFT_Augment_PowerUp",
+    "name": "Augmented Power",
+    "description": "Your next augment is one tier higher."
+  },
+  {
+    "id": "tft-augment-aura-farming",
+    "apiName": "TFT_Augment_AuraFarming",
+    "name": "Aura Farming",
+    "description": "Gain a scaling-star 5-cost champion holding a recommended item. You cannot field it until Stage scaling-scaling."
+  },
+  {
+    "id": "tft-17-augment-aurelion-sol-god-augment",
+    "apiName": "TFT17_Augment_AurelionSolGodAugment",
+    "name": "Aurelion Sol's Boon",
+    "description": "Choose 1 of scaling quests to prove yourself to Aurelion Sol. Chosen Quest: scaling"
+  },
+  {
+    "id": "tft-17-augment-aurelion-sol-god-augment-large-quest",
+    "apiName": "TFT17_Augment_AurelionSolGodAugment_LargeQuest",
+    "name": "Aurelion Sol's Boon — Large Quest",
+    "description": ""
+  },
+  {
+    "id": "tft-17-augment-aurelion-sol-god-augment-medium-quest",
+    "apiName": "TFT17_Augment_AurelionSolGodAugment_MediumQuest",
+    "name": "Aurelion Sol's Boon — Medium Quest",
+    "description": ""
+  },
+  {
+    "id": "tft-17-augment-aurelion-sol-god-augment-small-quest",
+    "apiName": "TFT17_Augment_AurelionSolGodAugment_SmallQuest",
+    "name": "Aurelion Sol's Boon — Small Quest",
+    "description": "Your team gains scaling Attack Damage and Ability Power."
+  },
+  {
+    "id": "tft-augment-backline-blueprint",
+    "apiName": "TFT_Augment_BacklineBlueprint",
+    "name": "Backline Blueprint",
+    "description": "Gain a 3-cost non-Tank champion and an Emblem that matches their last-listed trait."
+  },
+  {
+    "id": "tft-augment-component-quest-bow",
+    "apiName": "TFT_Augment_ComponentQuestBow",
+    "name": "Backup Bows",
+    "description": "Gain a Recurve Bow. After your team attacks scaling times, gain scaling more. Attacks: scaling"
+  },
+  {
+    "id": "tft-7-augment-band-of-thieves1",
+    "apiName": "TFT7_Augment_BandOfThieves1",
+    "name": "Band of Thieves",
+    "description": "Gain scaling Thief's Gloves."
+  },
+  {
+    "id": "tft-6-augment-band-of-thieves2",
+    "apiName": "TFT6_Augment_BandOfThieves2",
+    "name": "Band of Thieves II",
+    "description": "Gain scaling Thief's Gloves. After scaling player combats, gain another."
+  },
+  {
+    "id": "tft-6-augment-band-of-thieves2-plus",
+    "apiName": "TFT6_Augment_BandOfThieves2Plus",
+    "name": "Band of Thieves II+",
+    "description": "Gain scaling Thief's Gloves. After scaling player combats, gain another."
+  },
+  {
+    "id": "tft-6-augment-band-of-thieves2-plus-plus",
+    "apiName": "TFT6_Augment_BandOfThieves2PlusPlus",
+    "name": "Band of Thieves II++",
+    "description": "Gain scaling Thief's Gloves. After scaling player combats, gain another."
+  },
+  {
+    "id": "tft-augment-the-barons-lair",
+    "apiName": "TFT_Augment_TheBaronsLair",
+    "name": "Baron's Lair",
+    "description": "Gain a random Tank item. After scaling seconds of combat, your team gains scaling bonus Attack Damage and Ability Power every second for the rest of combat. TFT Paris Open, 2025"
+  },
+  {
+    "id": "tft-augment-belt-overflow",
+    "apiName": "TFT_Augment_BeltOverflow",
+    "name": "Belt Overflow",
+    "description": "Gain scaling Giant's Belts. Your Giant's Belts grant +scaling bonus Health."
+  },
+  {
+    "id": "tft-7-augment-best-friends1",
+    "apiName": "TFT7_Augment_BestFriends1",
+    "name": "Best Friends I",
+    "description": "Allies isolated in pairs gain scaling Attack Speed and scaling Armor and Magic Resist at the start of combat."
+  },
+  {
+    "id": "tft-7-augment-best-friends2",
+    "apiName": "TFT7_Augment_BestFriends2",
+    "name": "Best Friends II",
+    "description": "Allies isolated in pairs gain scaling Attack Speed and scaling Armor and Magic Resist at the start of combat."
+  },
+  {
+    "id": "tft-9-augment-big-grab-bag",
+    "apiName": "TFT9_Augment_BigGrabBag",
+    "name": "Big Grab Bag",
+    "description": "Gain scaling random components, scaling gold, and 1 Reforger. Reforgers allow you to remake any item."
+  },
+  {
+    "id": "tft-7-augment-birthday-presents",
+    "apiName": "TFT7_Augment_BirthdayPresents",
+    "name": "Birthday Present",
+    "description": "Gain a 2-star champion and scaling gold every time you level up. The champion's cost tier is your level minus 4 (max: 5-cost)."
+  },
+  {
+    "id": "tft-augment-birthday-reunion",
+    "apiName": "TFT_Augment_BirthdayReunion",
+    "name": "Birthday Reunion",
+    "description": "Gain scaling gold. At Level scaling, gain a random 2-star 2-cost champion. At Level scaling, gain a Thief's Gloves. At Level scaling, gain a random 2-star 5-cost champion. Inkborn Fables Tactician's Crown, 2024"
+  },
+  {
+    "id": "tft-augment-the-darkin-blade",
+    "apiName": "TFT_Augment_TheDarkinBlade",
+    "name": "Blood Offering",
+    "description": "Gain a Bloodthirster. Combat start: Allies holding Bloodthirsters lose scaling Health but gain a scaling Health shield and scaling Attack Damage and Ability Power."
+  },
+  {
+    "id": "tft-17-augment-evelynn-god-augment-blood-price",
+    "apiName": "TFT17_Augment_EvelynnGodAugment_BloodPrice",
+    "name": "Blood Price",
+    "description": "Gain scaling Tactician Health. Your rightmost shop slot costs Tactician Health instead of gold."
+  },
+  {
+    "id": "tft-augment-bodyguard-training",
+    "apiName": "TFT_Augment_BodyguardTraining",
+    "name": "Bodyguard Training",
+    "description": "Allies gain scaling Armor and Magic Resist, increased by scaling per player level. Gizmos & Gadgets Championship, 2022"
+  },
+  {
+    "id": "tft-17-augment-nasus-carry",
+    "apiName": "TFT17_Augment_NasusCarry",
+    "name": "Bonk!",
+    "description": "Gain a Nasus. Your strongest Nasus becomes an Attack Fighter with a single target Ability that gets stronger with each kill."
+  },
+  {
+    "id": "tft-17-augment-aurelion-sol-god-augment-boon-of-resurrection",
+    "apiName": "TFT17_Augment_AurelionSolGodAugment_BoonOfResurrection",
+    "name": "Boon of Resurrection",
+    "description": "The first time you would be eliminated, instead remain at 1 Health"
+  },
+  {
+    "id": "tft-17-augment-kayle-god-augment-scrapper",
+    "apiName": "TFT17_Augment_KayleGodAugment_Scrapper",
+    "name": "Boon of the Scrapper",
+    "description": "Combat start: Up to scaling components temporarily turn into completed items. Gain scaling removers and a salvager. Salvagers allow you to break completed items into components"
+  },
+  {
+    "id": "tft-augment-booster-pack",
+    "apiName": "TFT_Augment_BoosterPack",
+    "name": "Booster Pack",
+    "description": "Gain scaling gold of random champions. (At least one scaling-cost guaranteed!) (Each champion has a small chance of being holographic!)"
+  },
+  {
+    "id": "tft-augment-booster-pack-plus",
+    "apiName": "TFT_Augment_BoosterPackPlus",
+    "name": "Booster Pack+",
+    "description": "Gain scaling gold of random champions. (At least one scaling-cost guaranteed!) (Each champion has a small chance of being holographic!)"
+  },
+  {
+    "id": "tft-augment-booster-pack-plus-plus",
+    "apiName": "TFT_Augment_BoosterPackPlusPlus",
+    "name": "Booster Pack++",
+    "description": "Gain scaling gold of random champions. (At least one scaling-cost guaranteed!) (Each champion has a small chance of being holographic!)"
+  },
+  {
+    "id": "tft-augment-boxing-lessons",
+    "apiName": "TFT_Augment_BoxingLessons",
+    "name": "Boxing Lessons",
+    "description": "Your team gains scaling Health for each ally that starts combat in the front row."
+  },
+  {
+    "id": "tft-augment-branching-out",
+    "apiName": "TFT_Augment_BranchingOut",
+    "name": "Branching Out",
+    "description": "Gain a random Emblem."
+  },
+  {
+    "id": "tft-augment-branching-out-plus",
+    "apiName": "TFT_Augment_BranchingOutPlus",
+    "name": "Branching Out+",
+    "description": "Gain a random Emblem and a Reforger. Reforgers allow you to remake any item."
+  },
+  {
+    "id": "tft-augment-bronze-for-life-i",
+    "apiName": "TFT_Augment_BronzeForLifeI",
+    "name": "Bronze For Life I",
+    "description": "Your team gains scaling Damage Amp for each Bronze-tier trait. Damage Amp Bonus: scaling"
+  },
+  {
+    "id": "tft-augment-bronze-for-life2",
+    "apiName": "TFT_Augment_BronzeForLife2",
+    "name": "Bronze For Life II",
+    "description": "Your team gains scaling Damage Amp and scaling Armor and Magic Resist for each Bronze-tier trait. Damage Amp: scaling Armor and Magic Resist: scaling"
+  },
+  {
+    "id": "tft-11-augment-buildabud",
+    "apiName": "TFT11_Augment_Buildabud",
+    "name": "Build a Bud",
+    "description": "Gain a random 3-star 1-cost champion. Gain scaling gold."
+  },
+  {
+    "id": "tft-9-augment-building-acollection-plus-plus",
+    "apiName": "TFT9_Augment_BuildingACollectionPlusPlus",
+    "name": "Buried Treasures",
+    "description": "Gain a random item component now and at the start of the next scaling rounds."
+  },
+  {
+    "id": "tft-6-augment-calculated-loss",
+    "apiName": "TFT6_Augment_CalculatedLoss",
+    "name": "Calculated Loss",
+    "description": "After losing your combat, gain scaling gold and a free Shop reroll."
+  },
+  {
+    "id": "tft-11-augment-calltochaos",
+    "apiName": "TFT11_Augment_Calltochaos",
+    "name": "Call to Chaos",
+    "description": "Gain a powerful and random reward. Reward: scaling"
+  },
+  {
+    "id": "tft-augment-home-cooking",
+    "apiName": "TFT_Augment_HomeCooking",
+    "name": "Care Package",
+    "description": "Now and at the start of the next scaling Stages, receive a care package with loot and scaling gold."
+  },
+  {
+    "id": "tft-9-augment-bard-playbook1",
+    "apiName": "TFT9_Augment_BardPlaybook1",
+    "name": "Caretaker's Ally",
+    "description": "Gain a random scaling-cost champion now. Gain the same one again every time you level up. Champion: scaling"
+  },
+  {
+    "id": "tft-augment-component-quest-sword",
+    "apiName": "TFT_Augment_ComponentQuestSword",
+    "name": "Carve a Path",
+    "description": "Gain a B.F. Sword. After your team deals scaling physical damage, gain scaling more. Damage dealt: scaling"
+  },
+  {
+    "id": "tft-augment-charge-transfer1",
+    "apiName": "TFT_Augment_ChargeTransfer1",
+    "name": "Charge Transfer I",
+    "description": "Your team gains scaling Damage Amp. scaling of overkill damage is dealt to the nearest enemy as magic damage."
+  },
+  {
+    "id": "tft-augment-charge-transfer2",
+    "apiName": "TFT_Augment_ChargeTransfer2",
+    "name": "Charge Transfer II",
+    "description": "Your team gains scaling Damage Amp. scaling of overkill damage is dealt to the nearest enemy as magic damage."
+  },
+  {
+    "id": "tft-6-augment-clear-mind",
+    "apiName": "TFT6_Augment_ClearMind",
+    "name": "Clear Mind",
+    "description": "If there are no champions on your bench at the end of player combat, gain scaling XP."
+  },
+  {
+    "id": "tft-augment-climb-the-ladder1",
+    "apiName": "TFT_Augment_ClimbTheLadder1",
+    "name": "Climb The Ladder I",
+    "description": "Each time an ally dies, allies that share at least one trait with them gain scaling Ability Power, scaling Attack Damage, scaling Armor, and scaling Magic Resist."
+  },
+  {
+    "id": "tft-augment-climb-the-ladder2",
+    "apiName": "TFT_Augment_ClimbTheLadder2",
+    "name": "Climb The Ladder II",
+    "description": "Each time an ally dies, allies that share at least one trait with them gain scaling Ability Power, scaling Attack Damage, scaling Armor, and scaling Magic Resist."
+  },
+  {
+    "id": "tft-augment-clockwork-accelerator",
+    "apiName": "TFT_Augment_ClockworkAccelerator",
+    "name": "Clockwork Accelerator",
+    "description": "Your team gains scaling Attack Speed every scaling seconds in combat."
+  },
+  {
+    "id": "tft-7-augment-cluttered-mind",
+    "apiName": "TFT7_Augment_ClutteredMind",
+    "name": "Cluttered Mind",
+    "description": "Gain scaling random 1-cost champions now. If your bench is full at the end of player combat, gain scaling XP."
+  },
+  {
+    "id": "tft-augment-cognitive-overload",
+    "apiName": "TFT_Augment_CognitiveOverload",
+    "name": "Cognitive Overload",
+    "description": "Gain scaling gold, scaling 2-star 1-cost champion, scaling 2-cost champion, scaling 3-cost champions, scaling XP, and scaling Shop reroll."
+  },
+  {
+    "id": "tft-augment-cognitive-tax",
+    "apiName": "TFT_Augment_CognitiveTax",
+    "name": "Cognitive Tax",
+    "description": "Gain scaling gold and scaling XP."
+  },
+  {
+    "id": "tft-augment-cognitive-tax-plus",
+    "apiName": "TFT_Augment_CognitiveTaxPlus",
+    "name": "Cognitive Tax+",
+    "description": "Gain scaling gold and scaling XP."
+  },
+  {
+    "id": "tft-augment-comeback-story",
+    "apiName": "TFT_Augment_ComebackStory",
+    "name": "Comeback Story",
+    "description": "Your team gains scaling Health and scaling Attack Speed per missing player Health. scaling"
+  },
+  {
+    "id": "tft-6-augment-trade-sector2",
+    "apiName": "TFT6_Augment_TradeSector2",
+    "name": "Commerce Core",
+    "description": "Gain scaling free Shop rerolls now and scaling every round for the rest of the game."
+  },
+  {
+    "id": "tft-augment-museum-heist",
+    "apiName": "TFT_Augment_MuseumHeist",
+    "name": "Component Heist",
+    "description": "After scaling player combats, gain 1 of every item component. Gain a random component now. scaling scaling"
+  },
+  {
+    "id": "tft-17-augment-concentration",
+    "apiName": "TFT17_Augment_Concentration",
+    "name": "Concentration",
+    "description": "Conduit Abilities last scaling to scaling longer, depending on the Ability. Gain a Zoe and a Mordekaiser."
+  },
+  {
+    "id": "tft-augment-construct-acompanion",
+    "apiName": "TFT_Augment_ConstructACompanion",
+    "name": "Construct a Companion",
+    "description": "The next 1-cost champion you buy is 3-star. Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-component-quest-rod",
+    "apiName": "TFT_Augment_ComponentQuestRod",
+    "name": "Continuous Conjuration",
+    "description": "Gain a Needlessly Large Rod. After your team deals scaling magic damage, gain scaling more. Damage dealt: scaling"
+  },
+  {
+    "id": "tft-17-augment-pyke-carry",
+    "apiName": "TFT17_Augment_PykeCarry",
+    "name": "Contract Killer",
+    "description": "Gain a Pyke. Your strongest Pyke becomes an Attack Fighter, generates gold on team takedown, and gains a reset on-kill Ability."
+  },
+  {
+    "id": "tft-augment-corrosion",
+    "apiName": "TFT_Augment_Corrosion",
+    "name": "Corrosion",
+    "description": "Enemies in the first two rows lose scaling Armor and Magic Resist every scaling seconds."
+  },
+  {
+    "id": "tft-augment-cosmic-restart",
+    "apiName": "TFT_Augment_CosmicRestart",
+    "name": "Cosmic Restart",
+    "description": "Call upon the Gods to sell all units on your board and bench. Gain scaling random Emblems and scaling free Shop rerolls."
+  },
+  {
+    "id": "tft-augment-crafted-crafting",
+    "apiName": "TFT_Augment_CraftedCrafting",
+    "name": "Crafted Crafting",
+    "description": "Whenever you craft a completed item, gain scaling rerolls."
+  },
+  {
+    "id": "tft-10-augment-crash-test-dummies",
+    "apiName": "TFT10_Augment_CrashTestDummies",
+    "name": "Crash Test Dummies",
+    "description": "Gain scaling Training Dummies. Combat start: Your Training Dummies launch themselves towards a group of enemies and Stun them for scaling seconds."
+  },
+  {
+    "id": "tft-augment-cry-me-ariver",
+    "apiName": "TFT_Augment_CryMeARiver",
+    "name": "Cry Me A River",
+    "description": "Gain a Tear of the Goddess. Your team gains scaling Mana Regen. After scaling seconds in combat, increase this to scaling."
+  },
+  {
+    "id": "tft-7-augment-cursed-crown",
+    "apiName": "TFT7_Augment_CursedCrown",
+    "name": "Cursed Crown",
+    "description": "Gain +scaling max team size and your team gains scaling Durability, but you take double player damage when you lose a player combat."
+  },
+  {
+    "id": "tft-6-augment-cybernetic-implants2",
+    "apiName": "TFT6_Augment_CyberneticImplants2",
+    "name": "Cybernetic Implants",
+    "description": "Allies holding an item gain scaling Health and scaling Attack Damage. Gain a B.F. Sword."
+  },
+  {
+    "id": "tft-6-augment-cybernetic-uplink2",
+    "apiName": "TFT6_Augment_CyberneticUplink2",
+    "name": "Cybernetic Uplink",
+    "description": "Allies holding an item gain scaling Health and scaling Mana Regen. Gain a Tear of the Goddess."
+  },
+  {
+    "id": "tft-augment-tragical-blade",
+    "apiName": "TFT_Augment_TragicalBlade",
+    "name": "Deadlier Blades",
+    "description": "Gain a Deathblade. Deathblades permanently gain scaling Attack Damage whenever their holders score a takedown."
+  },
+  {
+    "id": "tft-augment-deadlier-caps",
+    "apiName": "TFT_Augment_DeadlierCaps",
+    "name": "Deadlier Caps",
+    "description": "Gain a Rabadon's Deathcap. Rabadon's Deathcaps grant scaling Mana Regen and permanently gain scaling Ability Power whenever their holders score a takedown."
+  },
+  {
+    "id": "tft-17-augment-arbiter-divine-amendment",
+    "apiName": "TFT17_Augment_Arbiter_DivineAmendment",
+    "name": "Divine Amendment",
+    "description": "Arbiters add a second effect to their law. Gain a Leona and a Zoe."
+  },
+  {
+    "id": "tft-augment-dummify",
+    "apiName": "TFT_Augment_Dummify",
+    "name": "Dummify",
+    "description": "Lose all champions on your board and bench. Gain a Training Dummy with scaling of their combined Health. The Training Dummy gains scaling Health per stage. Gain a non-Tank 2-star scaling-cost champion."
+  },
+  {
+    "id": "tft-augment-duo-queue",
+    "apiName": "TFT_Augment_DuoQueue",
+    "name": "Duo Queue",
+    "description": "Gain scaling random 5-cost champions and scaling copies of a random component."
+  },
+  {
+    "id": "tft-augment-early-learning",
+    "apiName": "TFT_Augment_EarlyLearning",
+    "name": "Early Learnings",
+    "description": "Your team gains scaling Attack Damage & Ability Power. This increases by scaling after each player combat. 1-cost champions gain double. scaling TFT Vegas Open, 2023"
+  },
+  {
+    "id": "tft-17-augment-ekko-god-augment",
+    "apiName": "TFT17_Augment_EkkoGodAugment",
+    "name": "Ekko's Boon",
+    "description": "Gain the Anomaly, an item which grants units a powerful evolution depending on their role. Gain scaling Magnetic Removers."
+  },
+  {
+    "id": "tft-6-augment-electrocharge1",
+    "apiName": "TFT6_Augment_Electrocharge1",
+    "name": "Electrocharge I",
+    "description": "Every scaling attacks an ally takes, they deal scaling-scaling (based on current Stage) magic damage to nearby enemies (scaling second cooldown)."
+  },
+  {
+    "id": "tft-6-augment-electrocharge2",
+    "apiName": "TFT6_Augment_Electrocharge2",
+    "name": "Electrocharge II",
+    "description": "Every scaling attacks an ally takes, they deal scaling-scaling (based on current Stage) magic damage to nearby enemies (scaling second cooldown)."
+  },
+  {
+    "id": "tft-augment-epic-rolldown",
+    "apiName": "TFT_Augment_EpicRolldown",
+    "name": "Epic Rolldown",
+    "description": "When you reach Level 8, gain scaling Shop rerolls. Runeterra Reforged Championship, 2023"
+  },
+  {
+    "id": "tft-11-augment-epoch",
+    "apiName": "TFT11_Augment_Epoch",
+    "name": "Epoch",
+    "description": "Now, and at the start of every stage, gain scaling XP and scaling free rerolls."
+  },
+  {
+    "id": "tft-11-augment-epoch-plus",
+    "apiName": "TFT11_Augment_EpochPlus",
+    "name": "Epoch+",
+    "description": "Now, and at the start of every stage, gain scaling XP and scaling free rerolls."
+  },
+  {
+    "id": "tft-17-augment-evelynn-god-augment",
+    "apiName": "TFT17_Augment_EvelynnGodAugment",
+    "name": "Evelynn's Boon",
+    "description": "Your team gains scaling Durability. Lose an additional scaling Tactician Health when you lose combat."
+  },
+  {
+    "id": "tft-augment-exclusive-customization",
+    "apiName": "TFT_Augment_ExclusiveCustomization",
+    "name": "Exclusive Customization",
+    "description": "Gain a Lucky Item Chest, a Magnetic Remover, and scaling gold. Use a Lucky Item Chest on a champion to choose from an armory of recommended items!"
+  },
+  {
+    "id": "tft-augment-exclusive-customization2",
+    "apiName": "TFT_Augment_ExclusiveCustomization2",
+    "name": "Exclusive Customization II",
+    "description": "Gain scaling Lucky Item Chests, a Magnetic Remover, and scaling gold. Use a Lucky Item Chest on a champion to choose from an armory of recommended items!"
+  },
+  {
+    "id": "tft-6-augment-distancing",
+    "apiName": "TFT6_Augment_Distancing",
+    "name": "Exiles I",
+    "description": "Your champions that start combat with no adjacent champions gain a scaling max Health shield for scaling seconds."
+  },
+  {
+    "id": "tft-6-augment-distancing2",
+    "apiName": "TFT6_Augment_Distancing2",
+    "name": "Exiles II",
+    "description": "Your champions that start combat with no adjacent champions gain a scaling max Health shield for scaling seconds."
+  },
+  {
+    "id": "tft-augment-expected-unexpectedness",
+    "apiName": "TFT_Augment_ExpectedUnexpectedness",
+    "name": "Expected Unexpectedness",
+    "description": "Now and at the start of the next scaling stages, roll 3 dice. Gain various rewards based on their total."
+  },
+  {
+    "id": "tft-augment-expedition",
+    "apiName": "TFT_Augment_Expedition",
+    "name": "Expedition",
+    "description": "At the start of every round, lose the champion in the rightmost bench slot. After losing scaling gold of champions in this way, gain a powerful reward. Gain a 3-cost champion now. scaling"
+  },
+  {
+    "id": "tft-augment-explosive-growth",
+    "apiName": "TFT_Augment_ExplosiveGrowth",
+    "name": "Explosive Growth",
+    "description": "Now and at the start of the next scaling rounds, gain scaling XP."
+  },
+  {
+    "id": "tft-augment-explosive-growth-plus",
+    "apiName": "TFT_Augment_ExplosiveGrowthPlus",
+    "name": "Explosive Growth+",
+    "description": "Now and at the start of the next scaling rounds, gain scaling XP."
+  },
+  {
+    "id": "tft-augment-feed-the-flames",
+    "apiName": "TFT_Augment_FeedTheFlames",
+    "name": "Feed the Flames",
+    "description": "Gain a Sunfire Cape. Your team gains scaling Omnivamp when attacking Burning enemies."
+  },
+  {
+    "id": "tft-augment-feeling-lucky",
+    "apiName": "TFT_Augment_FeelingLucky",
+    "name": "Feeling Lucky",
+    "description": "Gain scaling gold, then flip a coin. If heads, gain scaling more gold. scaling"
+  },
+  {
+    "id": "tft-augment-find-your-center",
+    "apiName": "TFT_Augment_FindYourCenter",
+    "name": "Find Your Center",
+    "description": "Your champion that starts combat in the center of the front row gains scaling Damage Amp and scaling max Health."
+  },
+  {
+    "id": "tft-augment-firesale-plus",
+    "apiName": "TFT_Augment_FiresalePlus",
+    "name": "Firesale",
+    "description": "Each round, steal a random scaling-cost or lower champion from the shop. Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-flexible",
+    "apiName": "TFT_Augment_Flexible",
+    "name": "Flexible",
+    "description": "Gain scaling random Emblem. At the start of every Stage, gain a random Emblem. Your team gains scaling Health for each Emblem they are holding."
+  },
+  {
+    "id": "tft-augment-component-quest-tear",
+    "apiName": "TFT_Augment_ComponentQuestTear",
+    "name": "Flowing Tears",
+    "description": "Gain a Tear of the Goddess. After your team spends scaling Mana, gain scaling more. Mana spent: scaling"
+  },
+  {
+    "id": "tft-augment-marks-man",
+    "apiName": "TFT_Augment_MarksMan",
+    "name": "Focused Fire",
+    "description": "Your team gains scaling Attack Damage. Every scaling seconds, they gain scaling more."
+  },
+  {
+    "id": "tft-augment-forge-afriend",
+    "apiName": "TFT_Augment_ForgeAFriend",
+    "name": "Forge a Friend",
+    "description": "The next 1-cost champion you buy is 3-star. Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-forged-in-strength",
+    "apiName": "TFT_Augment_ForgedInStrength",
+    "name": "Forged in Strength",
+    "description": "Gain scaling random Artifact. When you drop below scaling Health, gain scaling more random Artifacts. Remix Rumble Championship, 2023"
+  },
+  {
+    "id": "tft-augment-forward-thinking",
+    "apiName": "TFT_Augment_ForwardThinking",
+    "name": "Forward Thinking",
+    "description": "Lose all your gold. After scaling player combats, gain back the original amount and another scaling gold. Incoming Gold: scaling"
+  },
+  {
+    "id": "tft-augment-frontline-foundation",
+    "apiName": "TFT_Augment_FrontlineFoundation",
+    "name": "Frontline Foundation",
+    "description": "Gain a 2-star 1-cost Tank champion and an Emblem that matches their last-listed trait."
+  },
+  {
+    "id": "tft-augment-gain-gold",
+    "apiName": "TFT_Augment_GainGold",
+    "name": "Gain Gold",
+    "description": "Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-giant-and-mighty",
+    "apiName": "TFT_Augment_GiantAndMighty",
+    "name": "Giant and Mighty",
+    "description": "Your team becomes large, gaining scaling Health and scaling max Health."
+  },
+  {
+    "id": "tft-augment-gilded-steel",
+    "apiName": "TFT_Augment_GildedSteel",
+    "name": "Gilded Steel",
+    "description": "Gain scaling non-Tank 5-cost champions. If you field at least one 5-cost champion, your 1 to 4-cost champions gain scaling Durability. K.O. Coliseum Tactician's Crown, 2025"
+  },
+  {
+    "id": "tft-augment-glass-cannon-i",
+    "apiName": "TFT_Augment_GlassCannonI",
+    "name": "Glass Cannon I",
+    "description": "Allies that start combat in the back row begin combat at scaling Health but gain scaling Damage Amp."
+  },
+  {
+    "id": "tft-augment-glass-cannon-ii",
+    "apiName": "TFT_Augment_GlassCannonII",
+    "name": "Glass Cannon II",
+    "description": "Allies that start combat in the back row begin combat at scaling Health but gain scaling Damage Amp."
+  },
+  {
+    "id": "tft-10-augment-going-long",
+    "apiName": "TFT10_Augment_GoingLong",
+    "name": "Going Long",
+    "description": "You no longer gain interest. Gain scaling gold now. Round start: gain scaling XP. Interest is extra gold you gain per 10g saved."
+  },
+  {
+    "id": "tft-augment-golden-gamble",
+    "apiName": "TFT_Augment_GoldenGamble",
+    "name": "Golden Gamble",
+    "description": "Gain scaling gold and flip a coin. If heads, gain a Radiant Lucky Item Chest. If tails, gain scaling Completed item anvils. scaling"
+  },
+  {
+    "id": "tft-augment-golden-gamble-plus",
+    "apiName": "TFT_Augment_GoldenGamblePlus",
+    "name": "Golden Gamble+",
+    "description": "Gain scaling gold and flip a coin. If heads, gain a Radiant Lucky Item Chest. If tails, gain scaling Completed item anvils. scaling"
+  },
+  {
+    "id": "tft-augment-golden-gamble-plus-plus",
+    "apiName": "TFT_Augment_GoldenGamblePlusPlus",
+    "name": "Golden Gamble++",
+    "description": "Gain scaling gold and flip a coin. If heads, gain a Radiant Lucky Item Chest. If tails, gain scaling Completed item anvils. scaling"
+  },
+  {
+    "id": "tft-10-augment-good-for-something-silver",
+    "apiName": "TFT10_Augment_GoodForSomethingSilver",
+    "name": "Good For Something I",
+    "description": "Champions that aren't holding items have a scaling chance to drop scaling gold on death."
+  },
+  {
+    "id": "tft-augment-group-hug1",
+    "apiName": "TFT_Augment_GroupHug1",
+    "name": "Group Hug I",
+    "description": "Combat start: Allies grant other adjacent allies scaling Armor and Magic Resist. This effect stacks."
+  },
+  {
+    "id": "tft-augment-group-hug2",
+    "apiName": "TFT_Augment_GroupHug2",
+    "name": "Group Hug II",
+    "description": "Combat start: Allies grant other adjacent allies scaling Armor and Magic Resist. This effect stacks."
+  },
+  {
+    "id": "tft-augment-hard-commit",
+    "apiName": "TFT_Augment_HardCommit",
+    "name": "Hard Commit",
+    "description": "Gain a random Emblem. Now and at the start of each Stage, gain a 1-star champion of that trait with a cost equal to the Stage (max 5) and scaling gold."
+  },
+  {
+    "id": "tft-9-augment-healing-orbs-i",
+    "apiName": "TFT9_Augment_HealingOrbsI",
+    "name": "Healing Orbs I",
+    "description": "When an enemy dies, the nearest ally is healed for scaling."
+  },
+  {
+    "id": "tft-9-augment-healing-orbs-ii",
+    "apiName": "TFT9_Augment_HealingOrbsII",
+    "name": "Healing Orbs II",
+    "description": "When an enemy dies, the nearest ally is healed for scaling."
+  },
+  {
+    "id": "tft-augment-warmogs-buckle",
+    "apiName": "TFT_Augment_WarmogsBuckle",
+    "name": "Heart of Steel",
+    "description": "Gain a Steadfast Heart. Every scaling seconds of combat its holder survives, Steadfast Heart gains additional scaling permanent max Health."
+  },
+  {
+    "id": "tft-17-augment-primordian-prismatic-augment",
+    "apiName": "TFT17_Augment_PrimordianPrismaticAugment",
+    "name": "Heart of the Swarm",
+    "description": "All 3-star champions now count towards Swarmling power. At level scaling, while fielding scaling unique 3-star champions, Primordians summon the Apex Primordian. Gain 3 Primordian Champions and 2 Tiny Duplicators. Unique 3-Star Champions Fielded: scaling / scaling Levels: scaling / scaling"
+  },
+  {
+    "id": "tft-17-augment-mordekaiser-carry",
+    "apiName": "TFT17_Augment_MordekaiserCarry",
+    "name": "Heat Death",
+    "description": "Gain a Mordekaiser. Your strongest Mordkaiser becomes a Magic Fighter with a slowly growing aura that deals damage over time."
+  },
+  {
+    "id": "tft-augment-heavy-is-the-crown",
+    "apiName": "TFT_Augment_HeavyIsTheCrown",
+    "name": "Heavy Is the Crown",
+    "description": "Gain a Crown of Demacia, which provides significant bonuses to the wearer. If the holder dies, lose the round."
+  },
+  {
+    "id": "tft-9-augment-hedge-fund",
+    "apiName": "TFT9_Augment_HedgeFund",
+    "name": "Hedge Fund",
+    "description": "Gain scaling gold. Your max interest is increased to scaling. Interest is extra gold you gain per 10g saved."
+  },
+  {
+    "id": "tft-9-augment-hedge-fund-plus",
+    "apiName": "TFT9_Augment_HedgeFundPlus",
+    "name": "Hedge Fund+",
+    "description": "Gain scaling gold. Your max interest is increased to scaling. Interest is extra gold you gain per 10g saved."
+  },
+  {
+    "id": "tft-10-augment-heroic-grab-bag",
+    "apiName": "TFT10_Augment_HeroicGrabBag",
+    "name": "Heroic Grab Bag",
+    "description": "Gain scaling Lesser Champion Duplicators and scaling gold. This item allows you to copy a 3-cost or less champion."
+  },
+  {
+    "id": "tft-augment-heroic-grab-bag-plus",
+    "apiName": "TFT_Augment_HeroicGrabBagPlus",
+    "name": "Heroic Grab Bag+",
+    "description": "Gain scaling Lesser Champion Duplicators and scaling gold. This item allows you to copy a 3-cost or less champion."
+  },
+  {
+    "id": "tft-augment-heroic-grab-bag-plus-plus",
+    "apiName": "TFT_Augment_HeroicGrabBagPlusPlus",
+    "name": "Heroic Grab Bag++",
+    "description": "Gain scaling Lesser Champion Duplicators and scaling gold. This item allows you to copy a 3-cost or less champion."
+  },
+  {
+    "id": "tft-augment-high-voltage",
+    "apiName": "TFT_Augment_HighVoltage",
+    "name": "High Voltage",
+    "description": "Gain an Ionic Spark. Your Ionic Sparks have +scaling hex radius and do scaling more damage."
+  },
+  {
+    "id": "tft-augment-hold-the-line",
+    "apiName": "TFT_Augment_HoldTheLine",
+    "name": "Hold the Line",
+    "description": "Allies in your back 2 rows gain scaling Ability Power and scaling Attack Damage for each ally that starts combat in your front row."
+  },
+  {
+    "id": "tft-6-augment-hyper-roll",
+    "apiName": "TFT6_Augment_HyperRoll",
+    "name": "Hustler",
+    "description": "You no longer gain interest but gain scaling gold at the start of every player combat round. Gain scaling gold now. Interest is extra gold you gain per 10g saved."
+  },
+  {
+    "id": "tft-augment-just-slayer",
+    "apiName": "TFT_Augment_JustSlayer",
+    "name": "Indiscriminate Killer",
+    "description": "Gain a Giant Slayer. Giant Slayers gain their Damage Amp against all enemies instead of just Tanks."
+  },
+  {
+    "id": "tft-augment-infinity-protection",
+    "apiName": "TFT_Augment_InfinityProtection",
+    "name": "Infinity Protection",
+    "description": "Gain scaling gold now. On Stage 3-7, gain an Infinity Force. Infinity Force gives allies in the same row a scaling Health shield. Monsters Attack Championship, 2023"
+  },
+  {
+    "id": "tft-augment-invested-plus",
+    "apiName": "TFT_Augment_InvestedPlus",
+    "name": "Invested+",
+    "description": "Gain scaling gold. After every combat, gain 1 Shop reroll for every scaling gold above scaling (max scaling gold)."
+  },
+  {
+    "id": "tft-augment-invested-plus-plus",
+    "apiName": "TFT_Augment_InvestedPlusPlus",
+    "name": "Invested++",
+    "description": "Gain scaling gold. After every combat, gain 1 Shop reroll for every scaling gold above scaling (max scaling gold)."
+  },
+  {
+    "id": "tft-9-augment-iron-assets",
+    "apiName": "TFT9_Augment_IronAssets",
+    "name": "Iron Assets",
+    "description": "Gain a component anvil and scaling gold."
+  },
+  {
+    "id": "tft-6-augment-item-grab-bag1",
+    "apiName": "TFT6_Augment_ItemGrabBag1",
+    "name": "Item Grab Bag",
+    "description": "Gain scaling random completed item."
+  },
+  {
+    "id": "tft-9-augment-jeweled-lotus",
+    "apiName": "TFT9_Augment_JeweledLotus",
+    "name": "Jeweled Lotus I",
+    "description": "Your team gains scaling Critical Strike Chance and Precision."
+  },
+  {
+    "id": "tft-9-augment-greater-jeweled-lotus",
+    "apiName": "TFT9_Augment_GreaterJeweledLotus",
+    "name": "Jeweled Lotus II",
+    "description": "Your team gains scaling Critical Strike Chance, scaling Critical Strike Damage, and Precision."
+  },
+  {
+    "id": "tft-augment-furious-blows",
+    "apiName": "TFT_Augment_FuriousBlows",
+    "name": "Kahunahuna",
+    "description": "Every scalingth attack deals bonus true damage equal to scaling Basic Attack Damage."
+  },
+  {
+    "id": "tft-17-augment-kayle-god-augment",
+    "apiName": "TFT17_Augment_KayleGodAugment",
+    "name": "Kayle's Boon",
+    "description": "For each unique completed item on your team, your team gains scaling Health, scaling Attack Damage, and scaling Ability Power."
+  },
+  {
+    "id": "tft-augment-kick-start",
+    "apiName": "TFT_Augment_KickStart",
+    "name": "Kick Start",
+    "description": "Gain a random 2-star 2-cost champion and scaling gold."
+  },
+  {
+    "id": "tft-augment-late-game-scaling",
+    "apiName": "TFT_Augment_LateGameScaling",
+    "name": "Late Game Scaling",
+    "description": "Gain scaling XP at the start of player combat rounds. Your 5-cost champions gain scaling Health and scaling Attack Speed. Cyber City Tactician's Crown, 2025"
+  },
+  {
+    "id": "tft-7-augment-lategame-specialist",
+    "apiName": "TFT7_Augment_LategameSpecialist",
+    "name": "Late Game Specialist",
+    "description": "When you reach Level scaling, gain scaling gold."
+  },
+  {
+    "id": "tft-9-augment-long-time-crafting",
+    "apiName": "TFT9_Augment_LongTimeCrafting",
+    "name": "Latent Forge",
+    "description": "After scaling player combats, gain an Artifact anvil. The anvil offers 4 choices. Artifacts are more powerful items with a unique effect."
+  },
+  {
+    "id": "tft-augment-legion-of-threes",
+    "apiName": "TFT_Augment_LegionOfThrees",
+    "name": "Legion of Threes",
+    "description": "Gain a random Emblem. Your 3-cost champions and all allies equipped with an Emblem gain scaling Health and scaling Attack Speed. Reckoning Championship, 2021"
+  },
+  {
+    "id": "tft-6-augment-max-level10",
+    "apiName": "TFT6_Augment_MaxLevel10",
+    "name": "Level Up!",
+    "description": "When you buy XP, gain an additional scaling. Gain scaling immediately."
+  },
+  {
+    "id": "tft-augment-lineup",
+    "apiName": "TFT_Augment_Lineup",
+    "name": "Lineup",
+    "description": "Your team gains scaling Armor and Magic Resist for each ally that starts combat in the front two rows."
+  },
+  {
+    "id": "tft-10-augment-little-buddies",
+    "apiName": "TFT10_Augment_LittleBuddies",
+    "name": "Little Buddies",
+    "description": "Your 4-cost and 5-cost champions gain scaling Health and scaling Attack Speed for every 1-cost and 2-cost champion on your board. scaling"
+  },
+  {
+    "id": "tft-7-augment-living-forge",
+    "apiName": "TFT7_Augment_LivingForge",
+    "name": "Living Forge",
+    "description": "Gain an Artifact anvil now and after every scaling player combats. Artifacts are more powerful items with a unique effect."
+  },
+  {
+    "id": "tft-17-augment-dark-star-white-hole",
+    "apiName": "TFT17_Augment_DarkStar_WhiteHole",
+    "name": "Loot Singularity",
+    "description": "When the Black Hole consumes enemies, it turns them into space matter. After acquiring enough, the Black Hole turns it into loot! Gain a Cho'gath and a Lissandra. Space matter and loot quality increase each time. Gain scaling/scaling/scaling space matter depending on Dark Star breakpoint. Space Matter: scaling / scaling"
+  },
+  {
+    "id": "tft-7-augment-lucky-gloves",
+    "apiName": "TFT7_Augment_LuckyGloves",
+    "name": "Lucky Gloves",
+    "description": "Thief's Gloves will always give your champions ideal items. Gain scaling Sparring Gloves and scaling gold."
+  },
+  {
+    "id": "tft-7-augment-lucky-gloves-plus",
+    "apiName": "TFT7_Augment_LuckyGlovesPlus",
+    "name": "Lucky Gloves+",
+    "description": "Thief's Gloves will always give your champions recommended items. Gain scaling Sparring Gloves now, then another after scaling player combats."
+  },
+  {
+    "id": "tft-11-augment-blood-bank",
+    "apiName": "TFT11_Augment_BloodBank",
+    "name": "Lunch Money",
+    "description": "Every scaling damage you deal to enemy tacticians gives you scaling gold. Total Payouts: scaling Gold"
+  },
+  {
+    "id": "tft-augment-luxury-subscription",
+    "apiName": "TFT_Augment_LuxurySubscription",
+    "name": "Luxury Subscription",
+    "description": "Gain a package containing a 5-cost champion, a 2-star 1-cost champion, and scaling gold. At the start of the next scaling stages, gain the package again."
+  },
+  {
+    "id": "tft-augment-guardbreaker-spirit",
+    "apiName": "TFT_Augment_GuardbreakerSpirit",
+    "name": "Mace's Will",
+    "description": "Gain a Sparring Gloves. Your team gains scaling Critical Strike Chance."
+  },
+  {
+    "id": "tft-6-augment-makeshift-armor1",
+    "apiName": "TFT6_Augment_MakeshiftArmor1",
+    "name": "Makeshift Armor I",
+    "description": "Allies without items equipped gain scaling Armor and Magic Resist."
+  },
+  {
+    "id": "tft-6-augment-makeshift-armor2",
+    "apiName": "TFT6_Augment_MakeshiftArmor2",
+    "name": "Makeshift Armor II",
+    "description": "Allies without items equipped gain scaling Armor and Magic Resist."
+  },
+  {
+    "id": "tft-augment-mirrored-monetization",
+    "apiName": "TFT_Augment_MirroredMonetization",
+    "name": "Malicious Monetization",
+    "description": "Gain scaling gold. For the next scaling rounds, enemy champions drop scaling gold when killed. scaling"
+  },
+  {
+    "id": "tft-augment-may-the-fours-be-with-you",
+    "apiName": "TFT_Augment_MayTheFoursBeWithYou",
+    "name": "May the Fours Be With You",
+    "description": "Your 4-cost champions and Jhin gain scaling Health and scaling Attack Speed. Gain a Jhin."
+  },
+  {
+    "id": "tft-augment-min-maxer",
+    "apiName": "TFT_Augment_MinMaxer",
+    "name": "Min-Max",
+    "description": "Gain a Golden Item Remover and scaling random components. Golden Item Remover is a Magnetic Remover with infinite uses."
+  },
+  {
+    "id": "tft-augment-misfits",
+    "apiName": "TFT_Augment_Misfits",
+    "name": "Misfits",
+    "description": "Your team gains scaling Health for each active Unique trait. Gain a Rhaast and a Miss Fortune. scaling Unique traits belong to 1 champion and are shown in orange."
+  },
+  {
+    "id": "tft-9-augment-missed-connections",
+    "apiName": "TFT9_Augment_MissedConnections",
+    "name": "Missed Connections",
+    "description": "Gain a copy of each 1-cost champion."
+  },
+  {
+    "id": "tft-augment-money-hungry",
+    "apiName": "TFT_Augment_MoneyHungry",
+    "name": "Money Hungry",
+    "description": "Gain scaling gold now, then scaling gold at the start of every stage. Picking up gold makes your Tactician larger."
+  },
+  {
+    "id": "tft-augment-money-monsoon",
+    "apiName": "TFT_Augment_MoneyMonsoon",
+    "name": "Money Monsoon",
+    "description": "Gain scaling gold now and every round for the rest of the game."
+  },
+  {
+    "id": "tft-6-augment-force-of-nature",
+    "apiName": "TFT6_Augment_ForceOfNature",
+    "name": "New Recruit",
+    "description": "Gain +scaling max team size and scaling four-cost champion."
+  },
+  {
+    "id": "tft-6-augment-force-of-nature-plus",
+    "apiName": "TFT6_Augment_ForceOfNaturePlus",
+    "name": "New Recruit+",
+    "description": "Gain +scaling max team size and scaling four-cost champions."
+  },
+  {
+    "id": "tft-augment-no-scout-no-pivot",
+    "apiName": "TFT_Augment_NoScoutNoPivot",
+    "name": "NO SCOUT NO PIVOT",
+    "description": "Champions that fight in player combat cannot be benched or sold. Your team gains scaling Health, and scaling Attack Damage and Ability Power after player combat. scaling"
+  },
+  {
+    "id": "tft-augment-waverider",
+    "apiName": "TFT_Augment_Waverider",
+    "name": "On a Roll",
+    "description": "Whenever you star up a champion that you fielded last combat, gain scaling free Shop rerolls. Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-one-buff-two-buff",
+    "apiName": "TFT_Augment_OneBuffTwoBuff",
+    "name": "One Buff, Two Buff",
+    "description": "Gain a Red Buff, a Blue Buff, and a Champion Duplicator."
+  },
+  {
+    "id": "tft-9-augment-one-twos-three",
+    "apiName": "TFT9_Augment_OneTwosThree",
+    "name": "One Two Three",
+    "description": "Gain scaling 1-cost champion, scaling 2-cost champion, and 1 3-cost champion."
+  },
+  {
+    "id": "tft-6-augment-one-two-five",
+    "apiName": "TFT6_Augment_OneTwoFive",
+    "name": "One, Two, Five!",
+    "description": "Gain scaling random component, scaling gold, and scaling random 5-cost champion."
+  },
+  {
+    "id": "tft-6-augment-pandoras-items",
+    "apiName": "TFT6_Augment_PandorasItems",
+    "name": "Pandora's Items",
+    "description": "Round start: items on your bench are randomized. Gain scaling random component."
+  },
+  {
+    "id": "tft-9-augment-pandoras-items2",
+    "apiName": "TFT9_Augment_PandorasItems2",
+    "name": "Pandora's Items II",
+    "description": "Round start: items on your bench are randomized. Gain scaling random components."
+  },
+  {
+    "id": "tft-9-augment-pandoras-radiant-box",
+    "apiName": "TFT9_Augment_PandorasRadiantBox",
+    "name": "Pandora's Items III",
+    "description": "Round start: items on your bench are randomized. Gain 1 random Radiant item."
+  },
+  {
+    "id": "tft-9-augment-commander-partial-ascension",
+    "apiName": "TFT9_Augment_Commander_PartialAscension",
+    "name": "Partial Ascension",
+    "description": "After scaling seconds of combat, your team gains scaling Damage Amp."
+  },
+  {
+    "id": "tft-augment-patience-is-avirtue",
+    "apiName": "TFT_Augment_PatienceIsAVirtue",
+    "name": "Patience is a Virtue",
+    "description": "Gain scaling rerolls now. Each round, gain scaling free rerolls if you did not buy a champion last round."
+  },
+  {
+    "id": "tft-9-augment-learning-from-experience2",
+    "apiName": "TFT9_Augment_LearningFromExperience2",
+    "name": "Patient Study",
+    "description": "After player combat, gain scaling XP if you won or scaling XP if you lost."
+  },
+  {
+    "id": "tft-augment-pilfer",
+    "apiName": "TFT_Augment_Pilfer",
+    "name": "Pilfer",
+    "description": "Each round, gain a 1-star copy of the first champion you killed last combat. The first time you gain scaling gold worth of champions in this way, gain a Thief's Gloves. scaling"
+  },
+  {
+    "id": "tft-augment-plot-armor",
+    "apiName": "TFT_Augment_PlotArmor",
+    "name": "Plot Armor",
+    "description": "Your team gains scaling Armor and Magic Resist. After falling below scaling Health, increase this to scaling for the rest of combat."
+  },
+  {
+    "id": "tft-6-augment-portable-forge",
+    "apiName": "TFT6_Augment_PortableForge",
+    "name": "Portable Forge",
+    "description": "Choose 1 of scaling Artifacts. Artifacts are more powerful items with a unique effect."
+  },
+  {
+    "id": "tft-6-augment-gacha-addict",
+    "apiName": "TFT6_Augment_GachaAddict",
+    "name": "Prismatic Ticket",
+    "description": "Each time your Shop is rerolled, you have a scaling chance to gain a free reroll."
+  },
+  {
+    "id": "tft-11-augment-prizefighter",
+    "apiName": "TFT11_Augment_Prizefighter",
+    "name": "Prizefighter",
+    "description": "Gain scaling item components. Every scaling wins gives you an item component."
+  },
+  {
+    "id": "tft-9-augment-roll-the-dice",
+    "apiName": "TFT9_Augment_RollTheDice",
+    "name": "Radiant Rascal",
+    "description": "Gain a Rascal's Gloves item. This equips 2 random Radiant items every round. Radiant items are very powerful versions of completed items."
+  },
+  {
+    "id": "tft-17-augment-jax-carry",
+    "apiName": "TFT17_Augment_JaxCarry",
+    "name": "Reach for the Stars",
+    "description": "Gain a Jax. Your strongest Jax becomes a Magic Fighter that deal bonus magic damage on attack and gains stacking Attack Speed on cast."
+  },
+  {
+    "id": "tft-6-augment-recombobulator",
+    "apiName": "TFT6_Augment_Recombobulator",
+    "name": "Recombobulator",
+    "description": "Champions on your board permanently transform into random champions 1 cost tier higher (max 5). Gain scaling Magnetic Removers and scaling rerolls."
+  },
+  {
+    "id": "tft-11-augment-reinfourcement",
+    "apiName": "TFT11_Augment_Reinfourcement",
+    "name": "ReinFOURcement",
+    "description": "The next 4-cost champion you buy with gold is instantly upgraded to 2-star. Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-replication",
+    "apiName": "TFT_Augment_Replication",
+    "name": "Replication",
+    "description": "Choose 1 of 3 components. For the next scaling rounds, gain a copy of that component."
+  },
+  {
+    "id": "tft-augment-restart-mission",
+    "apiName": "TFT_Augment_RestartMission",
+    "name": "Restart Mission",
+    "description": "Remove all champions on your board and bench. Gain scaling random 2-star 3-costs, scaling 2-star 2-costs, and scaling 2-star 1-cost champion."
+  },
+  {
+    "id": "tft-augment-retribution",
+    "apiName": "TFT_Augment_Retribution",
+    "name": "Retribution",
+    "description": "Gain scaling Hands of Justice. Allies equipped with Hand of Justice gain Precision and scaling Critical Strike Chance."
+  },
+  {
+    "id": "tft-9-augment-risky-moves",
+    "apiName": "TFT9_Augment_RiskyMoves",
+    "name": "Risky Moves",
+    "description": "Your Tactician loses scaling Health, but after scaling player combats, gain scaling gold."
+  },
+  {
+    "id": "tft-9-augment-commander-rolling-for-days",
+    "apiName": "TFT9_Augment_Commander_RollingForDays",
+    "name": "Rolling For Days I",
+    "description": "Gain scaling free Shop rerolls."
+  },
+  {
+    "id": "tft-6-augment-salvage-bin",
+    "apiName": "TFT6_Augment_SalvageBin",
+    "name": "Salvage Bin",
+    "description": "Gain 1 random completed item now, and 1 component after scaling player combats. Selling champions breaks completed items into components (excluding Tactician's items and Emblems)."
+  },
+  {
+    "id": "tft-8-augment-salvage-bin-plus",
+    "apiName": "TFT8_Augment_SalvageBinPlus",
+    "name": "Salvage Bin+",
+    "description": "Gain 1 random completed item now, and 1 component after scaling player combats. Selling champions breaks completed items into components (excluding Tactician's items and Emblems)."
+  },
+  {
+    "id": "tft-augment-savings-account",
+    "apiName": "TFT_Augment_SavingsAccount",
+    "name": "Savings Account",
+    "description": "After you earn scaling gold in interest, gain scaling gold. Your max interest is increased to scaling. Gain scaling gold now. Gold earned: scaling"
+  },
+  {
+    "id": "tft-6-augment-second-wind1",
+    "apiName": "TFT6_Augment_SecondWind1",
+    "name": "Second Wind",
+    "description": "After scaling seconds of combat, your team heals scaling of their missing Health."
+  },
+  {
+    "id": "tft-6-augment-second-wind2",
+    "apiName": "TFT6_Augment_SecondWind2",
+    "name": "Second Wind II",
+    "description": "After scaling seconds of combat, your team heals scaling of their missing Health."
+  },
+  {
+    "id": "tft-17-augment-gragas-carry",
+    "apiName": "TFT17_Augment_GragasCarry",
+    "name": "Self Destruct",
+    "description": "Gain a Gragas. Your strongest Gragas becomes a Magic Fighter with a massive explosion, but also damages himself."
+  },
+  {
+    "id": "tft-augment-seraphims-staff",
+    "apiName": "TFT_Augment_SeraphimsStaff",
+    "name": "Seraphim's Staff",
+    "description": "Gain an Archangel's Staff. Archangel's Staff grants scaling additional Mana Regen if its holder has scaling or more Ability Power."
+  },
+  {
+    "id": "tft-17-augment-leona-carry",
+    "apiName": "TFT17_Augment_LeonaCarry",
+    "name": "Shieldmaiden",
+    "description": "Gain a Leona. Your strongest Leona becomes an Attack Fighter that dashes through enemies to deal physical damage, stunning the first target hit."
+  },
+  {
+    "id": "tft-augment-shimmerscale-essence",
+    "apiName": "TFT_Augment_ShimmerscaleEssence",
+    "name": "Shimmerscale Essence",
+    "description": "Gain a Mogul's Mail. In scaling rounds, gain a Gamblers Blade. These items give gold as well as combat power."
+  },
+  {
+    "id": "tft-9-augment-legend-high-end-sector",
+    "apiName": "TFT9_Augment_Legend_HighEndSector",
+    "name": "Shopping Spree",
+    "description": "When you level up, gain a number of free shop refreshes equal to your level+scaling. Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-side-effects",
+    "apiName": "TFT_Augment_SideEffects",
+    "name": "Side Effects",
+    "description": "When an ally is healed, they deal scaling of the healing to their target as magic damage. Every scaling seconds, allies heal for scaling of their max Health."
+  },
+  {
+    "id": "tft-9-augment-silver-spoon",
+    "apiName": "TFT9_Augment_SilverSpoon",
+    "name": "Silver Spoon",
+    "description": "Gain scaling XP."
+  },
+  {
+    "id": "tft-augment-size-matters",
+    "apiName": "TFT_Augment_SizeMatters",
+    "name": "Size Matters",
+    "description": "Gain a Giant's Belt. After a champion starts combat with more than scaling max Health, gain a Warmog's Armor."
+  },
+  {
+    "id": "tft-11-augment-slammin",
+    "apiName": "TFT11_Augment_Slammin",
+    "name": "Slammin'",
+    "description": "Gain scaling gold. After each player combat, if there are no items on your bench (other than consumables), gain scaling XP."
+  },
+  {
+    "id": "tft-11-augment-slammin-plus",
+    "apiName": "TFT11_Augment_Slammin_Plus",
+    "name": "Slammin'+",
+    "description": "Gain scaling gold and scaling XP now. After each player combat, if there are no items on your bench (other than consumables), gain scaling XP."
+  },
+  {
+    "id": "tft-augment-slice-of-life",
+    "apiName": "TFT_Augment_SliceOfLife",
+    "name": "Slice of Life",
+    "description": "Twice per stage, gain a random champion. Its cost increases by Stage. This effect ends after receiving scaling 5-cost champion."
+  },
+  {
+    "id": "tft-augment-magic-roll-minus",
+    "apiName": "TFT_Augment_MagicRollMinus",
+    "name": "Slightly Magic Roll",
+    "description": "Roll a die. Gain rewards based on the number rolled. Reward: scaling"
+  },
+  {
+    "id": "tft-augment-small-grab-bag",
+    "apiName": "TFT_Augment_SmallGrabBag",
+    "name": "Small Grab Bag",
+    "description": "Gain scaling random item components."
+  },
+  {
+    "id": "tft-augment-solo-leveling",
+    "apiName": "TFT_Augment_SoloLeveling",
+    "name": "Solo Leveling",
+    "description": "For the next scaling combats, your team size is 1 but the champion you field has massively increased stats. Gain scaling XP for every kill they get. Afterwards, gain scaling item components."
+  },
+  {
+    "id": "tft-augment-item-gargoyle-stoneplate",
+    "apiName": "TFT_Augment_ItemGargoyleStoneplate",
+    "name": "Solo Plate",
+    "description": "Gain a Gargoyle Stoneplate. Combat start: Allies holding Gargoyle Stoneplate gain scaling max Health if they're the only one in their row."
+  },
+  {
+    "id": "tft-17-augment-soraka-god-augment",
+    "apiName": "TFT17_Augment_SorakaGodAugment",
+    "name": "Soraka's Boon",
+    "description": "Your team gains scaling Health for each missing player health. At the start of each player combat, gain an additional scaling player health."
+  },
+  {
+    "id": "tft-augment-awakened-soul",
+    "apiName": "TFT_Augment_AwakenedSoul",
+    "name": "Soul Awakening",
+    "description": "Combat start: Your team gains scaling Attack Damage and Ability Power per second for scaling seconds. At max stacks, deal scaling bonus true damage."
+  },
+  {
+    "id": "tft-augment-speedy-double-kill",
+    "apiName": "TFT_Augment_SpeedyDoubleKill",
+    "name": "Speedy Double Kill",
+    "description": "Gain a Guinsoo's Rageblade. When 2 players are eliminated, gain scaling gold. Fates Championship, 2021"
+  },
+  {
+    "id": "tft-augment-item-spirit-visage",
+    "apiName": "TFT_Augment_ItemSpiritVisage",
+    "name": "Spirit of Redemption",
+    "description": "Gain a Spirit Visage. Every scaling seconds, Spirit Visage heals allies within scaling hex for scaling of their missing Health."
+  },
+  {
+    "id": "tft-augment-spreading-roots",
+    "apiName": "TFT_Augment_SpreadingRoots",
+    "name": "Spreading Roots",
+    "description": "Gain scaling random Emblems and scaling gold."
+  },
+  {
+    "id": "tft-augment-spreading-roots-plus",
+    "apiName": "TFT_Augment_SpreadingRootsPlus",
+    "name": "Spreading Roots+",
+    "description": "Gain scaling random Emblems, a Reforger, and scaling gold."
+  },
+  {
+    "id": "tft-augment-forge-rod",
+    "apiName": "TFT_Augment_ForgeRod",
+    "name": "Staffsmith",
+    "description": "Gain scaling random completed items that build from Needlessly Large Rod."
+  },
+  {
+    "id": "tft-6-augment-diversify1",
+    "apiName": "TFT6_Augment_Diversify1",
+    "name": "Stand United",
+    "description": "Gain scaling Attack Damage and scaling Ability Power for each non-unique Trait active across your team. Current Bonus: scaling scaling"
+  },
+  {
+    "id": "tft-17-augment-aatrox-carry",
+    "apiName": "TFT17_Augment_AatroxCarry",
+    "name": "Stellar Combo",
+    "description": "Gain an Aatrox. Your strongest Aatrox becomes an Attack Fighter with an ability that swaps between three different strikes."
+  },
+  {
+    "id": "tft-augment-subscription-service",
+    "apiName": "TFT_Augment_SubscriptionService",
+    "name": "Subscription Service",
+    "description": "Now and at the start of each Stage, open a Shop of 4 unique 4-cost champions and gain scaling gold."
+  },
+  {
+    "id": "tft-6-augment-sunfire-board",
+    "apiName": "TFT6_Augment_SunfireBoard",
+    "name": "Sunfire Board",
+    "description": "Combat Start: Burn all enemies for scaling of their max Health over scaling seconds and reduce healing received by scaling."
+  },
+  {
+    "id": "tft-augment-survivor",
+    "apiName": "TFT_Augment_Survivor",
+    "name": "Survivor",
+    "description": "Gain scaling gold. After scaling players are eliminated, gain scaling more gold."
+  },
+  {
+    "id": "tft-augment-sweet-treats",
+    "apiName": "TFT_Augment_SweetTreats",
+    "name": "Sweet Treats",
+    "description": "Gain an Artifact anvil. Your team gains scaling Health for each item equipped on champions. Health Gained: scaling Magic N' Mayhem Tactician's Crown, 2024"
+  },
+  {
+    "id": "tft-augment-sword-overflow",
+    "apiName": "TFT_Augment_SwordOverflow",
+    "name": "Sword Overflow",
+    "description": "Gain scaling B.F. Swords. Your B.F. Swords grant +scaling Attack Speed."
+  },
+  {
+    "id": "tft-augment-forge-sword",
+    "apiName": "TFT_Augment_ForgeSword",
+    "name": "Swordsmith",
+    "description": "Gain scaling random completed items that build from B.F. Sword."
+  },
+  {
+    "id": "tft-augment-tacticians-kitchen",
+    "apiName": "TFT_Augment_TacticiansKitchen",
+    "name": "Tactician's Kitchen",
+    "description": "Gain a random Emblem. After scaling rounds, gain a Tactician's Cape."
+  },
+  {
+    "id": "tft-9-augment-army-building",
+    "apiName": "TFT9_Augment_ArmyBuilding",
+    "name": "Team Building",
+    "description": "Gain a Lesser Champion Duplicator. Gain another after scaling player combats. This item allows you to copy a 3-cost or less champion."
+  },
+  {
+    "id": "tft-9-augment-commander-teaming-up1",
+    "apiName": "TFT9_Augment_Commander_TeamingUp1",
+    "name": "Teaming Up",
+    "description": "Gain scaling random component and scaling random 3-cost champions."
+  },
+  {
+    "id": "tft-17-augment-poppy-carry",
+    "apiName": "TFT17_Augment_PoppyCarry",
+    "name": "Termeepnal Velocity",
+    "description": "Gain a Poppy. Your strongest Poppy becomes a ranged Attack Caster that flings a high-velocity Meep at her target."
+  },
+  {
+    "id": "tft-17-augment-ivern-minion-carry",
+    "apiName": "TFT17_Augment_IvernMinionCarry",
+    "name": "The Big Bang",
+    "description": "Gain a Meepsie. Your strongest Meepsie becomes a Magic Fighter that leaps to a nearby hex to deal damage in a large radius."
+  },
+  {
+    "id": "tft-augment-the-golden-dragon",
+    "apiName": "TFT_Augment_TheGoldenDragon",
+    "name": "The Golden Dragon",
+    "description": "Gain a Mogul's Mail. Champions holding Mogul's Mail take up 2 team slots but gain scaling Health and scaling Durability. Mogul's Mail gives gold as well as combat power. Dragonlands Championship, 2022"
+  },
+  {
+    "id": "tft-6-augment-the-golden-egg",
+    "apiName": "TFT6_Augment_TheGoldenEgg",
+    "name": "The Golden Egg",
+    "description": "Gain a golden egg that hatches in scaling turns for a huge amount of loot. Winning player combat speeds up the hatch timer by an extra turn."
+  },
+  {
+    "id": "tft-augment-the-tower",
+    "apiName": "TFT_Augment_TheTower",
+    "name": "The Tower",
+    "description": "Gain a giant Training Dummy with increased Health (increases with Stage). Every scaling seconds, it zaps the scaling nearest enemies dealing scaling max Health true damage."
+  },
+  {
+    "id": "tft-augment-trait-tree",
+    "apiName": "TFT_Augment_TraitTree",
+    "name": "The Trait Tree",
+    "description": "Gain scaling random Emblems, a Reforger, and scaling gold."
+  },
+  {
+    "id": "tft-augment-trait-tree-plus",
+    "apiName": "TFT_Augment_TraitTreePlus",
+    "name": "The Trait Tree+",
+    "description": "Gain scaling random Emblems, a Reforger, and scaling gold."
+  },
+  {
+    "id": "tft-17-augment-thresh-god-augment",
+    "apiName": "TFT17_Augment_ThreshGodAugment",
+    "name": "Thresh's Boon",
+    "description": "Each round, roll a die. Get a bonus based on that roll. Health: scaling Attack Speed: scaling"
+  },
+  {
+    "id": "tft-17-augment-timebreaker-timestream",
+    "apiName": "TFT17_Augment_Timebreaker_Timestream",
+    "name": "Timestream",
+    "description": "Your team gains scaling Health. Timebreakers gain scaling Health and scaling Attack Speed every time you reroll (including free rerolls). Gain an Ezreal and a Pantheon. (Health: scaling, Attack Speed: scaling)"
+  },
+  {
+    "id": "tft-9-augment-tiniest-titan-plus",
+    "apiName": "TFT9_Augment_TiniestTitanPlus",
+    "name": "Tiniest Titan",
+    "description": "Gain scaling player Health and scaling gold after every player combat. Your Tactician also moves faster. Gain scaling gold now."
+  },
+  {
+    "id": "tft-6-augment-tiny-titans",
+    "apiName": "TFT6_Augment_TinyTitans",
+    "name": "Tiny Titans",
+    "description": "Increase your current and max player health by scaling."
+  },
+  {
+    "id": "tft-11-augment-tiny-but-deadly",
+    "apiName": "TFT11_Augment_TinyButDeadly",
+    "name": "Tiny, but Deadly",
+    "description": "Your team becomes small, gaining scaling Attack Speed and Movement Speed."
+  },
+  {
+    "id": "tft-9-augment-tons-of-stats",
+    "apiName": "TFT9_Augment_TonsOfStats",
+    "name": "Tons of Stats!",
+    "description": "Your team gains scaling Health, scaling Attack Damage, scaling Ability Power, scaling Armor, scaling Magic Resist, scaling Attack Speed, and scaling Mana."
+  },
+  {
+    "id": "tft-17-augment-tour-of-the-galaxy",
+    "apiName": "TFT17_Augment_TourOfTheGalaxy",
+    "name": "Tour of the Galaxy",
+    "description": "Voyagers gain scaling Health, scaling Attack Damage, and scaling Ability Power, increased by scaling each time you fight a new player. You prefer to fight players you haven't fought recently. Gain a Pyke and a Meepsie."
+  },
+  {
+    "id": "tft-6-augment-trade-sector",
+    "apiName": "TFT6_Augment_TradeSector",
+    "name": "Trade Sector",
+    "description": "Gain a free Shop reroll every round. Gain scaling gold."
+  },
+  {
+    "id": "tft-augment-treasure-hunt",
+    "apiName": "TFT_Augment_TreasureHunt",
+    "name": "Treasure Hunt",
+    "description": "Gain a locked chest each Stage between now and Stage scaling. Unlock each chest when you spend scaling gold on Shop rerolls. These chests persist until opened."
+  },
+  {
+    "id": "tft-augment-trifecta1",
+    "apiName": "TFT_Augment_Trifecta1",
+    "name": "Trifecta I",
+    "description": "Gain scaling scaling-cost champions. Combat Start: scaling random scaling-cost champions gain scaling Health and scaling Attack Speed."
+  },
+  {
+    "id": "tft-augment-trifecta2",
+    "apiName": "TFT_Augment_Trifecta2",
+    "name": "Trifecta II",
+    "description": "Gain scaling scaling-cost champions. Allies gain scaling Attack Speed. Combat Start: scaling random scaling-cost champions gain scaling Health and scaling Attack Speed."
+  },
+  {
+    "id": "tft-augment-twin-guardians",
+    "apiName": "TFT_Augment_TwinGuardians",
+    "name": "Twin Guardians",
+    "description": "If you have exactly scaling allies in your first row, grant them scaling bonus Health, scaling Armor, and scaling Magic Resist."
+  },
+  {
+    "id": "tft-augment-two-much-value",
+    "apiName": "TFT_Augment_TwoMuchValue",
+    "name": "Two Much Value",
+    "description": "Gain scaling reroll for every scaling unique 2-cost champions fielded last player combat. Gain scaling 2-cost champions."
+  },
+  {
+    "id": "tft-augment-two-tanky",
+    "apiName": "TFT_Augment_TwoTanky",
+    "name": "Two Tanky",
+    "description": "When you field exactly 2 copies of a champion, they both gain scaling Health. When one copy dies, the other gains a scaling max Health Shield for scaling seconds. When you 3-star, gain a 2-star copy."
+  },
+  {
+    "id": "tft-16-augment-ultra-rapid-fire",
+    "apiName": "TFT16_Augment_UltraRapidFire",
+    "name": "U.R.F",
+    "description": "Gain a Spatula. Champions holding Spatula or Frying Pan items gain scaling Attack Speed and scaling Mana Regen."
+  },
+  {
+    "id": "tft-augment-upward-mobility",
+    "apiName": "TFT_Augment_UpwardMobility",
+    "name": "Upward Mobility",
+    "description": "Buying XP costs 1 less. Gain scaling Health and scaling free rerolls whenever you level up."
+  },
+  {
+    "id": "tft-augment-urfs-gambit",
+    "apiName": "TFT_Augment_UrfsGambit",
+    "name": "Urf's Gambit",
+    "description": "If you win your next player combat, gain a Spatula. If you lose, gain a Frying Pan. Gain a component anvil and scaling gold now."
+  },
+  {
+    "id": "tft-7-augment-urfs-grab-bag2",
+    "apiName": "TFT7_Augment_UrfsGrabBag2",
+    "name": "Urf's Grab Bag",
+    "description": "Gain scaling Spatula, scaling random components, and scaling gold."
+  },
+  {
+    "id": "tft-augment-dhampyr1",
+    "apiName": "TFT_Augment_Dhampyr1",
+    "name": "Vampiric Vitality I",
+    "description": "You heal for scaling of the damage you deal to enemy Tacticians. Your team gains scaling Omnivamp."
+  },
+  {
+    "id": "tft-17-augment-varus-god-augment-boon-of-stars",
+    "apiName": "TFT17_Augment_VarusGodAugment_BoonOfStars",
+    "name": "Varus's Boon",
+    "description": "Your team gains scaling health for each total star level in your army, and your 5 cost odds increase by scaling."
+  },
+  {
+    "id": "tft-augment-wand-overflow",
+    "apiName": "TFT_Augment_WandOverflow",
+    "name": "Wand Overflow",
+    "description": "Gain scaling Needlessly Large Rods. Your Needlessly Large Rods grant +scaling Attack Speed."
+  },
+  {
+    "id": "tft-augment-unforgotten",
+    "apiName": "TFT_Augment_Unforgotten",
+    "name": "Warlord's Honor",
+    "description": "Every round, your team gain scaling Attack Damage and Ability Power. Champions start with scaling stack of this effect, and can stack up to scaling times."
+  },
+  {
+    "id": "tft-augment-warpath",
+    "apiName": "TFT_Augment_Warpath",
+    "name": "Warpath",
+    "description": "Gain a 2-star 2-cost champion. After dealing scaling player damage, gain a chest of high cost champions and items. (Current: scaling)"
+  },
+  {
+    "id": "tft-augment-we-stick-together",
+    "apiName": "TFT_Augment_WeStickTogether",
+    "name": "We Stick Together",
+    "description": "Gain a random Emblem and a completed item anvil. Allies that share a trait with that Emblem gain scaling Attack Speed. scaling Into The Arcane Tactician's Crown, 2025"
+  },
+  {
+    "id": "tft-augment-win-out",
+    "apiName": "TFT_Augment_WinOut",
+    "name": "Win Out",
+    "description": "When you reach level 9, immediately level to 10 and gain scaling free Shop rerolls. Gain scaling XP now."
+  },
+  {
+    "id": "tft-6-augment-thrift-shop",
+    "apiName": "TFT6_Augment_ThriftShop",
+    "name": "Wise Spending",
+    "description": "You can no longer buy XP. Every time you spend gold to reroll your Shop, gain scaling XP. Gain scaling gold now."
+  },
+  {
+    "id": "tft-augment-worth-the-wait-gold",
+    "apiName": "TFT_Augment_WorthTheWaitGold",
+    "name": "Worth the Wait",
+    "description": "Gain a random scaling-cost champion. Gain another copy of them at the start of each round for the rest of the game. Champion: scaling"
+  },
+  {
+    "id": "tft-augment-worth-the-wait-prismatic",
+    "apiName": "TFT_Augment_WorthTheWaitPrismatic",
+    "name": "Worth the Wait II",
+    "description": "Gain scaling copies of a random scaling-cost champion. Gain another copy of them at the start of each round for the rest of the game. Champion: scaling"
+  },
+  {
+    "id": "tft-augment-the-vidalion",
+    "apiName": "TFT_Augment_TheVidalion",
+    "name": "Woven Magic",
+    "description": "Gain a random item component. Every scaling Mana your team spends grants an additional component (max scaling/scaling). Mana spent: scaling/scaling"
+  },
+  {
+    "id": "tft-17-augment-yasuo-god-augment-painted-power",
+    "apiName": "TFT17_Augment_YasuoGodAugment_PaintedPower",
+    "name": "Yasuo's Boon",
+    "description": "Increase the power of Yasuo's hexes by scaling. If you only have 2 hexes, gain scaling gold."
+  },
+  {
+    "id": "tft-17-augment-yasuo-god-augment-golden-hex",
+    "apiName": "TFT17_Augment_YasuoGodAugment_GoldenHex",
+    "name": "Yasuo's Golden Hex",
+    "description": "Paint a Golden Hex. The unit in the hex gains scaling health, scaling attack speed, and drops scaling gold on kill."
+  },
+  {
+    "id": "tft-17-augment-yasuo-god-augment-more-hexes",
+    "apiName": "TFT17_Augment_YasuoGodAugment_MoreHexes",
+    "name": "Yasuo's Share The Spotlight",
+    "description": "Yasuo's hexes also affect adjacent units at scaling effectiveness."
+  },
+  {
+    "id": "tft-9-augment-you-have-my-bow",
+    "apiName": "TFT9_Augment_YouHaveMyBow",
+    "name": "You Have My Bow",
+    "description": "Gain a Recurve Bow. Your team gains scaling Attack Speed."
+  }
+]

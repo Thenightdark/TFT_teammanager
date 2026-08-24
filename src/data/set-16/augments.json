@@ -1,0 +1,128 @@
+[
+  {
+    "id": "tft-16-augment-bandle-bounty",
+    "apiName": "TFT16_Augment_BandleBounty",
+    "name": "Bandle Bounty I",
+    "description": "Reach level 10 and field 10 unique Yordles to reveal the Bandle Path's secret. Gain a Lulu and a Rumble."
+  },
+  {
+    "id": "tft-16-augment-bandle-bounty-plus",
+    "apiName": "TFT16_Augment_BandleBountyPlus",
+    "name": "Bandle Bounty II",
+    "description": "For every Yordle you've unlocked or unlock, gain scaling gold. Reach level 10 and field 10 unique Yordles to reveal the Bandle Path's secret. Gain a Tristana and Teemo."
+  },
+  {
+    "id": "tft-augment-the-darkin-blade",
+    "apiName": "TFT_Augment_TheDarkinBlade",
+    "name": "Blood Offering",
+    "description": "Gain a Bloodthirster. Combat start: Allies holding Bloodthirsters lose scaling Health but gain a scaling Health shield and scaling Attack Damage and Ability Power."
+  },
+  {
+    "id": "tft-16-augment-noxus-bringer-of-ruin",
+    "apiName": "TFT16_Augment_Noxus_BringerOfRuin",
+    "name": "Bringer of Ruin",
+    "description": "Every takedown Atakhan scores permanently grants him scaling Ability Power and scaling max Health. Gain a Briar and a Sion. (Current Takedowns: scaling)"
+  },
+  {
+    "id": "tft-augment-chaos-evolution",
+    "apiName": "TFT_Augment_ChaosEvolution",
+    "name": "Chaotic Evolution",
+    "description": "Starring up a champion grants them one of the following: scaling Health, scaling Durability, scaling Ability Power, scaling Attack Damage, scaling Attack Speed. Bonuses stack."
+  },
+  {
+    "id": "tft-augment-corrosion",
+    "apiName": "TFT_Augment_Corrosion",
+    "name": "Corrosion",
+    "description": "Enemies in the first two rows lose scaling Armor and Magic Resist every scaling seconds."
+  },
+  {
+    "id": "tft-16-augment-defense-of-ionia",
+    "apiName": "TFT16_Augment_DefenseOfIonia",
+    "name": "Defense of the Placidium",
+    "description": "Your team gains scaling Durability, increased to scaling if the Ionia trait is active."
+  },
+  {
+    "id": "tft-16-augment-demacia-forever",
+    "apiName": "TFT16_Augment_DemaciaForever",
+    "name": "Demacia Forever",
+    "description": "Demacians gain scaling permanent Health every time they rally. They also gain scaling permanent Attack Damage and Ability Power every scaling rallies. Gain a Jarvan IV, a Sona, and a Xin Zhao."
+  },
+  {
+    "id": "tft-16-teamup-augment-jarvan-shyvana",
+    "apiName": "TFT16_TeamupAugment_JarvanShyvana",
+    "name": "Dragonguards",
+    "description": "Gain a Shyvana and a 2-star Jarvan IV. When Jarvan casts, Shyvana gains Shield. When Shyvana casts, Jarvan jumps in and deals damage based on his Armor and Magic Resist. After every player combat, gain a Jarvan IV."
+  },
+  {
+    "id": "tft-16-augment-void-evolve-and-overcome",
+    "apiName": "TFT16_Augment_Void_EvolveAndOvercome",
+    "name": "Evolve and Overcome",
+    "description": "For every scaling champions that Mutated Void allies takedown, gain scaling XP. Gain a Cho'Gath and a 2-star Kog'Maw. scaling Void provides unique Mutations."
+  },
+  {
+    "id": "tft-augment-heavy-is-the-crown",
+    "apiName": "TFT_Augment_HeavyIsTheCrown",
+    "name": "Heavy Is the Crown",
+    "description": "Gain a Crown of Demacia, which provides significant bonuses to the wearer. If the holder dies, lose the round."
+  },
+  {
+    "id": "tft-augment-indecision1",
+    "apiName": "TFT_Augment_Indecision1",
+    "name": "Indecision I",
+    "description": "In scaling rounds, choose a new augment of the same tier. Gain scaling gold now."
+  },
+  {
+    "id": "tft-augment-just-slayer",
+    "apiName": "TFT_Augment_JustSlayer",
+    "name": "Indiscriminate Killer",
+    "description": "Gain a Giant Slayer. Giant Slayers gain their Damage Amp against all enemies instead of just Tanks."
+  },
+  {
+    "id": "tft-16-augment-ixtal-expeditionist",
+    "apiName": "TFT16_Augment_Ixtal_Expeditionist",
+    "name": "Ixtal Expeditionist",
+    "description": "Gain a Qiyana, a Neeko, and a Milio. Increase your current and max player Health by scaling."
+  },
+  {
+    "id": "tft-16-augment-weightlifting",
+    "apiName": "TFT16_Augment_Weightlifting",
+    "name": "Lifting Competition",
+    "description": "At the start of each round, if the combined Health of all your unique Bruisers is high enough, gain a reward and increase the threshold (up to four times). Gain a Shen and a Sion. scalingscaling / scaling"
+  },
+  {
+    "id": "tft-augment-luxury-subscription",
+    "apiName": "TFT_Augment_LuxurySubscription",
+    "name": "Luxury Subscription",
+    "description": "Gain a package containing a 5-cost champion, a 2-star 1-cost champion, and scaling gold. At the start of the next scaling stages, gain the package again."
+  },
+  {
+    "id": "tft-16-teamup-augment-singed-teemo",
+    "apiName": "TFT16_TeamupAugment_SingedTeemo",
+    "name": "Poison Pals",
+    "description": "Gain a 2-star Teemo. Singed's damage refreshes Teemo's poisons, and every scaling magic damage Teemo deals grants your strongest Singed scaling Ability Power. Gain a Teemo after each player combat."
+  },
+  {
+    "id": "tft-6-augment-radiant-relics",
+    "apiName": "TFT6_Augment_RadiantRelics",
+    "name": "Radiant Relics",
+    "description": "Choose 1 of scaling Radiant items. Gain a Magnetic Remover. Radiant items are very powerful versions of completed items."
+  },
+  {
+    "id": "tft-16-augment-walk-the-true-path",
+    "apiName": "TFT16_Augment_WalkTheTruePath",
+    "name": "Walk The True Path I",
+    "description": "Gain a Lesser Champion Duplicator and a Yasuo. Reach level 10 and field 10 unique Ionians to unlock a Prismatic Upgrade."
+  },
+  {
+    "id": "tft-16-augment-walk-the-true-path-plus",
+    "apiName": "TFT16_Augment_WalkTheTruePathPlus",
+    "name": "Walk The True Path II",
+    "description": "Gain scaling Lesser Champion Duplicators, a Yasuo, and a B.F. Sword. Reach level 10 and field 10 unique Ionians to unlock a Prismatic Upgrade."
+  },
+  {
+    "id": "tft-16-augment-yordle-wild-growth",
+    "apiName": "TFT16_Augment_Yordle_WildGrowth",
+    "name": "Wild Growth",
+    "description": "3-star Yordles become massive, moving slower but gaining scaling Health and scaling Attack Damage and Ability Power. Gain a Rumble and Lulu."
+  }
+]

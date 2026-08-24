@@ -1,0 +1,3488 @@
+[
+  {
+    "id": "its-raining-lp",
+    "name": "It's Raining LP",
+    "tier": "S",
+    "playstyle": "Slow Roll · Level 7",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-lulu",
+      "tft-17-maokai",
+      "tft-17-jax",
+      "tft-17-milio",
+      "tft-17-rhaast",
+      "tft-17-pantheon",
+      "tft-17-aatrox",
+      "tft-17-twisted-fate"
+    ],
+    "coreUnits": [
+      "tft-17-lulu",
+      "tft-17-milio",
+      "tft-17-maokai"
+    ],
+    "carries": [
+      "tft-17-lulu",
+      "tft-17-milio"
+    ],
+    "mainTank": "tft-17-maokai",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-lulu",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-milio",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-maokai",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "Bastion",
+      "Brawler",
+      "Replicator"
+    ],
+    "description": "Three-cost Stargazer reroll focused on upgrading Lulu, Milio, Maokai, Pantheon and Jax.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly supports Timebreaker."
+      },
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "timebreak-trouble",
+    "name": "Timebreak Trouble",
+    "tier": "S",
+    "playstyle": "Slow Roll · Level 6",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-tahm-kench",
+      "tft-17-milio",
+      "tft-17-pantheon",
+      "tft-17-ezreal",
+      "tft-17-riven",
+      "tft-17-maokai",
+      "tft-17-gnar",
+      "tft-17-caitlyn"
+    ],
+    "coreUnits": [
+      "tft-17-ezreal",
+      "tft-17-milio",
+      "tft-17-tahm-kench"
+    ],
+    "carries": [
+      "tft-17-ezreal",
+      "tft-17-milio"
+    ],
+    "mainTank": "tft-17-tahm-kench",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-ezreal",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-milio",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-tahm-kench",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Timebreaker",
+      "Brawler",
+      "Fateweaver",
+      "Sniper"
+    ],
+    "description": "Level 6 Timebreaker reroll with Ezreal and Milio providing damage behind Tahm Kench and Pantheon.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly supports Timebreaker."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-17-augment-kayle-god-augment",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "paddle-spam",
+    "name": "Paddle Spam",
+    "tier": "S",
+    "playstyle": "Slow Roll · Level 6",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-mordekaiser",
+      "tft-17-zoe",
+      "tft-17-leona",
+      "tft-17-viktor",
+      "tft-17-bard",
+      "tft-17-aurelion-sol",
+      "tft-17-nunu",
+      "tft-17-illaoi"
+    ],
+    "coreUnits": [
+      "tft-17-zoe",
+      "tft-17-viktor",
+      "tft-17-mordekaiser"
+    ],
+    "carries": [
+      "tft-17-zoe",
+      "tft-17-viktor"
+    ],
+    "mainTank": "tft-17-mordekaiser",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-zoe",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-viktor",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-mordekaiser",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Conduit",
+      "Vanguard",
+      "Arbiter"
+    ],
+    "description": "Slow-roll Zoe and Mordekaiser at level 6, then add higher-cost Conduits to complete the board.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-arbiter-divine-amendment",
+        "reason": "Directly supports Arbiter."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-leona-carry",
+        "reason": "Directly strengthens Leona in this board."
+      },
+      {
+        "augmentId": "tft-augment-arcane-viktory",
+        "reason": "Directly strengthens Viktor in this board."
+      }
+    ]
+  },
+  {
+    "id": "mountain-stargazer",
+    "name": "Mountain Stargazer",
+    "tier": "S",
+    "playstyle": "Fast 8 · Mountain constellation",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-jhin",
+      "tft-17-nunu",
+      "tft-17-riven",
+      "tft-17-xayah",
+      "tft-17-shen",
+      "tft-17-rhaast",
+      "tft-17-jax",
+      "tft-17-mordekaiser",
+      "tft-17-talon"
+    ],
+    "coreUnits": [
+      "tft-17-riven",
+      "tft-17-xayah",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-riven",
+      "tft-17-xayah"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-riven",
+        "role": "main-carry",
+        "items": [
+          "tft-item-bloodthirster",
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction"
+        ]
+      },
+      {
+        "champion": "tft-17-xayah",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "Sniper",
+      "Bastion",
+      "Vanguard"
+    ],
+    "description": "A conditional seven-Stargazer board for the Mountain constellation, using Riven and Xayah as the main damage carries.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      }
+    ]
+  },
+  {
+    "id": "cards-and-cartridges",
+    "name": "Cards & Cartridges",
+    "tier": "S",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-jax",
+      "tft-17-caitlyn",
+      "tft-17-talon",
+      "tft-17-twisted-fate",
+      "tft-17-corki",
+      "tft-17-riven",
+      "tft-17-rhaast",
+      "tft-17-milio",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-twisted-fate",
+      "tft-17-caitlyn",
+      "tft-17-aatrox"
+    ],
+    "carries": [
+      "tft-17-twisted-fate",
+      "tft-17-caitlyn"
+    ],
+    "mainTank": "tft-17-aatrox",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-twisted-fate",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-caitlyn",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-aatrox",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Fateweaver",
+      "Stargazer",
+      "Rogue",
+      "Timebreaker"
+    ],
+    "description": "One-cost reroll board focused on three-starring Twisted Fate, Caitlyn, Talon, Aatrox and Jax.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly supports Timebreaker."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "bastion-of-fate",
+    "name": "Bastion of Fate",
+    "tier": "S",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-shen",
+      "tft-17-corki",
+      "tft-17-rammus",
+      "tft-17-milio",
+      "tft-17-aatrox",
+      "tft-17-caitlyn",
+      "tft-17-poppy",
+      "tft-17-twisted-fate"
+    ],
+    "coreUnits": [
+      "tft-17-milio",
+      "tft-17-corki",
+      "tft-17-rammus"
+    ],
+    "carries": [
+      "tft-17-milio",
+      "tft-17-corki"
+    ],
+    "mainTank": "tft-17-rammus",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-milio",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-corki",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-rammus",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Fateweaver",
+      "Bastion",
+      "Meeple",
+      "N.O.V.A."
+    ],
+    "description": "Fast 8 Fateweaver and Bastion board with Milio and Corki carrying while Rammus and Shen frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-poppy-carry",
+        "reason": "Directly strengthens Poppy in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "stay-groovy",
+    "name": "Stay Groovy",
+    "tier": "S",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-blitzcrank",
+      "tft-17-nami",
+      "tft-17-riven",
+      "tft-17-ornn",
+      "tft-17-shen",
+      "tft-17-nunu",
+      "tft-17-tahm-kench",
+      "tft-17-gwen",
+      "tft-17-pantheon"
+    ],
+    "coreUnits": [
+      "tft-17-nami",
+      "tft-17-riven",
+      "tft-17-blitzcrank"
+    ],
+    "carries": [
+      "tft-17-nami",
+      "tft-17-riven"
+    ],
+    "mainTank": "tft-17-blitzcrank",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-nami",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-riven",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction",
+          "tft-item-steraks-gage"
+        ]
+      },
+      {
+        "champion": "tft-17-blitzcrank",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Space Groove",
+      "Timebreaker",
+      "Bastion",
+      "Vanguard"
+    ],
+    "description": "Fast 8 Space Groove board centered on Nami, Riven, Ornn and Blitzcrank.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly supports Timebreaker."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-17-augment-kayle-god-augment",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "feed-the-stars",
+    "name": "Feed the Stars",
+    "tier": "S",
+    "playstyle": "Fast 8 · Dark Star emblem",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-jhin",
+      "tft-17-aurelion-sol",
+      "tft-17-karma",
+      "tft-17-nunu",
+      "tft-17-tahm-kench",
+      "tft-17-galio",
+      "tft-17-kaisa",
+      "tft-17-mordekaiser",
+      "tft-17-chogath"
+    ],
+    "coreUnits": [
+      "tft-17-jhin",
+      "tft-17-karma",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-jhin",
+      "tft-17-karma"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-jhin",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-karma",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Dark Star",
+      "Brawler",
+      "Voyager",
+      "Conduit"
+    ],
+    "description": "Conditional six-Dark-Star board that uses Jhin and Karma for damage while Nunu holds the frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-aurelion-sol-god-augment",
+        "reason": "Directly strengthens Aurelion Sol in this board."
+      }
+    ]
+  },
+  {
+    "id": "snipin-and-vibin",
+    "name": "Snipin & Vibin",
+    "tier": "S",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-jhin",
+      "tft-17-nunu",
+      "tft-17-xayah",
+      "tft-17-blitzcrank",
+      "tft-17-tahm-kench",
+      "tft-17-maokai",
+      "tft-17-rhaast",
+      "tft-17-jax",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-xayah",
+      "tft-17-jhin",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-xayah",
+      "tft-17-jhin"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-xayah",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-jhin",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "Sniper",
+      "Vanguard",
+      "Brawler"
+    ],
+    "description": "Fast 8 capped Sniper board with Xayah and Jhin dealing damage while Nunu takes the main tank items.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "nova",
+    "name": "N.O.V.A.",
+    "tier": "S",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-kindred",
+      "tft-17-morgana",
+      "tft-17-akali",
+      "tft-17-shen",
+      "tft-17-tahm-kench",
+      "tft-17-maokai",
+      "tft-17-belveth",
+      "tft-17-aatrox",
+      "tft-17-caitlyn"
+    ],
+    "coreUnits": [
+      "tft-17-kindred",
+      "tft-17-akali",
+      "tft-17-maokai"
+    ],
+    "carries": [
+      "tft-17-kindred",
+      "tft-17-akali"
+    ],
+    "mainTank": "tft-17-maokai",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-kindred",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-akali",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction",
+          "tft-item-steraks-gage"
+        ]
+      },
+      {
+        "champion": "tft-17-maokai",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "N.O.V.A.",
+      "Brawler",
+      "Challenger",
+      "Bastion"
+    ],
+    "description": "Fast 8 five-N.O.V.A. board with Kindred, Morgana and Akali as the main damage options.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-17-augment-kayle-god-augment",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "capped-and-loaded",
+    "name": "Capped & Loaded",
+    "tier": "S",
+    "playstyle": "Fast 9",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-fiora",
+      "tft-17-graves",
+      "tft-17-vex",
+      "tft-17-nunu",
+      "tft-17-blitzcrank",
+      "tft-17-rhaast",
+      "tft-17-akali",
+      "tft-17-jax",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-fiora",
+      "tft-17-graves",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-fiora",
+      "tft-17-graves"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-fiora",
+        "role": "main-carry",
+        "items": [
+          "tft-item-bloodthirster",
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction"
+        ]
+      },
+      {
+        "champion": "tft-17-graves",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "N.O.V.A.",
+      "Marauder",
+      "Vanguard"
+    ],
+    "description": "Expensive Fast 9 board that caps around Fiora, Graves and Vex after stabilizing on level 8.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "reach-for-the-stars",
+    "name": "Reach For The Stars",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 6",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-lulu",
+      "tft-17-jax",
+      "tft-17-pantheon",
+      "tft-17-maokai",
+      "tft-17-rhaast",
+      "tft-17-milio",
+      "tft-17-aatrox",
+      "tft-17-twisted-fate"
+    ],
+    "coreUnits": [
+      "tft-17-lulu",
+      "tft-17-pantheon",
+      "tft-17-jax"
+    ],
+    "carries": [
+      "tft-17-lulu",
+      "tft-17-pantheon"
+    ],
+    "mainTank": "tft-17-jax",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-lulu",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-pantheon",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-jax",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "Replicator"
+    ],
+    "description": "Stargazer reroll line built around Lulu with Jax and Pantheon as upgraded core units.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly supports Timebreaker."
+      },
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "fast-9-zed",
+    "name": "Fast 9 Zed",
+    "tier": "A",
+    "playstyle": "Fast 9",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-vex",
+      "tft-17-zed",
+      "tft-17-tahm-kench",
+      "tft-17-fiora",
+      "tft-17-shen",
+      "tft-17-morgana",
+      "tft-17-maokai",
+      "tft-17-akali",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-zed",
+      "tft-17-vex",
+      "tft-17-tahm-kench"
+    ],
+    "carries": [
+      "tft-17-zed",
+      "tft-17-vex"
+    ],
+    "mainTank": "tft-17-tahm-kench",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-zed",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-vex",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-tahm-kench",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "N.O.V.A."
+    ],
+    "description": "Expensive Fast 9 board that caps around Zed and Vex with a high-cost frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-6-augment-pandoras-items",
+        "reason": "Directly strengthens Zed in this board."
+      },
+      {
+        "augmentId": "tft-9-augment-pandoras-items2",
+        "reason": "Directly strengthens Zed in this board."
+      },
+      {
+        "augmentId": "tft-9-augment-pandoras-radiant-box",
+        "reason": "Directly strengthens Zed in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "strike-and-stance",
+    "name": "Strike & Stance",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 6",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-kindred",
+      "tft-17-akali",
+      "tft-17-jax",
+      "tft-17-urgot",
+      "tft-17-fiora",
+      "tft-17-morgana",
+      "tft-17-maokai",
+      "tft-17-belveth",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-akali",
+      "tft-17-kindred",
+      "tft-17-jax"
+    ],
+    "carries": [
+      "tft-17-akali",
+      "tft-17-kindred"
+    ],
+    "mainTank": "tft-17-jax",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-akali",
+        "role": "main-carry",
+        "items": [
+          "tft-item-bloodthirster",
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction"
+        ]
+      },
+      {
+        "champion": "tft-17-kindred",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-jax",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "N.O.V.A.",
+      "Challenger"
+    ],
+    "description": "Reroll Challenger line with Akali and Kindred as the principal damage dealers.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "turbo-doomer",
+    "name": "Turbo Doomer",
+    "tier": "A",
+    "playstyle": "Fast 9",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-bard",
+      "tft-17-vex",
+      "tft-17-nunu",
+      "tft-17-sona",
+      "tft-17-blitzcrank",
+      "tft-17-karma",
+      "tft-17-illaoi",
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser"
+    ],
+    "coreUnits": [
+      "tft-17-vex",
+      "tft-17-bard",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-vex",
+      "tft-17-bard"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-vex",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-bard",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Doomer",
+      "Vanguard"
+    ],
+    "description": "Fast 9 legendary board centered on Vex and Bard with a deep Vanguard frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-ivern-minion-carry",
+        "reason": "Directly strengthens Meepsie in this board."
+      }
+    ]
+  },
+  {
+    "id": "conduit-reroll",
+    "name": "Conduit Reroll",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 7",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-miss-fortune",
+      "tft-17-ornn",
+      "tft-17-viktor",
+      "tft-17-rhaast",
+      "tft-17-bard",
+      "tft-17-maokai",
+      "tft-17-gragas",
+      "tft-17-zoe",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-miss-fortune",
+      "tft-17-viktor",
+      "tft-17-ornn"
+    ],
+    "carries": [
+      "tft-17-miss-fortune",
+      "tft-17-viktor"
+    ],
+    "mainTank": "tft-17-ornn",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-miss-fortune",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-viktor",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-ornn",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Conduit",
+      "Gun Goddess"
+    ],
+    "description": "Level 7 reroll board where Miss Fortune and Viktor deal damage behind Ornn.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Miss Fortune in this board."
+      },
+      {
+        "augmentId": "tft-augment-arcane-viktory",
+        "reason": "Directly strengthens Viktor in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-arbiter-divine-amendment",
+        "reason": "Directly strengthens Zoe in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-gragas-carry",
+        "reason": "Directly strengthens Gragas in this board."
+      }
+    ]
+  },
+  {
+    "id": "twin-blades",
+    "name": "Twin Blades",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-fiora",
+      "tft-17-kindred",
+      "tft-17-master-yi",
+      "tft-17-tahm-kench",
+      "tft-17-shen",
+      "tft-17-maokai",
+      "tft-17-urgot",
+      "tft-17-belveth",
+      "tft-17-gragas"
+    ],
+    "coreUnits": [
+      "tft-17-fiora",
+      "tft-17-kindred",
+      "tft-17-tahm-kench"
+    ],
+    "carries": [
+      "tft-17-fiora",
+      "tft-17-kindred"
+    ],
+    "mainTank": "tft-17-tahm-kench",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-fiora",
+        "role": "main-carry",
+        "items": [
+          "tft-item-bloodthirster",
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction"
+        ]
+      },
+      {
+        "champion": "tft-17-kindred",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-tahm-kench",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Marauder",
+      "Challenger"
+    ],
+    "description": "Fast 8 physical board that itemizes Fiora and Kindred while Tahm Kench fronts.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-gragas-carry",
+        "reason": "Directly strengthens Gragas in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-17-augment-kayle-god-augment",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "get-jinxed",
+    "name": "Get Jinxed",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 6",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-akali",
+      "tft-17-belveth",
+      "tft-17-jinx",
+      "tft-17-rek-sai",
+      "tft-17-kindred",
+      "tft-17-maokai",
+      "tft-17-rhaast",
+      "tft-17-briar"
+    ],
+    "coreUnits": [
+      "tft-17-jinx",
+      "tft-17-belveth",
+      "tft-17-rhaast"
+    ],
+    "carries": [
+      "tft-17-jinx",
+      "tft-17-belveth"
+    ],
+    "mainTank": "tft-17-rhaast",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-jinx",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-belveth",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction",
+          "tft-item-steraks-gage"
+        ]
+      },
+      {
+        "champion": "tft-17-rhaast",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Challenger",
+      "Primordian"
+    ],
+    "description": "Level 6 reroll board focused on Jinx and Bel'Veth with Primordian support.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly supports Anima."
+      },
+      {
+        "augmentId": "tft-17-augment-primordian-prismatic-augment",
+        "reason": "Directly supports Primordian."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "astral-meep",
+    "name": "Astral Meep",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-bard",
+      "tft-17-corki",
+      "tft-17-rammus",
+      "tft-17-riven",
+      "tft-17-shen",
+      "tft-17-galio",
+      "tft-17-fizz",
+      "tft-17-ivern-minion",
+      "tft-17-milio"
+    ],
+    "coreUnits": [
+      "tft-17-bard",
+      "tft-17-corki",
+      "tft-17-rammus"
+    ],
+    "carries": [
+      "tft-17-bard",
+      "tft-17-corki"
+    ],
+    "mainTank": "tft-17-rammus",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-bard",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-corki",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-rammus",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Meeple",
+      "Fateweaver"
+    ],
+    "description": "Fast 8 Meeple board using Bard and Corki as carries behind Rammus.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-ivern-minion-carry",
+        "reason": "Directly strengthens Meepsie in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "void-arcane",
+    "name": "Void Arcane",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-chogath",
+      "tft-17-ezreal",
+      "tft-17-tahm-kench",
+      "tft-17-riven",
+      "tft-17-jhin",
+      "tft-17-maokai",
+      "tft-17-milio",
+      "tft-17-pantheon"
+    ],
+    "coreUnits": [
+      "tft-17-ezreal",
+      "tft-17-jhin",
+      "tft-17-chogath"
+    ],
+    "carries": [
+      "tft-17-ezreal",
+      "tft-17-jhin"
+    ],
+    "mainTank": "tft-17-chogath",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-ezreal",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-jhin",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-chogath",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Timebreaker",
+      "Brawler"
+    ],
+    "description": "Low-cost Ezreal reroll with Cho'Gath and Tahm Kench holding the frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly supports Timebreaker."
+      },
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "challenger-takeover",
+    "name": "Challenger Takeover",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-miss-fortune",
+      "tft-17-ornn",
+      "tft-17-urgot",
+      "tft-17-kindred",
+      "tft-17-maokai",
+      "tft-17-rhaast",
+      "tft-17-belveth",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-miss-fortune",
+      "tft-17-kindred",
+      "tft-17-ornn"
+    ],
+    "carries": [
+      "tft-17-miss-fortune",
+      "tft-17-kindred"
+    ],
+    "mainTank": "tft-17-ornn",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-miss-fortune",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-kindred",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-ornn",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Challenger",
+      "N.O.V.A."
+    ],
+    "description": "Challenger board led by Miss Fortune and Kindred with Ornn as its tank.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Miss Fortune in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "gnaruto",
+    "name": "Gnaruto",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-bard",
+      "tft-17-corki",
+      "tft-17-rammus",
+      "tft-17-gnar",
+      "tft-17-jhin",
+      "tft-17-galio",
+      "tft-17-fizz",
+      "tft-17-ivern-minion",
+      "tft-17-poppy"
+    ],
+    "coreUnits": [
+      "tft-17-gnar",
+      "tft-17-jhin",
+      "tft-17-rammus"
+    ],
+    "carries": [
+      "tft-17-gnar",
+      "tft-17-jhin"
+    ],
+    "mainTank": "tft-17-rammus",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-gnar",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-jhin",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-rammus",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Meeple",
+      "Sniper"
+    ],
+    "description": "Meeple and Sniper board that uses Gnar and Jhin behind Rammus.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-poppy-carry",
+        "reason": "Directly strengthens Poppy in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-ivern-minion-carry",
+        "reason": "Directly strengthens Meepsie in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "transformers",
+    "name": "Transformers",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-aurelion-sol",
+      "tft-17-galio",
+      "tft-17-urgot",
+      "tft-17-karma",
+      "tft-17-fiora",
+      "tft-17-tahm-kench",
+      "tft-17-mordekaiser"
+    ],
+    "coreUnits": [
+      "tft-17-aurelion-sol",
+      "tft-17-urgot",
+      "tft-17-galio"
+    ],
+    "carries": [
+      "tft-17-aurelion-sol",
+      "tft-17-urgot"
+    ],
+    "mainTank": "tft-17-galio",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-aurelion-sol",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-urgot",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-galio",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Mecha",
+      "Conduit"
+    ],
+    "description": "Mecha board with Aurelion Sol and Urgot dealing damage behind the Mighty Mech.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-aurelion-sol-god-augment",
+        "reason": "Directly strengthens Aurelion Sol in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "shepherd",
+    "name": "Shepherd",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-karma",
+      "tft-17-leblanc",
+      "tft-17-leona",
+      "tft-17-sona",
+      "tft-17-galio",
+      "tft-17-illaoi",
+      "tft-17-ivern-minion",
+      "tft-17-lissandra",
+      "tft-17-teemo"
+    ],
+    "coreUnits": [
+      "tft-17-leblanc",
+      "tft-17-karma",
+      "tft-17-illaoi"
+    ],
+    "carries": [
+      "tft-17-leblanc",
+      "tft-17-karma"
+    ],
+    "mainTank": "tft-17-illaoi",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-leblanc",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-karma",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-illaoi",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Shepherd",
+      "Voyager"
+    ],
+    "description": "Fast 8 Shepherd board with LeBlanc and Karma as its AP carries.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-arbiter-divine-amendment",
+        "reason": "Directly supports Arbiter."
+      },
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-leona-carry",
+        "reason": "Directly strengthens Leona in this board."
+      }
+    ]
+  },
+  {
+    "id": "meepteors",
+    "name": "Meepteors",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-lissandra",
+      "tft-17-poppy",
+      "tft-17-veigar",
+      "tft-17-bard",
+      "tft-17-rammus",
+      "tft-17-illaoi",
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser"
+    ],
+    "coreUnits": [
+      "tft-17-veigar",
+      "tft-17-lissandra",
+      "tft-17-poppy"
+    ],
+    "carries": [
+      "tft-17-veigar",
+      "tft-17-lissandra"
+    ],
+    "mainTank": "tft-17-poppy",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-veigar",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-lissandra",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-poppy",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Meeple",
+      "Replicator"
+    ],
+    "description": "Low-cost Meeple reroll with Veigar and Lissandra providing spell damage.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly strengthens Meepsie in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      }
+    ]
+  },
+  {
+    "id": "debris-delivery",
+    "name": "Debris Delivery",
+    "tier": "A",
+    "playstyle": "Fast 9",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-bard",
+      "tft-17-sona",
+      "tft-17-nunu",
+      "tft-17-blitzcrank",
+      "tft-17-karma",
+      "tft-17-illaoi",
+      "tft-17-rhaast",
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser"
+    ],
+    "coreUnits": [
+      "tft-17-sona",
+      "tft-17-bard",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-sona",
+      "tft-17-bard"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-sona",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-bard",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Shepherd",
+      "Vanguard"
+    ],
+    "description": "High-cap Fast 9 board with Sona and Bard supported by a broad frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      }
+    ]
+  },
+  {
+    "id": "cho-me-the-lp",
+    "name": "Cho Me the LP",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-karma",
+      "tft-17-chogath",
+      "tft-17-lissandra",
+      "tft-17-jhin",
+      "tft-17-galio",
+      "tft-17-kaisa",
+      "tft-17-mordekaiser",
+      "tft-17-pantheon"
+    ],
+    "coreUnits": [
+      "tft-17-lissandra",
+      "tft-17-karma",
+      "tft-17-chogath"
+    ],
+    "carries": [
+      "tft-17-lissandra",
+      "tft-17-karma"
+    ],
+    "mainTank": "tft-17-chogath",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-lissandra",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-karma",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-chogath",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Dark Star",
+      "Brawler"
+    ],
+    "description": "Cho'Gath reroll line with Lissandra and Karma supplying the magic damage.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly strengthens Pantheon in this board."
+      },
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      }
+    ]
+  },
+  {
+    "id": "groovians",
+    "name": "Groovians",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 7",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-nami",
+      "tft-17-ornn",
+      "tft-17-samira",
+      "tft-17-blitzcrank",
+      "tft-17-shen",
+      "tft-17-gwen",
+      "tft-17-nasus",
+      "tft-17-teemo"
+    ],
+    "coreUnits": [
+      "tft-17-samira",
+      "tft-17-nami",
+      "tft-17-ornn"
+    ],
+    "carries": [
+      "tft-17-samira",
+      "tft-17-nami"
+    ],
+    "mainTank": "tft-17-ornn",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-samira",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-nami",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-ornn",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Space Groove",
+      "Sniper"
+    ],
+    "description": "Space Groove reroll board with Samira and Nami behind an Ornn frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-nasus-carry",
+        "reason": "Directly strengthens Nasus in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-17-augment-kayle-god-augment",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "stellar-combo",
+    "name": "Stellar Combo",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-jax",
+      "tft-17-aatrox",
+      "tft-17-caitlyn",
+      "tft-17-twisted-fate",
+      "tft-17-kindred",
+      "tft-17-maokai",
+      "tft-17-akali",
+      "tft-17-belveth",
+      "tft-17-talon"
+    ],
+    "coreUnits": [
+      "tft-17-kindred",
+      "tft-17-akali",
+      "tft-17-jax"
+    ],
+    "carries": [
+      "tft-17-kindred",
+      "tft-17-akali"
+    ],
+    "mainTank": "tft-17-jax",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-kindred",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-akali",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction",
+          "tft-item-steraks-gage"
+        ]
+      },
+      {
+        "champion": "tft-17-jax",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "N.O.V.A."
+    ],
+    "description": "Low-cost reroll opener that transitions into Kindred and Akali damage.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "double-tap",
+    "name": "Double Tap",
+    "tier": "A",
+    "playstyle": "Slow Roll · Level 7",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-lulu",
+      "tft-17-miss-fortune",
+      "tft-17-ornn",
+      "tft-17-nami",
+      "tft-17-maokai",
+      "tft-17-rhaast",
+      "tft-17-pantheon",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-miss-fortune",
+      "tft-17-lulu",
+      "tft-17-ornn"
+    ],
+    "carries": [
+      "tft-17-miss-fortune",
+      "tft-17-lulu"
+    ],
+    "mainTank": "tft-17-ornn",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-miss-fortune",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-lulu",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-ornn",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Stargazer",
+      "Gun Goddess"
+    ],
+    "description": "Level 7 reroll board pairing Miss Fortune's damage with Lulu's spell output.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-timebreaker-timestream",
+        "reason": "Directly strengthens Pantheon in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Miss Fortune in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "the-big-bang",
+    "name": "The Big Bang",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 6",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser",
+      "tft-17-pyke",
+      "tft-17-nami",
+      "tft-17-galio",
+      "tft-17-illaoi",
+      "tft-17-rhaast",
+      "tft-17-viktor",
+      "tft-17-lissandra"
+    ],
+    "coreUnits": [
+      "tft-17-ivern-minion",
+      "tft-17-viktor",
+      "tft-17-mordekaiser"
+    ],
+    "carries": [
+      "tft-17-ivern-minion",
+      "tft-17-viktor"
+    ],
+    "mainTank": "tft-17-mordekaiser",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-ivern-minion",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-viktor",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-mordekaiser",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Meeple",
+      "Psionic"
+    ],
+    "description": "Meepsie augment reroll with Viktor as the secondary damage option.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      }
+    ]
+  },
+  {
+    "id": "heat-death",
+    "name": "Heat Death",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 6",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-jhin",
+      "tft-17-karma",
+      "tft-17-illaoi",
+      "tft-17-mordekaiser",
+      "tft-17-kaisa",
+      "tft-17-ivern-minion",
+      "tft-17-chogath",
+      "tft-17-lissandra"
+    ],
+    "coreUnits": [
+      "tft-17-jhin",
+      "tft-17-karma",
+      "tft-17-mordekaiser"
+    ],
+    "carries": [
+      "tft-17-jhin",
+      "tft-17-karma"
+    ],
+    "mainTank": "tft-17-mordekaiser",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-jhin",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-karma",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-mordekaiser",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Dark Star",
+      "Conduit"
+    ],
+    "description": "Mordekaiser augment line with Jhin and Karma providing mixed damage.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      }
+    ]
+  },
+  {
+    "id": "termeepnal-velocity",
+    "name": "Termeepnal Velocity",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-rammus",
+      "tft-17-caitlyn",
+      "tft-17-poppy",
+      "tft-17-shen",
+      "tft-17-corki",
+      "tft-17-ornn",
+      "tft-17-jax",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-corki",
+      "tft-17-caitlyn",
+      "tft-17-poppy"
+    ],
+    "carries": [
+      "tft-17-corki",
+      "tft-17-caitlyn"
+    ],
+    "mainTank": "tft-17-poppy",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-corki",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-caitlyn",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-poppy",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Meeple",
+      "Bastion"
+    ],
+    "description": "Poppy augment reroll board that uses Corki as its principal late-game damage.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-poppy-carry",
+        "reason": "Directly strengthens Poppy in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "nova-nation",
+    "name": "NOVA Nation",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-corki",
+      "tft-17-aatrox",
+      "tft-17-caitlyn",
+      "tft-17-shen",
+      "tft-17-kindred",
+      "tft-17-rammus",
+      "tft-17-maokai",
+      "tft-17-poppy"
+    ],
+    "coreUnits": [
+      "tft-17-corki",
+      "tft-17-kindred",
+      "tft-17-poppy"
+    ],
+    "carries": [
+      "tft-17-corki",
+      "tft-17-kindred"
+    ],
+    "mainTank": "tft-17-poppy",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-corki",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-kindred",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-poppy",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "N.O.V.A.",
+      "Bastion"
+    ],
+    "description": "N.O.V.A. reroll line that itemizes Corki and Kindred behind Poppy.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-poppy-carry",
+        "reason": "Directly strengthens Poppy in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "space-opera",
+    "name": "Space Opera",
+    "tier": "B",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-jhin",
+      "tft-17-nunu",
+      "tft-17-xayah",
+      "tft-17-shen",
+      "tft-17-karma",
+      "tft-17-kaisa",
+      "tft-17-jax",
+      "tft-17-mordekaiser",
+      "tft-17-chogath"
+    ],
+    "coreUnits": [
+      "tft-17-jhin",
+      "tft-17-xayah",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-jhin",
+      "tft-17-xayah"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-jhin",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-xayah",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Dark Star",
+      "Sniper"
+    ],
+    "description": "Dark Star and Sniper board with Jhin and Xayah behind Nunu.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-jax-carry",
+        "reason": "Directly strengthens Jax in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      }
+    ]
+  },
+  {
+    "id": "nova-yi",
+    "name": "NOVA YI",
+    "tier": "B",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-fiora",
+      "tft-17-kindred",
+      "tft-17-master-yi",
+      "tft-17-tahm-kench",
+      "tft-17-shen",
+      "tft-17-maokai",
+      "tft-17-akali",
+      "tft-17-belveth",
+      "tft-17-aatrox"
+    ],
+    "coreUnits": [
+      "tft-17-master-yi",
+      "tft-17-kindred",
+      "tft-17-tahm-kench"
+    ],
+    "carries": [
+      "tft-17-master-yi",
+      "tft-17-kindred"
+    ],
+    "mainTank": "tft-17-tahm-kench",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-master-yi",
+        "role": "main-carry",
+        "items": [
+          "tft-item-bloodthirster",
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction"
+        ]
+      },
+      {
+        "champion": "tft-17-kindred",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-tahm-kench",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "N.O.V.A.",
+      "Marauder"
+    ],
+    "description": "Fast 8 N.O.V.A. board featuring Master Yi and Kindred as carries.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-aatrox-carry",
+        "reason": "Directly strengthens Aatrox in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder2",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-17-augment-kayle-god-augment",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  },
+  {
+    "id": "shieldmaiden",
+    "name": "Shieldmaiden",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 5",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-leblanc",
+      "tft-17-leona",
+      "tft-17-nasus",
+      "tft-17-karma",
+      "tft-17-illaoi",
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser",
+      "tft-17-zoe"
+    ],
+    "coreUnits": [
+      "tft-17-leblanc",
+      "tft-17-karma",
+      "tft-17-leona"
+    ],
+    "carries": [
+      "tft-17-leblanc",
+      "tft-17-karma"
+    ],
+    "mainTank": "tft-17-leona",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-leblanc",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-karma",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-leona",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Arbiter",
+      "Shepherd"
+    ],
+    "description": "Leona augment reroll with LeBlanc and Karma as the protected carries.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-arbiter-divine-amendment",
+        "reason": "Directly supports Arbiter."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-leona-carry",
+        "reason": "Directly strengthens Leona in this board."
+      }
+    ]
+  },
+  {
+    "id": "slap-and-zap",
+    "name": "Slap & Zap",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 7",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-nami",
+      "tft-17-illaoi",
+      "tft-17-viktor",
+      "tft-17-rhaast",
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser",
+      "tft-17-pyke",
+      "tft-17-lissandra"
+    ],
+    "coreUnits": [
+      "tft-17-nami",
+      "tft-17-viktor",
+      "tft-17-illaoi"
+    ],
+    "carries": [
+      "tft-17-nami",
+      "tft-17-viktor"
+    ],
+    "mainTank": "tft-17-illaoi",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-nami",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-viktor",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap",
+          "tft-item-archangels-staff"
+        ]
+      },
+      {
+        "champion": "tft-17-illaoi",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Psionic",
+      "Conduit"
+    ],
+    "description": "Psionic reroll with Nami and Viktor casting behind Illaoi.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      }
+    ]
+  },
+  {
+    "id": "dragons-breath",
+    "name": "Dragon's Breath",
+    "tier": "B",
+    "playstyle": "Fast 8",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-aurelion-sol",
+      "tft-17-karma",
+      "tft-17-nunu",
+      "tft-17-bard",
+      "tft-17-blitzcrank",
+      "tft-17-sona",
+      "tft-17-illaoi",
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser"
+    ],
+    "coreUnits": [
+      "tft-17-aurelion-sol",
+      "tft-17-karma",
+      "tft-17-nunu"
+    ],
+    "carries": [
+      "tft-17-aurelion-sol",
+      "tft-17-karma"
+    ],
+    "mainTank": "tft-17-nunu",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-aurelion-sol",
+        "role": "main-carry",
+        "items": [
+          "tft-item-spear-of-shojin",
+          "tft-item-jeweled-gauntlet",
+          "tft-item-rabadons-deathcap"
+        ]
+      },
+      {
+        "champion": "tft-17-karma",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-nunu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Conduit",
+      "Vanguard"
+    ],
+    "description": "Fast 8 Aurelion Sol board with Karma as the secondary spell carry.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly supports Conduit."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-aurelion-sol-god-augment",
+        "reason": "Directly strengthens Aurelion Sol in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-mordekaiser-carry",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      }
+    ]
+  },
+  {
+    "id": "tentacles-and-missiles",
+    "name": "Tentacles and Missiles",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 7",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-karma",
+      "tft-17-illaoi",
+      "tft-17-kaisa",
+      "tft-17-jhin",
+      "tft-17-riven",
+      "tft-17-ivern-minion",
+      "tft-17-mordekaiser",
+      "tft-17-chogath",
+      "tft-17-lissandra"
+    ],
+    "coreUnits": [
+      "tft-17-kaisa",
+      "tft-17-jhin",
+      "tft-17-illaoi"
+    ],
+    "carries": [
+      "tft-17-kaisa",
+      "tft-17-jhin"
+    ],
+    "mainTank": "tft-17-illaoi",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-kaisa",
+        "role": "main-carry",
+        "items": [
+          "tft-item-infinity-edge",
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor"
+        ]
+      },
+      {
+        "champion": "tft-17-jhin",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-illaoi",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Dark Star",
+      "Shepherd"
+    ],
+    "description": "Kai'Sa and Illaoi reroll board with Jhin adding late-game physical damage.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-dark-star-white-hole",
+        "reason": "Directly supports Dark Star."
+      },
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-augment-may-the-fours-be-with-you",
+        "reason": "Directly strengthens Jhin in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-anima-squad-commander",
+        "reason": "Directly strengthens Illaoi in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-concentration",
+        "reason": "Directly strengthens Mordekaiser in this board."
+      }
+    ]
+  },
+  {
+    "id": "rogue-diff",
+    "name": "Rogue Diff",
+    "tier": "B",
+    "playstyle": "Slow Roll · Level 7",
+    "source": "Mobalytics",
+    "sourcePatch": "Patch 17.9 · Updated Aug 17",
+    "units": [
+      "tft-17-fizz",
+      "tft-17-kaisa",
+      "tft-17-ornn",
+      "tft-17-rhaast",
+      "tft-17-karma",
+      "tft-17-rammus",
+      "tft-17-gwen",
+      "tft-17-ivern-minion"
+    ],
+    "coreUnits": [
+      "tft-17-fizz",
+      "tft-17-kaisa",
+      "tft-17-ornn"
+    ],
+    "carries": [
+      "tft-17-fizz",
+      "tft-17-kaisa"
+    ],
+    "mainTank": "tft-17-ornn",
+    "recommendedItems": [
+      {
+        "champion": "tft-17-fizz",
+        "role": "main-carry",
+        "items": [
+          "tft-item-bloodthirster",
+          "tft-item-titans-resolve",
+          "tft-item-unstable-concoction"
+        ]
+      },
+      {
+        "champion": "tft-17-kaisa",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-madreds-bloodrazor",
+          "tft-item-guinsoos-rageblade"
+        ]
+      },
+      {
+        "champion": "tft-17-ornn",
+        "role": "main-tank",
+        "items": [
+          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-bramble-vest"
+        ]
+      }
+    ],
+    "traits": [
+      "Rogue",
+      "Meeple"
+    ],
+    "description": "Rogue reroll line with Fizz and Kai'Sa attacking around an Ornn frontline.",
+    "recommendedAugments": [
+      {
+        "augmentId": "tft-17-augment-tour-of-the-galaxy",
+        "reason": "Directly supports Voyager."
+      },
+      {
+        "augmentId": "tft-augment-misfits",
+        "reason": "Directly strengthens Rhaast in this board."
+      },
+      {
+        "augmentId": "tft-17-augment-ivern-minion-carry",
+        "reason": "Directly strengthens Meepsie in this board."
+      },
+      {
+        "augmentId": "tft-augment-the-darkin-blade",
+        "reason": "Matches this team's frontline-heavy setup."
+      },
+      {
+        "augmentId": "tft-augment-climb-the-ladder1",
+        "reason": "Matches this team's frontline-heavy setup."
+      }
+    ]
+  }
+]

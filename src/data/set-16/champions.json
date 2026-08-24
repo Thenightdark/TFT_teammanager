@@ -1,0 +1,1311 @@
+[
+  {
+    "id": "tft-16-anivia",
+    "apiName": "TFT16_Anivia",
+    "name": "Anivia",
+    "cost": 1,
+    "traits": [
+      "Freljord",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-anivia.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-blitzcrank",
+    "apiName": "TFT16_Blitzcrank",
+    "name": "Blitzcrank",
+    "cost": 1,
+    "traits": [
+      "Zaun",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-16/champions/tft-16-blitzcrank.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-briar",
+    "apiName": "TFT16_Briar",
+    "name": "Briar",
+    "cost": 1,
+    "traits": [
+      "Noxus",
+      "Slayer",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-16/champions/tft-16-briar.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-caitlyn",
+    "apiName": "TFT16_Caitlyn",
+    "name": "Caitlyn",
+    "cost": 1,
+    "traits": [
+      "Piltover",
+      "Longshot"
+    ],
+    "image": "/sets/set-16/champions/tft-16-caitlyn.png",
+    "range": 6,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-illaoi",
+    "apiName": "TFT16_Illaoi",
+    "name": "Illaoi",
+    "cost": 1,
+    "traits": [
+      "Bilgewater",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-illaoi.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-jarvan-iv",
+    "apiName": "TFT16_JarvanIV",
+    "name": "Jarvan IV",
+    "cost": 1,
+    "traits": [
+      "Demacia",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-jarvan-iv.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-jhin",
+    "apiName": "TFT16_Jhin",
+    "name": "Jhin",
+    "cost": 1,
+    "traits": [
+      "Ionia",
+      "Gunslinger",
+      "Longshot"
+    ],
+    "image": "/sets/set-16/champions/tft-16-jhin.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-kog-maw",
+    "apiName": "TFT16_KogMaw",
+    "name": "Kog'Maw",
+    "cost": 1,
+    "traits": [
+      "Void",
+      "Arcanist",
+      "Longshot"
+    ],
+    "image": "/sets/set-16/champions/tft-16-kog-maw.png",
+    "range": 6,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-lulu",
+    "apiName": "TFT16_Lulu",
+    "name": "Lulu",
+    "cost": 1,
+    "traits": [
+      "Yordle",
+      "Arcanist"
+    ],
+    "image": "/sets/set-16/champions/tft-16-lulu.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-qiyana",
+    "apiName": "TFT16_Qiyana",
+    "name": "Qiyana",
+    "cost": 1,
+    "traits": [
+      "Ixtal",
+      "Slayer"
+    ],
+    "image": "/sets/set-16/champions/tft-16-qiyana.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-16-rumble",
+    "apiName": "TFT16_Rumble",
+    "name": "Rumble",
+    "cost": 1,
+    "traits": [
+      "Yordle",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-rumble.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-shen",
+    "apiName": "TFT16_Shen",
+    "name": "Shen",
+    "cost": 1,
+    "traits": [
+      "Ionia",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-shen.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-sona",
+    "apiName": "TFT16_Sona",
+    "name": "Sona",
+    "cost": 1,
+    "traits": [
+      "Demacia",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-sona.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-viego",
+    "apiName": "TFT16_Viego",
+    "name": "Viego",
+    "cost": 1,
+    "traits": [
+      "Shadow Isles",
+      "Quickstriker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-viego.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-aphelios",
+    "apiName": "TFT16_Aphelios",
+    "name": "Aphelios",
+    "cost": 2,
+    "traits": [
+      "Targon"
+    ],
+    "image": "/sets/set-16/champions/tft-16-aphelios.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-ashe",
+    "apiName": "TFT16_Ashe",
+    "name": "Ashe",
+    "cost": 2,
+    "traits": [
+      "Freljord",
+      "Quickstriker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-ashe.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-bard",
+    "apiName": "TFT16_Bard",
+    "name": "Bard ",
+    "cost": 2,
+    "traits": [
+      "Caretaker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-bard.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-cho-gath",
+    "apiName": "TFT16_ChoGath",
+    "name": "Cho'Gath",
+    "cost": 2,
+    "traits": [
+      "Void",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-16/champions/tft-16-cho-gath.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-ekko",
+    "apiName": "TFT16_Ekko",
+    "name": "Ekko",
+    "cost": 2,
+    "traits": [
+      "Zaun",
+      "Disruptor"
+    ],
+    "image": "/sets/set-16/champions/tft-16-ekko.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-graves",
+    "apiName": "TFT16_Graves",
+    "name": "Graves ",
+    "cost": 2,
+    "traits": [
+      "Bilgewater",
+      "Gunslinger"
+    ],
+    "image": "/sets/set-16/champions/tft-16-graves.png",
+    "range": 2,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-neeko",
+    "apiName": "TFT16_Neeko",
+    "name": "Neeko",
+    "cost": 2,
+    "traits": [
+      "Ixtal",
+      "Arcanist",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-neeko.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-orianna",
+    "apiName": "TFT16_Orianna",
+    "name": "Orianna ",
+    "cost": 2,
+    "traits": [
+      "Piltover",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-orianna.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-poppy",
+    "apiName": "TFT16_Poppy",
+    "name": "Poppy ",
+    "cost": 2,
+    "traits": [
+      "Demacia",
+      "Yordle",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-16/champions/tft-16-poppy.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-rek-sai",
+    "apiName": "TFT16_RekSai",
+    "name": "Rek'Sai",
+    "cost": 2,
+    "traits": [
+      "Void",
+      "Vanquisher"
+    ],
+    "image": "/sets/set-16/champions/tft-16-rek-sai.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-sion",
+    "apiName": "TFT16_Sion",
+    "name": "Sion",
+    "cost": 2,
+    "traits": [
+      "Noxus",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-sion.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-teemo",
+    "apiName": "TFT16_Teemo",
+    "name": "Teemo",
+    "cost": 2,
+    "traits": [
+      "Yordle",
+      "Longshot"
+    ],
+    "image": "/sets/set-16/champions/tft-16-teemo.png",
+    "range": 6,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-tristana",
+    "apiName": "TFT16_Tristana",
+    "name": "Tristana",
+    "cost": 2,
+    "traits": [
+      "Yordle",
+      "Gunslinger"
+    ],
+    "image": "/sets/set-16/champions/tft-16-tristana.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-tryndamere",
+    "apiName": "TFT16_Tryndamere",
+    "name": "Tryndamere ",
+    "cost": 2,
+    "traits": [
+      "Freljord",
+      "Slayer"
+    ],
+    "image": "/sets/set-16/champions/tft-16-tryndamere.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-16-twisted-fate",
+    "apiName": "TFT16_TwistedFate",
+    "name": "Twisted Fate",
+    "cost": 2,
+    "traits": [
+      "Bilgewater",
+      "Quickstriker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-twisted-fate.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-vi",
+    "apiName": "TFT16_Vi",
+    "name": "Vi",
+    "cost": 2,
+    "traits": [
+      "Piltover",
+      "Zaun",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-vi.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-xin-zhao",
+    "apiName": "TFT16_XinZhao",
+    "name": "Xin Zhao",
+    "cost": 2,
+    "traits": [
+      "Demacia",
+      "Ionia",
+      "Warden"
+    ],
+    "image": "/sets/set-16/champions/tft-16-xin-zhao.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-yasuo",
+    "apiName": "TFT16_Yasuo",
+    "name": "Yasuo",
+    "cost": 2,
+    "traits": [
+      "Ionia",
+      "Slayer"
+    ],
+    "image": "/sets/set-16/champions/tft-16-yasuo.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-16-yorick",
+    "apiName": "TFT16_Yorick",
+    "name": "Yorick ",
+    "cost": 2,
+    "traits": [
+      "Shadow Isles",
+      "Warden"
+    ],
+    "image": "/sets/set-16/champions/tft-16-yorick.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-ahri",
+    "apiName": "TFT16_Ahri",
+    "name": "Ahri",
+    "cost": 3,
+    "traits": [
+      "Ionia",
+      "Arcanist"
+    ],
+    "image": "/sets/set-16/champions/tft-16-ahri.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-darius",
+    "apiName": "TFT16_Darius",
+    "name": "Darius",
+    "cost": 3,
+    "traits": [
+      "Noxus",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-darius.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-dr-mundo",
+    "apiName": "TFT16_DrMundo",
+    "name": "Dr. Mundo",
+    "cost": 3,
+    "traits": [
+      "Zaun",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-dr-mundo.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-draven",
+    "apiName": "TFT16_Draven",
+    "name": "Draven",
+    "cost": 3,
+    "traits": [
+      "Noxus",
+      "Quickstriker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-draven.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-gangplank",
+    "apiName": "TFT16_Gangplank",
+    "name": "Gangplank",
+    "cost": 3,
+    "traits": [
+      "Bilgewater",
+      "Slayer",
+      "Vanquisher"
+    ],
+    "image": "/sets/set-16/champions/tft-16-gangplank.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-16-gwen",
+    "apiName": "TFT16_Gwen",
+    "name": "Gwen ",
+    "cost": 3,
+    "traits": [
+      "Shadow Isles",
+      "Disruptor"
+    ],
+    "image": "/sets/set-16/champions/tft-16-gwen.png",
+    "range": 2,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-jinx",
+    "apiName": "TFT16_Jinx",
+    "name": "Jinx",
+    "cost": 3,
+    "traits": [
+      "Zaun",
+      "Gunslinger"
+    ],
+    "image": "/sets/set-16/champions/tft-16-jinx.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-kennen",
+    "apiName": "TFT16_Kennen",
+    "name": "Kennen ",
+    "cost": 3,
+    "traits": [
+      "Ionia",
+      "Yordle",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-kennen.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-kobuko",
+    "apiName": "TFT16_Kobuko",
+    "name": "Kobuko & Yuumi",
+    "cost": 3,
+    "traits": [
+      "Yordle",
+      "Bruiser",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-kobuko.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-leblanc",
+    "apiName": "TFT16_Leblanc",
+    "name": "LeBlanc ",
+    "cost": 3,
+    "traits": [
+      "Noxus",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-leblanc.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-leona",
+    "apiName": "TFT16_Leona",
+    "name": "Leona",
+    "cost": 3,
+    "traits": [
+      "Targon"
+    ],
+    "image": "/sets/set-16/champions/tft-16-leona.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-loris",
+    "apiName": "TFT16_Loris",
+    "name": "Loris",
+    "cost": 3,
+    "traits": [
+      "Piltover",
+      "Warden"
+    ],
+    "image": "/sets/set-16/champions/tft-16-loris.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-malzahar",
+    "apiName": "TFT16_Malzahar",
+    "name": "Malzahar",
+    "cost": 3,
+    "traits": [
+      "Void",
+      "Disruptor"
+    ],
+    "image": "/sets/set-16/champions/tft-16-malzahar.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-milio",
+    "apiName": "TFT16_Milio",
+    "name": "Milio",
+    "cost": 3,
+    "traits": [
+      "Ixtal",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-milio.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-nautilus",
+    "apiName": "TFT16_Nautilus",
+    "name": "Nautilus",
+    "cost": 3,
+    "traits": [
+      "Bilgewater",
+      "Juggernaut",
+      "Warden"
+    ],
+    "image": "/sets/set-16/champions/tft-16-nautilus.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-sejuani",
+    "apiName": "TFT16_Sejuani",
+    "name": "Sejuani",
+    "cost": 3,
+    "traits": [
+      "Freljord",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-sejuani.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-vayne",
+    "apiName": "TFT16_Vayne",
+    "name": "Vayne",
+    "cost": 3,
+    "traits": [
+      "Demacia",
+      "Longshot"
+    ],
+    "image": "/sets/set-16/champions/tft-16-vayne.png",
+    "range": 6,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-zoe",
+    "apiName": "TFT16_Zoe",
+    "name": "Zoe",
+    "cost": 3,
+    "traits": [
+      "Targon"
+    ],
+    "image": "/sets/set-16/champions/tft-16-zoe.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-ambessa",
+    "apiName": "TFT16_Ambessa",
+    "name": "Ambessa",
+    "cost": 4,
+    "traits": [
+      "Noxus",
+      "Vanquisher"
+    ],
+    "image": "/sets/set-16/champions/tft-16-ambessa.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-bel-veth",
+    "apiName": "TFT16_BelVeth",
+    "name": "Bel'Veth",
+    "cost": 4,
+    "traits": [
+      "Void",
+      "Slayer"
+    ],
+    "image": "/sets/set-16/champions/tft-16-bel-veth.png",
+    "range": 2,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-16-braum",
+    "apiName": "TFT16_Braum",
+    "name": "Braum",
+    "cost": 4,
+    "traits": [
+      "Freljord",
+      "Warden"
+    ],
+    "image": "/sets/set-16/champions/tft-16-braum.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-diana",
+    "apiName": "TFT16_Diana",
+    "name": "Diana ",
+    "cost": 4,
+    "traits": [
+      "Targon"
+    ],
+    "image": "/sets/set-16/champions/tft-16-diana.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-fizz",
+    "apiName": "TFT16_Fizz",
+    "name": "Fizz",
+    "cost": 4,
+    "traits": [
+      "Bilgewater",
+      "Yordle"
+    ],
+    "image": "/sets/set-16/champions/tft-16-fizz.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-garen",
+    "apiName": "TFT16_Garen",
+    "name": "Garen",
+    "cost": 4,
+    "traits": [
+      "Demacia",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-garen.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-kaisa",
+    "apiName": "TFT16_Kaisa",
+    "name": "Kai'Sa ",
+    "cost": 4,
+    "traits": [
+      "Assimilator",
+      "Void",
+      "Longshot"
+    ],
+    "image": "/sets/set-16/champions/tft-16-kaisa.png",
+    "range": 6,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-kalista",
+    "apiName": "TFT16_Kalista",
+    "name": "Kalista ",
+    "cost": 4,
+    "traits": [
+      "Shadow Isles",
+      "Vanquisher"
+    ],
+    "image": "/sets/set-16/champions/tft-16-kalista.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-lissandra",
+    "apiName": "TFT16_Lissandra",
+    "name": "Lissandra",
+    "cost": 4,
+    "traits": [
+      "Freljord",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-lissandra.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-lux",
+    "apiName": "TFT16_Lux",
+    "name": "Lux",
+    "cost": 4,
+    "traits": [
+      "Demacia",
+      "Arcanist"
+    ],
+    "image": "/sets/set-16/champions/tft-16-lux.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-miss-fortune",
+    "apiName": "TFT16_MissFortune",
+    "name": "Miss Fortune",
+    "cost": 4,
+    "traits": [
+      "Bilgewater",
+      "Gunslinger"
+    ],
+    "image": "/sets/set-16/champions/tft-16-miss-fortune.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-nasus",
+    "apiName": "TFT16_Nasus",
+    "name": "Nasus ",
+    "cost": 4,
+    "traits": [
+      "Shurima"
+    ],
+    "image": "/sets/set-16/champions/tft-16-nasus.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-nidalee",
+    "apiName": "TFT16_Nidalee",
+    "name": "Nidalee ",
+    "cost": 4,
+    "traits": [
+      "Ixtal",
+      "Huntress"
+    ],
+    "image": "/sets/set-16/champions/tft-16-nidalee.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-renekton",
+    "apiName": "TFT16_Renekton",
+    "name": "Renekton ",
+    "cost": 4,
+    "traits": [
+      "Shurima"
+    ],
+    "image": "/sets/set-16/champions/tft-16-renekton.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-rift-herald",
+    "apiName": "TFT16_RiftHerald",
+    "name": "Rift Herald ",
+    "cost": 4,
+    "traits": [
+      "Void",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-rift-herald.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-seraphine",
+    "apiName": "TFT16_Seraphine",
+    "name": "Seraphine",
+    "cost": 4,
+    "traits": [
+      "Piltover",
+      "Disruptor"
+    ],
+    "image": "/sets/set-16/champions/tft-16-seraphine.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-singed",
+    "apiName": "TFT16_Singed",
+    "name": "Singed",
+    "cost": 4,
+    "traits": [
+      "Zaun",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-16/champions/tft-16-singed.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-skarner",
+    "apiName": "TFT16_Skarner",
+    "name": "Skarner ",
+    "cost": 4,
+    "traits": [
+      "Ixtal"
+    ],
+    "image": "/sets/set-16/champions/tft-16-skarner.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-swain",
+    "apiName": "TFT16_Swain",
+    "name": "Swain",
+    "cost": 4,
+    "traits": [
+      "Noxus",
+      "Arcanist",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-16/champions/tft-16-swain.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-taric",
+    "apiName": "TFT16_Taric",
+    "name": "Taric",
+    "cost": 4,
+    "traits": [
+      "Targon"
+    ],
+    "image": "/sets/set-16/champions/tft-16-taric.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-veigar",
+    "apiName": "TFT16_Veigar",
+    "name": "Veigar",
+    "cost": 4,
+    "traits": [
+      "Yordle",
+      "Arcanist"
+    ],
+    "image": "/sets/set-16/champions/tft-16-veigar.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-warwick",
+    "apiName": "TFT16_Warwick",
+    "name": "Warwick",
+    "cost": 4,
+    "traits": [
+      "Zaun",
+      "Quickstriker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-warwick.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-wukong",
+    "apiName": "TFT16_Wukong",
+    "name": "Wukong",
+    "cost": 4,
+    "traits": [
+      "Ionia",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-wukong.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-yone",
+    "apiName": "TFT16_Yone",
+    "name": "Yone",
+    "cost": 4,
+    "traits": [
+      "Ionia",
+      "Slayer"
+    ],
+    "image": "/sets/set-16/champions/tft-16-yone.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-16-yunara",
+    "apiName": "TFT16_Yunara",
+    "name": "Yunara",
+    "cost": 4,
+    "traits": [
+      "Ionia",
+      "Quickstriker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-yunara.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-aatrox",
+    "apiName": "TFT16_Aatrox",
+    "name": "Aatrox ",
+    "cost": 5,
+    "traits": [
+      "Darkin",
+      "World Ender",
+      "Slayer"
+    ],
+    "image": "/sets/set-16/champions/tft-16-aatrox.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-16-annie",
+    "apiName": "TFT16_Annie",
+    "name": "Annie",
+    "cost": 5,
+    "traits": [
+      "Dark Child",
+      "Arcanist"
+    ],
+    "image": "/sets/set-16/champions/tft-16-annie.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-aurelion-sol",
+    "apiName": "TFT16_AurelionSol",
+    "name": "Aurelion Sol",
+    "cost": 5,
+    "traits": [
+      "Star Forger",
+      "Targon"
+    ],
+    "image": "/sets/set-16/champions/tft-16-aurelion-sol.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-azir",
+    "apiName": "TFT16_Azir",
+    "name": "Azir",
+    "cost": 5,
+    "traits": [
+      "Shurima",
+      "Emperor",
+      "Disruptor"
+    ],
+    "image": "/sets/set-16/champions/tft-16-azir.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-baron-nashor",
+    "apiName": "TFT16_BaronNashor",
+    "name": "Baron Nashor",
+    "cost": 5,
+    "traits": [
+      "Void",
+      "Riftscourge"
+    ],
+    "image": "/sets/set-16/champions/tft-16-baron-nashor.png",
+    "range": 2,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-brock",
+    "apiName": "TFT16_Brock",
+    "name": "Brock",
+    "cost": 5,
+    "traits": [
+      "Ixtal"
+    ],
+    "image": "/sets/set-16/champions/tft-16-brock.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-fiddlesticks",
+    "apiName": "TFT16_Fiddlesticks",
+    "name": "Fiddlesticks",
+    "cost": 5,
+    "traits": [
+      "Harvester",
+      "Vanquisher"
+    ],
+    "image": "/sets/set-16/champions/tft-16-fiddlesticks.png",
+    "range": 2,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-galio",
+    "apiName": "TFT16_Galio",
+    "name": "Galio",
+    "cost": 5,
+    "traits": [
+      "Demacia",
+      "Heroic"
+    ],
+    "image": "/sets/set-16/champions/tft-16-galio.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-kindred",
+    "apiName": "TFT16_Kindred",
+    "name": "Kindred",
+    "cost": 5,
+    "traits": [
+      "Eternal",
+      "Quickstriker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-kindred.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-lucian",
+    "apiName": "TFT16_Lucian",
+    "name": "Lucian & Senna",
+    "cost": 5,
+    "traits": [
+      "Soulbound",
+      "Gunslinger"
+    ],
+    "image": "/sets/set-16/champions/tft-16-lucian.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-mel",
+    "apiName": "TFT16_Mel",
+    "name": "Mel ",
+    "cost": 5,
+    "traits": [
+      "Noxus",
+      "Disruptor"
+    ],
+    "image": "/sets/set-16/champions/tft-16-mel.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-ornn",
+    "apiName": "TFT16_Ornn",
+    "name": "Ornn",
+    "cost": 5,
+    "traits": [
+      "Blacksmith",
+      "Warden",
+      "Freljord"
+    ],
+    "image": "/sets/set-16/champions/tft-16-ornn.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-ryze",
+    "apiName": "TFT16_Ryze",
+    "name": "Ryze ",
+    "cost": 5,
+    "traits": [
+      "Rune Mage"
+    ],
+    "image": "/sets/set-16/champions/tft-16-ryze.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-sett",
+    "apiName": "TFT16_Sett",
+    "name": "Sett",
+    "cost": 5,
+    "traits": [
+      "Ionia",
+      "The Boss"
+    ],
+    "image": "/sets/set-16/champions/tft-16-sett.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-shyvana",
+    "apiName": "TFT16_Shyvana",
+    "name": "Shyvana",
+    "cost": 5,
+    "traits": [
+      "Dragonborn",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-16/champions/tft-16-shyvana.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-sylas",
+    "apiName": "TFT16_Sylas",
+    "name": "Sylas ",
+    "cost": 5,
+    "traits": [
+      "Chainbreaker",
+      "Arcanist",
+      "Defender"
+    ],
+    "image": "/sets/set-16/champions/tft-16-sylas.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-thex",
+    "apiName": "TFT16_THex",
+    "name": "T-Hex",
+    "cost": 5,
+    "traits": [
+      "HexMech",
+      "Piltover",
+      "Gunslinger"
+    ],
+    "image": "/sets/set-16/champions/tft-16-thex.png",
+    "range": 2,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-tahm-kench",
+    "apiName": "TFT16_TahmKench",
+    "name": "Tahm Kench",
+    "cost": 5,
+    "traits": [
+      "Bilgewater",
+      "Glutton",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-tahm-kench.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-thresh",
+    "apiName": "TFT16_Thresh",
+    "name": "Thresh ",
+    "cost": 5,
+    "traits": [
+      "Shadow Isles",
+      "Warden"
+    ],
+    "image": "/sets/set-16/champions/tft-16-thresh.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-volibear",
+    "apiName": "TFT16_Volibear",
+    "name": "Volibear ",
+    "cost": 5,
+    "traits": [
+      "Freljord",
+      "Bruiser"
+    ],
+    "image": "/sets/set-16/champions/tft-16-volibear.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-16-xerath",
+    "apiName": "TFT16_Xerath",
+    "name": "Xerath ",
+    "cost": 5,
+    "traits": [
+      "Shurima",
+      "Ascendant"
+    ],
+    "image": "/sets/set-16/champions/tft-16-xerath.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-zaahen",
+    "apiName": "TFT16_Zaahen",
+    "name": "Zaahen",
+    "cost": 5,
+    "traits": [
+      "Darkin",
+      "Immortal"
+    ],
+    "image": "/sets/set-16/champions/tft-16-zaahen.png",
+    "range": 2,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-ziggs",
+    "apiName": "TFT16_Ziggs",
+    "name": "Ziggs ",
+    "cost": 5,
+    "traits": [
+      "Zaun",
+      "Yordle",
+      "Longshot"
+    ],
+    "image": "/sets/set-16/champions/tft-16-ziggs.png",
+    "range": 6,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-16-zilean",
+    "apiName": "TFT16_Zilean",
+    "name": "Zilean",
+    "cost": 5,
+    "traits": [
+      "Chronokeeper",
+      "Invoker"
+    ],
+    "image": "/sets/set-16/champions/tft-16-zilean.png",
+    "range": 4,
+    "role": "backline-carry"
+  }
+]

@@ -1,0 +1,661 @@
+[
+  {
+    "id": "tft-17-anima-squad",
+    "apiName": "TFT17_AnimaSquad",
+    "name": "Anima",
+    "description": "After losing a player combat, gain @TechPerCombat@ Tech, plus additional Tech equal to @TechPerLoss@ times the length of your loss streak. Additionally, gain @TechPerKill@ Tech per Anima takedown.<br><br>Each time Animas get @TechBreakpoint@ Tech, they prototype new Anima Weapons. You can take them, or save your Tech to get more powerful weapons next time.<br><br><row>(@MinUnits@) Start Researching! </row><br><row>(@MinUnits@) After each player combat, gain loot!</row><br><br><ShowIf.TFT17_AnimaSquad_IsDoubleUp><rules>Gain @PairsPartnerWinMultiplier*100@% Tech from losing if your partner wins a combat in Double Up.</rules></ShowIf.TFT17_AnimaSquad_IsDoubleUp>",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-anima-squad.png"
+  },
+  {
+    "id": "tft-17-admin",
+    "apiName": "TFT17_ADMIN",
+    "name": "Arbiter",
+    "description": "Scribe a unique divine law, allowing you to choose an effect to apply to Arbiters when a chosen cause occurs.<br><br><row>(@MinUnits@) Choose a cause and effect for your law</row><br><row>(@MinUnits@) Effects are stronger. </row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-admin.png"
+  },
+  {
+    "id": "tft-17-resist-tank",
+    "apiName": "TFT17_ResistTank",
+    "name": "Bastion",
+    "description": "Your team gains @TeamwideResists@ Armor and Magic Resist.<br><br>Bastions gain more, and the value doubles in the first @Duration@ seconds of combat.<br><br><row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row><br><row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%</row><br><row>(@MinUnits@) @BonusArmor@ %i:scaleArmor%%i:scaleMR%; Non-Bastions gain an additional @EnhancedTeamwideArmor@ %i:scaleArmor%%i:scaleMR%.</row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-resist-tank.png"
+  },
+  {
+    "id": "tft-17-hptank",
+    "apiName": "TFT17_HPTank",
+    "name": "Brawler",
+    "description": "Your team gains @TeamwideBonus*100@% Health. Brawlers gain more.<br><br><expandRow>(@MinUnits@) +@HealthBonus*100@% maximum Health</expandRow>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-hptank.png"
+  },
+  {
+    "id": "tft-17-shen-unique-trait",
+    "apiName": "TFT17_ShenUniqueTrait",
+    "name": "Bulwark",
+    "description": "Summon a placeable relic. At the start of combat, it grants adjacent allies a @PercentHealthShield*100@% max Health shield and @AttackSpeed*100@% Attack Speed.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-shen-unique-trait.png"
+  },
+  {
+    "id": "tft-17-astrait",
+    "apiName": "TFT17_ASTrait",
+    "name": "Challenger",
+    "description": "Your team gains @TeamwideAS*100@% Attack Speed. Challengers gain bonus Attack Speed. When their target dies, Challengers dash to a new target and increase their Attack Speed bonus by @BurstPercent*100@% for @BurstDuration@ seconds.<br><br><row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row><br><row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row><br><row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row><br><row>(@MinUnits@) @AttackSpeedPercent*100@%&nbsp;%i:scaleAS%</row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-astrait.png"
+  },
+  {
+    "id": "tft-17-miss-fortune-undetermined-trait",
+    "apiName": "TFT17_MissFortuneUndeterminedTrait",
+    "name": "Choose Trait",
+    "description": "When you field Miss Fortune, choose between Conduit Mode, Challenger Mode, and Replicator Mode. Miss Fortune has a unique ability based on her mode and gains the associated trait.",
+    "breakpoints": [],
+    "image": "/sets/set-17/traits/tft-17-miss-fortune-undetermined-trait.png"
+  },
+  {
+    "id": "tft-17-sona-unique-trait",
+    "apiName": "TFT17_SonaUniqueTrait",
+    "name": "Commander",
+    "description": "(@MinUnits@) Sona gives you a random Command Mod every @RoundsPerMod@ rounds which allows you to alter the way an ally behaves during combat. Command Mods last @RoundsPerMod@ player combats even if they are not equipped.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-sona-unique-trait.png"
+  },
+  {
+    "id": "tft-17-mana-trait",
+    "apiName": "TFT17_ManaTrait",
+    "name": "Conduit",
+    "description": "Innate: Conduits gain @InnateManaGain*100@% additional Mana from all sources.<br><br>Your team gains Mana Regen, increased for Conduits.<br><br><expandRow>(@MinUnits@) @TeamManaRegen@ %i:TFTManaRegen% | @ChannelerManaRegen@ %i:TFTManaRegen%</expandRow><br><br>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-mana-trait.png"
+  },
+  {
+    "id": "tft-17-morgana-unique-trait",
+    "apiName": "TFT17_MorganaUniqueTrait",
+    "name": "Dark Lady",
+    "description": "Your team gains @Durability*100@% Durability, increased to @TransformedDurability*100@% when Morgana is in her Dark Form.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-morgana-unique-trait.png"
+  },
+  {
+    "id": "tft-17-dark-star",
+    "apiName": "TFT17_DarkStar",
+    "name": "Dark Star",
+    "description": "<row>(@MinUnits@) Dark Stars create a black hole that consumes enemies at <ShowIf.TFT17_DarkStar_HasNeutronStar><TFTBonus>@TFTUnitProperty.trait:TFT17_Augment_DarkStar_NeutronStar_BonusExecutePercent*100@%</TFTBonus></ShowIf.TFT17_DarkStar_HasNeutronStar><ShowIfNot.TFT17_DarkStar_HasNeutronStar>@ExecuteHPPercent*100@%</ShowIfNot.TFT17_DarkStar_HasNeutronStar> max health.</row><br><row>(@MinUnits@) AND they gain @ADAP@% %i:scaleAD%%i:scaleAP%.</row><br><row>(@MinUnits@) AND the strongest Dark Star unit goes supermassive, gaining @SupermassivePercentBonus*100@% effectiveness from Dark Star, and creates 2 minor Black Holes.</row><br><row>(@MinUnits@) All Dark Stars are supermassive. At level 10, CONSUME EVERYONE. </row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      },
+      {
+        "minimum": 9,
+        "label": "Prismatic"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-dark-star.png"
+  },
+  {
+    "id": "tft-17-fiora-unique-trait",
+    "apiName": "TFT17_FioraUniqueTrait",
+    "name": "Divine Duelist",
+    "description": "Your Tactician heals for @PlayerOmnivamp*100@% of player damage dealt from winning.<br><br>Fiora always wins a one on one duel.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-fiora-unique-trait.png"
+  },
+  {
+    "id": "tft-17-vex-unique-trait",
+    "apiName": "TFT17_VexUniqueTrait",
+    "name": "Doomer",
+    "description": "Combat Start: Mark all enemies with Doom.<br><br>The first time enemies are damaged each combat, their Doom is consumed, stealing @ADAP1@% Attack Damage and Ability Power from them and granting it to your strongest Vex.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-vex-unique-trait.png"
+  },
+  {
+    "id": "tft-17-jhin-unique-trait",
+    "apiName": "TFT17_JhinUniqueTrait",
+    "name": "Eradicator",
+    "description": "Enemies have @PctResists*100@% less Armor and Magic Resist.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-jhin-unique-trait.png"
+  },
+  {
+    "id": "tft-17-graves-trait",
+    "apiName": "TFT17_GravesTrait",
+    "name": "Factory New",
+    "description": "After participating in combat, open an armory to purchase a permanent upgrade for your strongest Graves.<br><br>Every @NumberOfUpgradesBeforeRoundCostIncrease@ upgrades, future upgrades will take an additional round.<br><br><rules>Next Upgrade: @TFTUnitProperty.trait:TFT17_GravesTrait_RoundsUntilUpgrade@ Rounds.</rules>",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-graves-trait.png"
+  },
+  {
+    "id": "tft-17-fateweaver",
+    "apiName": "TFT17_Fateweaver",
+    "name": "Fateweaver",
+    "description": "Innate: Fateweavers have <TFTKeyword>Precision</TFTKeyword>.<br><br><row>(@MinUnits@) Chance effects on abilities are <TFTKeyword>Lucky</TFTKeyword>.</row><br><row>(@MinUnits@) Gain @CritChance*100@% Crit Chance and @CritDamage@%&nbsp;Crit Damage. Critical strikes are also <TFTKeyword>Lucky</TFTKeyword>.</row><br><br>{{TFT_Keyword_Precision}}<br><rules>Lucky: Check twice and take the better outcome.</rules>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-fateweaver.png"
+  },
+  {
+    "id": "tft-17-zed-unique-trait",
+    "apiName": "TFT17_ZedUniqueTrait",
+    "name": "Galaxy Hunter",
+    "description": "Zed is obtained from the Invader Zed augment.<br><br>While at least one clone is alive, Zed gains @BonusAD*100@% bonus Attack Damage.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-zed-unique-trait.png"
+  },
+  {
+    "id": "tft-17-miss-fortune-unique-trait",
+    "apiName": "TFT17_MissFortuneUniqueTrait",
+    "name": "Gun Goddess",
+    "description": "When you field Miss Fortune, choose between Conduit Mode, Challenger Mode, and Replicator Mode. Miss Fortune has a unique ability based on her mode and gains the associated trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-miss-fortune-unique-trait.png"
+  },
+  {
+    "id": "tft-17-melee-trait",
+    "apiName": "TFT17_MeleeTrait",
+    "name": "Marauder",
+    "description": "Your team gains @TeamwideBonus*100@% Omnivamp. Marauders gain more Omnivamp, Attack Damage, and their Omnivamp overhealing is converted into Shield (up to @MaxPercentHealthShield*100@% max Health.)<br><br><row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @AD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @AD*100@% %i:scaleAD%</row><br><row>(@MinUnits@) @Omnivamp*100@% %i:scaleSV%, @AD*100@% %i:scaleAD%.</row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-melee-trait.png"
+  },
+  {
+    "id": "tft-17-mecha",
+    "apiName": "TFT17_Mecha",
+    "name": "Mecha",
+    "description": "Innate: Mecha units can transform into their Ultimate form, upgrading their ability and gaining @TransformedPercentHealth*100@% Health. Transformed Mechas take up two team slots and count twice for the Mecha trait.<br><br><row>(@MinUnits@) Energy Cells: Mechas gain @AP@%&nbsp;%i:scaleAD%%i:scaleAP%.</row><br><row>(@MinUnits@) Overclocked Cells: Increased to @AP@%&nbsp;%i:scaleAD%%i:scaleAP%.</row><br><row>(@MinUnits@) Precision Engineering: +@TeamSize@ max team size</row><br><br><rules>Use the Mecha-Former item to toggle the forms of your Mecha units</rules>",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-mecha.png"
+  },
+  {
+    "id": "tft-17-astronaut",
+    "apiName": "TFT17_Astronaut",
+    "name": "Meeple",
+    "description": "Meeple attract Meeps that empower Meeple abilities in meepy ways. They also gain bonus Health.<br><br><row>(@MinUnits@) @Meeps@ %i:set14AmpIcon%, @BonusHealth@ %i:scaleHealth%</row><br><row>(@MinUnits@) @Meeps@ %i:set14AmpIcon%, @BonusHealth@ %i:scaleHealth%</row><br><row>(@MinUnits@) @Meeps@ %i:set14AmpIcon%, @BonusHealth@ %i:scaleHealth%. Create a Cloning Slot on your bench. Gain gold and a 1-star copy of the champion placed there when cloning completes.</row><br><row>(@MinUnits@) @Meeps@ %i:set14AmpIcon%, @BonusHealth@ %i:scaleHealth%. SUMMON THE FOUR MEEPLORDS!</row><br><br><rules>Cloning time = Champion cost</rules>",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Gold"
+      },
+      {
+        "minimum": 10,
+        "label": "Prismatic"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-astronaut.png"
+  },
+  {
+    "id": "tft-17-drx",
+    "apiName": "TFT17_DRX",
+    "name": "N.O.V.A.",
+    "description": "<row>(@MinUnits@) @TeamAttackDelay@ seconds into combat, N.O.V.A. grant a power surge to allies based on champions.</row><br><row>(@MinUnits@) Gain a Striker selector. The chosen N.O.V.A. activates their Strike during the power surge.</row><br><br><ShowIf.TFT17_DRX_HasAatrox><status>Aatrox:</status> Ally Damage @ShredAndSunder*100@% <TFTKeyword>Shred</TFTKeyword> and <TFTKeyword>Sunders</TFTKeyword> enemies</ShowIf.TFT17_DRX_HasAatrox><ShowIfNot.TFT17_DRX_HasAatrox><TFTGuildInactive>Aatrox: Shred and Sunder enemies</TFTGuildInactive></ShowIfNot.TFT17_DRX_HasAatrox><br><ShowIf.TFT17_DRX_HasCaitlyn><status>Caitlyn:</status> Grant allies @AS*100@% Attack Speed</ShowIf.TFT17_DRX_HasCaitlyn><ShowIfNot.TFT17_DRX_HasCaitlyn><TFTGuildInactive>Caitlyn: Grant Attack Speed</TFTGuildInactive></ShowIfNot.TFT17_DRX_HasCaitlyn><br><ShowIf.TFT17_DRX_HasAkali><status>Akali:</status> Allies gain <TFTKeyword>Precision</TFTKeyword></ShowIf.TFT17_DRX_HasAkali><ShowIfNot.TFT17_DRX_HasAkali><TFTGuildInactive>Akali: Allies gain Precision</TFTGuildInactive></ShowIfNot.TFT17_DRX_HasAkali><br><ShowIf.TFT17_DRX_HasMaokai><status>Maokai:</status> Allies heal @Heal*100@% max Health</ShowIf.TFT17_DRX_HasMaokai><ShowIfNot.TFT17_DRX_HasMaokai><TFTGuildInactive>Maokai: Heal allies</TFTGuildInactive></ShowIfNot.TFT17_DRX_HasMaokai><br><ShowIf.TFT17_DRX_HasKindred><status>Kindred:</status> Shield the strongest Tank for <TFTBonus>@ShieldValue@</TFTBonus></ShowIf.TFT17_DRX_HasKindred><ShowIfNot.TFT17_DRX_HasKindred><TFTGuildInactive>Kindred: Shield an ally</TFTGuildInactive></ShowIfNot.TFT17_DRX_HasKindred><br><ShowIf.TFT17_DRX_HasEmblem><status>Emblem:</status> Allies deal @BonusTrueDamage*100@% stacking bonus true damage</ShowIf.TFT17_DRX_HasEmblem><ShowIfNot.TFT17_DRX_HasEmblem><TFTGuildInactive>Emblem: Deal bonus true damage</TFTGuildInactive></ShowIfNot.TFT17_DRX_HasEmblem>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-drx.png"
+  },
+  {
+    "id": "tft-17-tahm-kench-unique-trait",
+    "apiName": "TFT17_TahmKenchUniqueTrait",
+    "name": "Oracle",
+    "description": "Every @Rounds@ rounds, Tahm Kench grants a reward!<br><br>Rounds Remaining: @TFTUnitProperty.trait:TFT17_TahmKench_RoundsRemaining@<br>Last Reward: @TFTUnitProperty.trait:TFT17_TahmKench_LastReward@",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-tahm-kench-unique-trait.png"
+  },
+  {
+    "id": "tft-17-blitzcrank-unique-trait",
+    "apiName": "TFT17_BlitzcrankUniqueTrait",
+    "name": "Party Animal",
+    "description": "Once per combat, after falling below @HealthThreshold*100@% percent Health, become untargetable and repair @PercentHealthHeal*100@% max Health per second. Upon reaching full Health, or when no other allies remain, return to combat. If fully healed, for the rest of combat Blitzcrank is in {{TFT17_SpaceGroove_TheGroove}} and Party Crasher's passive fires bolts four times as fast.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-blitzcrank-unique-trait.png"
+  },
+  {
+    "id": "tft-17-primordian",
+    "apiName": "TFT17_Primordian",
+    "name": "Primordian",
+    "description": "<row>(@MinUnits@) Dealing damage spawns Swarmlings based on unique Primordian star level.</row><br><row>(@MinUnits@) Spawn @PercentMoreSwarmlings@% more Swarmlings! After each player combat, gain a random 1 or 2-cost champion. </row><br><br><rules>@DamageTakenPercentModifier*100@% of damage taken contributes to damage dealt.</rules>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-primordian.png"
+  },
+  {
+    "id": "tft-17-psy-ops",
+    "apiName": "TFT17_PsyOps",
+    "name": "Psionic",
+    "description": "Gain Psionic items that can be equipped to any ally.<br><br><row>(@MinUnits@) Gain the @TFTUnitProperty.trait:TFT17_PsyOps_Item1@</row><br><row>(@MinUnits@) Gain the @TFTUnitProperty.trait:TFT17_PsyOps_Item2@, Psionic items gain extra effects on Psionic units</row><br><br><br>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-psy-ops.png"
+  },
+  {
+    "id": "tft-17-rhaast-unique-trait",
+    "apiName": "TFT17_RhaastUniqueTrait",
+    "name": "Redeemer",
+    "description": "<row>(@MinUnits@) For each non-unique trait you have active, your team gains @BonusOffensiveStat1*100@% Attack Speed, and @BonusDefensiveStat1@ Armor and Magic Resist.</row><br><br>Teamwide Attack Speed: @TFTUnitProperty.trait:TFT17_RhaastUnique_OffensiveStatToGain@% %i:scaleAS%<br>Teamwide Resists: @TFTUnitProperty.trait:TFT17_RhaastUnique_DefensiveStatToGain@ %i:scaleArmor%%i:scaleMR%",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Unique"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-rhaast-unique-trait.png"
+  },
+  {
+    "id": "tft-17-aptrait",
+    "apiName": "TFT17_APTrait",
+    "name": "Replicator",
+    "description": "Replicator abilities occur a second time at reduced effectiveness.<br><br><expandRow>(@MinUnits@) @Effectiveness*100@% strength</expandRow>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-aptrait.png"
+  },
+  {
+    "id": "tft-17-assassin-trait",
+    "apiName": "TFT17_AssassinTrait",
+    "name": "Rogue",
+    "description": "Rogues gain Attack Damage and Ability Power. The first time they fall below @HealthThreshold*100@% health, they slip into shadows. Enemies targeting them are redirected to a nearby unit, preferring Tanks.<br><br><row>(@MinUnits@) @AP@% %i:scaleAD% %i:scaleAP%</row><br><row>(@MinUnits@) @AP@% %i:scaleAD% %i:scaleAP%</row><br><row>(@MinUnits@) @AP@% %i:scaleAD% %i:scaleAP%</row><br><row>(@MinUnits@) @AP@% %i:scaleAD% %i:scaleAP%</row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-assassin-trait.png"
+  },
+  {
+    "id": "tft-17-summon-trait",
+    "apiName": "TFT17_SummonTrait",
+    "name": "Shepherd",
+    "description": "Shepherds summon the Bond of the Stars to aid them in battle.<br><br><row>(@MinUnits@) Summon Bia</row><br><row>(@MinUnits@) Summon Bayin</row><br><row>(@MinUnits@) Bia and Bayin's bond grows deeper</row><br><br><rules>Bia and Bayin's power are increased by the total star level of all Shepherds.</rules>",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-summon-trait.png"
+  },
+  {
+    "id": "tft-17-ranged-trait",
+    "apiName": "TFT17_RangedTrait",
+    "name": "Sniper",
+    "description": "Snipers gain Damage Amp, increased against targets farther away.<br><br><row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;%i:scaleDA%; +@PerHexIncrease@%&nbsp;%i:scaleDA% per hex</row><br><row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;%i:scaleDA%; +@PerHexIncrease@%&nbsp;%i:scaleDA% per hex</row><br><row>(@MinUnits@) @PercentDamageIncrease@%&nbsp;%i:scaleDA%; +@PerHexIncrease@%&nbsp;%i:scaleDA% per hex</row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-ranged-trait.png"
+  },
+  {
+    "id": "tft-17-space-groove",
+    "apiName": "TFT17_SpaceGroove",
+    "name": "Space Groove",
+    "description": "<row>(@MinUnits@) Groovians can enter {{TFT17_SpaceGroove_TheGroove}}. While in it, they gain Attack Speed and max Health Regen, increased per Groovian on your team.</row><br><row>(@MinUnits@) All Groovians start combat in {{TFT17_SpaceGroove_TheGroove}} for @StartOfCombatDuration@ seconds.</row><br><row>(@MinUnits@) Each second spent in {{TFT17_SpaceGroove_TheGroove}} grants @ADAPPerSecond@% stacking Attack Damage and Ability Power.</row><br><row>(@MinUnits@) Increase these effects by @EffectBonus@%!</row><br><row>(@MinUnits@) {{TFT17_SpaceGroove_Groove}}</row><br><br>{{TFT17_SpaceGroove_TheGroove}}: @TFTUnitProperty.:TFT17_SpaceGroove_AS*100@% %i:scaleAS%, @TFTUnitProperty.:TFT17_SpaceGroove_HealthRegen*100@% %i:scaleHPRegen%",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Gold"
+      },
+      {
+        "minimum": 10,
+        "label": "Prismatic"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-space-groove.png"
+  },
+  {
+    "id": "tft-17-stargazer-wolf",
+    "apiName": "TFT17_Stargazer_Wolf",
+    "name": "Stargazer",
+    "description": "Stargazers chart a different constellation every game. This game: <TFTStargazer>The Boar</TFTStargazer>.<br><br>Gain gold after winning player combat. Allies in empowered hexes gain @Wolf_Health_Teamwide*100@% Health, Attack Damage, and Ability Power. Stargazers gain more.<br><br>(Gold Earned: @TFTUnitProperty.trait:TFT17_Stargazer_Wolf_TotalGold@)<br><br><expandRow>(@MinUnits@) @Wolf_Gold@ gold, @Wolf_Health*100@% %i:scaleHealth%, @Wolf_ADAP@% %i:scaleAD%%i:scaleAP%</expandRow><br><br><rules>More hexes reveal at each player level</rules>",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-stargazer-wolf.png"
+  },
+  {
+    "id": "tft-17-timebreaker",
+    "apiName": "TFT17_Timebreaker",
+    "name": "Timebreaker",
+    "description": "<row>(@MinUnits@) Allies gain @AttackSpeed*100@% Attack Speed.</row><br><row>(@MinUnits@) AND When you lose, gain free rerolls. When you win, store XP in a Temporal Core (scales with stage).</row><br><row>(@MinUnits@) AND Timebreakers gain an additional @TimebreakerAdditionalAS*100@% Attack Speed</row><br><br><rules>Rerolls on Loss: @TFTUnitProperty.:TFT17_Timebreaker_NumRerollsTooltip@<br>XP on Win: @TFTUnitProperty.:TFT17_Timebreaker_NumXPTooltip@</rules>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-timebreaker.png"
+  },
+  {
+    "id": "tft-17-shield-tank",
+    "apiName": "TFT17_ShieldTank",
+    "name": "Vanguard",
+    "description": "Vanguards gain @DamageReductionPct*100@% Durability while Shielded. <br><br>Combat start and @HealthThreshold*100@%&nbsp;Health: Gain a max Health Shield for @ShieldDuration@&nbsp;seconds.<br><br><row>(@MinUnits@) @ShieldPercentAmount*100@% max Health</row><br><row>(@MinUnits@) @ShieldPercentAmount*100@% max Health</row><br><row>(@MinUnits@) @ShieldPercentAmount*100@% max Health;<br>@EnhancedDurability*100@%&nbsp;%i:scaleDR% while Shielded</row>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-shield-tank.png"
+  },
+  {
+    "id": "tft-17-flex-trait",
+    "apiName": "TFT17_FlexTrait",
+    "name": "Voyager",
+    "description": "Combat Start: Your Tanks gain a Shield for @ShieldDuration@ seconds. Your other allies gain Damage Amp. <br><br>Voyagers gain double.<br><br><expandRow>(@MinUnits@) @ShieldHP@ Shield; @BonusDA*100@% %i:scaleDA%</expandRow><br>",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-17/traits/tft-17-flex-trait.png"
+  }
+]
