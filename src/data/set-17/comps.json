@@ -4,7 +4,7 @@
     "name": "It's Raining LP",
     "tier": "S",
     "playstyle": "Slow Roll · Level 7",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-lulu",
@@ -92,15 +92,14 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/timebreak-3BavowcjPdLpyqtSn64sR1jImyL"
+    ]
   },
   {
     "id": "timebreak-trouble",
     "name": "Timebreak Trouble",
     "tier": "S",
     "playstyle": "Slow Roll · Level 6",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-tahm-kench",
@@ -188,15 +187,14 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/timebreak-trouble-3HtdOLDh3YOG1zTWjScu1dpDNPr"
+    ]
   },
   {
     "id": "paddle-spam",
     "name": "Paddle Spam",
     "tier": "S",
     "playstyle": "Slow Roll · Level 6",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-mordekaiser",
@@ -282,15 +280,14 @@
         "augmentId": "tft-augment-arcane-viktory",
         "reason": "Directly strengthens Viktor in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/paddle-spam-3Gxhc4c26PSQDfIdOXlPr2NaUTI"
+    ]
   },
   {
     "id": "mountain-stargazer",
     "name": "Mountain Stargazer",
     "tier": "S",
     "playstyle": "Fast 8 · Mountain constellation",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-jhin",
@@ -389,25 +386,24 @@
         "reason": "Directly strengthens Mordekaiser in this board."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/stargazer-3Bldxoh2Ag1u8GewIIJ0eHHlQOX",
     "requiredEmblems": [
       {
         "trait": "Stargazer",
         "holder": "tft-17-riven",
         "item": "tft-17-item-stargazer-emblem-item",
-        "note": "The published Mobalytics board equips this emblem on Riven."
+        "note": "The recommended board equips this emblem on Riven."
       },
       {
         "trait": "Stargazer",
         "holder": "tft-17-shen",
         "item": "tft-17-item-stargazer-emblem-item",
-        "note": "The published Mobalytics board equips this emblem on Shen."
+        "note": "The recommended board equips this emblem on Shen."
       },
       {
         "trait": "Stargazer",
         "holder": "tft-17-jhin",
         "item": "tft-17-item-stargazer-emblem-item",
-        "note": "The published Mobalytics board equips this emblem on Jhin."
+        "note": "The recommended board equips this emblem on Jhin."
       }
     ]
   },
@@ -416,7 +412,7 @@
     "name": "Cards & Cartridges",
     "tier": "S",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-jax",
@@ -507,15 +503,14 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/cards-and-cartridges-3BqSOb3IS301Xdtm39mScqcvUX4"
+    ]
   },
   {
     "id": "bastion-of-fate",
     "name": "Bastion of Fate",
     "tier": "S",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-shen",
@@ -603,15 +598,14 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/bastion-of-fate-3I2ddud0G48GiDEgCBRbNe3TvOH"
+    ]
   },
   {
     "id": "stay-groovy",
     "name": "Stay Groovy",
     "tier": "S",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-blitzcrank",
@@ -703,13 +697,12 @@
         "reason": "Matches this team's frontline-heavy setup."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/space-groove-3BZqUzc73ETCeoSrr3oysqOH1IZ",
     "requiredEmblems": [
       {
         "trait": "Space Groove",
         "holder": "tft-17-riven",
         "item": "tft-17-item-space-groove-emblem-item",
-        "note": "The published Mobalytics board equips this emblem on Riven."
+        "note": "The recommended board equips this emblem on Riven."
       }
     ]
   },
@@ -718,7 +711,7 @@
     "name": "Feed the Stars",
     "tier": "S",
     "playstyle": "Fast 8 · Dark Star emblem",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-jhin",
@@ -810,13 +803,12 @@
         "reason": "Directly strengthens Aurelion Sol in this board."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/feed-the-stars-3CdfYeTZDv3kTfunOe4PqUjYsXv",
     "requiredEmblems": [
       {
         "trait": "Dark Star",
         "holder": "tft-17-aurelion-sol",
         "item": "tft-17-item-dark-star-emblem-item",
-        "note": "The published Mobalytics board equips this emblem on Aurelion Sol."
+        "note": "The recommended board equips this emblem on Aurelion Sol."
       }
     ]
   },
@@ -825,7 +817,7 @@
     "name": "Snipin & Vibin",
     "tier": "S",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-jhin",
@@ -912,15 +904,14 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/snipin-and-vibin-3CZGKFRr1ng3x8xIXMV0DiWmXnD"
+    ]
   },
   {
     "id": "nova",
     "name": "N.O.V.A.",
     "tier": "S",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-kindred",
@@ -1000,15 +991,14 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/n-o-v-a-3BlXmB8kpkv4fFt1UN5QFuyRMHN"
+    ]
   },
   {
     "id": "capped-and-loaded",
     "name": "Capped & Loaded",
     "tier": "S",
     "playstyle": "Fast 9",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-fiora",
@@ -1099,15 +1089,14 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/capped-and-loaded-3CJrvdLtcjAkRzPtE9DjAlPg7Bo"
+    ]
   },
   {
     "id": "reach-for-the-stars",
     "name": "Reach For The Stars",
     "tier": "A",
     "playstyle": "Slow Roll · Level 6",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-lulu",
@@ -1186,7 +1175,6 @@
         "reason": "Matches this team's frontline-heavy setup."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/jax-hero-augment-3BqWbZgWMbXHzhKcuBniNMEsAM9",
     "threeStarTargets": [
       "tft-17-lulu",
       "tft-17-jax",
@@ -1199,7 +1187,7 @@
     "name": "Fast 9 Zed",
     "tier": "A",
     "playstyle": "Fast 9",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-vex",
@@ -1284,15 +1272,14 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/zed-3CH0I02RzPi4tUMfl71O778U8Ts"
+    ]
   },
   {
     "id": "strike-and-stance",
     "name": "Strike & Stance",
     "tier": "A",
     "playstyle": "Slow Roll · Level 6",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-kindred",
@@ -1378,13 +1365,12 @@
         "reason": "Matches this team's frontline-heavy setup."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/strike-and-stance-3GXdo8Gk11woR36ALnw1K94oLnc",
     "requiredEmblems": [
       {
         "trait": "N.O.V.A.",
         "holder": "tft-17-urgot",
         "item": "tft-17-item-drxemblem-item",
-        "note": "The published Mobalytics board equips this emblem on Urgot."
+        "note": "The recommended board equips this emblem on Urgot."
       }
     ]
   },
@@ -1393,7 +1379,7 @@
     "name": "Turbo Doomer",
     "tier": "A",
     "playstyle": "Fast 9",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-bard",
@@ -1481,15 +1467,14 @@
         "augmentId": "tft-17-augment-ivern-minion-carry",
         "reason": "Directly strengthens Meepsie in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/turbo-doomer-3C7BsUrnhw9z9Up1gvxPUZzZFMB"
+    ]
   },
   {
     "id": "conduit-reroll",
     "name": "Conduit Reroll",
     "tier": "A",
     "playstyle": "Slow Roll · Level 7",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-miss-fortune",
@@ -1574,15 +1559,14 @@
         "augmentId": "tft-17-augment-gragas-carry",
         "reason": "Directly strengthens Gragas in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/conduit-reroll-3BptVFxNi3wVP1whU01utMyYxHS"
+    ]
   },
   {
     "id": "twin-blades",
     "name": "Twin Blades",
     "tier": "A",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-fiora",
@@ -1671,15 +1655,14 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/psionic-3BaGJK5uRhMzePQv8TXSir41KZR"
+    ]
   },
   {
     "id": "get-jinxed",
     "name": "Get Jinxed",
     "tier": "A",
     "playstyle": "Slow Roll · Level 6",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-akali",
@@ -1767,15 +1750,14 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/get-jinxed-3ELOUoyGaZTSw221bPVv5tGUA74"
+    ]
   },
   {
     "id": "astral-meep",
     "name": "Astral Meep",
     "tier": "A",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-bard",
@@ -1864,15 +1846,14 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/meeple-3Ba4rc3aQJ3vQ5ANIvk5L1aHlDJ"
+    ]
   },
   {
     "id": "void-arcane",
     "name": "Void Arcane",
     "tier": "A",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-chogath",
@@ -1953,15 +1934,14 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/void-arcane-3C2pqQsj9QP3wWgjABfL4HrsiZo"
+    ]
   },
   {
     "id": "challenger-takeover",
     "name": "Challenger Takeover",
     "tier": "A",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-miss-fortune",
@@ -2038,15 +2018,14 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/challenger-takeover-3DfqBdVGfUIBU4TF13wVOr6ajs4"
+    ]
   },
   {
     "id": "gnaruto",
     "name": "Gnaruto",
     "tier": "A",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-bard",
@@ -2135,15 +2114,14 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/gnaruto-3EdXU8POvsnIlDNsApmJVG3M3Zg"
+    ]
   },
   {
     "id": "transformers",
     "name": "Transformers",
     "tier": "A",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-aurelion-sol",
@@ -2229,15 +2207,14 @@
         "augmentId": "tft-augment-the-darkin-blade",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/mighty-mech-3BZsitmBWTUB1ji6HH7HKsrTa6f"
+    ]
   },
   {
     "id": "shepherd",
     "name": "Shepherd",
     "tier": "A",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-karma",
@@ -2304,7 +2281,7 @@
         "trait": "Shepherd",
         "holder": "tft-17-karma",
         "item": "tft-17-item-summon-trait-emblem-item",
-        "note": "The published Mobalytics board equips this emblem on Karma."
+        "note": "The recommended board equips this emblem on Karma."
       }
     ],
     "recommendedItems": [
@@ -2366,15 +2343,14 @@
         "augmentId": "tft-augment-trait-tree",
         "reason": "A high-value trait option for reaching 7 Shepherd."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/shephard-3Ba8rYrW8BFzhQKzOumQAKONMWY"
+    ]
   },
   {
     "id": "meepteors",
     "name": "Meepteors",
     "tier": "A",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-lissandra",
@@ -2451,15 +2427,14 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/meeple-veigar-3BwYXITBcXf0vIETwH0KzSlXzQ2"
+    ]
   },
   {
     "id": "debris-delivery",
     "name": "Debris Delivery",
     "tier": "A",
     "playstyle": "Fast 9",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-bard",
@@ -2544,15 +2519,14 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/debris-delivery-3DwnN0YD0FQQ1d2o3ZOwNRQx7bB"
+    ]
   },
   {
     "id": "cho-me-the-lp",
     "name": "Cho Me the LP",
     "tier": "A",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-karma",
@@ -2629,15 +2603,14 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/cho-me-the-lp-3DgqyPhUdsNIMxoGwx9umVP4QpI"
+    ]
   },
   {
     "id": "groovians",
     "name": "Groovians",
     "tier": "A",
     "playstyle": "Slow Roll · Level 7",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-nami",
@@ -2714,15 +2687,14 @@
         "augmentId": "tft-17-augment-kayle-god-augment",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/airborne-samira-3BpsK7jMDKTd1AC30ekYxNBz5bj"
+    ]
   },
   {
     "id": "stellar-combo",
     "name": "Stellar Combo",
     "tier": "A",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-jax",
@@ -2811,15 +2783,14 @@
         "augmentId": "tft-augment-climb-the-ladder2",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/stellar-combo-3Bpm9FMx1hinJCuIW3eBcEjCHEs"
+    ]
   },
   {
     "id": "double-tap",
     "name": "Double Tap",
     "tier": "A",
     "playstyle": "Slow Roll · Level 7",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-lulu",
@@ -2896,15 +2867,14 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/double-tap-3GDi3x5pSRuWbcvvewdrmHvnRob"
+    ]
   },
   {
     "id": "the-big-bang",
     "name": "The Big Bang",
     "tier": "B",
     "playstyle": "Slow Roll · Level 6",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-ivern-minion",
@@ -2982,15 +2952,14 @@
         "augmentId": "tft-augment-misfits",
         "reason": "Directly strengthens Rhaast in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/meepsie-hero-augment-3Bpoz3OnB9togklCkfEvKeZy43X"
+    ]
   },
   {
     "id": "heat-death",
     "name": "Heat Death",
     "tier": "B",
     "playstyle": "Slow Roll · Level 6",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-jhin",
@@ -3078,15 +3047,14 @@
         "augmentId": "tft-17-augment-anima-squad-commander",
         "reason": "Directly strengthens Illaoi in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/morde-hero-augment-3BqY4xZMudL4rja17DY7edq5JFw"
+    ]
   },
   {
     "id": "termeepnal-velocity",
     "name": "Termeepnal Velocity",
     "tier": "B",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-rammus",
@@ -3163,15 +3131,14 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/poppy-hero-augment-3BqlYUAOgNtwmJyCd3rDx4re8r8"
+    ]
   },
   {
     "id": "nova-nation",
     "name": "NOVA Nation",
     "tier": "B",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-corki",
@@ -3249,13 +3216,12 @@
         "reason": "Matches this team's frontline-heavy setup."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/nova-nation-3FOGNpoAsqhzwGQ1c29ZzyHF3bG",
     "requiredEmblems": [
       {
         "trait": "N.O.V.A.",
         "holder": "tft-17-corki",
         "item": "tft-17-item-drxemblem-item",
-        "note": "The published Mobalytics board equips this emblem on Corki."
+        "note": "The recommended board equips this emblem on Corki."
       }
     ]
   },
@@ -3264,7 +3230,7 @@
     "name": "Space Opera",
     "tier": "B",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-jhin",
@@ -3343,13 +3309,12 @@
         "reason": "Directly strengthens Mordekaiser in this board."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/dark-star-3BZrcCB1FNbnue9USf5mMymy2h2",
     "requiredEmblems": [
       {
         "trait": "Dark Star",
         "holder": "tft-17-xayah",
         "item": "tft-17-item-dark-star-emblem-item",
-        "note": "The published Mobalytics board equips this emblem on Xayah."
+        "note": "The recommended board equips this emblem on Xayah."
       }
     ]
   },
@@ -3358,7 +3323,7 @@
     "name": "NOVA YI",
     "tier": "B",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-fiora",
@@ -3455,13 +3420,12 @@
         "reason": "Matches this team's frontline-heavy setup."
       }
     ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/nova-yi-3C4Y4P5piaxDCvaOqgvZRr2jv2I",
     "requiredEmblems": [
       {
         "trait": "N.O.V.A.",
         "holder": "tft-17-master-yi",
         "item": "tft-17-item-drxemblem-item",
-        "note": "The published Mobalytics board equips this emblem on Master Yi."
+        "note": "The recommended board equips this emblem on Master Yi."
       }
     ]
   },
@@ -3470,7 +3434,7 @@
     "name": "Shieldmaiden",
     "tier": "B",
     "playstyle": "Slow Roll · Level 5",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-leblanc",
@@ -3547,15 +3511,14 @@
         "augmentId": "tft-17-augment-leona-carry",
         "reason": "Directly strengthens Leona in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/leona-hero-augment-3D5b0xJkVIwSsvaRdRfeH8ZAuOj"
+    ]
   },
   {
     "id": "slap-and-zap",
     "name": "Slap & Zap",
     "tier": "B",
     "playstyle": "Slow Roll · Level 7",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-nami",
@@ -3632,15 +3595,14 @@
         "augmentId": "tft-augment-misfits",
         "reason": "Directly strengthens Rhaast in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/slap-and-zap-3CNtMCNAmI3CDCLf0L8LQhIBe28"
+    ]
   },
   {
     "id": "dragons-breath",
     "name": "Dragon's Breath",
     "tier": "B",
     "playstyle": "Fast 8",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-aurelion-sol",
@@ -3718,15 +3680,14 @@
         "augmentId": "tft-17-augment-mordekaiser-carry",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/dragons-breath-3DfDQePp2tCQXb399GnifbGaks1"
+    ]
   },
   {
     "id": "tentacles-and-missiles",
     "name": "Tentacles and Missiles",
     "tier": "B",
     "playstyle": "Slow Roll · Level 7",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-karma",
@@ -3804,15 +3765,14 @@
         "augmentId": "tft-17-augment-concentration",
         "reason": "Directly strengthens Mordekaiser in this board."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/comps-guide/kaisa-illaoi-reroll-3D2N5IXV722I2kdg1kk8lfYLDiA"
+    ]
   },
   {
     "id": "rogue-diff",
     "name": "Rogue Diff",
     "tier": "B",
     "playstyle": "Slow Roll · Level 7",
-    "source": "Mobalytics",
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "units": [
       "tft-17-fizz",
@@ -3896,7 +3856,6 @@
         "augmentId": "tft-augment-climb-the-ladder1",
         "reason": "Matches this team's frontline-heavy setup."
       }
-    ],
-    "sourceGuideUrl": "https://mobalytics.gg/tft/set17/comps-guide/rogue-reroll-3BoHQhYBJlvGROmc6esg6fDXASw"
+    ]
   }
 ]

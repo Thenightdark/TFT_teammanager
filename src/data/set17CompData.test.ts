@@ -1,11 +1,15 @@
 import { describe, expect, it } from "vitest";
 import type { Champion } from "../types/Champion";
 import type { Comp } from "../types/Comp";
+import type { Trait } from "../types/Trait";
 import { createBoardSummons } from "../utils/boardSummons";
 import { createPositioningPlans } from "../utils/positioning";
+import { countBoardTraits, getTraitVisualState } from "../utils/traitCounts";
+import { createLevelUpSuggestions } from "../utils/strategyPlanner";
 import championsJson from "./set-17/champions.json";
 import compsJson from "./set-17/comps.json";
 import itemsJson from "./set-17/items.json";
+import traitsJson from "./set-17/traits.json";
 import verifiedGuidesJson from "./set-17/verified-guides.json";
 
 const champions = championsJson as Champion[];
@@ -82,8 +86,7 @@ describe("curated Set 17 comp data", () => {
     const championIds = new Set(champions.map((champion) => champion.id));
     const itemIds = new Set(items.map((item) => item.id));
     for (const comp of comps) {
-      expect(comp.source).toBe("Mobalytics");
-      expect(comp.sourceGuideUrl).toMatch(/^https:\/\/mobalytics\.gg\/tft\//);
+      expect(comp.source).toBe("Curated Set 17");
       expect(new Set(comp.units).size).toBe(comp.units.length);
       for (const group of comp.recommendedItems) {
         expect(comp.units).toContain(group.champion);
@@ -101,5 +104,44 @@ describe("curated Set 17 comp data", () => {
         expect(late?.units.find((unit) => unit.champion.id === group.champion)?.row, `${comp.name}: tank row`).toBeLessThanOrEqual(1);
       }
     }
+  });
+
+  it("counts equipped emblems toward active board traits", () => {
+    const stayGroovy = comps.find((entry) => entry.id === "stay-groovy")!;
+    const late = createPositioningPlans(stayGroovy, champions).find((plan) => plan.id === "late")!;
+    const naturalSpaceGroove = late.units.filter((unit) => unit.champion.traits.includes("Space Groove")).length;
+    expect(countBoardTraits(stayGroovy, late.units).get("Space Groove")).toBe(naturalSpaceGroove + 1);
+  });
+
+  it("uses TFT breakpoint colors for Bronze, Silver, Gold, and Prismatic traits", () => {
+    const darkStar = (traitsJson as Trait[]).find((trait) => trait.name === "Dark Star");
+    expect(getTraitVisualState(darkStar, 1).tier).toBe("inactive");
+    expect(getTraitVisualState(darkStar, 2).tier).toBe("bronze");
+    expect(getTraitVisualState(darkStar, 4).tier).toBe("silver");
+    expect(getTraitVisualState(darkStar, 6).tier).toBe("gold");
+    expect(getTraitVisualState(darkStar, 9).tier).toBe("prismatic");
+  });
+
+  it("never uses 4-cost or 5-cost champions in Stage 2 plans", () => {
+    for (const comp of comps) {
+      const early = createPositioningPlans(comp, champions).find((plan) => plan.id === "early")!;
+      expect(early.units).toHaveLength(4);
+      expect(Math.max(...early.units.map((unit) => unit.champion.cost)), comp.name).toBeLessThanOrEqual(3);
+    }
+  });
+
+  it("places ranged Gnar in the back row when he is not a tank", () => {
+    const gnaruto = comps.find((entry) => entry.id === "gnaruto")!;
+    const late = createPositioningPlans(gnaruto, champions).find((plan) => plan.id === "late")!;
+    expect(late.units.find((unit) => unit.champion.name === "Gnar")?.row).toBe(3);
+  });
+
+  it("only recommends four-cost or five-cost additions at levels 9 and 10", () => {
+    for (const comp of comps) {
+      const additions = createLevelUpSuggestions(comp, champions);
+      expect(additions.every((entry) => entry.champion.cost >= 4), comp.name).toBe(true);
+    }
+    const stayGroovy = comps.find((entry) => entry.id === "stay-groovy")!;
+    expect(createLevelUpSuggestions(stayGroovy, champions).some((entry) => entry.champion.name === "Nasus")).toBe(false);
   });
 });

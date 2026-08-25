@@ -62,12 +62,12 @@ export function createLevelUpSuggestions(comp: Comp, champions: Champion[]): Lev
   const firstLevel = Math.max(9, comp.units.length + 1);
   for (let level = firstLevel; level <= 10; level += 1) {
     const ranked = champions
-      .filter((champion) => !chosen.has(champion.id))
+      .filter((champion) => !chosen.has(champion.id) && champion.cost >= 4)
       .map((champion) => {
         const sharedTraits = champion.traits.filter((trait) => representedTraits.has(trait));
         const synergy = sharedTraits.reduce((score, trait) => score + Math.min(3, representedTraits.get(trait) ?? 0) * 5, 0);
         const frontlineNeed = champion.role === "frontline" && comp.units.filter((id) => byId.get(id)?.role === "frontline").length < 3 ? 7 : 0;
-        return { champion, sharedTraits, score: synergy + champion.cost * 3 + frontlineNeed };
+        return { champion, sharedTraits, score: synergy + champion.cost * 6 + frontlineNeed };
       })
       .sort((a, b) => b.score - a.score || b.champion.cost - a.champion.cost || a.champion.name.localeCompare(b.champion.name));
     const best = ranked[0];
@@ -86,7 +86,7 @@ export function createLevelUpSuggestions(comp: Comp, champions: Champion[]): Lev
       ? `Adds ${best.sharedTraits.slice(0, 2).join(" + ")} while increasing the board’s late-game value.`
       : best.champion.cost === 5
         ? "A powerful five-cost addition that raises the board’s late-game ceiling."
-        : "The strongest flexible unit available for the remaining board slot.";
+        : "A strong four-cost addition for the remaining late-game board slot.";
     suggestions.push({
       level: level as 9 | 10,
       champion: best.champion,

@@ -423,14 +423,22 @@ main { width: min(1640px, calc(100% - 32px)); margin: 0 auto; padding: 42px 0 70
 .position-traits > div:first-child strong { color: #c9d4dc; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
 .position-traits > div:first-child small { color: #60788a; font-size: 10px; }
 .position-trait-list { display: grid; gap: 6px; margin-top: 9px; }
-.position-trait-list span { min-width: 0; padding: 7px 8px; display: flex; align-items: center; gap: 7px; border: 1px solid rgba(130,163,188,.12); border-radius: 6px; background: rgba(12,25,41,.6); }
-.position-trait-list span.primary { border-color: rgba(255,190,99,.28); background: rgba(255,190,99,.07); }
+.position-trait-list > span { --trait-color: #566979; --trait-glow: rgba(86,105,121,.16); position: relative; min-width: 0; padding: 7px 8px; display: flex; align-items: center; gap: 7px; overflow: hidden; border: 1px solid color-mix(in srgb,var(--trait-color) 55%,transparent); border-left: 3px solid var(--trait-color); border-radius: 6px; background: linear-gradient(90deg,var(--trait-glow),rgba(12,25,41,.72) 64%); box-shadow: inset 0 0 12px var(--trait-glow); }
+.position-trait-list > span.primary { box-shadow: inset 0 0 15px var(--trait-glow),0 0 7px color-mix(in srgb,var(--trait-color) 18%,transparent); }
+.position-trait-list > span.trait-tier-bronze { --trait-color: #b77845; --trait-glow: rgba(160,91,45,.22); }
+.position-trait-list > span.trait-tier-silver { --trait-color: #becbd5; --trait-glow: rgba(166,188,204,.19); }
+.position-trait-list > span.trait-tier-gold { --trait-color: #edc85b; --trait-glow: rgba(225,174,49,.24); }
+.position-trait-list > span.trait-tier-prismatic { --trait-color: #8fe8ff; --trait-glow: rgba(178,104,255,.26); background: linear-gradient(105deg,rgba(75,220,255,.18),rgba(178,104,255,.21),rgba(255,112,203,.17),rgba(12,25,41,.72)); animation: trait-prismatic 4s ease-in-out infinite alternate; }
+.position-trait-list > span.trait-tier-unique { --trait-color: #67d8c4; --trait-glow: rgba(62,193,169,.2); }
+@keyframes trait-prismatic { from { filter: hue-rotate(-10deg); } to { filter: hue-rotate(18deg); } }
 .position-trait-list img, .position-trait-list i { width: 17px; height: 17px; flex: 0 0 auto; object-fit: contain; }
 .position-trait-list i { border: 1px solid rgba(130,163,188,.2); border-radius: 50%; }
-.position-trait-list span.primary img { filter: none; }
-.position-trait-list b { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #879aa9; font-size: 11px; }
-.position-trait-list span.primary b { color: #cbb77d; }
-.position-trait-list strong { min-width: 19px; height: 19px; margin-left: auto; display: grid; place-items: center; border-radius: 5px; background: rgba(139,125,240,.12); color: #afa4ed; font-size: 12px; }
+.position-trait-list > span img { filter: drop-shadow(0 0 3px var(--trait-glow)); }
+.position-trait-list .trait-name { min-width: 0; display: grid; gap: 1px; }
+.position-trait-list .trait-name b { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: color-mix(in srgb,var(--trait-color) 78%,white); font-size: 11px; }
+.position-trait-list .trait-name small { color: color-mix(in srgb,var(--trait-color) 72%,#738697); font-size: 8px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.position-trait-list > span > strong { min-width: 34px; height: 22px; margin-left: auto; display: flex; align-items: baseline; justify-content: center; gap: 1px; border: 1px solid color-mix(in srgb,var(--trait-color) 35%,transparent); border-radius: 5px; background: color-mix(in srgb,var(--trait-color) 12%,rgba(8,16,29,.78)); color: var(--trait-color); font-size: 12px; }
+.position-trait-list > span > strong small { color: color-mix(in srgb,var(--trait-color) 60%,#647686); font-size: 8px; }
 .augment-disclaimer { margin: -5px 0 13px; color: #677f91; font-size: 12px; }
 .augment-suggestion-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
 .augment-suggestion-grid article { min-width: 0; min-height: 82px; padding: 10px; display: flex; gap: 8px; border: 1px solid rgba(166, 117, 222, .2); border-radius: 7px; background: linear-gradient(145deg, rgba(47, 26, 63, .23), rgba(7, 16, 28, .5)); }

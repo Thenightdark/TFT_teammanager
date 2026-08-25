@@ -7,6 +7,7 @@ import type { Trait } from "../types/Trait";
 import { createPositioningPlans } from "../utils/positioning";
 import { createBoardSummons } from "../utils/boardSummons";
 import { getThreeStarTargetIds } from "../utils/strategyPlanner";
+import { countBoardTraits, getTraitVisualState } from "../utils/traitCounts";
 
 interface PositioningBoardProps {
   comp: Comp;
@@ -26,12 +27,9 @@ export default function PositioningBoard({ comp, champions, traits, items }: Pos
   const threeStarTargetIds = useMemo(() => getThreeStarTargetIds(comp, champions), [comp, champions]);
   const itemsByChampion = useMemo(() => new Map(comp.recommendedItems.map((group) => [group.champion, group.items.flatMap((id) => itemById.get(id) ?? []).slice(0, 3)])), [comp.recommendedItems, itemById]);
   const activeTraits = useMemo(() => {
-    const counts = new Map<string, number>();
-    for (const unit of activePlan?.units ?? []) {
-      for (const trait of unit.champion.traits) counts.set(trait, (counts.get(trait) ?? 0) + 1);
-    }
+    const counts = countBoardTraits(comp, activePlan?.units ?? []);
     return [...counts.entries()].sort((a, b) => b[1] - a[1] || Number(comp.traits.includes(b[0])) - Number(comp.traits.includes(a[0])) || a[0].localeCompare(b[0]));
-  }, [activePlan, comp.traits]);
+  }, [activePlan, comp]);
 
   return (
     <section className="detail-panel positioning-panel">
@@ -56,7 +54,7 @@ export default function PositioningBoard({ comp, champions, traits, items }: Pos
           </div>
           <aside className="position-traits" aria-label={`${activePlan.stage} active traits`}>
             <div><strong>Active traits</strong><small>{activePlan.units.length} units</small></div>
-            <div className="position-trait-list">{activeTraits.map(([trait, count]) => { const traitData = traitByName.get(trait); return <span className={comp.traits.includes(trait) ? "primary" : ""} key={trait}>{traitData?.image ? <img src={traitData.image} alt="" loading="lazy" onError={(event) => { event.currentTarget.style.display = "none"; }} /> : <i aria-hidden="true" />}<b>{trait}</b><strong>{count}</strong></span>; })}</div>
+            <div className="position-trait-list">{activeTraits.map(([trait, count]) => { const traitData = traitByName.get(trait); const visual = getTraitVisualState(traitData, count); return <span className={`${comp.traits.includes(trait) ? "primary " : ""}trait-tier-${visual.tier}`} title={`${trait}: ${visual.label} (${visual.current}/${visual.maximum})`} key={trait}>{traitData?.image ? <img src={traitData.image} alt="" loading="lazy" onError={(event) => { event.currentTarget.style.display = "none"; }} /> : <i aria-hidden="true" />}<span className="trait-name"><b>{trait}</b><small>{visual.label}</small></span><strong>{visual.current}<small>/{visual.maximum}</small></strong></span>; })}</div>
           </aside>
         </div>
       </>}

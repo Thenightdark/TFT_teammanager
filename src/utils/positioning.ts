@@ -27,6 +27,7 @@ const positionsByRole: Record<NonNullable<Champion["role"]>, BoardPosition[]> = 
 const fallbackPositions: BoardPosition[] = Array.from({ length: 4 }, (_, row) => Array.from({ length: 7 }, (_, column): BoardPosition => [row, column])).flat();
 
 function roleOf(champion: Champion): NonNullable<Champion["role"]> {
+  if ((champion.range ?? 1) >= 3) return "backline-carry";
   if (champion.role === "support" && (champion.range ?? 1) <= 1) return "frontline";
   if (champion.role) return champion.role;
   return (champion.range ?? 1) >= 3 ? "backline-carry" : "frontline";
@@ -43,13 +44,29 @@ export function describeBoardPosition([row, column]: BoardPosition): string {
   return `${rowLabel} · ${sideLabel}`;
 }
 
-function stageRoster(comp: Comp, champions: Champion[], size: number): Champion[] {
+function stageRoster(comp: Comp, champions: Champion[], size: number, maxCost: number): Champion[] {
   const byId = new Map(champions.map((champion) => [champion.id, champion]));
-  return comp.units
+  const finalUnits = comp.units
     .map((id) => byId.get(id))
     .filter((champion): champion is Champion => Boolean(champion))
-    .sort((a, b) => Number(comp.coreUnits.includes(b.id)) - Number(comp.coreUnits.includes(a.id)) || a.cost - b.cost || a.name.localeCompare(b.name))
-    .slice(0, size);
+    .filter((champion) => champion.cost <= maxCost)
+    .sort((a, b) => a.cost - b.cost || Number(comp.coreUnits.includes(b.id)) - Number(comp.coreUnits.includes(a.id)) || a.name.localeCompare(b.name));
+  const selected = finalUnits.slice(0, size);
+  if (selected.length >= size) return selected;
+
+  const targetTraits = new Set([...comp.traits, ...selected.flatMap((champion) => champion.traits)]);
+  const needsFrontline = selected.filter((champion) => roleOf(champion) === "frontline").length < 2;
+  const substitutes = champions
+    .filter((champion) => champion.cost <= maxCost && !selected.some((unit) => unit.id === champion.id) && !comp.units.includes(champion.id))
+    .map((champion) => ({
+      champion,
+      score: champion.traits.filter((trait) => targetTraits.has(trait)).length * 10
+        + (needsFrontline && roleOf(champion) === "frontline" ? 7 : 0)
+        - champion.cost,
+    }))
+    .sort((a, b) => b.score - a.score || a.champion.cost - b.champion.cost || a.champion.name.localeCompare(b.champion.name));
+  selected.push(...substitutes.slice(0, size - selected.length).map((entry) => entry.champion));
+  return selected;
 }
 
 function positionRoster(roster: Champion[], comp: Comp): BoardUnit[] {
@@ -83,9 +100,9 @@ function positionRoster(roster: Champion[], comp: Comp): BoardUnit[] {
 
 export function createPositioningPlans(comp: Comp, champions: Champion[]): PositioningPlan[] {
   const definitions = [
-    { id: "early" as const, label: "Plan 1", stage: "Stage 2 · Early", size: 4, note: "Use the lowest-cost core pieces and keep damage dealers protected." },
-    { id: "mid" as const, label: "Plan 2", stage: "Stage 3 · Mid", size: 6, note: "Add secondary frontline and spread carries away from the main danger." },
-    { id: "late" as const, label: "Plan 3", stage: "Stage 4+ · Late", size: comp.units.length, note: comp.positioningNote ?? "Full-board default. Scout opponents and mirror the carry corner when needed." },
+    { id: "early" as const, label: "Plan 1", stage: "Stage 2 · Early", size: 4, maxCost: 3, note: "Realistic low-cost opener only: use 1–3 cost units and keep damage dealers protected." },
+    { id: "mid" as const, label: "Plan 2", stage: "Stage 3 · Mid", size: 6, maxCost: 4, note: "Add secondary frontline and transition toward the final board without relying on 5-cost units." },
+    { id: "late" as const, label: "Plan 3", stage: "Stage 4+ · Late", size: comp.units.length, maxCost: 5, note: comp.positioningNote ?? "Full-board default. Scout opponents and mirror the carry corner when needed." },
   ];
-  return definitions.map((definition) => ({ ...definition, units: positionRoster(stageRoster(comp, champions, definition.size), comp) }));
+  return definitions.map(({ maxCost, ...definition }) => ({ ...definition, units: positionRoster(stageRoster(comp, champions, definition.size, maxCost), comp) }));
 }

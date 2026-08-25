@@ -4,11 +4,28 @@
     "name": "It's Raining LP",
     "tier": "S",
     "playstyle": "Slow Roll · Level 7",
-    "unitNames": ["Lulu", "Maokai", "Jax", "Milio", "Rhaast", "Pantheon", "Aatrox", "Twisted Fate"],
-    "carryNames": ["Lulu", "Milio"],
+    "unitNames": [
+      "Lulu",
+      "Maokai",
+      "Jax",
+      "Milio",
+      "Rhaast",
+      "Pantheon",
+      "Aatrox",
+      "Twisted Fate"
+    ],
+    "carryNames": [
+      "Lulu",
+      "Milio"
+    ],
     "tankName": "Maokai",
-    "traits": ["Stargazer", "Bastion", "Brawler", "Replicator"],
-    "source": "Mobalytics",
+    "traits": [
+      "Stargazer",
+      "Bastion",
+      "Brawler",
+      "Replicator"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Three-cost Stargazer reroll focused on upgrading Lulu, Milio, Maokai, Pantheon and Jax."
   },
@@ -17,11 +34,28 @@
     "name": "Timebreak Trouble",
     "tier": "S",
     "playstyle": "Slow Roll · Level 6",
-    "unitNames": ["Tahm Kench", "Milio", "Pantheon", "Ezreal", "Riven", "Maokai", "Gnar", "Caitlyn"],
-    "carryNames": ["Ezreal", "Milio"],
+    "unitNames": [
+      "Tahm Kench",
+      "Milio",
+      "Pantheon",
+      "Ezreal",
+      "Riven",
+      "Maokai",
+      "Gnar",
+      "Caitlyn"
+    ],
+    "carryNames": [
+      "Ezreal",
+      "Milio"
+    ],
     "tankName": "Tahm Kench",
-    "traits": ["Timebreaker", "Brawler", "Fateweaver", "Sniper"],
-    "source": "Mobalytics",
+    "traits": [
+      "Timebreaker",
+      "Brawler",
+      "Fateweaver",
+      "Sniper"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Level 6 Timebreaker reroll with Ezreal and Milio providing damage behind Tahm Kench and Pantheon."
   },
@@ -30,11 +64,27 @@
     "name": "Paddle Spam",
     "tier": "S",
     "playstyle": "Slow Roll · Level 6",
-    "unitNames": ["Mordekaiser", "Zoe", "Leona", "Viktor", "Bard", "Aurelion Sol", "Nunu & Willump", "Illaoi"],
-    "carryNames": ["Zoe", "Viktor"],
+    "unitNames": [
+      "Mordekaiser",
+      "Zoe",
+      "Leona",
+      "Viktor",
+      "Bard",
+      "Aurelion Sol",
+      "Nunu & Willump",
+      "Illaoi"
+    ],
+    "carryNames": [
+      "Zoe",
+      "Viktor"
+    ],
     "tankName": "Mordekaiser",
-    "traits": ["Conduit", "Vanguard", "Arbiter"],
-    "source": "Mobalytics",
+    "traits": [
+      "Conduit",
+      "Vanguard",
+      "Arbiter"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Slow-roll Zoe and Mordekaiser at level 6, then add higher-cost Conduits to complete the board."
   },
@@ -43,11 +93,29 @@
     "name": "Mountain Stargazer",
     "tier": "S",
     "playstyle": "Fast 8 · Mountain constellation",
-    "unitNames": ["Jhin", "Nunu & Willump", "Riven", "Xayah", "Shen", "Rhaast", "Jax", "Mordekaiser", "Talon"],
-    "carryNames": ["Riven", "Xayah"],
+    "unitNames": [
+      "Jhin",
+      "Nunu & Willump",
+      "Riven",
+      "Xayah",
+      "Shen",
+      "Rhaast",
+      "Jax",
+      "Mordekaiser",
+      "Talon"
+    ],
+    "carryNames": [
+      "Riven",
+      "Xayah"
+    ],
     "tankName": "Nunu & Willump",
-    "traits": ["Stargazer", "Sniper", "Bastion", "Vanguard"],
-    "source": "Mobalytics",
+    "traits": [
+      "Stargazer",
+      "Sniper",
+      "Bastion",
+      "Vanguard"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "A conditional seven-Stargazer board for the Mountain constellation, using Riven and Xayah as the main damage carries."
   },
@@ -56,16 +124,58 @@
     "name": "Cards & Cartridges",
     "tier": "S",
     "playstyle": "Slow Roll · Level 5",
-    "unitNames": ["Jax", "Caitlyn", "Talon", "Twisted Fate", "Corki", "Riven", "Rhaast", "Milio", "Aatrox"],
-    "carryNames": ["Twisted Fate", "Caitlyn"],
+    "unitNames": [
+      "Jax",
+      "Caitlyn",
+      "Talon",
+      "Twisted Fate",
+      "Corki",
+      "Riven",
+      "Rhaast",
+      "Milio",
+      "Aatrox"
+    ],
+    "carryNames": [
+      "Twisted Fate",
+      "Caitlyn"
+    ],
     "tankName": "Jax",
     "recommendedItems": [
-      {"championName":"Twisted Fate","role":"main-carry","itemNames":["Nashor's Tooth","Nashor's Tooth","Rabadon's Deathcap"]},
-      {"championName":"Caitlyn","role":"secondary-carry","itemNames":["Guinsoo's Rageblade","Giant Slayer","Deathblade"]},
-      {"championName":"Jax","role":"main-tank","itemNames":["Crownguard","Gargoyle Stoneplate","Gargoyle Stoneplate"]}
+      {
+        "championName": "Twisted Fate",
+        "role": "main-carry",
+        "itemNames": [
+          "Nashor's Tooth",
+          "Nashor's Tooth",
+          "Rabadon's Deathcap"
+        ]
+      },
+      {
+        "championName": "Caitlyn",
+        "role": "secondary-carry",
+        "itemNames": [
+          "Guinsoo's Rageblade",
+          "Giant Slayer",
+          "Deathblade"
+        ]
+      },
+      {
+        "championName": "Jax",
+        "role": "main-tank",
+        "itemNames": [
+          "Crownguard",
+          "Gargoyle Stoneplate",
+          "Gargoyle Stoneplate"
+        ]
+      }
     ],
-    "traits": ["Fateweaver", "Stargazer", "Rogue", "Timebreaker"],
-    "source": "Mobalytics",
+    "traits": [
+      "Fateweaver",
+      "Stargazer",
+      "Rogue",
+      "Timebreaker"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "One-cost reroll board focused on three-starring Twisted Fate, Caitlyn, Talon, Aatrox and Jax."
   },
@@ -74,11 +184,28 @@
     "name": "Bastion of Fate",
     "tier": "S",
     "playstyle": "Fast 8",
-    "unitNames": ["Shen", "Corki", "Rammus", "Milio", "Aatrox", "Caitlyn", "Poppy", "Twisted Fate"],
-    "carryNames": ["Milio", "Corki"],
+    "unitNames": [
+      "Shen",
+      "Corki",
+      "Rammus",
+      "Milio",
+      "Aatrox",
+      "Caitlyn",
+      "Poppy",
+      "Twisted Fate"
+    ],
+    "carryNames": [
+      "Milio",
+      "Corki"
+    ],
     "tankName": "Rammus",
-    "traits": ["Fateweaver", "Bastion", "Meeple", "N.O.V.A."],
-    "source": "Mobalytics",
+    "traits": [
+      "Fateweaver",
+      "Bastion",
+      "Meeple",
+      "N.O.V.A."
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Fast 8 Fateweaver and Bastion board with Milio and Corki carrying while Rammus and Shen frontline."
   },
@@ -87,11 +214,29 @@
     "name": "Stay Groovy",
     "tier": "S",
     "playstyle": "Fast 8",
-    "unitNames": ["Blitzcrank", "Nami", "Riven", "Ornn", "Shen", "Nunu & Willump", "Tahm Kench", "Gwen", "Pantheon"],
-    "carryNames": ["Nami", "Riven"],
+    "unitNames": [
+      "Blitzcrank",
+      "Nami",
+      "Riven",
+      "Ornn",
+      "Shen",
+      "Nunu & Willump",
+      "Tahm Kench",
+      "Gwen",
+      "Pantheon"
+    ],
+    "carryNames": [
+      "Nami",
+      "Riven"
+    ],
     "tankName": "Blitzcrank",
-    "traits": ["Space Groove", "Timebreaker", "Bastion", "Vanguard"],
-    "source": "Mobalytics",
+    "traits": [
+      "Space Groove",
+      "Timebreaker",
+      "Bastion",
+      "Vanguard"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Fast 8 Space Groove board centered on Nami, Riven, Ornn and Blitzcrank."
   },
@@ -100,11 +245,29 @@
     "name": "Feed the Stars",
     "tier": "S",
     "playstyle": "Fast 8 · Dark Star emblem",
-    "unitNames": ["Jhin", "Aurelion Sol", "Karma", "Nunu & Willump", "Tahm Kench", "The Mighty Mech", "Kai'Sa", "Mordekaiser", "Cho'Gath"],
-    "carryNames": ["Jhin", "Karma"],
+    "unitNames": [
+      "Jhin",
+      "Aurelion Sol",
+      "Karma",
+      "Nunu & Willump",
+      "Tahm Kench",
+      "The Mighty Mech",
+      "Kai'Sa",
+      "Mordekaiser",
+      "Cho'Gath"
+    ],
+    "carryNames": [
+      "Jhin",
+      "Karma"
+    ],
     "tankName": "Nunu & Willump",
-    "traits": ["Dark Star", "Brawler", "Voyager", "Conduit"],
-    "source": "Mobalytics",
+    "traits": [
+      "Dark Star",
+      "Brawler",
+      "Voyager",
+      "Conduit"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Conditional six-Dark-Star board that uses Jhin and Karma for damage while Nunu holds the frontline."
   },
@@ -113,11 +276,29 @@
     "name": "Snipin & Vibin",
     "tier": "S",
     "playstyle": "Fast 8",
-    "unitNames": ["Jhin", "Nunu & Willump", "Xayah", "Blitzcrank", "Tahm Kench", "Maokai", "Rhaast", "Jax", "Aatrox"],
-    "carryNames": ["Xayah", "Jhin"],
+    "unitNames": [
+      "Jhin",
+      "Nunu & Willump",
+      "Xayah",
+      "Blitzcrank",
+      "Tahm Kench",
+      "Maokai",
+      "Rhaast",
+      "Jax",
+      "Aatrox"
+    ],
+    "carryNames": [
+      "Xayah",
+      "Jhin"
+    ],
     "tankName": "Nunu & Willump",
-    "traits": ["Stargazer", "Sniper", "Vanguard", "Brawler"],
-    "source": "Mobalytics",
+    "traits": [
+      "Stargazer",
+      "Sniper",
+      "Vanguard",
+      "Brawler"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Fast 8 capped Sniper board with Xayah and Jhin dealing damage while Nunu takes the main tank items."
   },
@@ -126,11 +307,29 @@
     "name": "N.O.V.A.",
     "tier": "S",
     "playstyle": "Fast 8",
-    "unitNames": ["Kindred", "Morgana", "Akali", "Shen", "Tahm Kench", "Maokai", "Bel'Veth", "Aatrox", "Caitlyn"],
-    "carryNames": ["Kindred", "Akali"],
+    "unitNames": [
+      "Kindred",
+      "Morgana",
+      "Akali",
+      "Shen",
+      "Tahm Kench",
+      "Maokai",
+      "Bel'Veth",
+      "Aatrox",
+      "Caitlyn"
+    ],
+    "carryNames": [
+      "Kindred",
+      "Akali"
+    ],
     "tankName": "Maokai",
-    "traits": ["N.O.V.A.", "Brawler", "Challenger", "Bastion"],
-    "source": "Mobalytics",
+    "traits": [
+      "N.O.V.A.",
+      "Brawler",
+      "Challenger",
+      "Bastion"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Fast 8 five-N.O.V.A. board with Kindred, Morgana and Akali as the main damage options."
   },
@@ -139,11 +338,29 @@
     "name": "Capped & Loaded",
     "tier": "S",
     "playstyle": "Fast 9",
-    "unitNames": ["Fiora", "Graves", "Vex", "Nunu & Willump", "Blitzcrank", "Rhaast", "Akali", "Jax", "Aatrox"],
-    "carryNames": ["Fiora", "Graves"],
+    "unitNames": [
+      "Fiora",
+      "Graves",
+      "Vex",
+      "Nunu & Willump",
+      "Blitzcrank",
+      "Rhaast",
+      "Akali",
+      "Jax",
+      "Aatrox"
+    ],
+    "carryNames": [
+      "Fiora",
+      "Graves"
+    ],
     "tankName": "Nunu & Willump",
-    "traits": ["Stargazer", "N.O.V.A.", "Marauder", "Vanguard"],
-    "source": "Mobalytics",
+    "traits": [
+      "Stargazer",
+      "N.O.V.A.",
+      "Marauder",
+      "Vanguard"
+    ],
+    "source": "Curated Set 17",
     "sourcePatch": "Patch 17.9 · Updated Aug 17",
     "description": "Expensive Fast 9 board that caps around Fiora, Graves and Vex after stabilizing on level 8."
   }

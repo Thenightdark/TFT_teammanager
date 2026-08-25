@@ -11,6 +11,7 @@ const champions: Champion[] = [
   { id: "support", name: "Support", cost: 2, traits: ["Blaster"], image: "", role: "backline-carry" },
   { id: "sub", name: "Sub", cost: 3, traits: ["Guard"], image: "", role: "frontline" },
   { id: "tft-17-shen", name: "Shen", cost: 5, traits: ["Bulwark", "Bastion"], image: "", role: "frontline" },
+  { id: "legend", name: "Legend", cost: 4, traits: ["Blaster"], image: "", role: "backline-carry" },
 ];
 const items: TFTItem[] = [
   { id: "sword", name: "Sword", type: "component", image: "" },
@@ -37,7 +38,9 @@ describe("strategy planner", () => {
 
   it("suggests one level 9 and one level 10 addition for an eight-unit board", () => {
     const fullComp = { ...comp, units: ["carry", "tank", "u3", "u4", "u5", "u6", "u7", "u8"] };
-    expect(createLevelUpSuggestions(fullComp, champions).map((entry) => entry.level)).toEqual([9, 10]);
+    const suggestions = createLevelUpSuggestions(fullComp, champions);
+    expect(suggestions.map((entry) => entry.level)).toEqual([9, 10]);
+    expect(suggestions.every((entry) => entry.champion.cost >= 4)).toBe(true);
   });
 
   it("marks low-cost reroll core units as three-star targets", () => {

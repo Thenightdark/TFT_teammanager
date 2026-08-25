@@ -95,7 +95,7 @@ const comps = currentComps.map((comp) => {
     .filter((item) => / emblem$/i.test(item.name))
     .map((item) => ({
       trait: item.name.replace(/ emblem$/i, ""), holder: group.champion.id, item: item.id,
-      note: `The published Mobalytics board equips this emblem on ${group.champion.name}.`,
+      note: `The recommended board equips this emblem on ${group.champion.name}.`,
     })));
   const reachTargets = comp.id === "reach-for-the-stars"
     ? ["Lulu", "Jax", "Pantheon", "Milio"].map((name) => resolveChampion(name)?.id).filter(Boolean)
@@ -105,7 +105,7 @@ const comps = currentComps.map((comp) => {
     ...comp,
     units: roster.map((unit) => unit.id), coreUnits, carries,
     mainTank: mainTankGroup?.champion.id, recommendedItems,
-    source: "Mobalytics", sourcePatch: "Patch 17.9 · Updated Aug 17", sourceGuideUrl: guide.url,
+    source: "Curated Set 17", sourcePatch: "Patch 17.9 · Updated Aug 17",
     ...(requiredEmblems.length ? { requiredEmblems } : { requiredEmblems: undefined }),
     ...(reachTargets ? { threeStarTargets: reachTargets } : {}),
   };

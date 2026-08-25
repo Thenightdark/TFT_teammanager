@@ -24,7 +24,6 @@ export interface Comp {
   playstyle?: string;
   source?: string;
   sourcePatch?: string;
-  sourceGuideUrl?: string;
   threeStarTargets?: string[];
   boardPositions?: Record<string, [row: number, column: number]>;
   positioningNote?: string;
