@@ -17,9 +17,9 @@ const traits = traitsJson as Trait[];
 
 describe("curated Set 18 data", () => {
   it("contains the current S, A, and B tier team list", () => {
-    expect(comps).toHaveLength(30);
-    expect(comps.filter((comp) => comp.tier === "S")).toHaveLength(11);
-    expect(comps.filter((comp) => comp.tier === "A")).toHaveLength(10);
+    expect(comps).toHaveLength(40);
+    expect(comps.filter((comp) => comp.tier === "S")).toHaveLength(12);
+    expect(comps.filter((comp) => comp.tier === "A")).toHaveLength(19);
     expect(comps.filter((comp) => comp.tier === "B")).toHaveLength(9);
   });
 
@@ -74,6 +74,24 @@ describe("curated Set 18 data", () => {
         expect(counts.get(emblem.trait), `${comp.name}: ${emblem.trait}`).toBe(natural + 1);
       }
     }
+  });
+
+  it("uses explicit low-cost openers and exact four-row board coordinates", () => {
+    const championById = new Map(champions.map((champion) => [champion.id, champion]));
+    const guidedComps = comps.filter((comp) => comp.earlyUnits?.length);
+    expect(guidedComps.length).toBeGreaterThanOrEqual(30);
+    for (const comp of guidedComps) {
+      expect(comp.earlyUnits).toHaveLength(5);
+      for (const id of comp.earlyUnits ?? []) expect(championById.get(id)?.cost, `${comp.name}: early ${id}`).toBeLessThanOrEqual(3);
+      for (const [id, [row, column]] of Object.entries(comp.boardPositions ?? {})) {
+        expect(comp.units, `${comp.name}: positioned ${id}`).toContain(id);
+        expect(row).toBeGreaterThanOrEqual(0);
+        expect(row).toBeLessThan(4);
+        expect(column).toBeGreaterThanOrEqual(0);
+        expect(column).toBeLessThan(7);
+      }
+    }
+    expect(comps.find((comp) => comp.name === "Wispful Thinking")?.boardPositions?.["tft-18-gnar"]).toEqual([0, 4]);
   });
 
   it("does not store external guide links", () => {

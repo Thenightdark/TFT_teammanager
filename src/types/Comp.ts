@@ -13,6 +13,11 @@ export interface RequiredEmblem {
   note: string;
 }
 
+export interface GuideOption {
+  add: string[];
+  remove: string[];
+}
+
 export interface Comp {
   id: string;
   name: string;
@@ -26,6 +31,8 @@ export interface Comp {
   sourcePatch?: string;
   threeStarTargets?: string[];
   boardPositions?: Record<string, [row: number, column: number]>;
+  earlyUnits?: string[];
+  guideOptions?: GuideOption[];
   positioningNote?: string;
   requiredEmblems?: RequiredEmblem[];
   recommendedItems: RecommendedItemSet[];

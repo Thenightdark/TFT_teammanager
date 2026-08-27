@@ -485,5 +485,12 @@
       "tft-item-giants-belt",
       "tft-item-giants-belt"
     ]
+  },
+  {
+    "id": "tft-18-item-brawler-emblem",
+    "apiName": "DA_18_Item_brawler_emblem",
+    "name": "Brawler Emblem",
+    "type": "completed",
+    "image": "/sets/set-18/traits/brawler.svg"
   }
 ]

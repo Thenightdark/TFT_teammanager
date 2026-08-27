@@ -44,14 +44,19 @@ export function describeBoardPosition([row, column]: BoardPosition): string {
   return `${rowLabel} · ${sideLabel}`;
 }
 
-function stageRoster(comp: Comp, champions: Champion[], size: number, maxCost: number): Champion[] {
+function stageRoster(comp: Comp, champions: Champion[], size: number, maxCost: number, preferredIds: string[] = []): Champion[] {
   const byId = new Map(champions.map((champion) => [champion.id, champion]));
+  const preferred = preferredIds
+    .map((id) => byId.get(id))
+    .filter((champion): champion is Champion => Boolean(champion))
+    .filter((champion) => champion.cost <= maxCost)
+    .slice(0, size);
   const finalUnits = comp.units
     .map((id) => byId.get(id))
     .filter((champion): champion is Champion => Boolean(champion))
     .filter((champion) => champion.cost <= maxCost)
     .sort((a, b) => a.cost - b.cost || Number(comp.coreUnits.includes(b.id)) - Number(comp.coreUnits.includes(a.id)) || a.name.localeCompare(b.name));
-  const selected = finalUnits.slice(0, size);
+  const selected = [...preferred, ...finalUnits.filter((champion) => !preferred.some((unit) => unit.id === champion.id))].slice(0, size);
   if (selected.length >= size) return selected;
 
   const targetTraits = new Set([...comp.traits, ...selected.flatMap((champion) => champion.traits)]);
@@ -104,5 +109,8 @@ export function createPositioningPlans(comp: Comp, champions: Champion[]): Posit
     { id: "mid" as const, label: "Plan 2", stage: "Stage 3 · Mid", size: 6, maxCost: 4, note: "Add secondary frontline and transition toward the final board without relying on 5-cost units." },
     { id: "late" as const, label: "Plan 3", stage: "Stage 4+ · Late", size: comp.units.length, maxCost: 5, note: comp.positioningNote ?? "Full-board default. Scout opponents and mirror the carry corner when needed." },
   ];
-  return definitions.map(({ maxCost, ...definition }) => ({ ...definition, units: positionRoster(stageRoster(comp, champions, definition.size, maxCost), comp) }));
+  return definitions.map(({ maxCost, ...definition }) => ({
+    ...definition,
+    units: positionRoster(stageRoster(comp, champions, definition.size, maxCost, definition.id === "late" ? [] : comp.earlyUnits), comp),
+  }));
 }

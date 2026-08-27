@@ -5,29 +5,26 @@
     "tier": "S",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-ivern",
-      "tft-18-sentinel",
+      "tft-18-diana",
+      "tft-18-hecarim",
+      "tft-18-crimson-raptor",
       "tft-18-aphelios",
       "tft-18-brambleback",
-      "tft-18-taric",
+      "tft-18-sentinel",
       "tft-18-zyra",
+      "tft-18-taric"
+    ],
+    "coreUnits": [
+      "tft-18-aphelios",
+      "tft-18-sentinel",
       "tft-18-diana",
       "tft-18-hecarim",
       "tft-18-crimson-raptor"
     ],
-    "coreUnits": [
-      "tft-18-aphelios",
-      "tft-18-ivern",
-      "tft-18-sentinel",
-      "tft-18-brambleback"
-    ],
     "carries": [
-      "tft-18-aphelios",
-      "tft-18-ivern",
-      "tft-18-brambleback",
-      "tft-18-sentinel"
+      "tft-18-aphelios"
     ],
     "mainTank": "tft-18-sentinel",
     "recommendedItems": [
@@ -35,36 +32,18 @@
         "champion": "tft-18-aphelios",
         "role": "main-carry",
         "items": [
-          "tft-item-runaans-hurricane",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade"
-        ]
-      },
-      {
-        "champion": "tft-18-ivern",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-statikk-shiv",
-          "tft-item-morellonomicon",
-          "tft-item-spear-of-shojin"
+          "tft-item-deathblade",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge"
         ]
       },
       {
         "champion": "tft-18-sentinel",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-frozen-heart",
-          "tft-item-spectral-gauntlet"
-        ]
-      },
-      {
-        "champion": "tft-18-brambleback",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-steraks-gage",
-          "tft-item-deathblade",
-          "tft-item-guardian-angel"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -95,14 +74,78 @@
       }
     ],
     "traits": [
-      "Vanguard",
-      "Riftbeast",
       "Lunar",
+      "Ravager",
+      "Vanguard",
+      "Elderwood",
+      "Riftbeast",
+      "Summoner",
       "Rapidfire",
-      "Ravager"
+      "Invoker",
+      "Thornmaiden",
+      "Emerald Aspect"
     ],
     "description": "In this comp we're going to be playing around Aphelios and Vanguards! The main carries are Aphelios, Ancient Sentinel, Ivern and Brambleback.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-diana": [
+        0,
+        2
+      ],
+      "tft-18-hecarim": [
+        0,
+        3
+      ],
+      "tft-18-brambleback": [
+        0,
+        4
+      ],
+      "tft-18-sentinel": [
+        0,
+        5
+      ],
+      "tft-18-crimson-raptor": [
+        3,
+        0
+      ],
+      "tft-18-zyra": [
+        3,
+        5
+      ],
+      "tft-18-aphelios": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-ornn",
+      "tft-18-rakan",
+      "tft-18-varus",
+      "tft-18-xayah",
+      "tft-18-hecarim"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-alune",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-rakan",
+          "tft-18-elise"
+        ],
+        "remove": [
+          "tft-18-taric"
+        ]
+      }
+    ]
   },
   {
     "id": "mana-go-brrr",
@@ -110,29 +153,26 @@
     "tier": "S",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-alune",
-      "tft-18-sentinel",
-      "tft-18-brambleback",
-      "tft-18-morgana",
-      "tft-18-taric",
+      "tft-18-sentry",
       "tft-18-diana",
       "tft-18-hecarim",
       "tft-18-kogmaw",
-      "tft-18-sentry"
+      "tft-18-brambleback",
+      "tft-18-morgana",
+      "tft-18-sentinel",
+      "tft-18-taric"
     ],
     "coreUnits": [
       "tft-18-morgana",
       "tft-18-sentinel",
-      "tft-18-alune",
-      "tft-18-brambleback"
+      "tft-18-sentry",
+      "tft-18-diana",
+      "tft-18-hecarim"
     ],
     "carries": [
-      "tft-18-morgana",
-      "tft-18-alune",
-      "tft-18-brambleback",
-      "tft-18-sentinel"
+      "tft-18-morgana"
     ],
     "mainTank": "tft-18-sentinel",
     "recommendedItems": [
@@ -140,45 +180,19 @@
         "champion": "tft-18-morgana",
         "role": "main-carry",
         "items": [
-          "tft-item-adaptive-helm",
-          "tft-item-archangels-staff",
-          "tft-item-morellonomicon"
+          "tft-item-blue-buff",
+          "tft-item-morellonomicon",
+          "tft-item-statikk-shiv"
         ]
       },
       {
         "champion": "tft-18-sentinel",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-adaptive-helm",
-          "tft-item-frozen-heart",
-          "tft-item-gargoyle-stoneplate"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
         ]
-      },
-      {
-        "champion": "tft-18-alune",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-power-gauntlet",
-          "tft-item-jeweled-gauntlet",
-          "tft-18-item-invoker-emblem"
-        ]
-      },
-      {
-        "champion": "tft-18-brambleback",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-steraks-gage",
-          "tft-item-guardian-angel",
-          "tft-item-deathblade"
-        ]
-      }
-    ],
-    "requiredEmblems": [
-      {
-        "trait": "Invoker",
-        "holder": "tft-18-alune",
-        "item": "tft-18-item-invoker-emblem",
-        "note": "Required to reach the intended Invoker breakpoint."
       }
     ],
     "recommendedAugments": [
@@ -208,14 +222,77 @@
       }
     ],
     "traits": [
-      "Invoker",
-      "Vanguard",
       "Riftbeast",
+      "Invoker",
       "Lunar",
-      "Ravager"
+      "Ravager",
+      "Vanguard",
+      "Elderwood",
+      "Caustic",
+      "Adaptor",
+      "Coven",
+      "Emerald Aspect"
     ],
     "description": "In this comp we're going to be playing around Invokers! The main carries will be Morgana, Alune, Brambleback and Ancient Sentinel.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-diana": [
+        0,
+        2
+      ],
+      "tft-18-hecarim": [
+        0,
+        3
+      ],
+      "tft-18-brambleback": [
+        0,
+        4
+      ],
+      "tft-18-sentinel": [
+        0,
+        5
+      ],
+      "tft-18-morgana": [
+        1,
+        4
+      ],
+      "tft-18-sentry": [
+        3,
+        0
+      ],
+      "tft-18-kogmaw": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-camille",
+      "tft-18-rakan",
+      "tft-18-caitlyn",
+      "tft-18-elise",
+      "tft-18-cassiopeia"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-alune",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-elise"
+        ],
+        "remove": [
+          "tft-18-taric"
+        ]
+      }
+    ]
   },
   {
     "id": "defenders-of-the-dot",
@@ -319,55 +396,45 @@
     "tier": "S",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
+      "tft-18-fiddlesticks",
+      "tft-18-amumu",
+      "tft-18-lillia",
       "tft-18-malphite",
       "tft-18-soraka",
-      "tft-18-zyra",
-      "tft-18-alune",
+      "tft-18-ivern",
       "tft-18-kennen",
-      "tft-18-maokai",
-      "tft-18-amumu",
-      "tft-18-azir",
-      "tft-18-fiddlesticks"
+      "tft-18-maokai"
     ],
     "coreUnits": [
-      "tft-18-soraka",
       "tft-18-malphite",
-      "tft-18-zyra"
+      "tft-18-soraka",
+      "tft-18-fiddlesticks",
+      "tft-18-amumu",
+      "tft-18-lillia"
     ],
     "carries": [
-      "tft-18-soraka",
-      "tft-18-zyra",
-      "tft-18-malphite"
+      "tft-18-soraka"
     ],
     "mainTank": "tft-18-malphite",
     "recommendedItems": [
       {
-        "champion": "tft-18-soraka",
-        "role": "main-carry",
-        "items": [
-          "tft-item-rabadons-deathcap",
-          "tft-item-spear-of-shojin",
-          "tft-item-archangels-staff"
-        ]
-      },
-      {
         "champion": "tft-18-malphite",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-crownguard",
-          "tft-item-gargoyle-stoneplate"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
         ]
       },
       {
-        "champion": "tft-18-zyra",
+        "champion": "tft-18-soraka",
         "role": "secondary-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-morellonomicon",
-          "tft-item-statikk-shiv"
+          "tft-item-jeweled-gauntlet",
+          "tft-item-leviathan",
+          "tft-item-leviathan"
         ]
       }
     ],
@@ -398,14 +465,71 @@
       }
     ],
     "traits": [
-      "Executioner",
-      "Blackthorn",
       "Flora Fatalis",
+      "Defender",
+      "Spellweaver",
       "Inferno",
-      "Juggernaut"
+      "Juggernaut",
+      "Fae",
+      "Blackthorn",
+      "Monolith",
+      "Executioner",
+      "Greenfather",
+      "Old Growth"
     ],
     "description": "In this comp we're going to be playing around the Blackthorn trait! The main carries are Soraka, Zyra and Malphite.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-malphite": [
+        0,
+        3
+      ],
+      "tft-18-fiddlesticks": [
+        2,
+        2
+      ],
+      "tft-18-amumu": [
+        2,
+        3
+      ],
+      "tft-18-maokai": [
+        2,
+        4
+      ],
+      "tft-18-lillia": [
+        2,
+        5
+      ],
+      "tft-18-kennen": [
+        2,
+        6
+      ],
+      "tft-18-ivern": [
+        3,
+        0
+      ],
+      "tft-18-soraka": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-akali",
+      "tft-18-varus",
+      "tft-18-leblanc",
+      "tft-18-shen",
+      "tft-18-fiddlesticks"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-azir",
+          "tft-18-lux-inferno",
+          "tft-18-taric"
+        ],
+        "remove": []
+      }
+    ]
   },
   {
     "id": "ad-exodia",
@@ -413,26 +537,26 @@
     "tier": "S",
     "playstyle": "Fast 9",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
+      "tft-18-amumu",
+      "tft-18-sentinel",
       "tft-18-draven",
-      "tft-18-maokai",
       "tft-18-elder-dragon",
       "tft-18-ivern",
       "tft-18-kennen",
-      "tft-18-taric",
-      "tft-18-amumu",
-      "tft-18-sentinel"
+      "tft-18-maokai",
+      "tft-18-taric"
     ],
     "coreUnits": [
       "tft-18-elder-dragon",
-      "tft-18-draven",
-      "tft-18-maokai"
+      "tft-18-maokai",
+      "tft-18-amumu",
+      "tft-18-sentinel",
+      "tft-18-draven"
     ],
     "carries": [
-      "tft-18-elder-dragon",
-      "tft-18-draven",
-      "tft-18-maokai"
+      "tft-18-elder-dragon"
     ],
     "mainTank": "tft-18-maokai",
     "recommendedItems": [
@@ -440,27 +564,18 @@
         "champion": "tft-18-elder-dragon",
         "role": "main-carry",
         "items": [
-          "tft-item-deathblade",
           "tft-item-infinity-edge",
-          "tft-item-unstable-concoction"
-        ]
-      },
-      {
-        "champion": "tft-18-draven",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-guinsoos-rageblade",
-          "tft-item-runaans-hurricane",
-          "tft-item-deathblade"
+          "tft-item-last-whisper",
+          "tft-item-power-gauntlet"
         ]
       },
       {
         "champion": "tft-18-maokai",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-warmogs-armor",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-spectral-gauntlet"
+          "tft-item-frozen-heart",
+          "tft-item-redemption"
         ]
       }
     ],
@@ -495,10 +610,70 @@
       "Juggernaut",
       "Riftbeast",
       "Vanguard",
-      "Apex Predator"
+      "Invoker",
+      "Bounty Seeker",
+      "Apex Predator",
+      "Greenfather",
+      "Executioner",
+      "Old Growth",
+      "Emerald Aspect"
     ],
     "description": "In this comp we're going straight to level 9! The main carries will be Draven, Maokai and Elder Dragon.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-sentinel": [
+        0,
+        2
+      ],
+      "tft-18-amumu": [
+        0,
+        3
+      ],
+      "tft-18-kennen": [
+        0,
+        4
+      ],
+      "tft-18-maokai": [
+        0,
+        5
+      ],
+      "tft-18-elder-dragon": [
+        2,
+        6
+      ],
+      "tft-18-ivern": [
+        3,
+        0
+      ],
+      "tft-18-draven": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-akali",
+      "tft-18-gromp",
+      "tft-18-murk-wolf",
+      "tft-18-shen",
+      "tft-18-krug"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-kogmaw",
+          "tft-18-soraka",
+          "tft-18-ashe",
+          "tft-18-lux-inferno"
+        ],
+        "remove": [
+          "tft-18-draven"
+        ]
+      }
+    ]
   },
   {
     "id": "wispful-thinking",
@@ -506,66 +681,45 @@
     "tier": "S",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-ashe",
+      "tft-18-karma",
+      "tft-18-yorick",
+      "tft-18-vi",
       "tft-18-ahri",
       "tft-18-sett",
       "tft-18-sivir",
-      "tft-18-gnar",
-      "tft-18-zyra",
-      "tft-18-vi",
-      "tft-18-karma",
-      "tft-18-yorick"
+      "tft-18-ashe",
+      "tft-18-gnar"
     ],
     "coreUnits": [
-      "tft-18-sivir",
-      "tft-18-ashe",
       "tft-18-ahri",
-      "tft-18-sett"
+      "tft-18-sett",
+      "tft-18-karma",
+      "tft-18-yorick",
+      "tft-18-vi"
     ],
     "carries": [
-      "tft-18-sivir",
-      "tft-18-ashe",
-      "tft-18-ahri",
-      "tft-18-sett"
+      "tft-18-ahri"
     ],
     "mainTank": "tft-18-sett",
     "recommendedItems": [
       {
-        "champion": "tft-18-sivir",
+        "champion": "tft-18-ahri",
         "role": "main-carry",
         "items": [
-          "tft-item-deathblade",
-          "tft-item-infinity-edge",
-          "tft-item-blue-buff"
-        ]
-      },
-      {
-        "champion": "tft-18-ashe",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-rapid-fire-cannon",
-          "tft-item-spear-of-shojin",
-          "tft-item-last-whisper"
-        ]
-      },
-      {
-        "champion": "tft-18-ahri",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-spear-of-shojin",
           "tft-item-jeweled-gauntlet",
-          "tft-item-power-gauntlet"
+          "tft-item-leviathan",
+          "tft-item-leviathan"
         ]
       },
       {
         "champion": "tft-18-sett",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-warmogs-armor",
-          "tft-item-ionic-spark"
+          "tft-item-ionic-spark",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -596,14 +750,87 @@
       }
     ],
     "traits": [
+      "Spellweaver",
       "Blossom",
+      "Juggernaut",
+      "Summoner",
+      "Primal",
       "Brawler",
       "Hunter",
-      "Juggernaut",
-      "Primal"
+      "Elderwood",
+      "Sprykin"
     ],
     "description": "In this comp we're going to be playing around Blossom! The main carries are Ashe, Ahri, Sett and Sivir.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-yorick": [
+        0,
+        2
+      ],
+      "tft-18-vi": [
+        0,
+        3
+      ],
+      "tft-18-gnar": [
+        0,
+        4
+      ],
+      "tft-18-sett": [
+        0,
+        5
+      ],
+      "tft-18-ashe": [
+        3,
+        0
+      ],
+      "tft-18-sivir": [
+        3,
+        2
+      ],
+      "tft-18-karma": [
+        3,
+        4
+      ],
+      "tft-18-ahri": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-karma",
+      "tft-18-rakan",
+      "tft-18-yorick",
+      "tft-18-yunara",
+      "tft-18-azir"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-zyra",
+          "tft-18-lux-elderwood"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-zyra",
+          "tft-18-lux-elderwood"
+        ],
+        "remove": [
+          "tft-18-gnar"
+        ]
+      },
+      {
+        "add": [
+          "tft-18-yunara",
+          "tft-18-master-yi"
+        ],
+        "remove": [
+          "tft-18-vi",
+          "tft-18-sivir"
+        ]
+      }
+    ]
   },
   {
     "id": "primal-spear",
@@ -611,27 +838,28 @@
     "tier": "S",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-taric",
-      "tft-18-morgana",
-      "tft-18-nidalee",
-      "tft-18-alune",
-      "tft-18-sentinel",
+      "tft-18-rakan",
       "tft-18-diana",
       "tft-18-kogmaw",
       "tft-18-vi",
-      "tft-18-rakan"
+      "tft-18-morgana",
+      "tft-18-nidalee",
+      "tft-18-sentinel",
+      "tft-18-taric"
     ],
     "coreUnits": [
       "tft-18-morgana",
       "tft-18-nidalee",
-      "tft-18-taric"
+      "tft-18-sentinel",
+      "tft-18-rakan",
+      "tft-18-diana",
+      "tft-18-kogmaw"
     ],
     "carries": [
       "tft-18-morgana",
-      "tft-18-nidalee",
-      "tft-18-taric"
+      "tft-18-nidalee"
     ],
     "mainTank": "tft-18-taric",
     "recommendedItems": [
@@ -639,9 +867,9 @@
         "champion": "tft-18-morgana",
         "role": "main-carry",
         "items": [
-          "tft-item-adaptive-helm",
           "tft-item-morellonomicon",
-          "tft-item-archangels-staff"
+          "tft-item-statikk-shiv",
+          "tft-item-adaptive-helm"
         ]
       },
       {
@@ -654,12 +882,12 @@
         ]
       },
       {
-        "champion": "tft-18-taric",
-        "role": "main-tank",
+        "champion": "tft-18-sentinel",
+        "role": "secondary-tank",
         "items": [
           "tft-item-gargoyle-stoneplate",
           "tft-item-warmogs-armor",
-          "tft-item-crownguard"
+          "tft-item-red-buff"
         ]
       }
     ],
@@ -690,14 +918,80 @@
       }
     ],
     "traits": [
+      "Fae",
+      "Juggernaut",
       "Vanguard",
+      "Lunar",
+      "Ravager",
+      "Caustic",
       "Invoker",
       "Adaptor",
-      "Juggernaut",
-      "Lunar"
+      "Primal",
+      "Coven",
+      "Riftbeast",
+      "Emerald Aspect"
     ],
     "description": "In this comp we're going straight to level 8 to play around Nidalee! The main carries are Nidalee, Morgana and Taric.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-rakan": [
+        0,
+        2
+      ],
+      "tft-18-vi": [
+        0,
+        3
+      ],
+      "tft-18-diana": [
+        0,
+        4
+      ],
+      "tft-18-sentinel": [
+        0,
+        5
+      ],
+      "tft-18-morgana": [
+        1,
+        4
+      ],
+      "tft-18-kogmaw": [
+        3,
+        5
+      ],
+      "tft-18-nidalee": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-camille",
+      "tft-18-rakan",
+      "tft-18-caitlyn",
+      "tft-18-elise",
+      "tft-18-kogmaw"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-teemo",
+          "tft-18-alune",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-hecarim"
+        ],
+        "remove": [
+          "tft-18-taric"
+        ]
+      }
+    ]
   },
   {
     "id": "wrath-of-the-woods",
@@ -705,66 +999,45 @@
     "tier": "S",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-gnar",
-      "tft-18-lux-elderwood",
+      "tft-18-ornn",
+      "tft-18-xayah",
+      "tft-18-alistar",
+      "tft-18-leblanc",
       "tft-18-aphelios",
       "tft-18-lillia",
       "tft-18-alune",
-      "tft-18-alistar",
-      "tft-18-leblanc",
-      "tft-18-ornn",
-      "tft-18-xayah"
+      "tft-18-gnar"
     ],
     "coreUnits": [
-      "tft-18-gnar",
-      "tft-18-lillia",
       "tft-18-aphelios",
-      "tft-18-lux-elderwood"
+      "tft-18-lillia",
+      "tft-18-ornn",
+      "tft-18-xayah",
+      "tft-18-alistar"
     ],
     "carries": [
-      "tft-18-gnar",
-      "tft-18-aphelios",
-      "tft-18-lux-elderwood",
-      "tft-18-lillia"
+      "tft-18-aphelios"
     ],
     "mainTank": "tft-18-lillia",
     "recommendedItems": [
       {
-        "champion": "tft-18-gnar",
+        "champion": "tft-18-aphelios",
         "role": "main-carry",
         "items": [
-          "tft-item-guardian-angel",
-          "tft-item-bloodthirster",
-          "tft-item-steraks-gage"
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge",
+          "tft-item-runaans-hurricane"
         ]
       },
       {
         "champion": "tft-18-lillia",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
           "tft-item-gargoyle-stoneplate",
-          "tft-item-warmogs-armor",
-          "tft-item-crownguard"
-        ]
-      },
-      {
-        "champion": "tft-18-aphelios",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-guinsoos-rageblade"
-        ]
-      },
-      {
-        "champion": "tft-18-lux-elderwood",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-statikk-shiv",
-          "tft-item-spear-of-shojin",
-          "tft-item-morellonomicon"
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -796,58 +1069,122 @@
     ],
     "traits": [
       "Elderwood",
-      "Brawler",
       "Defender",
       "Fae",
-      "Lunar"
+      "Rapidfire",
+      "Brawler",
+      "Spellweaver",
+      "Lunar",
+      "Attuned",
+      "Sprykin"
     ],
     "description": "In this comp we're going to be playing around the Elderwood trait! The main carries will be Gnar, Lillia, Aphelios and Lux.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-ornn": [
+        0,
+        2
+      ],
+      "tft-18-alistar": [
+        0,
+        3
+      ],
+      "tft-18-gnar": [
+        0,
+        4
+      ],
+      "tft-18-lillia": [
+        0,
+        5
+      ],
+      "tft-18-leblanc": [
+        3,
+        0
+      ],
+      "tft-18-alune": [
+        3,
+        4
+      ],
+      "tft-18-xayah": [
+        3,
+        5
+      ],
+      "tft-18-aphelios": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-ornn",
+      "tft-18-varus",
+      "tft-18-xayah",
+      "tft-18-alistar",
+      "tft-18-shen"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-diana",
+          "tft-18-ivern",
+          "tft-18-taric"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-hecarim"
+        ],
+        "remove": [
+          "tft-18-alistar",
+          "tft-18-gnar"
+        ]
+      }
+    ]
   },
   {
     "id": "unrivaled",
     "name": "Unrivaled",
     "tier": "S",
-    "playstyle": "Level 7 Slow Roll",
+    "playstyle": "Slow Roll (7) Augment",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-aphelios",
+      "tft-18-leblanc",
+      "tft-18-diana",
       "tft-18-hecarim",
       "tft-18-khazix",
       "tft-18-rengar",
-      "tft-18-kennen",
+      "tft-18-aphelios",
       "tft-18-ezreal",
-      "tft-18-soraka",
-      "tft-18-diana",
-      "tft-18-leblanc"
+      "tft-18-alune"
     ],
     "coreUnits": [
-      "tft-18-rengar",
+      "tft-18-hecarim",
       "tft-18-khazix",
-      "tft-18-aphelios",
-      "tft-18-hecarim"
+      "tft-18-rengar",
+      "tft-18-leblanc",
+      "tft-18-diana"
     ],
     "carries": [
-      "tft-18-rengar",
       "tft-18-khazix",
-      "tft-18-aphelios",
-      "tft-18-hecarim"
+      "tft-18-rengar"
     ],
     "mainTank": "tft-18-hecarim",
     "threeStarTargets": [
+      "tft-18-leblanc",
+      "tft-18-diana",
       "tft-18-hecarim",
       "tft-18-khazix",
       "tft-18-rengar"
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-rengar",
-        "role": "main-carry",
+        "champion": "tft-18-hecarim",
+        "role": "main-tank",
         "items": [
-          "tft-item-guardian-angel",
-          "tft-item-titans-resolve",
-          "tft-item-guinsoos-rageblade"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-warmogs-armor",
+          "tft-item-redemption"
         ]
       },
       {
@@ -860,21 +1197,12 @@
         ]
       },
       {
-        "champion": "tft-18-aphelios",
+        "champion": "tft-18-rengar",
         "role": "secondary-carry",
         "items": [
-          "tft-item-runaans-hurricane",
-          "tft-item-last-whisper",
-          "tft-item-rapid-fire-cannon"
-        ]
-      },
-      {
-        "champion": "tft-18-hecarim",
-        "role": "main-tank",
-        "items": [
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-warmogs-armor",
-          "tft-item-redemption"
+          "tft-item-guardian-angel",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-titans-resolve"
         ]
       }
     ],
@@ -906,62 +1234,125 @@
     ],
     "traits": [
       "Elderwood",
-      "Executioner",
+      "Spellweaver",
       "Lunar",
+      "Ravager",
+      "Vanguard",
       "Rival",
-      "Vanguard"
+      "Rapidfire",
+      "Executioner",
+      "Attuned"
     ],
     "description": "This comp is only playable with the Unrivaled augment. The main carries are Rengar, Kha'Zix, Hecarim and Aphelios.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-hecarim": [
+        0,
+        2
+      ],
+      "tft-18-diana": [
+        0,
+        3
+      ],
+      "tft-18-khazix": [
+        2,
+        0
+      ],
+      "tft-18-rengar": [
+        2,
+        1
+      ],
+      "tft-18-aphelios": [
+        3,
+        0
+      ],
+      "tft-18-ezreal": [
+        3,
+        1
+      ],
+      "tft-18-leblanc": [
+        3,
+        5
+      ],
+      "tft-18-alune": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-ornn",
+      "tft-18-alistar",
+      "tft-18-leblanc",
+      "tft-18-khazix",
+      "tft-18-rengar"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-soraka",
+          "tft-18-kennen"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-soraka",
+          "tft-18-kennen"
+        ],
+        "remove": [
+          "tft-18-alune"
+        ]
+      }
+    ]
   },
   {
     "id": "double-trouble-cass",
     "name": "Double Trouble Cass",
     "tier": "S",
-    "playstyle": "Level 7 Slow Roll",
+    "playstyle": "Slow Roll (7) Augment",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
       "tft-18-cassiopeia",
+      "tft-18-cassiopeia",
+      "tft-18-fiddlesticks",
       "tft-18-fiddlesticks",
       "tft-18-rammus",
+      "tft-18-rammus",
       "tft-18-soraka",
-      "tft-18-cassiopeia",
-      "tft-18-fiddlesticks",
-      "tft-18-rammus"
+      "tft-18-ivern"
     ],
     "coreUnits": [
-      "tft-18-fiddlesticks",
-      "tft-18-cassiopeia"
+      "tft-18-cassiopeia",
+      "tft-18-rammus",
+      "tft-18-fiddlesticks"
     ],
     "carries": [
-      "tft-18-cassiopeia",
-      "tft-18-fiddlesticks"
+      "tft-18-cassiopeia"
     ],
     "mainTank": "tft-18-fiddlesticks",
     "threeStarTargets": [
       "tft-18-cassiopeia",
       "tft-18-fiddlesticks",
-      "tft-18-cassiopeia",
-      "tft-18-fiddlesticks"
+      "tft-18-rammus"
     ],
     "recommendedItems": [
-      {
-        "champion": "tft-18-fiddlesticks",
-        "role": "main-tank",
-        "items": [
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-warmogs-armor",
-          "tft-item-redemption"
-        ]
-      },
       {
         "champion": "tft-18-cassiopeia",
         "role": "main-carry",
         "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-power-gauntlet"
+          "tft-item-hextech-gunblade",
+          "tft-item-rabadons-deathcap",
+          "tft-item-spear-of-shojin"
+        ]
+      },
+      {
+        "champion": "tft-18-rammus",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-redemption",
+          "tft-item-red-buff"
         ]
       }
     ],
@@ -992,75 +1383,116 @@
       }
     ],
     "traits": [
-      "Defender",
+      "Coven",
       "Spellweaver",
       "Flora Fatalis",
-      "Coven",
-      "Sprykin"
+      "Defender",
+      "Sprykin",
+      "Executioner",
+      "Greenfather"
     ],
     "description": "This comp is only playable with the Double Trouble augment! This is a 3-cost reroll board where you'll look to 3-star Cassiopea, Fiddlesticks and Rammus.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-rammus": [
+        0,
+        5
+      ],
+      "tft-18-fiddlesticks": [
+        0,
+        4
+      ],
+      "tft-18-ivern": [
+        3,
+        0
+      ],
+      "tft-18-soraka": [
+        3,
+        4
+      ],
+      "tft-18-cassiopeia": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-leona",
+      "tft-18-ornn",
+      "tft-18-shen",
+      "tft-18-cassiopeia",
+      "tft-18-fiddlesticks"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-soraka",
+          "tft-18-kennen"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-soraka",
+          "tft-18-kennen"
+        ],
+        "remove": [
+          "tft-18-ivern"
+        ]
+      }
+    ]
   },
   {
     "id": "adapt-or-die",
     "name": "Adapt or Die",
     "tier": "S",
-    "playstyle": "Level 7 Slow Roll",
+    "playstyle": "Slow Roll (7) Emblem",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-nidalee",
+      "tft-18-yorick",
       "tft-18-kogmaw",
       "tft-18-krug",
       "tft-18-master-yi",
-      "tft-18-sett",
       "tft-18-vi",
-      "tft-18-gromp",
-      "tft-18-yorick"
+      "tft-18-nidalee",
+      "tft-18-sett",
+      "tft-18-gnar"
     ],
     "coreUnits": [
-      "tft-18-master-yi",
-      "tft-18-nidalee",
       "tft-18-kogmaw",
+      "tft-18-master-yi",
+      "tft-18-yorick",
       "tft-18-krug"
     ],
     "carries": [
-      "tft-18-master-yi",
-      "tft-18-nidalee",
-      "tft-18-kogmaw"
+      "tft-18-kogmaw",
+      "tft-18-master-yi"
     ],
     "mainTank": "tft-18-krug",
     "threeStarTargets": [
+      "tft-18-yorick",
       "tft-18-kogmaw",
       "tft-18-krug",
-      "tft-18-master-yi"
+      "tft-18-master-yi",
+      "tft-18-vi"
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-master-yi",
+        "champion": "tft-18-kogmaw",
         "role": "main-carry",
         "items": [
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guardian-angel",
-          "tft-item-quicksilver"
-        ]
-      },
-      {
-        "champion": "tft-18-nidalee",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-guinsoos-rageblade",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-power-gauntlet"
-        ]
-      },
-      {
-        "champion": "tft-18-kogmaw",
-        "role": "secondary-carry",
-        "items": [
           "tft-item-infinity-edge",
-          "tft-item-spear-of-shojin",
-          "tft-item-rapid-fire-cannon"
+          "tft-item-rapid-fire-cannon",
+          "tft-item-spear-of-shojin"
+        ]
+      },
+      {
+        "champion": "tft-18-master-yi",
+        "role": "secondary-carry",
+        "items": [
+          "tft-18-item-brawler-emblem",
+          "tft-item-guardian-angel",
+          "tft-item-guinsoos-rageblade"
         ]
       }
     ],
@@ -1091,72 +1523,138 @@
       }
     ],
     "traits": [
-      "Adaptor",
       "Blossom",
-      "Brawler",
       "Juggernaut",
-      "Primal"
+      "Summoner",
+      "Caustic",
+      "Invoker",
+      "Adaptor",
+      "Riftbeast",
+      "Brawler",
+      "Primal",
+      "Elderwood",
+      "Sprykin"
     ],
     "description": "In this comp we're going to be playing around Adaptors! The main carries will be Kog'Maw, Nidalee, Master Yi and Krug.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-sett": [
+        0,
+        1
+      ],
+      "tft-18-yorick": [
+        0,
+        2
+      ],
+      "tft-18-vi": [
+        0,
+        3
+      ],
+      "tft-18-master-yi": [
+        0,
+        4
+      ],
+      "tft-18-krug": [
+        0,
+        5
+      ],
+      "tft-18-gnar": [
+        1,
+        4
+      ],
+      "tft-18-nidalee": [
+        3,
+        5
+      ],
+      "tft-18-kogmaw": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-yorick",
+      "tft-18-karma",
+      "tft-18-gromp",
+      "tft-18-master-yi",
+      "tft-18-vi"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-gromp"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-alistar",
+          "tft-18-gromp"
+        ],
+        "remove": [
+          "tft-18-gnar"
+        ]
+      }
+    ],
+    "requiredEmblems": [
+      {
+        "trait": "Brawler",
+        "holder": "tft-18-master-yi",
+        "item": "tft-18-item-brawler-emblem",
+        "note": "Brawler Emblem is required for the listed trait breakpoint."
+      }
+    ]
   },
   {
     "id": "kill-stack-repeat",
     "name": "Kill, Stack, Repeat",
-    "tier": "A",
-    "playstyle": "Level 5 Slow Roll",
+    "tier": "S",
+    "playstyle": "Slow Roll (5) Augment",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
       "tft-18-kobuko",
       "tft-18-reksai",
       "tft-18-veigar",
-      "tft-18-gnar",
-      "tft-18-sett",
+      "tft-18-teemo",
       "tft-18-fiddlesticks",
       "tft-18-rammus",
-      "tft-18-teemo"
+      "tft-18-sett",
+      "tft-18-gnar"
     ],
     "coreUnits": [
       "tft-18-reksai",
-      "tft-18-kobuko",
-      "tft-18-veigar"
-    ],
-    "carries": [
       "tft-18-veigar",
       "tft-18-kobuko"
     ],
-    "mainTank": "tft-18-kobuko",
+    "carries": [
+      "tft-18-veigar"
+    ],
+    "mainTank": "tft-18-reksai",
     "threeStarTargets": [
       "tft-18-kobuko",
-      "tft-18-veigar"
+      "tft-18-reksai",
+      "tft-18-veigar",
+      "tft-18-teemo",
+      "tft-18-fiddlesticks",
+      "tft-18-rammus"
     ],
     "recommendedItems": [
       {
         "champion": "tft-18-reksai",
-        "role": "secondary-tank",
-        "items": [
-          "tft-item-frozen-heart",
-          "tft-item-red-buff",
-          "tft-item-ionic-spark"
-        ]
-      },
-      {
-        "champion": "tft-18-kobuko",
         "role": "main-tank",
         "items": [
-          "tft-item-redemption",
           "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
           "tft-item-warmogs-armor"
         ]
       },
       {
         "champion": "tft-18-veigar",
-        "role": "main-carry",
+        "role": "secondary-carry",
         "items": [
+          "tft-item-blue-buff",
           "tft-item-jeweled-gauntlet",
-          "tft-18-item-flora-fatalis-emblem",
-          "tft-item-blue-buff"
+          "tft-18-item-flora-fatalis-emblem"
         ]
       }
     ],
@@ -1165,7 +1663,7 @@
         "trait": "Flora Fatalis",
         "holder": "tft-18-veigar",
         "item": "tft-18-item-flora-fatalis-emblem",
-        "note": "Required to reach the intended Flora Fatalis breakpoint."
+        "note": "Flora Fatalis Emblem is required for the listed trait breakpoint."
       }
     ],
     "recommendedAugments": [
@@ -1198,70 +1696,135 @@
       "Sprykin",
       "Brawler",
       "Blackthorn",
+      "Spellweaver",
+      "Invoker",
+      "Flora Fatalis",
       "Defender",
-      "Spellweaver"
+      "Blossom",
+      "Elderwood"
     ],
     "description": "In this comp we're going to be Rerolling 1-costs! The main carries will be Veigar, Kobuko and Rek'Sai.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-kobuko": [
+        0,
+        1
+      ],
+      "tft-18-rammus": [
+        0,
+        2
+      ],
+      "tft-18-sett": [
+        0,
+        3
+      ],
+      "tft-18-gnar": [
+        0,
+        4
+      ],
+      "tft-18-reksai": [
+        0,
+        5
+      ],
+      "tft-18-fiddlesticks": [
+        2,
+        3
+      ],
+      "tft-18-teemo": [
+        3,
+        0
+      ],
+      "tft-18-veigar": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-kobuko",
+      "tft-18-reksai",
+      "tft-18-veigar",
+      "tft-18-teemo",
+      "tft-18-fiddlesticks"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-tristana"
+        ],
+        "remove": [
+          "tft-18-gnar"
+        ]
+      }
+    ]
   },
   {
     "id": "fae-and-furious",
     "name": "Fae and Furious",
     "tier": "A",
-    "playstyle": "Level 7 Slow Roll",
+    "playstyle": "Slow Roll (7)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-sivir",
+      "tft-18-rakan",
+      "tft-18-xayah",
       "tft-18-rammus",
       "tft-18-tristana",
       "tft-18-vi",
-      "tft-18-taric",
+      "tft-18-sivir",
       "tft-18-lillia",
-      "tft-18-kobuko",
-      "tft-18-rakan"
+      "tft-18-gnar"
     ],
     "coreUnits": [
-      "tft-18-sivir",
+      "tft-18-rammus",
       "tft-18-tristana",
-      "tft-18-rammus"
+      "tft-18-sivir",
+      "tft-18-rakan",
+      "tft-18-xayah"
     ],
     "carries": [
-      "tft-18-sivir",
       "tft-18-tristana",
-      "tft-18-rammus"
+      "tft-18-sivir"
     ],
     "mainTank": "tft-18-rammus",
     "threeStarTargets": [
+      "tft-18-rakan",
+      "tft-18-xayah",
       "tft-18-rammus",
-      "tft-18-tristana"
+      "tft-18-tristana",
+      "tft-18-vi"
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-sivir",
-        "role": "main-carry",
+        "champion": "tft-18-rammus",
+        "role": "main-tank",
         "items": [
-          "tft-item-last-whisper",
-          "tft-18-item-fae-emblem",
-          "tft-item-rapid-fire-cannon"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       },
       {
         "champion": "tft-18-tristana",
         "role": "secondary-carry",
         "items": [
+          "tft-item-madreds-bloodrazor",
           "tft-item-guinsoos-rageblade",
-          "tft-item-hextech-gunblade",
           "tft-item-runaans-hurricane"
         ]
       },
       {
-        "champion": "tft-18-rammus",
-        "role": "main-tank",
+        "champion": "tft-18-sivir",
+        "role": "secondary-carry",
         "items": [
-          "tft-item-redemption",
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate"
+          "tft-item-last-whisper",
+          "tft-18-item-fae-emblem",
+          "tft-item-rapid-fire-cannon"
         ]
       }
     ],
@@ -1270,7 +1833,7 @@
         "trait": "Fae",
         "holder": "tft-18-sivir",
         "item": "tft-18-item-fae-emblem",
-        "note": "Required to reach the intended Fae breakpoint."
+        "note": "Fae Emblem is required for the listed trait breakpoint."
       }
     ],
     "recommendedAugments": [
@@ -1301,42 +1864,103 @@
     ],
     "traits": [
       "Fae",
+      "Juggernaut",
+      "Vanguard",
+      "Elderwood",
+      "Rapidfire",
       "Sprykin",
       "Defender",
       "Hunter",
-      "Juggernaut"
+      "Primal",
+      "Brawler"
     ],
     "description": "In this comp we're going to be playing around Fae and Sprykins! The main carries will be Rammus, Sivir, Tristana and Vi.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-rakan": [
+        0,
+        1
+      ],
+      "tft-18-vi": [
+        0,
+        2
+      ],
+      "tft-18-lillia": [
+        0,
+        3
+      ],
+      "tft-18-gnar": [
+        0,
+        4
+      ],
+      "tft-18-rammus": [
+        0,
+        5
+      ],
+      "tft-18-xayah": [
+        3,
+        0
+      ],
+      "tft-18-sivir": [
+        3,
+        5
+      ],
+      "tft-18-tristana": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-kobuko",
+      "tft-18-rakan",
+      "tft-18-xayah",
+      "tft-18-rammus",
+      "tft-18-tristana"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ivern",
+          "tft-18-taric"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-kobuko"
+        ],
+        "remove": [
+          "tft-18-gnar"
+        ]
+      }
+    ]
   },
   {
     "id": "yunalistar",
     "name": "Yunalistar",
     "tier": "A",
-    "playstyle": "Level 6 Slow Roll",
+    "playstyle": "Slow Roll (6)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-sett",
       "tft-18-alistar",
       "tft-18-leblanc",
       "tft-18-yunara",
-      "tft-18-ivern",
-      "tft-18-kennen",
       "tft-18-ahri",
       "tft-18-ezreal",
-      "tft-18-soraka"
+      "tft-18-sett",
+      "tft-18-soraka",
+      "tft-18-kennen"
     ],
     "coreUnits": [
-      "tft-18-sett",
-      "tft-18-yunara",
       "tft-18-alistar",
+      "tft-18-yunara",
+      "tft-18-ezreal",
       "tft-18-leblanc"
     ],
     "carries": [
       "tft-18-yunara",
-      "tft-18-leblanc",
-      "tft-18-alistar"
+      "tft-18-ezreal"
     ],
     "mainTank": "tft-18-alistar",
     "threeStarTargets": [
@@ -1346,39 +1970,30 @@
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-sett",
-        "role": "secondary-tank",
-        "items": [
-          "tft-item-red-buff",
-          "tft-item-spectral-gauntlet",
-          "tft-item-ionic-spark"
-        ]
-      },
-      {
-        "champion": "tft-18-yunara",
-        "role": "main-carry",
-        "items": [
-          "tft-item-spear-of-shojin",
-          "tft-item-power-gauntlet",
-          "tft-item-deathblade"
-        ]
-      },
-      {
         "champion": "tft-18-alistar",
         "role": "main-tank",
         "items": [
           "tft-item-gargoyle-stoneplate",
-          "tft-item-redemption",
-          "tft-item-crownguard"
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       },
       {
-        "champion": "tft-18-leblanc",
+        "champion": "tft-18-yunara",
         "role": "secondary-carry",
         "items": [
-          "tft-item-power-gauntlet",
-          "tft-item-jeweled-gauntlet",
-          "tft-item-leviathan"
+          "tft-item-deathblade",
+          "tft-item-spear-of-shojin",
+          "tft-item-power-gauntlet"
+        ]
+      },
+      {
+        "champion": "tft-18-ezreal",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-jeweled-gauntlet"
         ]
       }
     ],
@@ -1409,74 +2024,125 @@
       }
     ],
     "traits": [
-      "Executioner",
-      "Blossom",
       "Elderwood",
       "Brawler",
-      "Spellweaver"
+      "Spellweaver",
+      "Blossom",
+      "Executioner",
+      "Flora Fatalis",
+      "Inferno"
     ],
     "description": "In this comp we're going to be rerolling 2-costs! The main carries will be Alistar, Yunara and Leblanc.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-sett": [
+        0,
+        2
+      ],
+      "tft-18-kennen": [
+        0,
+        3
+      ],
+      "tft-18-alistar": [
+        0,
+        4
+      ],
+      "tft-18-leblanc": [
+        3,
+        0
+      ],
+      "tft-18-ahri": [
+        3,
+        1
+      ],
+      "tft-18-soraka": [
+        3,
+        4
+      ],
+      "tft-18-ezreal": [
+        3,
+        5
+      ],
+      "tft-18-yunara": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-rakan",
+      "tft-18-yorick",
+      "tft-18-karma",
+      "tft-18-leblanc",
+      "tft-18-yunara"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-amumu",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-azir"
+        ],
+        "remove": [
+          "tft-18-kennen"
+        ]
+      }
+    ]
   },
   {
     "id": "thrill-of-the-hunt",
     "name": "Thrill of the Hunt",
     "tier": "A",
-    "playstyle": "Level 7 Slow Roll",
+    "playstyle": "Slow Roll (7)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
+      "tft-18-diana",
       "tft-18-hecarim",
       "tft-18-crimson-raptor",
       "tft-18-rengar",
-      "tft-18-diana",
-      "tft-18-taric",
-      "tft-18-sentinel",
       "tft-18-aphelios",
-      "tft-18-brambleback"
+      "tft-18-brambleback",
+      "tft-18-sentinel",
+      "tft-18-taric"
     ],
     "coreUnits": [
-      "tft-18-rengar",
       "tft-18-hecarim",
+      "tft-18-rengar",
+      "tft-18-diana",
       "tft-18-crimson-raptor"
     ],
     "carries": [
-      "tft-18-rengar",
-      "tft-18-crimson-raptor",
-      "tft-18-hecarim"
+      "tft-18-rengar"
     ],
     "mainTank": "tft-18-hecarim",
     "threeStarTargets": [
+      "tft-18-diana",
       "tft-18-hecarim",
       "tft-18-crimson-raptor",
       "tft-18-rengar"
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-rengar",
-        "role": "main-carry",
-        "items": [
-          "tft-item-titans-resolve",
-          "tft-item-guinsoos-rageblade",
-          "tft-item-guardian-angel"
-        ]
-      },
-      {
         "champion": "tft-18-hecarim",
         "role": "main-tank",
         "items": [
           "tft-item-gargoyle-stoneplate",
-          "tft-item-frozen-heart",
-          "tft-item-red-buff"
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       },
       {
-        "champion": "tft-18-crimson-raptor",
+        "champion": "tft-18-rengar",
         "role": "secondary-carry",
         "items": [
-          "tft-item-last-whisper",
+          "tft-item-guardian-angel",
           "tft-item-guinsoos-rageblade",
-          "tft-item-runaans-hurricane"
+          "tft-item-titans-resolve"
         ]
       }
     ],
@@ -1507,61 +2173,138 @@
       }
     ],
     "traits": [
-      "Vanguard",
-      "Riftbeast",
       "Lunar",
+      "Ravager",
+      "Vanguard",
+      "Elderwood",
+      "Riftbeast",
+      "Summoner",
       "Rapidfire",
-      "Ravager"
+      "Rival",
+      "Invoker",
+      "Emerald Aspect"
     ],
     "description": "In this comp we're going to be rerolling 3-costs! The main carries will be rengar, Hecarim, Diana and Mama Beak.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-diana": [
+        0,
+        2
+      ],
+      "tft-18-sentinel": [
+        0,
+        3
+      ],
+      "tft-18-rengar": [
+        0,
+        4
+      ],
+      "tft-18-hecarim": [
+        0,
+        5
+      ],
+      "tft-18-aphelios": [
+        3,
+        0
+      ],
+      "tft-18-crimson-raptor": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-akali",
+      "tft-18-gromp",
+      "tft-18-murk-wolf",
+      "tft-18-scuttlecrab",
+      "tft-18-rengar"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-zyra",
+          "tft-18-alune",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-rakan",
+          "tft-18-elise"
+        ],
+        "remove": [
+          "tft-18-taric"
+        ]
+      }
+    ]
   },
   {
     "id": "crablyn",
     "name": "Crablyn",
     "tier": "A",
-    "playstyle": "Level 6 Slow Roll",
+    "playstyle": "Slow Roll (6)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-ashe",
+      "tft-18-rakan",
+      "tft-18-caitlyn",
+      "tft-18-scuttlecrab",
+      "tft-18-sejuani",
+      "tft-18-tristana",
+      "tft-18-vi",
+      "tft-18-sivir",
+      "tft-18-ashe"
+    ],
+    "coreUnits": [
       "tft-18-caitlyn",
       "tft-18-scuttlecrab",
       "tft-18-sivir",
-      "tft-18-tristana",
-      "tft-18-vi",
-      "tft-18-sejuani",
       "tft-18-rakan"
     ],
-    "coreUnits": [
-      "tft-18-ashe",
-      "tft-18-scuttlecrab"
-    ],
     "carries": [
-      "tft-18-ashe",
-      "tft-18-scuttlecrab"
+      "tft-18-caitlyn",
+      "tft-18-sivir"
     ],
     "mainTank": "tft-18-scuttlecrab",
     "threeStarTargets": [
-      "tft-18-scuttlecrab"
+      "tft-18-rakan",
+      "tft-18-caitlyn",
+      "tft-18-scuttlecrab",
+      "tft-18-sejuani",
+      "tft-18-tristana",
+      "tft-18-vi"
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-ashe",
+        "champion": "tft-18-caitlyn",
         "role": "main-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-spear-of-shojin",
-          "tft-item-rapid-fire-cannon"
+          "tft-item-guinsoos-rageblade",
+          "tft-item-runaans-hurricane",
+          "tft-item-runaans-hurricane"
         ]
       },
       {
         "champion": "tft-18-scuttlecrab",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
           "tft-item-gargoyle-stoneplate",
-          "tft-item-warmogs-armor",
-          "tft-item-redemption"
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-sivir",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-last-whisper",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-jeweled-gauntlet"
         ]
       }
     ],
@@ -1592,14 +2335,78 @@
       }
     ],
     "traits": [
-      "Hunter",
-      "Juggernaut",
       "Fae",
+      "Juggernaut",
+      "Vanguard",
+      "Coven",
+      "Hunter",
+      "Riftbeast",
+      "Solar",
+      "Sprykin",
       "Primal",
       "Blossom"
     ],
     "description": "In this comp we're going to be playing around Juggernauts and Hunters! The main carries will be Skuttlecrab, Caitlyn and Ashe.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-sejuani": [
+        0,
+        2
+      ],
+      "tft-18-rakan": [
+        0,
+        3
+      ],
+      "tft-18-vi": [
+        0,
+        4
+      ],
+      "tft-18-scuttlecrab": [
+        0,
+        5
+      ],
+      "tft-18-tristana": [
+        3,
+        0
+      ],
+      "tft-18-ashe": [
+        3,
+        4
+      ],
+      "tft-18-sivir": [
+        3,
+        5
+      ],
+      "tft-18-caitlyn": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-rakan",
+      "tft-18-caitlyn",
+      "tft-18-sejuani",
+      "tft-18-scuttlecrab",
+      "tft-18-vi"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-cinderling",
+          "tft-18-taric"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-cinderling",
+          "tft-18-taric"
+        ],
+        "remove": [
+          "tft-18-ashe"
+        ]
+      }
+    ]
   },
   {
     "id": "exe-cap",
@@ -1924,62 +2731,54 @@
     "id": "solar-flare",
     "name": "Solar Flare",
     "tier": "A",
-    "playstyle": "Level 6 Slow Roll",
+    "playstyle": "Slow Roll (6)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
+      "tft-18-leona",
+      "tft-18-varus",
       "tft-18-kayle",
       "tft-18-sejuani",
-      "tft-18-varus",
       "tft-18-shen",
-      "tft-18-alune",
-      "tft-18-amumu",
-      "tft-18-aphelios",
       "tft-18-diana",
-      "tft-18-leona"
+      "tft-18-aphelios",
+      "tft-18-alune"
     ],
     "coreUnits": [
-      "tft-18-varus",
       "tft-18-kayle",
-      "tft-18-sejuani"
+      "tft-18-sejuani",
+      "tft-18-leona",
+      "tft-18-varus"
     ],
     "carries": [
-      "tft-18-varus",
-      "tft-18-kayle",
-      "tft-18-sejuani"
+      "tft-18-kayle"
     ],
     "mainTank": "tft-18-sejuani",
     "threeStarTargets": [
+      "tft-18-leona",
+      "tft-18-varus",
       "tft-18-kayle",
       "tft-18-sejuani",
-      "tft-18-varus"
+      "tft-18-shen",
+      "tft-18-diana"
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-varus",
+        "champion": "tft-18-kayle",
         "role": "main-carry",
         "items": [
-          "tft-item-last-whisper",
-          "tft-item-spear-of-shojin",
-          "tft-item-infinity-edge"
-        ]
-      },
-      {
-        "champion": "tft-18-kayle",
-        "role": "secondary-carry",
-        "items": [
           "tft-item-guinsoos-rageblade",
-          "tft-item-madreds-bloodrazor",
-          "tft-item-rabadons-deathcap"
+          "tft-item-guinsoos-rageblade",
+          "tft-item-jeweled-gauntlet"
         ]
       },
       {
         "champion": "tft-18-sejuani",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-night-harvester",
-          "tft-item-gargoyle-stoneplate"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -2010,14 +2809,77 @@
       }
     ],
     "traits": [
-      "Inferno",
-      "Lunar",
-      "Rapidfire",
       "Solar",
-      "Defender"
+      "Defender",
+      "Inferno",
+      "Rapidfire",
+      "Juggernaut",
+      "Lunar",
+      "Ravager",
+      "Vanguard",
+      "Attuned",
+      "Spellweaver"
     ],
     "description": "In this comp we're going to be playing around Solar and Inferno! The main carries are Sejuani, Kayle, Varus and Shen.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-leona": [
+        0,
+        2
+      ],
+      "tft-18-shen": [
+        0,
+        3
+      ],
+      "tft-18-diana": [
+        0,
+        4
+      ],
+      "tft-18-sejuani": [
+        0,
+        5
+      ],
+      "tft-18-aphelios": [
+        3,
+        0
+      ],
+      "tft-18-varus": [
+        3,
+        2
+      ],
+      "tft-18-alune": [
+        3,
+        4
+      ],
+      "tft-18-kayle": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-leona",
+      "tft-18-varus",
+      "tft-18-kayle",
+      "tft-18-sejuani",
+      "tft-18-shen"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-amumu"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-amumu",
+          "tft-18-kennen"
+        ],
+        "remove": [
+          "tft-18-alune"
+        ]
+      }
+    ]
   },
   {
     "id": "weave-got-this",
@@ -2025,54 +2887,45 @@
     "tier": "A",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-alune",
-      "tft-18-ahri",
-      "tft-18-lillia",
+      "tft-18-karma",
+      "tft-18-rakan",
+      "tft-18-yorick",
       "tft-18-diana",
       "tft-18-fiddlesticks",
+      "tft-18-ahri",
+      "tft-18-lillia",
+      "tft-18-alune"
+    ],
+    "coreUnits": [
+      "tft-18-ahri",
+      "tft-18-lillia",
       "tft-18-karma",
       "tft-18-rakan",
       "tft-18-yorick"
     ],
-    "coreUnits": [
-      "tft-18-alune",
-      "tft-18-ahri",
-      "tft-18-lillia"
-    ],
     "carries": [
-      "tft-18-alune",
-      "tft-18-ahri",
-      "tft-18-lillia"
+      "tft-18-ahri"
     ],
     "mainTank": "tft-18-lillia",
     "recommendedItems": [
       {
-        "champion": "tft-18-alune",
+        "champion": "tft-18-ahri",
         "role": "main-carry",
         "items": [
-          "tft-item-blue-buff",
-          "tft-item-morellonomicon",
-          "tft-item-statikk-shiv"
-        ]
-      },
-      {
-        "champion": "tft-18-ahri",
-        "role": "secondary-carry",
-        "items": [
           "tft-item-jeweled-gauntlet",
-          "tft-item-power-gauntlet",
+          "tft-item-leviathan",
           "tft-item-leviathan"
         ]
       },
       {
         "champion": "tft-18-lillia",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-crownguard",
-          "tft-item-gargoyle-stoneplate"
+          "tft-item-ionic-spark",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -2105,82 +2958,118 @@
     "traits": [
       "Spellweaver",
       "Blossom",
-      "Defender",
       "Fae",
-      "Juggernaut"
+      "Juggernaut",
+      "Vanguard",
+      "Summoner",
+      "Lunar",
+      "Ravager",
+      "Flora Fatalis",
+      "Defender",
+      "Attuned"
     ],
     "description": "In this comp we're going to be playing around the Spellweaver trait! The main carries will be Ahri, Alune and Lillia.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-rakan": [
+        0,
+        1
+      ],
+      "tft-18-yorick": [
+        0,
+        2
+      ],
+      "tft-18-fiddlesticks": [
+        0,
+        3
+      ],
+      "tft-18-diana": [
+        0,
+        4
+      ],
+      "tft-18-lillia": [
+        0,
+        5
+      ],
+      "tft-18-karma": [
+        3,
+        0
+      ],
+      "tft-18-alune": [
+        3,
+        5
+      ],
+      "tft-18-ahri": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-karma",
+      "tft-18-rakan",
+      "tft-18-yorick",
+      "tft-18-yunara",
+      "tft-18-azir"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-zyra"
+        ],
+        "remove": []
+      }
+    ]
   },
   {
     "id": "the-spry-squad",
     "name": "The Spry Squad",
-    "tier": "B",
-    "playstyle": "Level 7 Slow Roll",
+    "tier": "A",
+    "playstyle": "Slow Roll (7)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
+      "tft-18-kobuko",
+      "tft-18-teemo",
       "tft-18-rammus",
       "tft-18-tristana",
-      "tft-18-teemo",
-      "tft-18-kobuko",
       "tft-18-sentinel",
       "tft-18-lillia",
-      "tft-18-morgana",
-      "tft-18-veigar"
+      "tft-18-ashe",
+      "tft-18-gnar"
     ],
     "coreUnits": [
-      "tft-18-teemo",
-      "tft-18-tristana",
       "tft-18-rammus",
-      "tft-18-kobuko"
+      "tft-18-tristana",
+      "tft-18-kobuko",
+      "tft-18-teemo"
     ],
     "carries": [
-      "tft-18-teemo",
-      "tft-18-tristana",
-      "tft-18-rammus"
+      "tft-18-tristana"
     ],
     "mainTank": "tft-18-rammus",
     "threeStarTargets": [
+      "tft-18-kobuko",
+      "tft-18-teemo",
       "tft-18-rammus",
-      "tft-18-tristana",
-      "tft-18-teemo"
+      "tft-18-tristana"
     ],
     "recommendedItems": [
       {
-        "champion": "tft-18-teemo",
-        "role": "main-carry",
+        "champion": "tft-18-rammus",
+        "role": "main-tank",
         "items": [
-          "tft-item-rapid-fire-cannon",
-          "tft-item-spear-of-shojin",
-          "tft-item-rabadons-deathcap"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       },
       {
         "champion": "tft-18-tristana",
         "role": "secondary-carry",
         "items": [
-          "tft-item-runaans-hurricane",
-          "tft-item-hextech-gunblade",
-          "tft-item-guinsoos-rageblade"
-        ]
-      },
-      {
-        "champion": "tft-18-rammus",
-        "role": "main-tank",
-        "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-crownguard"
-        ]
-      },
-      {
-        "champion": "tft-18-kobuko",
-        "role": "secondary-tank",
-        "items": [
-          "tft-item-frozen-heart",
-          "tft-item-spectral-gauntlet",
-          "tft-item-ionic-spark"
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge",
+          "tft-item-runaans-hurricane"
         ]
       }
     ],
@@ -2212,72 +3101,139 @@
     ],
     "traits": [
       "Sprykin",
+      "Brawler",
       "Invoker",
       "Defender",
       "Fae",
-      "Blackthorn"
+      "Hunter",
+      "Riftbeast",
+      "Vanguard",
+      "Blossom",
+      "Elderwood"
     ],
     "description": "In this comp we're going to be playing around Spyrkin! The main carries will be Teemo, Kobuko, Tristana and Morgana.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-kobuko": [
+        0,
+        1
+      ],
+      "tft-18-sentinel": [
+        0,
+        2
+      ],
+      "tft-18-lillia": [
+        0,
+        3
+      ],
+      "tft-18-gnar": [
+        0,
+        4
+      ],
+      "tft-18-rammus": [
+        0,
+        5
+      ],
+      "tft-18-teemo": [
+        3,
+        0
+      ],
+      "tft-18-ashe": [
+        3,
+        5
+      ],
+      "tft-18-tristana": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-kobuko",
+      "tft-18-veigar",
+      "tft-18-teemo",
+      "tft-18-rammus",
+      "tft-18-tristana"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ivern",
+          "tft-18-taric"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-sivir"
+        ],
+        "remove": [
+          "tft-18-ashe"
+        ]
+      },
+      {
+        "add": [
+          "tft-18-vi",
+          "tft-18-sivir"
+        ],
+        "remove": [
+          "tft-18-sentinel",
+          "tft-18-ashe"
+        ]
+      }
+    ]
   },
   {
     "id": "warwicks-wolf-pack",
     "name": "Warwick’s Wolf Pack",
     "tier": "B",
-    "playstyle": "Level 6 Slow Roll",
+    "playstyle": "Slow Roll (6)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-malphite",
+      "tft-18-reksai",
       "tft-18-murk-wolf",
       "tft-18-warwick",
-      "tft-18-brambleback",
       "tft-18-azir",
       "tft-18-diana",
       "tft-18-krug",
-      "tft-18-reksai"
+      "tft-18-brambleback",
+      "tft-18-malphite"
     ],
     "coreUnits": [
-      "tft-18-malphite",
       "tft-18-warwick",
+      "tft-18-malphite",
+      "tft-18-reksai",
       "tft-18-murk-wolf"
     ],
     "carries": [
-      "tft-18-warwick",
-      "tft-18-murk-wolf",
-      "tft-18-malphite"
+      "tft-18-warwick"
     ],
     "mainTank": "tft-18-malphite",
     "threeStarTargets": [
+      "tft-18-reksai",
       "tft-18-murk-wolf",
-      "tft-18-warwick"
+      "tft-18-warwick",
+      "tft-18-azir",
+      "tft-18-diana",
+      "tft-18-krug"
     ],
     "recommendedItems": [
-      {
-        "champion": "tft-18-malphite",
-        "role": "main-tank",
-        "items": [
-          "tft-item-gargoyle-stoneplate",
-          "tft-item-red-buff",
-          "tft-item-spectral-gauntlet"
-        ]
-      },
       {
         "champion": "tft-18-warwick",
         "role": "main-carry",
         "items": [
-          "tft-item-titans-resolve",
+          "tft-item-spear-of-shojin",
           "tft-item-steraks-gage",
-          "tft-item-spear-of-shojin"
+          "tft-item-titans-resolve"
         ]
       },
       {
-        "champion": "tft-18-murk-wolf",
-        "role": "secondary-carry",
+        "champion": "tft-18-malphite",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-steraks-gage",
-          "tft-item-unstable-concoction",
-          "tft-item-quicksilver"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
         ]
       }
     ],
@@ -2309,41 +3265,103 @@
     ],
     "traits": [
       "Blackthorn",
-      "Ravager",
-      "Riftbeast",
       "Brawler",
-      "Executioner"
+      "Riftbeast",
+      "Ravager",
+      "Executioner",
+      "Summoner",
+      "Lunar",
+      "Vanguard",
+      "Monolith"
     ],
     "description": "In this comp we're going to be playing around Blackthorn and Riftbeasts! The main carries are Warwick, Murkwolf and Malphite.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-malphite": [
+        0,
+        3
+      ],
+      "tft-18-brambleback": [
+        2,
+        0
+      ],
+      "tft-18-diana": [
+        2,
+        1
+      ],
+      "tft-18-reksai": [
+        2,
+        2
+      ],
+      "tft-18-murk-wolf": [
+        2,
+        4
+      ],
+      "tft-18-krug": [
+        2,
+        5
+      ],
+      "tft-18-warwick": [
+        2,
+        6
+      ],
+      "tft-18-azir": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-reksai",
+      "tft-18-veigar",
+      "tft-18-murk-wolf",
+      "tft-18-warwick",
+      "tft-18-azir"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-alune",
+          "tft-18-ivern",
+          "tft-18-taric"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-akali"
+        ],
+        "remove": [
+          "tft-18-diana"
+        ]
+      }
+    ]
   },
   {
     "id": "the-final-forest",
     "name": "The Final Forest",
-    "tier": "B",
+    "tier": "A",
     "playstyle": "Fast 9",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-draven",
-      "tft-18-maokai",
+      "tft-18-alistar",
+      "tft-18-amumu",
       "tft-18-ezreal",
-      "tft-18-kennen",
+      "tft-18-draven",
       "tft-18-gnar",
       "tft-18-ivern",
-      "tft-18-taric",
-      "tft-18-amumu",
-      "tft-18-alistar"
+      "tft-18-kennen",
+      "tft-18-maokai",
+      "tft-18-taric"
     ],
     "coreUnits": [
       "tft-18-ezreal",
-      "tft-18-draven",
-      "tft-18-maokai"
+      "tft-18-maokai",
+      "tft-18-alistar",
+      "tft-18-amumu"
     ],
     "carries": [
-      "tft-18-ezreal",
-      "tft-18-draven",
-      "tft-18-maokai"
+      "tft-18-ezreal"
     ],
     "mainTank": "tft-18-maokai",
     "recommendedItems": [
@@ -2352,26 +3370,17 @@
         "role": "main-carry",
         "items": [
           "tft-item-deathblade",
-          "tft-item-power-gauntlet",
+          "tft-item-infinity-edge",
           "tft-item-spear-of-shojin"
         ]
       },
       {
-        "champion": "tft-18-draven",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-runaans-hurricane",
-          "tft-item-guinsoos-rageblade",
-          "tft-item-deathblade"
-        ]
-      },
-      {
         "champion": "tft-18-maokai",
-        "role": "main-tank",
+        "role": "secondary-tank",
         "items": [
-          "tft-item-warmogs-armor",
-          "tft-item-spectral-gauntlet",
-          "tft-item-frozen-heart"
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-frozen-heart",
+          "tft-item-redemption"
         ]
       }
     ],
@@ -2404,12 +3413,75 @@
     "traits": [
       "Elderwood",
       "Brawler",
-      "Executioner",
       "Inferno",
-      "Juggernaut"
+      "Juggernaut",
+      "Executioner",
+      "Bounty Seeker",
+      "Sprykin",
+      "Greenfather",
+      "Old Growth",
+      "Emerald Aspect",
+      "Vanguard"
     ],
     "description": "In this comp we're going Fast 9 to play around Elderwood and 5-costs! The main carries will be Ezreal, Maokai, Kennen and Draven.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-alistar": [
+        0,
+        2
+      ],
+      "tft-18-amumu": [
+        0,
+        3
+      ],
+      "tft-18-gnar": [
+        0,
+        4
+      ],
+      "tft-18-maokai": [
+        0,
+        5
+      ],
+      "tft-18-kennen": [
+        0,
+        6
+      ],
+      "tft-18-ivern": [
+        3,
+        0
+      ],
+      "tft-18-draven": [
+        3,
+        5
+      ],
+      "tft-18-ezreal": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-ornn",
+      "tft-18-varus",
+      "tft-18-xayah",
+      "tft-18-alistar",
+      "tft-18-shen"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-sentinel",
+          "tft-18-lux-elderwood"
+        ],
+        "remove": [
+          "tft-18-draven",
+          "tft-18-ivern"
+        ]
+      }
+    ]
   },
   {
     "id": "ap-exodia",
@@ -2509,61 +3581,54 @@
     "id": "feather-forge",
     "name": "Feather & Forge",
     "tier": "B",
-    "playstyle": "Level 5 Slow Roll",
+    "playstyle": "Slow Roll (5)",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
       "tft-18-ornn",
+      "tft-18-rakan",
       "tft-18-varus",
       "tft-18-xayah",
-      "tft-18-amumu",
-      "tft-18-lillia",
       "tft-18-hecarim",
       "tft-18-tristana",
-      "tft-18-rakan"
+      "tft-18-amumu",
+      "tft-18-lillia"
     ],
     "coreUnits": [
+      "tft-18-ornn",
       "tft-18-xayah",
-      "tft-18-varus",
-      "tft-18-ornn"
+      "tft-18-rakan",
+      "tft-18-varus"
     ],
     "carries": [
-      "tft-18-xayah",
-      "tft-18-varus",
-      "tft-18-ornn"
+      "tft-18-xayah"
     ],
     "mainTank": "tft-18-ornn",
     "threeStarTargets": [
       "tft-18-ornn",
+      "tft-18-rakan",
       "tft-18-varus",
-      "tft-18-xayah"
+      "tft-18-xayah",
+      "tft-18-hecarim",
+      "tft-18-tristana"
     ],
     "recommendedItems": [
-      {
-        "champion": "tft-18-xayah",
-        "role": "main-carry",
-        "items": [
-          "tft-item-madreds-bloodrazor",
-          "tft-item-guinsoos-rageblade",
-          "tft-item-deathblade"
-        ]
-      },
-      {
-        "champion": "tft-18-varus",
-        "role": "secondary-carry",
-        "items": [
-          "tft-item-last-whisper",
-          "tft-item-infinity-edge",
-          "tft-item-spear-of-shojin"
-        ]
-      },
       {
         "champion": "tft-18-ornn",
         "role": "main-tank",
         "items": [
-          "tft-item-redemption",
           "tft-item-gargoyle-stoneplate",
-          "tft-item-crownguard"
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-xayah",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge",
+          "tft-item-runaans-hurricane"
         ]
       }
     ],
@@ -2594,14 +3659,68 @@
       }
     ],
     "traits": [
-      "Fae",
       "Elderwood",
       "Defender",
+      "Fae",
+      "Juggernaut",
+      "Vanguard",
       "Inferno",
-      "Juggernaut"
+      "Rapidfire",
+      "Sprykin",
+      "Hunter"
     ],
     "description": "In this comp we're going to be rerolling Fae! The main carries will be Xayah, Ornn and Varus.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-hecarim": [
+        0,
+        1
+      ],
+      "tft-18-rakan": [
+        0,
+        2
+      ],
+      "tft-18-amumu": [
+        0,
+        3
+      ],
+      "tft-18-lillia": [
+        0,
+        4
+      ],
+      "tft-18-ornn": [
+        0,
+        5
+      ],
+      "tft-18-varus": [
+        3,
+        0
+      ],
+      "tft-18-tristana": [
+        3,
+        5
+      ],
+      "tft-18-xayah": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-ornn",
+      "tft-18-rakan",
+      "tft-18-varus",
+      "tft-18-xayah",
+      "tft-18-shen"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-aphelios",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      }
+    ]
   },
   {
     "id": "blackthorn-ahri",
@@ -2889,56 +4008,46 @@
   {
     "id": "riftbeast-ascension",
     "name": "Riftbeast Ascension",
-    "tier": "B",
+    "tier": "A",
     "playstyle": "Fast 8",
     "source": "Curated Set 18",
-    "sourcePatch": "Patch 18.1 · Updated Aug 27",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
     "units": [
-      "tft-18-elder-dragon",
+      "tft-18-sentry",
+      "tft-18-murk-wolf",
+      "tft-18-krug",
       "tft-18-sentinel",
       "tft-18-brambleback",
-      "tft-18-gnar",
-      "tft-18-taric",
-      "tft-18-krug",
-      "tft-18-murk-wolf",
-      "tft-18-sentry"
+      "tft-18-elder-dragon",
+      "tft-18-taric"
     ],
     "coreUnits": [
-      "tft-18-elder-dragon",
       "tft-18-sentinel",
-      "tft-18-brambleback"
+      "tft-18-brambleback",
+      "tft-18-sentry",
+      "tft-18-murk-wolf",
+      "tft-18-krug"
     ],
     "carries": [
-      "tft-18-elder-dragon",
-      "tft-18-brambleback",
-      "tft-18-sentinel"
+      "tft-18-brambleback"
     ],
     "mainTank": "tft-18-sentinel",
     "recommendedItems": [
       {
-        "champion": "tft-18-elder-dragon",
-        "role": "main-carry",
-        "items": [
-          "tft-item-infinity-edge",
-          "tft-item-last-whisper",
-          "tft-item-unstable-concoction"
-        ]
-      },
-      {
         "champion": "tft-18-sentinel",
         "role": "main-tank",
         "items": [
-          "tft-item-warmogs-armor",
+          "tft-item-gargoyle-stoneplate",
           "tft-item-frozen-heart",
-          "tft-item-red-buff"
+          "tft-item-warmogs-armor"
         ]
       },
       {
         "champion": "tft-18-brambleback",
         "role": "secondary-carry",
         "items": [
-          "tft-item-madreds-bloodrazor",
           "tft-item-guardian-angel",
+          "tft-item-madreds-bloodrazor",
           "tft-item-quicksilver"
         ]
       }
@@ -2971,12 +4080,1559 @@
     ],
     "traits": [
       "Riftbeast",
-      "Brawler",
       "Invoker",
       "Ravager",
-      "Vanguard"
+      "Brawler",
+      "Vanguard",
+      "Apex Predator",
+      "Emerald Aspect"
     ],
     "description": "In this comp we're going to be playing around the Riftbeast trait! The main carries will be Brambleback, Ancient Sentinel and The Elder Dragon.",
-    "positioningNote": "Frontline units begin in the first two rows. Keep ranged carries protected in the back two rows and reposition after scouting enemy threats."
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed.",
+    "boardPositions": {
+      "tft-18-krug": [
+        0,
+        1
+      ],
+      "tft-18-sentry": [
+        0,
+        2
+      ],
+      "tft-18-taric": [
+        0,
+        3
+      ],
+      "tft-18-brambleback": [
+        0,
+        4
+      ],
+      "tft-18-sentinel": [
+        0,
+        5
+      ],
+      "tft-18-murk-wolf": [
+        0,
+        6
+      ],
+      "tft-18-elder-dragon": [
+        1,
+        5
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-cinderling",
+      "tft-18-sentry",
+      "tft-18-murk-wolf",
+      "tft-18-scuttlecrab",
+      "tft-18-krug"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-gnar",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      }
+    ]
+  },
+  {
+    "id": "blackthorn-sprykin",
+    "name": "Blackthorn Sprykin",
+    "tier": "A",
+    "playstyle": "Slow Roll (5)",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-kobuko",
+      "tft-18-reksai",
+      "tft-18-veigar",
+      "tft-18-fiddlesticks",
+      "tft-18-rammus",
+      "tft-18-tristana",
+      "tft-18-sett",
+      "tft-18-gnar"
+    ],
+    "coreUnits": [
+      "tft-18-reksai",
+      "tft-18-veigar",
+      "tft-18-kobuko"
+    ],
+    "carries": [
+      "tft-18-veigar"
+    ],
+    "mainTank": "tft-18-reksai",
+    "threeStarTargets": [
+      "tft-18-kobuko",
+      "tft-18-reksai",
+      "tft-18-veigar",
+      "tft-18-fiddlesticks",
+      "tft-18-rammus",
+      "tft-18-tristana"
+    ],
+    "boardPositions": {
+      "tft-18-kobuko": [
+        0,
+        1
+      ],
+      "tft-18-rammus": [
+        0,
+        2
+      ],
+      "tft-18-fiddlesticks": [
+        0,
+        3
+      ],
+      "tft-18-sett": [
+        0,
+        4
+      ],
+      "tft-18-reksai": [
+        0,
+        5
+      ],
+      "tft-18-gnar": [
+        1,
+        4
+      ],
+      "tft-18-tristana": [
+        3,
+        0
+      ],
+      "tft-18-veigar": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-kobuko",
+      "tft-18-reksai",
+      "tft-18-veigar",
+      "tft-18-leblanc",
+      "tft-18-rammus"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-soraka"
+        ],
+        "remove": [
+          "tft-18-sett",
+          "tft-18-gnar"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-reksai",
+        "role": "main-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-veigar",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-leviathan",
+          "tft-item-leviathan"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-rolling-for-days",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-component-buffet",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-latent-forge",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-no-scout-no-pivot",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-portable-forge",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-golden-gamble",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Sprykin",
+      "Brawler",
+      "Blackthorn",
+      "Spellweaver",
+      "Flora Fatalis",
+      "Defender",
+      "Fae",
+      "Hunter",
+      "Blossom",
+      "Elderwood"
+    ],
+    "description": "A current Set 18 slow roll (5) composition built around Rek'Sai and Veigar.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "elderwood",
+    "name": "Elderwood",
+    "tier": "A",
+    "playstyle": "Standard",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-ornn",
+      "tft-18-xayah",
+      "tft-18-alistar",
+      "tft-18-leblanc",
+      "tft-18-hecarim",
+      "tft-18-ezreal",
+      "tft-18-soraka",
+      "tft-18-gnar"
+    ],
+    "coreUnits": [
+      "tft-18-hecarim",
+      "tft-18-ezreal",
+      "tft-18-ornn",
+      "tft-18-xayah",
+      "tft-18-alistar"
+    ],
+    "carries": [
+      "tft-18-ezreal"
+    ],
+    "mainTank": "tft-18-hecarim",
+    "boardPositions": {
+      "tft-18-ornn": [
+        0,
+        2
+      ],
+      "tft-18-alistar": [
+        0,
+        3
+      ],
+      "tft-18-gnar": [
+        0,
+        4
+      ],
+      "tft-18-hecarim": [
+        0,
+        5
+      ],
+      "tft-18-leblanc": [
+        3,
+        0
+      ],
+      "tft-18-xayah": [
+        3,
+        2
+      ],
+      "tft-18-soraka": [
+        3,
+        4
+      ],
+      "tft-18-ezreal": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-ornn",
+      "tft-18-xayah",
+      "tft-18-alistar",
+      "tft-18-leblanc",
+      "tft-18-hecarim"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-lux-elderwood",
+          "tft-18-taric"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-kennen"
+        ],
+        "remove": [
+          "tft-18-soraka"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-hecarim",
+        "role": "main-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-warmogs-armor",
+          "tft-item-red-buff"
+        ]
+      },
+      {
+        "champion": "tft-18-ezreal",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-deathblade",
+          "tft-item-infinity-edge",
+          "tft-item-spear-of-shojin"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-ascension",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-cognitive-tax",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-slammin",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-epic-rolldown",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-18-big-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-golden-gamble",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Elderwood",
+      "Defender",
+      "Fae",
+      "Rapidfire",
+      "Brawler",
+      "Spellweaver",
+      "Vanguard",
+      "Executioner",
+      "Flora Fatalis",
+      "Sprykin"
+    ],
+    "description": "A current Set 18 standard composition built around Hecarim and Ezreal.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "juggernaut-summoners",
+    "name": "Juggernaut Summoners",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-yorick",
+      "tft-18-azir",
+      "tft-18-malphite",
+      "tft-18-soraka",
+      "tft-18-zyra",
+      "tft-18-ivern",
+      "tft-18-kennen",
+      "tft-18-maokai"
+    ],
+    "coreUnits": [
+      "tft-18-malphite",
+      "tft-18-zyra",
+      "tft-18-yorick",
+      "tft-18-azir"
+    ],
+    "carries": [
+      "tft-18-zyra"
+    ],
+    "mainTank": "tft-18-malphite",
+    "boardPositions": {
+      "tft-18-malphite": [
+        0,
+        3
+      ],
+      "tft-18-maokai": [
+        2,
+        2
+      ],
+      "tft-18-yorick": [
+        2,
+        3
+      ],
+      "tft-18-kennen": [
+        2,
+        4
+      ],
+      "tft-18-soraka": [
+        3,
+        0
+      ],
+      "tft-18-azir": [
+        3,
+        2
+      ],
+      "tft-18-ivern": [
+        3,
+        4
+      ],
+      "tft-18-zyra": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-karma",
+      "tft-18-yorick",
+      "tft-18-sejuani",
+      "tft-18-yunara",
+      "tft-18-fiddlesticks"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-fiddlesticks",
+          "tft-18-ezreal",
+          "tft-18-taric"
+        ],
+        "remove": []
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-malphite",
+        "role": "main-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-frozen-heart",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-zyra",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-morellonomicon",
+          "tft-item-spear-of-shojin",
+          "tft-item-statikk-shiv"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-18-branching-out",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-feeling-lucky",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-ascension",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-augment-exclusive-customization2",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-epic-rolldown",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-money-hungry-not-broken",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Blossom",
+      "Juggernaut",
+      "Summoner",
+      "Blackthorn",
+      "Executioner",
+      "Monolith",
+      "Flora Fatalis",
+      "Thornmaiden",
+      "Greenfather",
+      "Inferno",
+      "Old Growth"
+    ],
+    "description": "A current Set 18 fast 8 composition built around Malphite and Zyra.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "primal-adaptors",
+    "name": "Primal Adaptors",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-akali",
+      "tft-18-diana",
+      "tft-18-kogmaw",
+      "tft-18-master-yi",
+      "tft-18-vi",
+      "tft-18-amumu",
+      "tft-18-nidalee",
+      "tft-18-sentinel"
+    ],
+    "coreUnits": [
+      "tft-18-amumu",
+      "tft-18-nidalee",
+      "tft-18-akali",
+      "tft-18-diana",
+      "tft-18-kogmaw"
+    ],
+    "carries": [
+      "tft-18-nidalee"
+    ],
+    "mainTank": "tft-18-amumu",
+    "boardPositions": {
+      "tft-18-diana": [
+        0,
+        1
+      ],
+      "tft-18-vi": [
+        0,
+        2
+      ],
+      "tft-18-sentinel": [
+        0,
+        3
+      ],
+      "tft-18-master-yi": [
+        0,
+        4
+      ],
+      "tft-18-amumu": [
+        0,
+        5
+      ],
+      "tft-18-akali": [
+        0,
+        6
+      ],
+      "tft-18-kogmaw": [
+        3,
+        5
+      ],
+      "tft-18-nidalee": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-akali",
+      "tft-18-ornn",
+      "tft-18-varus",
+      "tft-18-shen",
+      "tft-18-master-yi"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ivern",
+          "tft-18-lux-elderwood",
+          "tft-18-taric"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-gromp",
+          "tft-18-scuttlecrab",
+          "tft-18-taric"
+        ],
+        "remove": [
+          "tft-18-akali",
+          "tft-18-diana",
+          "tft-18-amumu"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-amumu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-nidalee",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-leviathan",
+          "tft-item-leviathan"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-slightly-magic-roll",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-cognitive-tax",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-augment-component-quest-rod",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-18-big-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-epoch",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-9-augment-building-acollection-plus-plus",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Inferno",
+      "Adaptor",
+      "Ravager",
+      "Lunar",
+      "Vanguard",
+      "Caustic",
+      "Invoker",
+      "Blossom",
+      "Primal",
+      "Juggernaut",
+      "Riftbeast"
+    ],
+    "description": "A current Set 18 fast 8 composition built around Amumu and Nidalee.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "primal-hunters",
+    "name": "Primal Hunters",
+    "tier": "A",
+    "playstyle": "Fast 8",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-shen",
+      "tft-18-tristana",
+      "tft-18-vi",
+      "tft-18-amumu",
+      "tft-18-lillia",
+      "tft-18-sivir",
+      "tft-18-ashe",
+      "tft-18-kennen"
+    ],
+    "coreUnits": [
+      "tft-18-amumu",
+      "tft-18-sivir",
+      "tft-18-shen",
+      "tft-18-tristana",
+      "tft-18-vi"
+    ],
+    "carries": [
+      "tft-18-sivir"
+    ],
+    "mainTank": "tft-18-amumu",
+    "boardPositions": {
+      "tft-18-shen": [
+        0,
+        1
+      ],
+      "tft-18-vi": [
+        0,
+        2
+      ],
+      "tft-18-lillia": [
+        0,
+        3
+      ],
+      "tft-18-kennen": [
+        0,
+        4
+      ],
+      "tft-18-amumu": [
+        0,
+        5
+      ],
+      "tft-18-tristana": [
+        3,
+        0
+      ],
+      "tft-18-ashe": [
+        3,
+        5
+      ],
+      "tft-18-sivir": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-camille",
+      "tft-18-rakan",
+      "tft-18-caitlyn",
+      "tft-18-elise",
+      "tft-18-tristana"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-ivern"
+        ],
+        "remove": [
+          "tft-18-kennen"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-amumu",
+        "role": "main-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-sivir",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-deathblade",
+          "tft-item-infinity-edge",
+          "tft-item-power-gauntlet"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-expedition",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-small-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-heroic-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-urf",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-legion-of-threes",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-the-trait-tree",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Inferno",
+      "Defender",
+      "Fae",
+      "Sprykin",
+      "Hunter",
+      "Primal",
+      "Juggernaut",
+      "Blossom",
+      "Executioner"
+    ],
+    "description": "A current Set 18 fast 8 composition built around Amumu and Sivir.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "rivals-khazix",
+    "name": "Rivals Khazix",
+    "tier": "A",
+    "playstyle": "Slow Roll (7)",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-diana",
+      "tft-18-hecarim",
+      "tft-18-crimson-raptor",
+      "tft-18-khazix",
+      "tft-18-aphelios",
+      "tft-18-brambleback",
+      "tft-18-sentinel",
+      "tft-18-taric"
+    ],
+    "coreUnits": [
+      "tft-18-hecarim",
+      "tft-18-khazix",
+      "tft-18-diana",
+      "tft-18-crimson-raptor"
+    ],
+    "carries": [
+      "tft-18-khazix"
+    ],
+    "mainTank": "tft-18-hecarim",
+    "threeStarTargets": [
+      "tft-18-diana",
+      "tft-18-hecarim",
+      "tft-18-crimson-raptor",
+      "tft-18-khazix"
+    ],
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-diana": [
+        0,
+        2
+      ],
+      "tft-18-sentinel": [
+        0,
+        3
+      ],
+      "tft-18-khazix": [
+        0,
+        4
+      ],
+      "tft-18-hecarim": [
+        0,
+        5
+      ],
+      "tft-18-aphelios": [
+        3,
+        0
+      ],
+      "tft-18-crimson-raptor": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-akali",
+      "tft-18-gromp",
+      "tft-18-murk-wolf",
+      "tft-18-scuttlecrab",
+      "tft-18-khazix"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-zyra",
+          "tft-18-alune",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-rakan",
+          "tft-18-elise"
+        ],
+        "remove": [
+          "tft-18-taric"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-hecarim",
+        "role": "main-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-khazix",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-guardian-angel",
+          "tft-item-unstable-concoction",
+          "tft-item-jeweled-gauntlet"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-slightly-magic-roll",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-rolling-for-days",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-heroic-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-trade-sector",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-call-to-chaos",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-9-augment-building-acollection-plus-plus",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Lunar",
+      "Ravager",
+      "Vanguard",
+      "Elderwood",
+      "Riftbeast",
+      "Summoner",
+      "Rapidfire",
+      "Rival",
+      "Invoker",
+      "Emerald Aspect"
+    ],
+    "description": "A current Set 18 slow roll (7) composition built around Hecarim and Kha'Zix.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "sprykin-invokers",
+    "name": "Sprykin Invokers",
+    "tier": "A",
+    "playstyle": "Slow Roll (6)",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-kobuko",
+      "tft-18-teemo",
+      "tft-18-rammus",
+      "tft-18-tristana",
+      "tft-18-sentinel",
+      "tft-18-lillia",
+      "tft-18-gnar",
+      "tft-18-taric"
+    ],
+    "coreUnits": [
+      "tft-18-teemo",
+      "tft-18-sentinel",
+      "tft-18-kobuko",
+      "tft-18-rammus"
+    ],
+    "carries": [
+      "tft-18-teemo"
+    ],
+    "threeStarTargets": [
+      "tft-18-kobuko",
+      "tft-18-teemo",
+      "tft-18-rammus",
+      "tft-18-tristana"
+    ],
+    "boardPositions": {
+      "tft-18-taric": [
+        0,
+        1
+      ],
+      "tft-18-kobuko": [
+        0,
+        2
+      ],
+      "tft-18-sentinel": [
+        0,
+        3
+      ],
+      "tft-18-lillia": [
+        0,
+        4
+      ],
+      "tft-18-rammus": [
+        0,
+        5
+      ],
+      "tft-18-gnar": [
+        1,
+        4
+      ],
+      "tft-18-tristana": [
+        3,
+        0
+      ],
+      "tft-18-teemo": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-kobuko",
+      "tft-18-sentry",
+      "tft-18-shen",
+      "tft-18-teemo",
+      "tft-18-rammus"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-morgana",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-teemo",
+        "role": "main-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-leviathan",
+          "tft-item-leviathan"
+        ]
+      },
+      {
+        "champion": "tft-18-sentinel",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-kick-start",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-slightly-magic-roll",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-heroic-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-trade-sector",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-18-big-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-barons-lair",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Sprykin",
+      "Brawler",
+      "Invoker",
+      "Defender",
+      "Fae",
+      "Hunter",
+      "Riftbeast",
+      "Vanguard",
+      "Elderwood",
+      "Emerald Aspect"
+    ],
+    "description": "A current Set 18 slow roll (6) composition built around Teemo and Ancient Sentinel.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "eclipse-rapidfire",
+    "name": "Eclipse Rapidfire",
+    "tier": "B",
+    "playstyle": "Fast 8",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-leona",
+      "tft-18-rakan",
+      "tft-18-kayle",
+      "tft-18-sejuani",
+      "tft-18-diana",
+      "tft-18-aphelios",
+      "tft-18-lillia",
+      "tft-18-alune"
+    ],
+    "coreUnits": [
+      "tft-18-aphelios",
+      "tft-18-lillia",
+      "tft-18-leona",
+      "tft-18-rakan",
+      "tft-18-kayle"
+    ],
+    "carries": [
+      "tft-18-aphelios"
+    ],
+    "boardPositions": {
+      "tft-18-rakan": [
+        0,
+        1
+      ],
+      "tft-18-leona": [
+        0,
+        2
+      ],
+      "tft-18-sejuani": [
+        0,
+        3
+      ],
+      "tft-18-diana": [
+        0,
+        4
+      ],
+      "tft-18-lillia": [
+        0,
+        5
+      ],
+      "tft-18-alune": [
+        3,
+        0
+      ],
+      "tft-18-kayle": [
+        3,
+        5
+      ],
+      "tft-18-aphelios": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-leona",
+      "tft-18-rakan",
+      "tft-18-xayah",
+      "tft-18-kayle",
+      "tft-18-sejuani"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ivern",
+          "tft-18-lux-elderwood"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-maokai",
+          "tft-18-taric"
+        ],
+        "remove": [
+          "tft-18-rakan",
+          "tft-18-lillia"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-aphelios",
+        "role": "main-carry",
+        "items": [
+          "tft-item-deathblade",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge"
+        ]
+      },
+      {
+        "champion": "tft-18-lillia",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-frozen-heart",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-backup-bows",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-heroic-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-augment-exclusive-customization2",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-no-scout-no-pivot",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-9-augment-building-acollection-plus-plus",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-barons-lair",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Solar",
+      "Defender",
+      "Fae",
+      "Juggernaut",
+      "Vanguard",
+      "Rapidfire",
+      "Lunar",
+      "Ravager",
+      "Attuned",
+      "Spellweaver"
+    ],
+    "description": "A current Set 18 fast 8 composition built around Aphelios and Lillia.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "riftbeast-summoners",
+    "name": "Riftbeast Summoners",
+    "tier": "B",
+    "playstyle": "Slow Roll (7)",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-yorick",
+      "tft-18-diana",
+      "tft-18-krug",
+      "tft-18-crimson-raptor",
+      "tft-18-sentinel",
+      "tft-18-aphelios",
+      "tft-18-sett",
+      "tft-18-zyra"
+    ],
+    "coreUnits": [
+      "tft-18-krug",
+      "tft-18-crimson-raptor",
+      "tft-18-yorick",
+      "tft-18-diana"
+    ],
+    "carries": [
+      "tft-18-crimson-raptor"
+    ],
+    "mainTank": "tft-18-krug",
+    "threeStarTargets": [
+      "tft-18-yorick",
+      "tft-18-diana",
+      "tft-18-krug",
+      "tft-18-crimson-raptor"
+    ],
+    "boardPositions": {
+      "tft-18-sentinel": [
+        0,
+        1
+      ],
+      "tft-18-yorick": [
+        0,
+        2
+      ],
+      "tft-18-sett": [
+        0,
+        3
+      ],
+      "tft-18-diana": [
+        0,
+        4
+      ],
+      "tft-18-krug": [
+        0,
+        5
+      ],
+      "tft-18-zyra": [
+        3,
+        4
+      ],
+      "tft-18-aphelios": [
+        3,
+        5
+      ],
+      "tft-18-crimson-raptor": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-cinderling",
+      "tft-18-sentry",
+      "tft-18-scuttlecrab",
+      "tft-18-krug",
+      "tft-18-crimson-raptor"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-ashe",
+          "tft-18-ivern",
+          "tft-18-maokai"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-alistar",
+          "tft-18-gnar"
+        ],
+        "remove": [
+          "tft-18-diana"
+        ]
+      },
+      {
+        "add": [
+          "tft-18-xayah",
+          "tft-18-alistar",
+          "tft-18-gnar"
+        ],
+        "remove": [
+          "tft-18-yorick",
+          "tft-18-diana",
+          "tft-18-aphelios"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-krug",
+        "role": "main-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-red-buff",
+          "tft-item-warmogs-armor"
+        ]
+      },
+      {
+        "champion": "tft-18-crimson-raptor",
+        "role": "secondary-carry",
+        "items": [
+          "tft-item-deathblade",
+          "tft-item-guinsoos-rageblade",
+          "tft-item-infinity-edge"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-backup-bows",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-cognitive-tax",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-ascension",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-18-big-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-epic-rolldown",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-electrocharge-ii",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Blossom",
+      "Juggernaut",
+      "Summoner",
+      "Lunar",
+      "Ravager",
+      "Vanguard",
+      "Riftbeast",
+      "Brawler",
+      "Rapidfire",
+      "Invoker",
+      "Thornmaiden"
+    ],
+    "description": "A current Set 18 slow roll (7) composition built around Krug and Mama Beak.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
+  },
+  {
+    "id": "solar-riftbeasts",
+    "name": "Solar Riftbeasts",
+    "tier": "B",
+    "playstyle": "Slow Roll (6)",
+    "source": "Curated Set 18",
+    "sourcePatch": "Set 18 · Cross-checked Aug 27",
+    "units": [
+      "tft-18-akali",
+      "tft-18-leona",
+      "tft-18-gromp",
+      "tft-18-kayle",
+      "tft-18-murk-wolf",
+      "tft-18-scuttlecrab",
+      "tft-18-sejuani",
+      "tft-18-shen"
+    ],
+    "coreUnits": [
+      "tft-18-gromp",
+      "tft-18-scuttlecrab",
+      "tft-18-akali",
+      "tft-18-leona"
+    ],
+    "carries": [
+      "tft-18-gromp"
+    ],
+    "threeStarTargets": [
+      "tft-18-akali",
+      "tft-18-leona",
+      "tft-18-gromp",
+      "tft-18-kayle",
+      "tft-18-murk-wolf",
+      "tft-18-scuttlecrab",
+      "tft-18-sejuani",
+      "tft-18-shen"
+    ],
+    "boardPositions": {
+      "tft-18-sejuani": [
+        0,
+        1
+      ],
+      "tft-18-leona": [
+        0,
+        2
+      ],
+      "tft-18-shen": [
+        0,
+        3
+      ],
+      "tft-18-murk-wolf": [
+        0,
+        4
+      ],
+      "tft-18-scuttlecrab": [
+        0,
+        5
+      ],
+      "tft-18-akali": [
+        0,
+        6
+      ],
+      "tft-18-kayle": [
+        3,
+        0
+      ],
+      "tft-18-gromp": [
+        3,
+        6
+      ]
+    },
+    "earlyUnits": [
+      "tft-18-cinderling",
+      "tft-18-gromp",
+      "tft-18-murk-wolf",
+      "tft-18-scuttlecrab",
+      "tft-18-krug"
+    ],
+    "guideOptions": [
+      {
+        "add": [
+          "tft-18-nidalee",
+          "tft-18-ivern"
+        ],
+        "remove": []
+      },
+      {
+        "add": [
+          "tft-18-varus"
+        ],
+        "remove": [
+          "tft-18-shen"
+        ]
+      }
+    ],
+    "recommendedItems": [
+      {
+        "champion": "tft-18-gromp",
+        "role": "main-carry",
+        "items": [
+          "tft-item-jeweled-gauntlet",
+          "tft-item-leviathan",
+          "tft-item-leviathan"
+        ]
+      },
+      {
+        "champion": "tft-18-scuttlecrab",
+        "role": "secondary-tank",
+        "items": [
+          "tft-item-gargoyle-stoneplate",
+          "tft-item-redemption",
+          "tft-item-warmogs-armor"
+        ]
+      }
+    ],
+    "recommendedAugments": [
+      {
+        "augmentId": "da-backup-bows",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-heroic-grab-bag",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-augment-exclusive-customization2",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-no-scout-no-pivot",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "tft-9-augment-building-acollection-plus-plus",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      },
+      {
+        "augmentId": "da-barons-lair",
+        "reason": "Strong current-patch fit for this team's economy, items, or combat plan."
+      }
+    ],
+    "traits": [
+      "Inferno",
+      "Adaptor",
+      "Ravager",
+      "Solar",
+      "Defender",
+      "Riftbeast",
+      "Rapidfire",
+      "Juggernaut"
+    ],
+    "description": "A current Set 18 slow roll (6) composition built around Gromp and Scuttlecrab.",
+    "positioningNote": "Use the displayed hex plan as the default board, including frontline Gnar where shown. Scout opponents and mirror the board only when needed."
   }
 ]

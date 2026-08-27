@@ -60,6 +60,10 @@ export function createLevelUpSuggestions(comp: Comp, champions: Champion[]): Lev
     ...boardSummons.map((summon) => `${summon.position[0]}-${summon.position[1]}`),
   ]);
   const firstLevel = Math.max(9, comp.units.length + 1);
+  const guidedAdditions = [...new Set((comp.guideOptions ?? [])
+    .filter((option) => option.remove.length === 0)
+    .flatMap((option) => option.add))];
+  const guidedOrder = new Map(guidedAdditions.map((id, index) => [id, index]));
   for (let level = firstLevel; level <= 10; level += 1) {
     const ranked = champions
       .filter((champion) => !chosen.has(champion.id) && champion.cost >= 4)
@@ -67,7 +71,8 @@ export function createLevelUpSuggestions(comp: Comp, champions: Champion[]): Lev
         const sharedTraits = champion.traits.filter((trait) => representedTraits.has(trait));
         const synergy = sharedTraits.reduce((score, trait) => score + Math.min(3, representedTraits.get(trait) ?? 0) * 5, 0);
         const frontlineNeed = champion.role === "frontline" && comp.units.filter((id) => byId.get(id)?.role === "frontline").length < 3 ? 7 : 0;
-        return { champion, sharedTraits, score: synergy + champion.cost * 6 + frontlineNeed };
+        const guidePriority = guidedOrder.has(champion.id) ? 1000 - (guidedOrder.get(champion.id) ?? 0) : 0;
+        return { champion, sharedTraits, score: guidePriority + synergy + champion.cost * 6 + frontlineNeed, guided: guidePriority > 0 };
       })
       .sort((a, b) => b.score - a.score || b.champion.cost - a.champion.cost || a.champion.name.localeCompare(b.champion.name));
     const best = ranked[0];
@@ -82,7 +87,9 @@ export function createLevelUpSuggestions(comp: Comp, champions: Champion[]): Lev
       ...boardSummons.map((summon) => `${summon.position[0]}-${summon.position[1]}`),
     ]);
     for (const trait of best.champion.traits) representedTraits.set(trait, (representedTraits.get(trait) ?? 0) + 1);
-    const reason = best.sharedTraits.length
+    const reason = best.guided
+      ? "A recommended late-game option for this completed board."
+      : best.sharedTraits.length
       ? `Adds ${best.sharedTraits.slice(0, 2).join(" + ")} while increasing the board’s late-game value.`
       : best.champion.cost === 5
         ? "A powerful five-cost addition that raises the board’s late-game ceiling."
@@ -155,9 +162,10 @@ export function createItemPlan(comp: Comp, selectedItems: SelectedItem[], items:
   });
 }
 
-function stageUnits(comp: Comp, champions: Champion[], count: number) {
+function stageUnits(comp: Comp, champions: Champion[], count: number, useEarlyUnits = false) {
   const byId = new Map(champions.map((champion) => [champion.id, champion]));
-  return comp.units
+  const preferred = useEarlyUnits ? (comp.earlyUnits ?? []) : [];
+  return [...new Set([...preferred, ...comp.units])]
     .flatMap((id) => byId.get(id) ?? [])
     .sort((a, b) => a.cost - b.cost || Number(comp.coreUnits.includes(b.id)) - Number(comp.coreUnits.includes(a.id)) || a.name.localeCompare(b.name))
     .slice(0, count);
@@ -170,14 +178,14 @@ export function createTransitionGuide(comp: Comp, champions: Champion[]): Transi
     {
       stage: "Stage 2",
       title: "Build a stable opener",
-      units: stageUnits(comp, champions, 4),
+      units: stageUnits(comp, champions, 4, true),
       instruction: "Play the cheapest matching frontline and backline. Put carry items on a low-cost unit with the same role as the final carry.",
       economy: "Buy useful pairs, but avoid rerolling. Aim to build an economy after the first carousel.",
     },
     {
       stage: "Stage 3",
       title: slowRoll ? "Prepare the reroll board" : "Add core pieces",
-      units: stageUnits(comp, champions, 6),
+      units: stageUnits(comp, champions, 6, true),
       instruction: "Keep core champions and replace temporary holders only when the final unit is strong enough to stabilize the board.",
       economy: slowRoll ? "Reach the comp’s reroll level and stay above 50 gold while upgrading core units." : "Level steadily and spend only enough gold to avoid losing too much health.",
     },

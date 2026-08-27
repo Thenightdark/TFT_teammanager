@@ -55,6 +55,11 @@ export function loadSetData(setId: string): TFTSetData {
       units,
       coreUnits: (comp.coreUnits ?? []).filter((id) => championIds.has(id) && units.includes(id)),
       carries: (comp.carries ?? []).filter((id) => championIds.has(id) && units.includes(id)),
+      earlyUnits: (comp.earlyUnits ?? []).filter((id) => championIds.has(id)),
+      guideOptions: (comp.guideOptions ?? []).map((option) => ({
+        add: option.add.filter((id) => championIds.has(id)),
+        remove: option.remove.filter((id) => championIds.has(id)),
+      })).filter((option) => option.add.length),
       traits: Array.isArray(comp.traits) ? comp.traits : [],
       recommendedItems: (comp.recommendedItems ?? []).flatMap((group) => {
         if (!championIds.has(group.champion)) return [];
