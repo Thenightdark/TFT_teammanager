@@ -1,0 +1,682 @@
+[
+  {
+    "id": "tft-18-adaptor",
+    "apiName": "DA_18_adaptor",
+    "name": "Adaptor",
+    "description": "Adaptor abilities change with their strongest offensive stat and grant Attack Damage or Ability Power.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/adaptor.svg"
+  },
+  {
+    "id": "tft-18-apex-predator",
+    "apiName": "DA_18_apex_predator",
+    "name": "Apex Predator",
+    "description": "Apex Predator is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/apex-predator.svg"
+  },
+  {
+    "id": "tft-18-attuned",
+    "apiName": "DA_18_attuned",
+    "name": "Attuned",
+    "description": "Attuned is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/attuned.svg"
+  },
+  {
+    "id": "tft-18-avatar",
+    "apiName": "DA_18_avatar",
+    "name": "Avatar",
+    "description": "Avatar is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/avatar.svg"
+  },
+  {
+    "id": "tft-18-blackthorn",
+    "apiName": "DA_18_blackthorn",
+    "name": "Blackthorn",
+    "description": "Sacrifice the ally on the Blackthorn hex to empower Blackthorn champions based on that unit's value and role.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/blackthorn.svg"
+  },
+  {
+    "id": "tft-18-blossom",
+    "apiName": "DA_18_blossom",
+    "name": "Blossom",
+    "description": "Buying Wisps empowers Blossom champions and unlocks stronger shop and economy bonuses.",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Silver"
+      },
+      {
+        "minimum": 9,
+        "label": "Silver"
+      },
+      {
+        "minimum": 11,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/blossom.svg"
+  },
+  {
+    "id": "tft-18-bounty-seeker",
+    "apiName": "DA_18_bounty_seeker",
+    "name": "Bounty Seeker",
+    "description": "Bounty Seeker is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/bounty-seeker.svg"
+  },
+  {
+    "id": "tft-18-brawler",
+    "apiName": "DA_18_brawler",
+    "name": "Brawler",
+    "description": "Your team gains Health; Brawlers gain substantially more.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/brawler.svg"
+  },
+  {
+    "id": "tft-18-caustic",
+    "apiName": "DA_18_caustic",
+    "name": "Caustic",
+    "description": "Caustic is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/caustic.svg"
+  },
+  {
+    "id": "tft-18-coven",
+    "apiName": "DA_18_coven",
+    "name": "Coven",
+    "description": "Gather Essence through takedowns and losses, then cash it out for increasingly valuable rewards.",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/coven.svg"
+  },
+  {
+    "id": "tft-18-defender",
+    "apiName": "DA_18_defender",
+    "name": "Defender",
+    "description": "Your team gains Armor and Magic Resist; Defenders gain substantially more.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/defender.svg"
+  },
+  {
+    "id": "tft-18-eclipse",
+    "apiName": "DA_18_eclipse",
+    "name": "Eclipse",
+    "description": "Eclipse is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/eclipse.svg"
+  },
+  {
+    "id": "tft-18-elderwood",
+    "apiName": "DA_18_elderwood",
+    "name": "Elderwood",
+    "description": "Gain placeable Elderwood plants that become stronger at higher breakpoints.",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Silver"
+      },
+      {
+        "minimum": 9,
+        "label": "Silver"
+      },
+      {
+        "minimum": 11,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/elderwood.svg"
+  },
+  {
+    "id": "tft-18-emerald-aspect",
+    "apiName": "DA_18_emerald_aspect",
+    "name": "Emerald Aspect",
+    "description": "Emerald Aspect is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/emerald-aspect.svg"
+  },
+  {
+    "id": "tft-18-executioner",
+    "apiName": "DA_18_executioner",
+    "name": "Executioner",
+    "description": "Executioner abilities can critically strike and apply a true-damage bleed at higher breakpoints.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/executioner.svg"
+  },
+  {
+    "id": "tft-18-fae",
+    "apiName": "DA_18_fae",
+    "name": "Fae",
+    "description": "Team damage, healing and shielding attract Pixies that empower and heal Fae champions.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/fae.svg"
+  },
+  {
+    "id": "tft-18-flora-fatalis",
+    "apiName": "DA_18_flora_fatalis",
+    "name": "Flora Fatalis",
+    "description": "Flora Fatalis champions harvest enemies on takedown for Mana and team healing.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 2,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/flora-fatalis.svg"
+  },
+  {
+    "id": "tft-18-greenfather",
+    "apiName": "DA_18_greenfather",
+    "name": "Greenfather",
+    "description": "Greenfather is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/greenfather.svg"
+  },
+  {
+    "id": "tft-18-hunter",
+    "apiName": "DA_18_hunter",
+    "name": "Hunter",
+    "description": "Hunters gain Attack Damage and extra damage after focusing the same target.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/hunter.svg"
+  },
+  {
+    "id": "tft-18-inferno",
+    "apiName": "DA_18_inferno",
+    "name": "Inferno",
+    "description": "Inferno damage Burns and Wounds enemies; higher breakpoints improve special shop slots.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/inferno.svg"
+  },
+  {
+    "id": "tft-18-invoker",
+    "apiName": "DA_18_invoker",
+    "name": "Invoker",
+    "description": "Your team gains Mana regeneration, increased for Invokers.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/invoker.svg"
+  },
+  {
+    "id": "tft-18-juggernaut",
+    "apiName": "DA_18_juggernaut",
+    "name": "Juggernaut",
+    "description": "Your team gains Durability, increased for Juggernauts.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/juggernaut.svg"
+  },
+  {
+    "id": "tft-18-lunar",
+    "apiName": "DA_18_lunar",
+    "name": "Lunar",
+    "description": "Lunar champions and adjacent allies gain Attack Speed and Ability Power.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/lunar.svg"
+  },
+  {
+    "id": "tft-18-monolith",
+    "apiName": "DA_18_monolith",
+    "name": "Monolith",
+    "description": "Monolith is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/monolith.svg"
+  },
+  {
+    "id": "tft-18-old-growth",
+    "apiName": "DA_18_old_growth",
+    "name": "Old Growth",
+    "description": "Old Growth is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/old-growth.svg"
+  },
+  {
+    "id": "tft-18-primal",
+    "apiName": "DA_18_primal",
+    "name": "Primal",
+    "description": "Primal is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/primal.svg"
+  },
+  {
+    "id": "tft-18-rapidfire",
+    "apiName": "DA_18_rapidfire",
+    "name": "Rapidfire",
+    "description": "Your team gains Attack Speed; Rapidfire champions stack additional Attack Speed while attacking.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Silver"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 5,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/rapidfire.svg"
+  },
+  {
+    "id": "tft-18-ravager",
+    "apiName": "DA_18_ravager",
+    "name": "Ravager",
+    "description": "Ravagers gain Omnivamp and bonus damage, doubled against low-Health enemies.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/ravager.svg"
+  },
+  {
+    "id": "tft-18-riftbeast",
+    "apiName": "DA_18_riftbeast",
+    "name": "Riftbeast",
+    "description": "Summoner's Rift monsters fight for you. Elder Dragon occupies two slots and counts as two Riftbeasts.",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Silver"
+      },
+      {
+        "minimum": 10,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/riftbeast.svg"
+  },
+  {
+    "id": "tft-18-rival",
+    "apiName": "DA_18_rival",
+    "name": "Rival",
+    "description": "Rengar and Kha'Zix evolve through takedowns and gain a shared bonus when fielded together.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 2,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/rival.svg"
+  },
+  {
+    "id": "tft-18-solar",
+    "apiName": "DA_18_solar",
+    "name": "Solar",
+    "description": "A reroll trait that rewards unique 3-star champions with shields, damage and combat ascension.",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/solar.svg"
+  },
+  {
+    "id": "tft-18-spellweaver",
+    "apiName": "DA_18_spellweaver",
+    "name": "Spellweaver",
+    "description": "Your team gains Ability Power; Spellweavers gain more and scale as they cast.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/spellweaver.svg"
+  },
+  {
+    "id": "tft-18-sprykin",
+    "apiName": "DA_18_sprykin",
+    "name": "Sprykin",
+    "description": "Gain the Big Furry Friend and choose a Sprykin rider for bonus Health and Attack Speed.",
+    "breakpoints": [
+      {
+        "minimum": 3,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 5,
+        "label": "Silver"
+      },
+      {
+        "minimum": 7,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/sprykin.svg"
+  },
+  {
+    "id": "tft-18-summoner",
+    "apiName": "DA_18_summoner",
+    "name": "Summoner",
+    "description": "Empowers the unique summoned units created by Summoner champions.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 3,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/summoner.svg"
+  },
+  {
+    "id": "tft-18-thornmaiden",
+    "apiName": "DA_18_thornmaiden",
+    "name": "Thornmaiden",
+    "description": "Thornmaiden is a Set 18 trait.",
+    "breakpoints": [
+      {
+        "minimum": 1,
+        "label": "Bronze"
+      }
+    ],
+    "image": "/sets/set-18/traits/thornmaiden.svg"
+  },
+  {
+    "id": "tft-18-vanguard",
+    "apiName": "DA_18_vanguard",
+    "name": "Vanguard",
+    "description": "Vanguards gain max-Health shields at combat start and when dropping below half Health.",
+    "breakpoints": [
+      {
+        "minimum": 2,
+        "label": "Bronze"
+      },
+      {
+        "minimum": 4,
+        "label": "Silver"
+      },
+      {
+        "minimum": 6,
+        "label": "Gold"
+      }
+    ],
+    "image": "/sets/set-18/traits/vanguard.svg"
+  }
+]

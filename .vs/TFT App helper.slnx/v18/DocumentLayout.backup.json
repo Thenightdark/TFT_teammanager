@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\theni\\Documents\\Code\\TFT App helper\\tsconfig.node.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tsconfig.node.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\utils\\positioning.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\positioning.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\comps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\set-17\\comps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\set-17\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\meta-comps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\set-17\\meta-comps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\champions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data\\set-17\\champions.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "tsconfig.node.json",
-              "DocumentMoniker": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\tsconfig.node.json",
-              "RelativeDocumentMoniker": "tsconfig.node.json",
-              "ToolTip": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\tsconfig.node.json",
-              "RelativeToolTip": "tsconfig.node.json",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAoAAAAAAAAAAAAAAA==",
+              "Title": "positioning.ts",
+              "DocumentMoniker": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\utils\\positioning.ts",
+              "RelativeDocumentMoniker": "src\\utils\\positioning.ts",
+              "ToolTip": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\utils\\positioning.ts",
+              "RelativeToolTip": "src\\utils\\positioning.ts",
+              "ViewState": "AgIAAAgAAAAQOiF00IEiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-08-26T20:29:13.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "champions.json",
+              "DocumentMoniker": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\champions.json",
+              "RelativeDocumentMoniker": "src\\data\\set-17\\champions.json",
+              "ToolTip": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\champions.json",
+              "RelativeToolTip": "src\\data\\set-17\\champions.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-23T17:56:11.343Z",
+              "WhenOpened": "2026-08-26T20:19:11.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "meta-comps.json",
+              "DocumentMoniker": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\meta-comps.json",
+              "RelativeDocumentMoniker": "src\\data\\set-17\\meta-comps.json",
+              "ToolTip": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\meta-comps.json",
+              "RelativeToolTip": "src\\data\\set-17\\meta-comps.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-26T20:19:03.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "comps.json",
+              "DocumentMoniker": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\comps.json",
+              "RelativeDocumentMoniker": "src\\data\\set-17\\comps.json",
+              "ToolTip": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\comps.json",
+              "RelativeToolTip": "src\\data\\set-17\\comps.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-26T20:18:47.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "items.json",
+              "DocumentMoniker": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\items.json",
+              "RelativeDocumentMoniker": "src\\data\\set-17\\items.json",
+              "ToolTip": "C:\\Users\\theni\\Documents\\Code\\TFT App helper\\src\\data\\set-17\\items.json",
+              "RelativeToolTip": "src\\data\\set-17\\items.json",
+              "ViewState": "AgIAALMBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-26T20:22:43.57Z",
               "EditorCaption": ""
             }
           ]

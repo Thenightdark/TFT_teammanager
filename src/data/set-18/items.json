@@ -1,0 +1,489 @@
+[
+  {
+    "id": "tft-item-bfsword",
+    "apiName": "TFT_Item_BFSword",
+    "name": "B.F. Sword",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-bfsword.png"
+  },
+  {
+    "id": "tft-item-chain-vest",
+    "apiName": "TFT_Item_ChainVest",
+    "name": "Chain Vest",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-chain-vest.png"
+  },
+  {
+    "id": "tft-item-giants-belt",
+    "apiName": "TFT_Item_GiantsBelt",
+    "name": "Giant's Belt",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-giants-belt.png"
+  },
+  {
+    "id": "tft-item-needlessly-large-rod",
+    "apiName": "TFT_Item_NeedlesslyLargeRod",
+    "name": "Needlessly Large Rod",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-needlessly-large-rod.png"
+  },
+  {
+    "id": "tft-item-negatron-cloak",
+    "apiName": "TFT_Item_NegatronCloak",
+    "name": "Negatron Cloak",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-negatron-cloak.png"
+  },
+  {
+    "id": "tft-item-recurve-bow",
+    "apiName": "TFT_Item_RecurveBow",
+    "name": "Recurve Bow",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-recurve-bow.png"
+  },
+  {
+    "id": "tft-item-sparring-gloves",
+    "apiName": "TFT_Item_SparringGloves",
+    "name": "Sparring Gloves",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-sparring-gloves.png"
+  },
+  {
+    "id": "tft-item-tear-of-the-goddess",
+    "apiName": "TFT_Item_TearOfTheGoddess",
+    "name": "Tear of the Goddess",
+    "type": "component",
+    "image": "/sets/set-18/items/tft-item-tear-of-the-goddess.png"
+  },
+  {
+    "id": "tft-item-adaptive-helm",
+    "apiName": "TFT_Item_AdaptiveHelm",
+    "name": "Adaptive Helm",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-adaptive-helm.png",
+    "components": [
+      "tft-item-negatron-cloak",
+      "tft-item-tear-of-the-goddess"
+    ]
+  },
+  {
+    "id": "tft-item-archangels-staff",
+    "apiName": "TFT_Item_ArchangelsStaff",
+    "name": "Archangel's Staff",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-archangels-staff.png",
+    "components": [
+      "tft-item-needlessly-large-rod",
+      "tft-item-tear-of-the-goddess"
+    ]
+  },
+  {
+    "id": "tft-18-item-blackthorn-emblem",
+    "apiName": "DA_18_Item_blackthorn_emblem",
+    "name": "Blackthorn Emblem",
+    "type": "completed",
+    "image": "/sets/set-18/items/blackthorn-emblem.png"
+  },
+  {
+    "id": "tft-item-bloodthirster",
+    "apiName": "TFT_Item_Bloodthirster",
+    "name": "Bloodthirster",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-bloodthirster.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-negatron-cloak"
+    ]
+  },
+  {
+    "id": "tft-item-blue-buff",
+    "apiName": "TFT_Item_BlueBuff",
+    "name": "Blue Buff",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-blue-buff.png",
+    "components": [
+      "tft-item-tear-of-the-goddess",
+      "tft-item-tear-of-the-goddess"
+    ]
+  },
+  {
+    "id": "tft-item-bramble-vest",
+    "apiName": "TFT_Item_BrambleVest",
+    "name": "Bramble Vest",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-bramble-vest.png",
+    "components": [
+      "tft-item-chain-vest",
+      "tft-item-chain-vest"
+    ]
+  },
+  {
+    "id": "tft-item-crownguard",
+    "apiName": "TFT_Item_Crownguard",
+    "name": "Crownguard",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-crownguard.png",
+    "components": [
+      "tft-item-needlessly-large-rod",
+      "tft-item-chain-vest"
+    ]
+  },
+  {
+    "id": "tft-item-deathblade",
+    "apiName": "TFT_Item_Deathblade",
+    "name": "Deathblade",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-deathblade.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-bfsword"
+    ]
+  },
+  {
+    "id": "tft-item-dragons-claw",
+    "apiName": "TFT_Item_DragonsClaw",
+    "name": "Dragon's Claw",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-dragons-claw.png",
+    "components": [
+      "tft-item-negatron-cloak",
+      "tft-item-negatron-cloak"
+    ]
+  },
+  {
+    "id": "tft-item-guardian-angel",
+    "apiName": "TFT_Item_GuardianAngel",
+    "name": "Edge of Night",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-guardian-angel.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-chain-vest"
+    ]
+  },
+  {
+    "id": "tft-item-spectral-gauntlet",
+    "apiName": "TFT_Item_SpectralGauntlet",
+    "name": "Evenshroud",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-spectral-gauntlet.png",
+    "components": [
+      "tft-item-negatron-cloak",
+      "tft-item-giants-belt"
+    ]
+  },
+  {
+    "id": "tft-18-item-fae-emblem",
+    "apiName": "DA_18_Item_fae_emblem",
+    "name": "Fae Emblem",
+    "type": "completed",
+    "image": "/sets/set-18/items/fae-emblem.png"
+  },
+  {
+    "id": "tft-18-item-flora-fatalis-emblem",
+    "apiName": "DA_18_Item_flora_fatalis_emblem",
+    "name": "Flora Fatalis Emblem",
+    "type": "completed",
+    "image": "/sets/set-18/items/flora-fatalis-emblem.png"
+  },
+  {
+    "id": "tft-item-gargoyle-stoneplate",
+    "apiName": "TFT_Item_GargoyleStoneplate",
+    "name": "Gargoyle Stoneplate",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-gargoyle-stoneplate.png",
+    "components": [
+      "tft-item-chain-vest",
+      "tft-item-negatron-cloak"
+    ]
+  },
+  {
+    "id": "tft-item-madreds-bloodrazor",
+    "apiName": "TFT_Item_MadredsBloodrazor",
+    "name": "Giant Slayer",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-madreds-bloodrazor.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-recurve-bow"
+    ]
+  },
+  {
+    "id": "tft-item-guinsoos-rageblade",
+    "apiName": "TFT_Item_GuinsoosRageblade",
+    "name": "Guinsoo's Rageblade",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-guinsoos-rageblade.png",
+    "components": [
+      "tft-item-recurve-bow",
+      "tft-item-needlessly-large-rod"
+    ]
+  },
+  {
+    "id": "tft-item-unstable-concoction",
+    "apiName": "TFT_Item_UnstableConcoction",
+    "name": "Hand Of Justice",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-unstable-concoction.png",
+    "components": [
+      "tft-item-tear-of-the-goddess",
+      "tft-item-sparring-gloves"
+    ]
+  },
+  {
+    "id": "tft-item-hextech-gunblade",
+    "apiName": "TFT_Item_HextechGunblade",
+    "name": "Hextech Gunblade",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-hextech-gunblade.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-needlessly-large-rod"
+    ]
+  },
+  {
+    "id": "tft-item-infinity-edge",
+    "apiName": "TFT_Item_InfinityEdge",
+    "name": "Infinity Edge",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-infinity-edge.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-sparring-gloves"
+    ]
+  },
+  {
+    "id": "tft-18-item-invoker-emblem",
+    "apiName": "DA_18_Item_invoker_emblem",
+    "name": "Invoker Emblem",
+    "type": "completed",
+    "image": "/sets/set-18/items/invoker-emblem.png"
+  },
+  {
+    "id": "tft-item-ionic-spark",
+    "apiName": "TFT_Item_IonicSpark",
+    "name": "Ionic Spark",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-ionic-spark.png",
+    "components": [
+      "tft-item-needlessly-large-rod",
+      "tft-item-negatron-cloak"
+    ]
+  },
+  {
+    "id": "tft-item-jeweled-gauntlet",
+    "apiName": "TFT_Item_JeweledGauntlet",
+    "name": "Jeweled Gauntlet",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-jeweled-gauntlet.png",
+    "components": [
+      "tft-item-needlessly-large-rod",
+      "tft-item-sparring-gloves"
+    ]
+  },
+  {
+    "id": "tft-item-runaans-hurricane",
+    "apiName": "TFT_Item_RunaansHurricane",
+    "name": "Kraken's Fury",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-runaans-hurricane.png",
+    "components": [
+      "tft-item-negatron-cloak",
+      "tft-item-recurve-bow"
+    ]
+  },
+  {
+    "id": "tft-item-last-whisper",
+    "apiName": "TFT_Item_LastWhisper",
+    "name": "Last Whisper",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-last-whisper.png",
+    "components": [
+      "tft-item-recurve-bow",
+      "tft-item-sparring-gloves"
+    ]
+  },
+  {
+    "id": "tft-item-morellonomicon",
+    "apiName": "TFT_Item_Morellonomicon",
+    "name": "Morellonomicon",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-morellonomicon.png",
+    "components": [
+      "tft-item-needlessly-large-rod",
+      "tft-item-giants-belt"
+    ]
+  },
+  {
+    "id": "tft-item-leviathan",
+    "apiName": "TFT_Item_Leviathan",
+    "name": "Nashor's Tooth",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-leviathan.png",
+    "components": [
+      "tft-item-recurve-bow",
+      "tft-item-giants-belt"
+    ]
+  },
+  {
+    "id": "tft-item-frozen-heart",
+    "apiName": "TFT_Item_FrozenHeart",
+    "name": "Protector's Vow",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-frozen-heart.png",
+    "components": [
+      "tft-item-tear-of-the-goddess",
+      "tft-item-chain-vest"
+    ]
+  },
+  {
+    "id": "tft-item-quicksilver",
+    "apiName": "TFT_Item_Quicksilver",
+    "name": "Quicksilver",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-quicksilver.png",
+    "components": [
+      "tft-item-sparring-gloves",
+      "tft-item-negatron-cloak"
+    ]
+  },
+  {
+    "id": "tft-item-rabadons-deathcap",
+    "apiName": "TFT_Item_RabadonsDeathcap",
+    "name": "Rabadon's Deathcap",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-rabadons-deathcap.png",
+    "components": [
+      "tft-item-needlessly-large-rod",
+      "tft-item-needlessly-large-rod"
+    ]
+  },
+  {
+    "id": "tft-item-rapid-fire-cannon",
+    "apiName": "TFT_Item_RapidFireCannon",
+    "name": "Red Buff",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-rapid-fire-cannon.png",
+    "components": [
+      "tft-item-recurve-bow",
+      "tft-item-recurve-bow"
+    ]
+  },
+  {
+    "id": "tft-item-spear-of-shojin",
+    "apiName": "TFT_Item_SpearOfShojin",
+    "name": "Spear of Shojin",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-spear-of-shojin.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-tear-of-the-goddess"
+    ]
+  },
+  {
+    "id": "tft-item-redemption",
+    "apiName": "TFT_Item_Redemption",
+    "name": "Spirit Visage",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-redemption.png",
+    "components": [
+      "tft-item-tear-of-the-goddess",
+      "tft-item-giants-belt"
+    ]
+  },
+  {
+    "id": "tft-18-item-sprykin-emblem",
+    "apiName": "DA_18_Item_sprykin_emblem",
+    "name": "Sprykin Emblem",
+    "type": "completed",
+    "image": "/sets/set-18/items/sprykin-emblem.png"
+  },
+  {
+    "id": "tft-item-night-harvester",
+    "apiName": "TFT_Item_NightHarvester",
+    "name": "Steadfast Heart",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-night-harvester.png",
+    "components": [
+      "tft-item-chain-vest",
+      "tft-item-sparring-gloves"
+    ]
+  },
+  {
+    "id": "tft-item-steraks-gage",
+    "apiName": "TFT_Item_SteraksGage",
+    "name": "Sterak's Gage",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-steraks-gage.png",
+    "components": [
+      "tft-item-bfsword",
+      "tft-item-giants-belt"
+    ]
+  },
+  {
+    "id": "tft-item-power-gauntlet",
+    "apiName": "TFT_Item_PowerGauntlet",
+    "name": "Striker's Flail",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-power-gauntlet.png",
+    "components": [
+      "tft-item-giants-belt",
+      "tft-item-sparring-gloves"
+    ]
+  },
+  {
+    "id": "tft-item-red-buff",
+    "apiName": "TFT_Item_RedBuff",
+    "name": "Sunfire Cape",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-red-buff.png",
+    "components": [
+      "tft-item-chain-vest",
+      "tft-item-giants-belt"
+    ]
+  },
+  {
+    "id": "tft-item-thiefs-gloves",
+    "apiName": "TFT_Item_ThiefsGloves",
+    "name": "Thief's Gloves",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-thiefs-gloves.png",
+    "components": [
+      "tft-item-sparring-gloves",
+      "tft-item-sparring-gloves"
+    ]
+  },
+  {
+    "id": "tft-item-titans-resolve",
+    "apiName": "TFT_Item_TitansResolve",
+    "name": "Titan's Resolve",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-titans-resolve.png",
+    "components": [
+      "tft-item-chain-vest",
+      "tft-item-recurve-bow"
+    ]
+  },
+  {
+    "id": "tft-item-statikk-shiv",
+    "apiName": "TFT_Item_StatikkShiv",
+    "name": "Void Staff",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-statikk-shiv.png",
+    "components": [
+      "tft-item-recurve-bow",
+      "tft-item-tear-of-the-goddess"
+    ]
+  },
+  {
+    "id": "tft-item-warmogs-armor",
+    "apiName": "TFT_Item_WarmogsArmor",
+    "name": "Warmog's Armor",
+    "type": "completed",
+    "image": "/sets/set-18/items/tft-item-warmogs-armor.png",
+    "components": [
+      "tft-item-giants-belt",
+      "tft-item-giants-belt"
+    ]
+  }
+]

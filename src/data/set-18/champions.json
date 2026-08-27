@@ -1,0 +1,870 @@
+[
+  {
+    "id": "tft-18-akali",
+    "apiName": "DA_18_akali",
+    "name": "Akali",
+    "cost": 1,
+    "traits": [
+      "Inferno",
+      "Adaptor",
+      "Ravager"
+    ],
+    "image": "/sets/set-18/champions/akali.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-camille",
+    "apiName": "DA_18_camille",
+    "name": "Camille",
+    "cost": 1,
+    "traits": [
+      "Coven",
+      "Ravager"
+    ],
+    "image": "/sets/set-18/champions/camille.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-cinderling",
+    "apiName": "DA_18_cinderling",
+    "name": "Cinderling",
+    "cost": 1,
+    "traits": [
+      "Riftbeast",
+      "Hunter"
+    ],
+    "image": "/sets/set-18/champions/cinderling.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-karma",
+    "apiName": "DA_18_karma",
+    "name": "Karma",
+    "cost": 1,
+    "traits": [
+      "Spellweaver",
+      "Blossom"
+    ],
+    "image": "/sets/set-18/champions/karma.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-kobuko",
+    "apiName": "DA_18_kobuko",
+    "name": "Kobuko",
+    "cost": 1,
+    "traits": [
+      "Sprykin",
+      "Brawler"
+    ],
+    "image": "/sets/set-18/champions/kobuko.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-leona",
+    "apiName": "DA_18_leona",
+    "name": "Leona",
+    "cost": 1,
+    "traits": [
+      "Solar",
+      "Defender"
+    ],
+    "image": "/sets/set-18/champions/leona.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-ornn",
+    "apiName": "DA_18_ornn",
+    "name": "Ornn",
+    "cost": 1,
+    "traits": [
+      "Elderwood",
+      "Defender"
+    ],
+    "image": "/sets/set-18/champions/ornn.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-sentry",
+    "apiName": "DA_18_sentry",
+    "name": "Pebbles",
+    "cost": 1,
+    "traits": [
+      "Riftbeast",
+      "Invoker"
+    ],
+    "image": "/sets/set-18/champions/sentry.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-rakan",
+    "apiName": "DA_18_rakan",
+    "name": "Rakan",
+    "cost": 1,
+    "traits": [
+      "Fae",
+      "Juggernaut",
+      "Vanguard"
+    ],
+    "image": "/sets/set-18/champions/rakan.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-reksai",
+    "apiName": "DA_18_reksai",
+    "name": "Rek'Sai",
+    "cost": 1,
+    "traits": [
+      "Blackthorn",
+      "Brawler"
+    ],
+    "image": "/sets/set-18/champions/reksai.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-varus",
+    "apiName": "DA_18_varus",
+    "name": "Varus",
+    "cost": 1,
+    "traits": [
+      "Inferno",
+      "Rapidfire"
+    ],
+    "image": "/sets/set-18/champions/varus.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-veigar",
+    "apiName": "DA_18_veigar",
+    "name": "Veigar",
+    "cost": 1,
+    "traits": [
+      "Blackthorn",
+      "Sprykin",
+      "Spellweaver"
+    ],
+    "image": "/sets/set-18/champions/veigar.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-xayah",
+    "apiName": "DA_18_xayah",
+    "name": "Xayah",
+    "cost": 1,
+    "traits": [
+      "Elderwood",
+      "Fae",
+      "Rapidfire"
+    ],
+    "image": "/sets/set-18/champions/xayah.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-yorick",
+    "apiName": "DA_18_yorick",
+    "name": "Yorick",
+    "cost": 1,
+    "traits": [
+      "Blossom",
+      "Juggernaut",
+      "Summoner"
+    ],
+    "image": "/sets/set-18/champions/yorick.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-alistar",
+    "apiName": "DA_18_alistar",
+    "name": "Alistar",
+    "cost": 2,
+    "traits": [
+      "Elderwood",
+      "Brawler"
+    ],
+    "image": "/sets/set-18/champions/alistar.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-caitlyn",
+    "apiName": "DA_18_caitlyn",
+    "name": "Caitlyn",
+    "cost": 2,
+    "traits": [
+      "Coven",
+      "Hunter"
+    ],
+    "image": "/sets/set-18/champions/caitlyn.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-elise",
+    "apiName": "DA_18_elise",
+    "name": "Elise",
+    "cost": 2,
+    "traits": [
+      "Coven",
+      "Vanguard"
+    ],
+    "image": "/sets/set-18/champions/elise.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-gromp",
+    "apiName": "DA_18_gromp",
+    "name": "Gromp",
+    "cost": 2,
+    "traits": [
+      "Riftbeast",
+      "Adaptor"
+    ],
+    "image": "/sets/set-18/champions/gromp.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-kayle",
+    "apiName": "DA_18_kayle",
+    "name": "Kayle",
+    "cost": 2,
+    "traits": [
+      "Solar",
+      "Rapidfire"
+    ],
+    "image": "/sets/set-18/champions/kayle.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-leblanc",
+    "apiName": "DA_18_leblanc",
+    "name": "LeBlanc",
+    "cost": 2,
+    "traits": [
+      "Elderwood",
+      "Spellweaver"
+    ],
+    "image": "/sets/set-18/champions/leblanc.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-murk-wolf",
+    "apiName": "DA_18_murk_wolf",
+    "name": "Murkwolf",
+    "cost": 2,
+    "traits": [
+      "Riftbeast",
+      "Ravager"
+    ],
+    "image": "/sets/set-18/champions/murk-wolf.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-scuttlecrab",
+    "apiName": "DA_18_scuttlecrab",
+    "name": "Scuttlecrab",
+    "cost": 2,
+    "traits": [
+      "Riftbeast",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-18/champions/scuttlecrab.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-sejuani",
+    "apiName": "DA_18_sejuani",
+    "name": "Sejuani",
+    "cost": 2,
+    "traits": [
+      "Solar",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-18/champions/sejuani.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-shen",
+    "apiName": "DA_18_shen",
+    "name": "Shen",
+    "cost": 2,
+    "traits": [
+      "Inferno",
+      "Defender"
+    ],
+    "image": "/sets/set-18/champions/shen.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-teemo",
+    "apiName": "DA_18_teemo",
+    "name": "Teemo",
+    "cost": 2,
+    "traits": [
+      "Sprykin",
+      "Invoker"
+    ],
+    "image": "/sets/set-18/champions/teemo.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-warwick",
+    "apiName": "DA_18_warwick",
+    "name": "Warwick",
+    "cost": 2,
+    "traits": [
+      "Blackthorn",
+      "Ravager"
+    ],
+    "image": "/sets/set-18/champions/warwick.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-yunara",
+    "apiName": "DA_18_yunara",
+    "name": "Yunara",
+    "cost": 2,
+    "traits": [
+      "Blossom",
+      "Executioner"
+    ],
+    "image": "/sets/set-18/champions/yunara.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-azir",
+    "apiName": "DA_18_azir",
+    "name": "Azir",
+    "cost": 3,
+    "traits": [
+      "Blackthorn",
+      "Executioner",
+      "Summoner"
+    ],
+    "image": "/sets/set-18/champions/azir.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-cassiopeia",
+    "apiName": "DA_18_cassiopeia",
+    "name": "Cassiopeia",
+    "cost": 3,
+    "traits": [
+      "Coven",
+      "Spellweaver"
+    ],
+    "image": "/sets/set-18/champions/cassiopeia.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-diana",
+    "apiName": "DA_18_diana",
+    "name": "Diana",
+    "cost": 3,
+    "traits": [
+      "Lunar",
+      "Ravager",
+      "Vanguard"
+    ],
+    "image": "/sets/set-18/champions/diana.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-fiddlesticks",
+    "apiName": "DA_18_fiddlesticks",
+    "name": "Fiddlesticks",
+    "cost": 3,
+    "traits": [
+      "Flora Fatalis",
+      "Defender",
+      "Spellweaver"
+    ],
+    "image": "/sets/set-18/champions/fiddlesticks.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-hecarim",
+    "apiName": "DA_18_hecarim",
+    "name": "Hecarim",
+    "cost": 3,
+    "traits": [
+      "Elderwood",
+      "Vanguard"
+    ],
+    "image": "/sets/set-18/champions/hecarim.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-khazix",
+    "apiName": "DA_18_khazix",
+    "name": "Kha'Zix",
+    "cost": 3,
+    "traits": [
+      "Rival"
+    ],
+    "image": "/sets/set-18/champions/khazix.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-kogmaw",
+    "apiName": "DA_18_kogmaw",
+    "name": "Kog'Maw",
+    "cost": 3,
+    "traits": [
+      "Caustic",
+      "Invoker",
+      "Adaptor"
+    ],
+    "image": "/sets/set-18/champions/kogmaw.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-krug",
+    "apiName": "DA_18_krug",
+    "name": "Krug",
+    "cost": 3,
+    "traits": [
+      "Riftbeast",
+      "Brawler"
+    ],
+    "image": "/sets/set-18/champions/krug.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-crimson-raptor",
+    "apiName": "DA_18_crimson_raptor",
+    "name": "Mama Beak",
+    "cost": 3,
+    "traits": [
+      "Riftbeast",
+      "Summoner",
+      "Rapidfire"
+    ],
+    "image": "/sets/set-18/champions/crimson-raptor.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-master-yi",
+    "apiName": "DA_18_master_yi",
+    "name": "Master Yi",
+    "cost": 3,
+    "traits": [
+      "Blossom",
+      "Adaptor"
+    ],
+    "image": "/sets/set-18/champions/master-yi.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-rammus",
+    "apiName": "DA_18_rammus",
+    "name": "Rammus",
+    "cost": 3,
+    "traits": [
+      "Sprykin",
+      "Defender"
+    ],
+    "image": "/sets/set-18/champions/rammus.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-rengar",
+    "apiName": "DA_18_rengar",
+    "name": "Rengar",
+    "cost": 3,
+    "traits": [
+      "Rival"
+    ],
+    "image": "/sets/set-18/champions/rengar.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-tristana",
+    "apiName": "DA_18_tristana",
+    "name": "Tristana",
+    "cost": 3,
+    "traits": [
+      "Fae",
+      "Sprykin",
+      "Hunter"
+    ],
+    "image": "/sets/set-18/champions/tristana.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-vi",
+    "apiName": "DA_18_vi",
+    "name": "Vi",
+    "cost": 3,
+    "traits": [
+      "Primal",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-18/champions/vi.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-ahri",
+    "apiName": "DA_18_ahri",
+    "name": "Ahri",
+    "cost": 4,
+    "traits": [
+      "Blossom",
+      "Spellweaver"
+    ],
+    "image": "/sets/set-18/champions/ahri.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-amumu",
+    "apiName": "DA_18_amumu",
+    "name": "Amumu",
+    "cost": 4,
+    "traits": [
+      "Inferno",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-18/champions/amumu.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-sentinel",
+    "apiName": "DA_18_sentinel",
+    "name": "Ancient Sentinel",
+    "cost": 4,
+    "traits": [
+      "Riftbeast",
+      "Vanguard",
+      "Invoker"
+    ],
+    "image": "/sets/set-18/champions/sentinel.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-aphelios",
+    "apiName": "DA_18_aphelios",
+    "name": "Aphelios",
+    "cost": 4,
+    "traits": [
+      "Lunar",
+      "Rapidfire"
+    ],
+    "image": "/sets/set-18/champions/aphelios.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-brambleback",
+    "apiName": "DA_18_brambleback",
+    "name": "Brambleback",
+    "cost": 4,
+    "traits": [
+      "Riftbeast",
+      "Ravager"
+    ],
+    "image": "/sets/set-18/champions/brambleback.png",
+    "range": 1,
+    "role": "melee-carry"
+  },
+  {
+    "id": "tft-18-ezreal",
+    "apiName": "DA_18_ezreal",
+    "name": "Ezreal",
+    "cost": 4,
+    "traits": [
+      "Elderwood",
+      "Executioner"
+    ],
+    "image": "/sets/set-18/champions/ezreal.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-lillia",
+    "apiName": "DA_18_lillia",
+    "name": "Lillia",
+    "cost": 4,
+    "traits": [
+      "Fae",
+      "Defender"
+    ],
+    "image": "/sets/set-18/champions/lillia.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-malphite",
+    "apiName": "DA_18_malphite",
+    "name": "Malphite",
+    "cost": 4,
+    "traits": [
+      "Blackthorn",
+      "Monolith"
+    ],
+    "image": "/sets/set-18/champions/malphite.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-morgana",
+    "apiName": "DA_18_morgana",
+    "name": "Morgana",
+    "cost": 4,
+    "traits": [
+      "Coven",
+      "Invoker"
+    ],
+    "image": "/sets/set-18/champions/morgana.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-nidalee",
+    "apiName": "DA_18_nidalee",
+    "name": "Nidalee",
+    "cost": 4,
+    "traits": [
+      "Primal",
+      "Adaptor"
+    ],
+    "image": "/sets/set-18/champions/nidalee.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-sett",
+    "apiName": "DA_18_sett",
+    "name": "Sett",
+    "cost": 4,
+    "traits": [
+      "Blossom",
+      "Brawler"
+    ],
+    "image": "/sets/set-18/champions/sett.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-sivir",
+    "apiName": "DA_18_sivir",
+    "name": "Sivir",
+    "cost": 4,
+    "traits": [
+      "Primal",
+      "Hunter"
+    ],
+    "image": "/sets/set-18/champions/sivir.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-soraka",
+    "apiName": "DA_18_soraka",
+    "name": "Soraka",
+    "cost": 4,
+    "traits": [
+      "Flora Fatalis",
+      "Executioner"
+    ],
+    "image": "/sets/set-18/champions/soraka.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-zyra",
+    "apiName": "DA_18_zyra",
+    "name": "Zyra",
+    "cost": 4,
+    "traits": [
+      "Thornmaiden",
+      "Summoner"
+    ],
+    "image": "/sets/set-18/champions/zyra.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-alune",
+    "apiName": "DA_18_alune",
+    "name": "Alune",
+    "cost": 5,
+    "traits": [
+      "Attuned",
+      "Lunar",
+      "Spellweaver"
+    ],
+    "image": "/sets/set-18/champions/alune.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-ashe",
+    "apiName": "DA_18_ashe",
+    "name": "Ashe",
+    "cost": 5,
+    "traits": [
+      "Blossom",
+      "Hunter"
+    ],
+    "image": "/sets/set-18/champions/ashe.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-draven",
+    "apiName": "DA_18_draven",
+    "name": "Draven",
+    "cost": 5,
+    "traits": [
+      "Bounty Seeker"
+    ],
+    "image": "/sets/set-18/champions/draven.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-gnar",
+    "apiName": "DA_18_gnar",
+    "name": "Gnar",
+    "cost": 5,
+    "traits": [
+      "Elderwood",
+      "Sprykin",
+      "Brawler"
+    ],
+    "image": "/sets/set-18/champions/gnar.png",
+    "range": 4,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-ivern",
+    "apiName": "DA_18_ivern",
+    "name": "Ivern",
+    "cost": 5,
+    "traits": [
+      "Greenfather"
+    ],
+    "image": "/sets/set-18/champions/ivern.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-kennen",
+    "apiName": "DA_18_kennen",
+    "name": "Kennen",
+    "cost": 5,
+    "traits": [
+      "Inferno",
+      "Executioner"
+    ],
+    "image": "/sets/set-18/champions/kennen.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-lux-elderwood",
+    "apiName": "DA_18_lux_elderwood",
+    "name": "Lux (Elderwood)",
+    "cost": 5,
+    "traits": [
+      "Avatar",
+      "Elderwood"
+    ],
+    "image": "/sets/set-18/champions/lux-elderwood.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-lux-inferno",
+    "apiName": "DA_18_lux_inferno",
+    "name": "Lux (Inferno)",
+    "cost": 5,
+    "traits": [
+      "Avatar",
+      "Inferno"
+    ],
+    "image": "/sets/set-18/champions/lux-inferno.png",
+    "range": 3,
+    "role": "backline-carry"
+  },
+  {
+    "id": "tft-18-maokai",
+    "apiName": "DA_18_maokai",
+    "name": "Maokai",
+    "cost": 5,
+    "traits": [
+      "Old Growth",
+      "Juggernaut"
+    ],
+    "image": "/sets/set-18/champions/maokai.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-taric",
+    "apiName": "DA_18_taric",
+    "name": "Taric",
+    "cost": 5,
+    "traits": [
+      "Emerald Aspect",
+      "Vanguard"
+    ],
+    "image": "/sets/set-18/champions/taric.png",
+    "range": 1,
+    "role": "frontline"
+  },
+  {
+    "id": "tft-18-elder-dragon",
+    "apiName": "DA_18_elder_dragon",
+    "name": "The Elder Dragon",
+    "cost": 5,
+    "traits": [
+      "Riftbeast",
+      "Apex Predator"
+    ],
+    "image": "/sets/set-18/champions/elder-dragon.png",
+    "range": 1,
+    "role": "frontline"
+  }
+]

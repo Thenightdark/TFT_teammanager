@@ -1,5 +1,13 @@
 [
   {
+    "id": "set-18",
+    "name": "Set 18: Enchanted Wilds",
+    "number": 18,
+    "patch": "18.1",
+    "source": "Riot Games data",
+    "metaUpdatedAt": "2026-08-27"
+  },
+  {
     "id": "set-17",
     "name": "Set 17: Space Gods",
     "number": 17,

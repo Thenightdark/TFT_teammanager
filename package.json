@@ -8,8 +8,10 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
-    "data:update": "node scripts/update-tft-set.mjs && node scripts/apply-verified-guides.mjs",
-    "data:verify-guides": "node scripts/apply-verified-guides.mjs",
+    "data:update": "node scripts/validate-tft-data.mjs",
+    "data:update:set17": "node scripts/update-tft-set.mjs --set 17 --name \"Set 17: Space Gods\" && node scripts/apply-verified-guides.mjs",
+    "data:update:set18": "node scripts/validate-tft-data.mjs set-18",
+    "data:verify-guides": "node scripts/validate-tft-data.mjs",
     "test": "vitest run"
   },
   "dependencies": {
